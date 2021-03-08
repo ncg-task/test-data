@@ -1,0 +1,17 @@
+{
+  "has" : {
+    "Approach" : {
+      "bypasses" : {
+        "many of the difficulties" : {
+          "encountered in" : "3D face reconstruction",
+          "by using" : {
+            "novel volumetric representation" : {
+              "of" : ["3D facial geometry", {"appropriate CNN architecture" : {"trained to" : {"regress" : {"directly from" : {"2 D facial image" : {"to" : "corresponding 3D volume"}}}}}}]
+            }
+          },
+          "from sentence" : "We describe a very simple approach which bypasses many of the difficulties encountered in 3D face reconstruction by using a novel volumetric representation of the 3D facial geometry , and an appropriate CNN architecture that is trained to regress directly from a 2 D facial image to the corresponding 3D volume ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "BAbi AI tasks" :{
+          "see" : {
+            "clear improvements" : {
+              "of using" : {
+                "C - GRU layers" : {
+                  "over" : "GRU layers"
+                }
+              },
+              "from sentence" : "BAbi AI tasks .
+In each case we see clear improvements of using C - GRU layers over GRU layers ."
+
+            }
+          },
+          "Comparing to" : {
+            "QRN baseline" : {
+              "found that" : {
+                "C - GRU" : {
+                  "has" : {
+                    "significantly worse" : {
+                      "on" : "task 15 ( basic deduction )"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Comparing to the QRN baseline , we found that C - GRU was significantly worse on task 15 ( basic deduction ) ."
+            }
+          },
+          "has" : {
+            "C - GRU" : {
+              "has" : {
+                "significantly better" : {
+                  "than" : "QRN",
+                  "on" : "task 16 ( basic induction )"
+                }
+              },
+              "from sentence" : "On the other hand , C - GRU was significantly better than QRN on task 16 ( basic induction ) ."
+            }
+          }
+        },
+        "Wikihop dataset" : {
+          "see" : {
+            "higher performance" : {
+              "for" : "C - GRU model",
+              "in" : "low data regime"
+            },
+            "better generalization" : {
+              "throughout" : {
+                "training curve" : {
+                  "for" : "all three settings"
+                }
+              }
+            },
+            "from sentence" : "Wikihop dataset .
+We see higher performance for the C - GRU model in the low data regime , and better generalization throughout the training curve for all three settings ."
+
+          }
+        }
+      }      
+    }
+  }
+}

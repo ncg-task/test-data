@@ -1,0 +1,35 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "For" : {
+        "optimization" : {
+          "use" : {
+            "Adam optimizer" : {
+              "with" : {
+                "learning rate" : {
+                  "begins at" : "0.0001",
+                  "decays" : {
+                    "half" : {
+                      "after" : "each 5 epochs"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "For optimization , we use Adam optimizer with a learning rate begins at 0.0001 and decays half after each 5 epochs ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "batch size" : {
+          "set as" : "16",
+          "from sentence" : "The batch size is set as 16 ."
+        },
+        "All of our training codes" : {
+          "implemented with" : "TensorFlow",
+          "from sentence" : "All of our training codes are implemented with TensorFlow ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Machine Reading Comprehension with Unanswerable Questions", {"from sentence" : "U - Net : Machine Reading Comprehension with Unanswerable Questions"}],
+    ["Machine reading comprehension ( MRC )", {"from sentence" : "Machine reading comprehension ( MRC ) is a challenging task in natural language processing , which requires that machine can read , understand , and answer questions about a text ."}],
+    ["MRC", {"from sentence" : "Benefiting from the rapid development of deep learning techniques and large - scale benchmarks , the end - to - end neural methods have achieved promising results on MRC task ."}]
+  ]
+}

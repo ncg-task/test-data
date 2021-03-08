@@ -1,0 +1,51 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {      
+        "NME results" : {
+          "shows" : {
+            "SIR" : {
+              "performs" : {
+                "comparatively" : {
+                  "with" : "RAR"
+                }
+              },
+              "has" : {
+                "outperform" : {
+                  "has" : "other existing methods"
+                }
+              }
+            }
+          },
+          "from sentence" : "The NME results shows that SIR performs comparatively with RAR ) and outperform other existing methods ."
+        },
+        "SIR method" : {
+          "has" : {
+            "outperform" : {
+              "has" : {
+                "state - of - the - art methods" : {
+                  "according to" : "CED curve"
+                }
+              }
+            }
+          },
+          "from sentence" : "As shown in , the SIR method outperform the state - of - the - art methods according to the CED curve ."
+        }
+      },
+      "In" : {
+        "more challenging IBUG subset" : {
+          "has" : {
+            "our method" : {
+              "achieves" : {
+                "robust performance" : {
+                  "in" : "large pose , expression and illumination environment"
+                }
+              },
+              "from sentence" : "In the more challenging IBUG subset , our method achieves robust performance in large pose , expression and illumination environment ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

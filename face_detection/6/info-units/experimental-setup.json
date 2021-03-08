@@ -1,0 +1,106 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "use" : {
+        "ImageNet pretrained VGG16 model" : {
+          "to initialize" : "network backbone"
+        }
+      },
+      "has" : {
+        "our newly introduced layers" : {
+          "has" : {
+            "randomly initialized" : {
+              "with" : "Gaussian initialization"
+            }
+          },
+          "from sentence" : "We use an ImageNet pretrained VGG16 model to initialize our network backbone , and our newly introduced layers are randomly initialized with Gaussian initialization ."
+        },
+        "first two blocks" : {
+          "of" : "VGG",
+          "are" : {
+            "frozen" : {
+              "during" : "training"
+            }
+          }
+        },
+        "rest layers" : {
+          "of" : "VGG16",
+          "set to have" : "double learning rate",
+          "from sentence" : "The first two blocks of VGG16 are frozen during the training , and the rest layers of VGG16 are set to have a double learning rate ."
+        }
+      },
+      "train" : {
+        "model" : {
+          "with" : {
+            "itersize" : {
+              "to be" : "2",
+              "for" : "46 k iterations",
+              "with" : {
+                "learning rate" : {
+                  "of" : "0.004"
+                }                
+              }
+            }
+          },
+          "has" : {
+            "another 14 k iterations" : {
+              "with" : {
+                "smaller learning rate" : {
+                  "of" : "0.0004"
+                }
+              },
+              "from sentence" : "We train the model with the itersize to be 2 , for 46 k iterations , with a learning rate of 0.004 , and then for another 14 k iterations with a smaller learning rate of 0.0004 ."
+            }
+          }
+        }
+      },
+      "During" : {
+        "training" : {
+          "use" : {
+            "4 GPUs" : {
+              "to compute" : "gradient",
+              "update" : {
+                "weight" : {
+                  "by" : {
+                    "synchronized SGD" : {
+                      "with" : "Momentum"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "During training , we use 4 GPUs to simultaneously to compute the gradient and update the weight by synchronized SGD with Momentum ."
+            }
+          }
+        }
+      },
+      "resize" : {
+        "testing image" : {
+          "has" : {
+            "short side" : {
+              "contains" : {
+                "100 , 300 , 600 , 1000 and 1400 pixels" : {
+                  "for" : {
+                    "evaluation" : {
+                      "on" : "WIDER FACE dataset"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Specifically , we resize the testing image so that the short side contains 100 , 300 , 600 , 1000 and 1400 pixels for evaluation on WIDER FACE dataset ."
+        }
+      },
+      "follow" : {
+        "testing strategies" : {
+          "used in" : {
+            "Pyra - midBox" : {
+              "such as" : ["horizontal flip", "bounding - box voting"]
+            }
+          },
+          "from sentence" : "We also follow the testing strategies used in Pyra - midBox 2 such as horizontal flip and bounding - box voting ."
+        }
+      }
+    }
+  }
+}

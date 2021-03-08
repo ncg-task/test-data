@@ -1,0 +1,191 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Face box Accuracy" : {
+              "has" : {
+                "RetinaFace" : {
+                  "produces" : {
+                    "best AP" : {
+                      "in" : "all subsets of both validation and test sets",
+                      "for" : {
+                        "validation set" : {
+                          "has" : {
+                            "96.9 %" : {
+                              "has" : "Easy"
+                            },
+                            "96.1 %" : {
+                              "has" : "Medium"
+                            },
+                            "91.8 %" : {
+                              "has" : "Hard"
+                            }
+                          }
+                        },
+                        "test set" : {
+                          "has" : {
+                            "96.3 %" : {
+                              "has" : "Easy"
+                            },
+                            "95.6 %" : {
+                              "has" : "Medium"
+                            },
+                            "91.4 %" : {
+                              "has" : "Hard"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "from sentence" : "Face box Accuracy
+More specifically , RetinaFace produces the best AP in all subsets of both validation and test sets , i.e. , 96.9 % ( Easy ) , 96.1 % ( Medium ) and 91.8 % ( Hard ) for validation set , and 96.3 % ( Easy ) , 95.6 % ( Medium ) and 91.4 % ( Hard ) for test set ."                    
+                  },
+                  "successfully finds" : {
+                    "about 900 faces" : {
+                      "has" : {
+                        "threshold" : {
+                          "at" : "0.5"
+                        }
+                      },
+                      "out of" : "reported 1 , 151 faces"
+                    },
+                    "from sentence" : "RetinaFace successfully finds about 900 faces ( threshold at 0.5 ) out of the reported 1 , 151 faces ."
+                  }
+                }
+              },
+              "Compared to" : {
+                "recent best performed method" : {
+                  "has" : {
+                    "Reti - na Face" : {
+                      "sets up" : {
+                        "new impressive record" : {
+                          "has" : "91.4 % v.s. 90.3 %",
+                          "on" : "Hard subset"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Compared to the recent best performed method , Reti - na Face sets up a new impressive record ( 91.4 % v.s. 90.3 % ) on the Hard subset which contains a large number of tiny faces ."
+                }
+              }
+            },
+            "Five Facial Landmark Accuracy" : {
+              "has" : {
+                "RetinaFace" : {
+                  "has" : {
+                    "significantly decreases" : {
+                      "has" : {
+                        "normalised mean errors ( NME )" : {
+                          "from" : {
+                            "2.72 %" : {
+                              "to" : "2.21 %"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "compared to" : "MTCNN",
+                  "from sentence" : "Five Facial Landmark Accuracy
+RetinaFace significantly decreases the normalised mean errors ( NME ) from 2.72 % to 2.21 % when compared to MTCNN ."
+
+                }
+              },
+              "Compared to" : {
+                "MTCNN" : {
+                  "has" : {
+                    "RetinaFace" : {
+                      "has" : {
+                        "significantly decreases" : {
+                          "has" : {
+                            "failure rate" : {
+                              "from" : {
+                                "26.31 %" : {
+                                  "to" : "9.37 %"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "Compared to MTCNN , RetinaFace significantly decreases the failure rate from 26.31 % to 9.37 % ( the NME threshold at 10 % ) ."
+                    }
+                  }
+                }
+              }
+            },
+            "Dense Facial Landmark Accuracy" : {
+              "has" : {
+                "dense regression results" : {
+                  "of" : {
+                    "RetinaFace" : {
+                      "comparable with" : "state - of - the - art methods"
+                    }
+                  },
+                  "from sentence" : "Dense Facial Landmark Accuracy
+Even though the performance gap exists between supervised and self - supervised methods , the dense regression results of RetinaFace are comparable with these state - of - the - art methods ."
+
+                }
+              },
+              "observe" : {
+                "five facial landmarks regression" : {
+                  "alleviate" : {
+                    "training difficulty" : {
+                      "of" : "dense regression branch",
+                      "has" : {
+                        "significantly improve" : {
+                          "has" : "dense regression results"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "More specifically , we observe that ( 1 ) five facial landmarks regression can alleviate the training difficulty of dense regression branch and significantly improve the dense regression results ."
+                }
+              },
+              "using" : {
+                "single - stage features" : {
+                  "as in" : "RetinaFace",
+                  "to predict" : "dense correspondence parameters",
+                  "has" : {
+                    "much harder" : {
+                      "than employing" : {
+                        "( Region of Interest ) RoI features" : {
+                          "as in" : "Mesh Decoder"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "( 2 ) using single - stage features ( as in RetinaFace ) to predict dense correspondence parameters is much harder than employing ( Region of Interest ) RoI features ( as in Mesh Decoder ) ."
+                }
+              }
+            },
+            "Face Recognition Accuracy" : {
+              "on" : {
+                "CFP - FP" : {
+                  "demonstrate" : {
+                    "Reti - na Face" : {
+                      "boost" : {
+                        "ArcFace 's verification accuracy" : {
+                          "from" : {
+                            "98.37 %" : {
+                              "to" : "99.49 %"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "from sentence" : "Face Recognition Accuracy
+The results on CFP - FP , demonstrate that Reti - na Face can boost ArcFace 's verification accuracy from 98.37 % to 99.49 % ."
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

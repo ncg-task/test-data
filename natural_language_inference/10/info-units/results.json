@@ -1,0 +1,66 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "3 - layer feed - forward neural network" : {
+          "trained on" : "validation set",
+          "summing" : {
+            "skip - thought embeddings" : {
+              "of" : {
+                "last sentence ( LS )" : {
+                  "of" : "story prompt and the ending",
+                  "gives" : "best accuracy ( 76.5 % )"
+                }
+              }
+            }
+          },
+          "from sentence" : "The 3 - layer feed - forward neural network trained on the validation set by summing the skip - thought embeddings of the last sentence ( LS ) of the story prompt and the ending gives the best accuracy ( 76.5 % ) ."
+        },
+        "model" : {
+          "trained using only" : {
+            "last sentence ( LS )" : {
+              "of" : "story context",
+              "has" : {
+                "higher accuracy" : {
+                  "compared to" : {
+                    "model" : {
+                      "that uses" : {
+                        "GRU" : {
+                          "to encode" : "full context ( FC )"
+                        }
+                      },
+                      "encodes" : "entire context"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "We note that the model trained using only the last sentence ( LS ) of the story context has higher accuracy compared to the model that uses a GRU to encode the full context ( FC ) , and even the model which encodes the entire context ."
+            }
+          }
+        }
+      },
+      "using" : {
+        "skip - thought embeddings" : {
+          "Comparing" : {
+            "val - LS- skip" : {
+              "to" : "val - LS - Glo Ve"
+            }
+          },
+          "for" : "sentences vs. GloVe word embeddings",
+          "confirm" : {
+            "success" : {
+              "of" : "this approach",
+              "lies in" : {
+                "sizable boost" : {
+                  "to" : "accuracy",
+                  "from the use of" : "pretrained skip - thought embeddings"
+                }
+              }
+            }
+          },
+          "from sentence" : "Comparing ' val - LS- skip ' to ' val - LS - Glo Ve ' ( i.e. , using skip - thought embeddings for sentences vs. GloVe word embeddings ) , we confirm that the success of this approach lies in the sizable boost to accuracy from the use of pretrained skip - thought embeddings ."
+        }
+      }
+    }
+  }
+}

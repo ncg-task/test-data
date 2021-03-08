@@ -1,0 +1,31 @@
+{
+  "has" : {
+    "Model" : {
+      "taking" : {
+        "advantage" : {
+          "of" : {
+            "semantic relationships" : {
+              "between" : {
+                "senses" : {
+                  "included" : "WordNet"
+                }
+              },
+              "such as" : ["hypernymy", "hyponymy", "meronymy", "antonymy"],
+              "from sentence" : "In this work , the idea is to solve this issue by taking advantage of the semantic relationships between senses included in WordNet , such as the hypernymy , the hyponymy , the meronymy , the antonymy , etc ."
+            }
+          }
+        }
+      },
+      "based on" : {
+        "observation" : {
+          "has" : {
+            "sense and its closest related senses" : {
+              "share" : "common idea or concept"
+            }
+          },
+          "from sentence" : "Our method is based on the observation that a sense and its closest related senses ( it s hypernym or it s hyponyms for instance ) all share a common idea or concept , and so a word can sometimes be disambiguated using only related concepts ."
+        }
+      }
+    }
+  }
+}

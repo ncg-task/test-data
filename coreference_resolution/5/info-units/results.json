@@ -1,0 +1,61 @@
+{
+  "has" : {
+    "Results" : {
+      "see" : {
+        "statistically significant improvement" : {
+          "of" : {
+            "over 0.8 Co NLL points" : {
+              "over" : "previous state of the art"
+            }
+          }
+        },
+        "highest F 1 scores" : {
+          "on" : "all three CoNLL metrics",
+          "from sentence" : "Results
+We see a statistically significant improvement of over 0.8 Co NLL points over the previous state of the art , and the highest F 1 scores to date on all three CoNLL metrics ."
+
+        },
+        "RNN" : {
+          "has" : {
+            "improves" : {
+              "has" : "performance"
+            }
+          },
+          "with" : {
+            "most dramatic improve - ments" : {
+              "on" : "non-anaphoric pronouns"
+            }
+          },
+          "has" : {
+            "errors" : {
+              "has" : {
+                "decreased significantly" : {
+                  "for" : "non-anaphoric nominal and proper mentions"
+                }
+              }
+            }
+          },
+          "from sentence" : "In we see that the RNN improves performance over all , with the most dramatic improve - ments on non-anaphoric pronouns , though errors are also decreased significantly for non-anaphoric nominal and proper mentions that follow at least one mention with the same head ."
+        }
+      },
+      "has" : {
+        "RNN performance" : {
+          "has" : {
+            "significantly better" : {
+              "than" : {
+                "Avg baseline" : {
+                  "has" : {
+                    "barely improves" : {
+                      "over" : "mention - ranking"
+                    }
+                  },
+                  "from sentence" : "Importantly , the RNN performance is significantly better than that of the Avg baseline , which barely improves over mention - ranking , even with oracle history ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

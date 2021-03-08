@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Approach" : {
+      "has" : {
+        "novel loss function" : {
+          "namely" : "Wing loss",
+          "to improve" : {
+            "deep neural network training capability" : {
+              "for" : "small and medium range errors"
+            }
+          },
+          "from sentence" : "a novel loss function , namely the Wing loss , which is designed to improve the deep neural network training capability for small and medium range errors ."
+        },
+        "data augmentation strategy" : {
+          "i.e." : "pose - based data balancing",
+          "compensates" : {
+            "low frequency" : {
+              "of" : {
+                "occurrence" : {
+                  "of" : "samples"
+                }
+              },
+              "with" : {
+                "large out - of - plane head rotations" : {
+                  "in" : "training set"
+                }
+              }
+            }
+          },
+          "from sentence" : "a data augmentation strategy , i.e. pose - based data balancing , that compensates the low frequency of occurrence of samples with large out - of - plane head rotations in the training set ."
+        },
+        "two - stage facial landmark localisation framework" : {
+          "for" : "performance boosting",
+          "from sentence" : "a two - stage facial landmark localisation framework for performance boosting ."
+        }
+      }
+    }
+  }
+}

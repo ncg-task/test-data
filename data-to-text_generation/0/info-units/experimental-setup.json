@@ -1,0 +1,78 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "size" : {
+          "of" : ["record value embeddings", {"hidden layers" : {"of" : "Transformer encoders"}}],
+          "set to" : "300",
+          "from sentence" : "The size of the record value embeddings and hidden layers of the Transformer encoders are both set to 300 ."
+        },
+        "All the models" : {
+          "implemented in" : "Open NMT - py",
+          "from sentence" : "All the models are implemented in Open NMT - py ."
+        }
+      },
+      "use" : {
+        "dropout" : {
+          "at" : {
+            "rate" : {
+              "has" : "0.5"
+            }
+          },
+          "from sentence" : "We use dropout at rate 0.5 ."
+        }
+      },
+      "trained with" : {
+        "batch size" : {
+          "of" : "64",
+          "from sentence" : "The models are trained with a batch size of 64 ."
+        },
+        "Adam optimizer" : {
+          "has" : {
+            "initial learning rate" : {
+              "has" : "0.001",
+              "reduced by" : {
+                "half" : {
+                  "every" : "10 K steps"
+                }
+              },
+              "from sentence" : "All models were trained with the Adam optimizer ; the initial learning rate is 0.001 , and is reduced by half every 10 K steps ."
+            }
+          }
+        }
+      },
+      "train" : {
+        "model" : {
+          "for" : {
+            "fixed number" : {
+              "of" : "25 K updates"
+            }
+          }
+        }
+      },
+      "average" : {
+        "weights" : {
+          "of" : "last 5 checkpoints",
+          "at" : "every 1 K updates",
+          "to ensure" : {
+            "more stability" : {
+              "across" : "runs"
+            }
+          },
+          "from sentence" : "We follow the training procedure in and train the model for a fixed number of 25 K updates , and average the weights of the last 5 checkpoints ( at every 1 K updates ) to ensure more stability across runs ."
+        }
+      },
+      "used" : {
+        "beam search" : {
+          "with" : {
+            "beam size" : {
+              "of" : "5"
+            }
+          },
+          "during" : "inference",
+          "from sentence" : "We used beam search with beam size of 5 during inference ."
+        }
+      }
+    }
+  }
+}

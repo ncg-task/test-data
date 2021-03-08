@@ -1,0 +1,110 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Natural Language Inference" : {
+          "has" : {
+            "Our best score" : {
+              "has" : {
+                "87.3 % accuracy" : {
+                  "obtained with" : "full tree matching NTI model"
+                }
+              },
+              "from sentence" : "Natural Language Inference
+Our best score on this task is 87.3 % accuracy obtained with the full tree matching NTI model ."
+
+            },
+            "NTI - SLSTM" : {
+              "improved" : {
+                "performance" : {
+                  "of" : "sequential LSTM encoder",
+                  "by" : "approximately 2 %",
+                  "from sentence" : "Our results show that NTI - SLSTM improved the performance of the sequential LSTM encoder by approximately 2 % ."
+                }
+              }
+            },
+            "node - by - node attention models" : {
+              "has" : {
+                "improve" : {
+                  "has" : "performance",
+                  "from sentence" : "The node - by - node attention models improve the performance , indicating that modeling inter-sentence interaction is an important element in NLI ."
+                }
+              }
+            }
+          }
+        },
+        "Answer Sentence Selection" : {
+          "has" : {
+            "Deep LSTM and LSTM attention models" : {
+              "has" : {
+                "outperform" : {
+                  "has" : {
+                    "previous best result" : {
+                      "by" : {
+                        "large margin" : {
+                          "nearly" : "5 - 6 %"
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "Answer Sentence Selection
+The Deep LSTM and LSTM attention models outperform the previous best result by a large margin , nearly 5 - 6 % ."
+
+              }
+            },
+            "NASM" : {
+              "improves" : "result further",
+              "sets" : {
+                "strong baseline" : {
+                  "by combining" : {
+                    "variational autoencoder" : {
+                      "with" : "soft attention"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "NASM improves the result further and sets a strong baseline by combining variational autoencoder with the soft attention ."
+            },
+            "Our NTI model" : {
+              "exceeds" : {
+                "NASM" : {
+                  "by" : {
+                    "approximately 0.4 %" : {
+                      "on" : "MAP"
+                    }
+                  }
+                },
+                "from sentence" : "Our NTI model exceeds NASM by approximately 0.4 % on MAP for this task ."
+              }
+            }
+          }      
+        },
+        "Sentence Classification" : {
+          "has" : {
+            "Our NTI - SLSTM model" : {
+              "performed" : "slightly worse",
+              "from sentence" : "Sentence Classification
+Our NTI - SLSTM model performed slightly worse A dog mouth holds a retrieved ball ."
+
+            }
+          },
+          "transformed" : {
+            "input" : {
+              "with" : {
+                "LSTM leaf node function" : {
+                  "achieved" : {
+                    "best performance" : {
+                      "on" : "task"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "After we transformed the input with the LSTM leaf node function , we achieved the best performance on this task ."
+          }
+        }
+      }
+    }
+  }
+}

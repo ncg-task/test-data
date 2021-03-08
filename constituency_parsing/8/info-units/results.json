@@ -1,0 +1,87 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "English ( WSJ )" : {
+              "has" : {
+                "test score" : {
+                  "of" : {
+                    "93.55 F1" : {
+                      "for" : "CharLSTM parser",
+                      "has" : {
+                        "exceeds" : {
+                          "has" : {
+                            "previous best numbers" : {
+                              "for" : {
+                                "single - system parsers" : {
+                                  "trained on" : "Penn Treebank"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "6 Results
+English ( WSJ )
+The test score of 93.55 F1 for our CharLSTM parser exceeds the previous best numbers for single - system parsers trained on the Penn Treebank ( without the use of any external data , such as pre-trained word embeddings ) ."
+
+                    }
+                  }
+                },
+                "our parser" : {
+                  "augmented with" : "ELMo word representations",
+                  "achieves" : {
+                    "new state - of - the - art score" : {
+                      "of" : "95.13 F1",
+                      "on" : "WSJ test set",
+                      "from sentence" : "When our parser is augmented with ELMo word representations , it achieves a new state - of - the - art score of 95.13 F1 on the WSJ test set ."
+                    }
+                  }
+                }
+              }
+            },
+            "Multilingual ( SPMRL )" : {
+              "has" : {
+                "Development set results" : {
+                  "show" : {
+                    "addition" : {
+                      "of" : {
+                        "word embeddings" : {
+                          "to" : {
+                            "model" : {
+                              "uses" : "character LSTM"
+                            }
+                          },
+                          "has" : ["mixed effect", {"improves" : {"has" : {"performance" : {"for" : "some languages"}}}}, {"hurts" : {"for" : "others"}}],
+                          "from sentence" : "Multilingual ( SPMRL )
+Development set results show that the addition of word embeddings to a model that uses a character LSTM has a mixed effect : it improves performance for some languages , but hurts for others ."
+
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "On" : {
+                "8 of the 9 languages" : {
+                  "has" : {
+                    "our test set result" : {
+                      "has" : {
+                        "exceeds" : {
+                          "has" : "previous best - published numbers"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "On 8 of the 9 languages , our test set result exceeds the previous best - published numbers from any system we are aware of ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

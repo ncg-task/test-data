@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "filter out" : {
+        "most boxes" : {
+          "by" : {
+            "confidence threshold" : {
+              "of" : "0.05"
+            }
+          }
+        }
+      },
+      "keep" : {
+        "top 400 boxes" : {
+          "before applying" : "NMS"
+        }
+      },
+      "perform" : {
+        "NMS" : {
+          "with" : {
+            "jaccard overlap" : {
+              "of" : "0.3"
+            }
+          },
+          "keep" : "top 200 boxes"
+        },
+        "from sentence" : "We first filter out most boxes by a confidence threshold of 0.05 and keep the top 400 boxes before applying NMS , then we perform NMS with jaccard overlap of 0.3 and keep the top 200 boxes ."
+      },
+      "measure" : {
+        "speed" : {
+          "using" : {
+            "Titan X ( Pascal ) and cuDNN v 5.1" : {
+              "with" : "Intel Xeon E5-2660v3@2.60 GHz"
+            }
+          },
+          "from sentence" : "We measure the speed using Titan X ( Pascal ) and cuDNN v 5.1 with Intel Xeon E5-2660v3@2.60 GHz ."
+        }
+      }
+    }    
+  }
+}

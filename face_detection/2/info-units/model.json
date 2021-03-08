@@ -1,0 +1,68 @@
+{
+  "has" : {
+    "Model" : {
+      "investigate" : {
+        "effects" : {
+          "of" : {
+            "two - step classification and regression" : {
+              "on" : {
+                "different levels" : {
+                  "of" : "detection layers"
+                }
+              }
+            }
+          }
+        }
+      },
+      "propose" : {
+        "novel face detection framework" : {
+          "named" : "Selective Refinement Network ( SRN )",
+          "selectively applies" : {
+            "two - step classification and regression" : {
+              "to" : {
+                "specific levels" : {
+                  "of" : "detection layers"
+                }
+              }
+            }
+          },
+          "from sentence" : "In this paper , we investigate the effects of two - step classification and regression on different levels of detection layers and propose a novel face detection framework , named Selective Refinement Network ( SRN ) , which selectively applies two - step classification and regression to specific levels of detection layers ."
+        }
+      },
+      "has" : {
+        "network structure" : {
+          "of" : "SRN",
+          "consists of" : {
+            "two key modules" : {
+              "named as" : ["Selective Two - step Classification ( STC ) module", "Selective Two - step Regression ( STR ) module"]
+            }
+          },
+          "from sentence" : "The network structure of SRN is shown in , which consists of two key modules , named as the Selective Two - step Classification ( STC ) module and the Selective Two - step Regression ( STR ) module ."
+        },
+        "STC" : {
+          "applied to" : {
+            "filter out" : {
+              "has" : {
+                "most simple negative samples" : {
+                  "from" : "low levels of detection layers",
+                  "contains" : "88.9 % samples"
+                }
+              }
+            },
+            "from sentence" : "Specifically , the STC is applied to filter out most simple negative samples ( illustrated in ( a ) ) from the low levels of detection layers , which contains 88.9 % samples ."
+          }
+        }
+      },
+      "design" : {
+        "Receptive Field Enhancement ( RFE )" : {
+          "to provide" : {
+            "more diverse receptive fields" : {
+              "to better capture" : "extreme - pose faces"
+            }
+          },
+          "from sentence" : "In addition , we design a Receptive Field Enhancement ( RFE ) to provide more diverse receptive fields to better capture the extreme - pose faces ."
+        }
+      }
+    }
+  }
+}

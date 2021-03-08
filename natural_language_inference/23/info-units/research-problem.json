@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Text Semantic Matching", {"from sentence" : "Deep Fusion LSTMs for Text Semantic Matching"}],
+    ["modelling the relevance / similarity of a pair of texts", {"from sentence" : "Among many natural language processing ( NLP ) tasks , such as text classification , question answering and machine translation , a common problem is modelling the relevance / similarity of a pair of texts , which is also called text semantic matching ."}]
+  ]
+}

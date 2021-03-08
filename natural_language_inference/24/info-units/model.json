@@ -1,0 +1,64 @@
+{
+  "has" : {
+    "Model" : {
+      "to answer" : {
+        "any question" : {
+          "retrieve" : {
+            "few relevant articles" : {
+              "among" : "more than 5 million items",
+              "has" : {
+                "scan" : {
+                  "to identify" : "answer"
+                }
+              },
+              "term" : "machine reading at scale ( MRS )"
+            }
+          },
+          "from sentence" : "In order to answer any question , one must first retrieve the few relevant articles among more than 5 million items , and then scan them carefully to identify the answer .
+We term this setting , machine reading at scale ( MRS ) ."
+
+        }
+      },
+      "treats" : {
+        "Wikipedia" : {
+          "as" : {
+            "collection" : {
+              "of" : "articles"
+            }
+          },
+          "from sentence" : "Our work treats Wikipedia as a collection of articles and does not rely on its internal graph structure ."
+        }
+      },
+      "has" : {
+        "our approach" : {
+          "has" : "generic",
+          "could be" : {
+            "switched" : {
+              "to" : {
+                "other collections" : {
+                  "of" : ["documents", "books", "daily updated newspapers"]
+                }
+              }
+            },
+            "from sentence" : "As a result , our approach is generic and could be switched to other collections of documents , books , or even daily updated newspapers ."
+          }
+        }
+      },
+      "Having" : {
+        "single knowledge source" : {
+          "forces" : {
+            "model" : {
+              "to be" : "very precise",
+              "has" : {
+                "searching" : {
+                  "for" : "an answer"
+                }
+              }
+            }
+          },
+          "from sentence" : "Having a single knowledge source forces the model to be very precise while searching for an answer as the evidence might appear only once ."
+        }
+      }
+    }
+  }
+}

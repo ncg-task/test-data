@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Overall" : {
+          "has" : {
+            "Faceness" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : {
+                    "other methods" : {
+                      "on" : {
+                        "three subsets" : {
+                          "with" : {
+                            "DPM and ACF" : {
+                              "as" : "marginal second and third"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Overall .
+Faceness outperforms other methods on three subsets , with DPM and ACF as marginal second and third ."
+
+                }
+              }
+            },
+            "hard set" : {
+              "has" : "even more challenging",
+              "from sentence" : "The hard set is even more challenging ."
+            }
+          },
+          "For" : {
+            "easy set" : {
+              "has" : {
+                "average precision ( AP )" : {
+                  "of" : "most methods",
+                  "has" : "over 60 %"
+                }
+              },
+              "from sentence" : "For the easy set , the average precision ( AP ) of most methods are over 60 % , but none of them surpasses 75 % ."
+            }
+          },
+          "on" : {
+            "medium set" : {
+              "has" : {
+                "performance" : {
+                  "has" : "drops 10 %"
+                } 
+              },
+              "from sentence" : "The performance drops 10 % for all methods on the medium set ."
+            }
+          }
+        }            
+      }
+    }
+  }
+}

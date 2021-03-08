@@ -1,0 +1,51 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "novel model GAS" : {
+          "has" : {
+            "gloss - augmented WSD neural network" : {
+              "has" : {
+                "variant" : {
+                  "of" : "memory network"
+                }
+              }
+            }
+          },
+          "from sentence" : "In this paper , we propose a novel model GAS : a gloss - augmented WSD neural network which is a variant of the memory network ."
+        }
+      },
+      "has" : {
+        "GAS" : {
+          "jointly encodes" : {
+            "context and glosses" : {
+              "of" : "target word"
+            }
+          },
+          "models" : {
+            "semantic relationship" : {
+              "between" : {
+                "context and glosses" : {
+                  "in" : "memory module"
+                }
+              }
+            }
+          },
+          "from sentence" : "GAS jointly encodes the context and glosses of the target word and models the semantic relationship between the context and glosses in the memory module ."
+        },
+        "inner relationship" : {
+          "between" : "glosses and context",
+          "has" : "more accurately",
+          "employ" : {
+            "multiple passes operation" : {
+              "within" : "memory",
+              "as" : "re-reading process"
+            }
+          },
+          "adopt" : "two memory updating mechanisms",
+          "from sentence" : "In order to measure the inner relationship between glosses and context more accurately , we employ multiple passes operation within the memory as the re-reading process and adopt two memory updating mechanisms ."
+        }
+      }
+    }
+  }
+}

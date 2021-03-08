@@ -1,0 +1,99 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "test" : {
+        "our models" : {
+          "on" : "Stanford Question Answering Dataset ( SQuAD )",
+          "from sentence" : "We test our models on Stanford Question Answering Dataset ( SQuAD ) ."
+        }
+      },
+      "has" : {
+        "SQuAD dataset" : {
+          "consists of" : {
+            "more than 100,000 questions" : {
+              "annotated by" : "crowdsourcing workers",
+              "on" : {
+                "selected set" : {
+                  "of" : "Wikipedia articles"
+                }
+              }
+            }
+          },
+          "from sentence" : "The SQuAD dataset consists of more than 100,000 questions annotated by crowdsourcing workers on a selected set of Wikipedia articles , and the answer to each question is a span of text in the Wikipedia articles ."
+        },
+        "Out - of - vocabulary ( OOV ) words" : {
+          "initialized" : {
+            "randomly" : {
+              "with" : "Gaussian samples"
+            }
+          },
+          "from sentence" : "Out - of - vocabulary ( OOV ) words are initialized randomly with Gaussian samples ."
+        },
+        "CharCNN filter length" : {
+          "is" : "1 , 3 , 5",
+          "each is" : "50 dimensions",
+          "from sentence" : "CharCNN filter length is 1 , 3 , 5 , each is 50 dimensions ."
+        },
+        "cluster number K" : {
+          "in" : "discriminative block",
+          "is" : "100",
+          "from sentence" : "The cluster number K in discriminative block is 100 ."
+        },
+        "Adam method" : {
+          "used for" : ["optimization", {"from sentence" : "The Adam method is used for optimization ."}],
+          "has" : {
+            "first momentum" : {
+              "set to be" : "0.9"
+            },
+            "second" : {
+              "has" : "0.999",
+              "from sentence" : "And the first momentum is set to be 0.9 and the second 0.999 ."
+            }
+          }
+        },
+        "initial learning rate" : {
+          "has" : "0.0004"
+        },
+        "batch size" : {
+          "has" : "32",
+          "from sentence" : "The initial learning rate is 0.0004 and the batch size is 32 ."
+        },
+        "All hidden states of GRUs , and TreeLSTMs" : {
+          "has" : "500 dimensions"
+        },
+        "word - level embedding d w" : {
+          "has" : "300 dimensions",
+          "from sentence" : "All hidden states of GRUs , and TreeLSTMs are 500 dimensions , while word - level embedding d w is 300 dimensions ."
+        },
+        "Explicit question - type dimension d ET" : {
+          "has" : "50",
+          "from sentence" : "Explicit question - type dimension d ET is 50 ."
+        }
+      },
+      "use" : {
+        "pre-trained 300 - D Glove 840B vectors" : {
+          "to initialize" : "our word embeddings",
+          "from sentence" : "We use pre-trained 300 - D Glove 840B vectors to initialize our word embeddings ."
+        }
+      },
+      "set" : {
+        "max length" : {
+          "of" : "document",
+          "to" : "500",
+          "from sentence" : "We set max length of document to 500 , and drop the question - document pairs beyond this on training set ."
+        }
+      },
+      "apply" : {
+        "dropout" : {
+          "to" : "Encoder layer and aggregation layer",
+          "with" : {
+            "dropout rate" : {
+              "of" : "0.5"
+            }
+          },
+          "from sentence" : "We apply dropout to the Encoder layer and aggregation layer with a dropout rate of 0.5 ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Word Sense Disambiguation", {"from sentence" : "Word Sense Disambiguation using a Bidirectional LSTM"}],
+    ["word sense disambiguation ( WSD )", {"from sentence" : "The task of assigning a word token in a text , e.g. rock , to a well defined word sense in a lexicon is called word sense disambiguation ( WSD ) ."}],
+    ["WSD", {"from sentence" : "Improved WSD would be beneficial to many natural language processing ( NLP ) problems , e.g. machine translation , information Retrieval , information Extraction , and sense aware word representations ."}]
+  ]
+}

@@ -1,0 +1,7 @@
+(Contribution||has||Model)
+(Model||observe||fairly accurate 3 D models)
+(fairly accurate 3 D models||has||generated)
+(generated||by using||simple mean shape)
+(simple mean shape||at||relatively low computational cost)
+(relatively low computational cost||compared to||other approaches)
+(simple mean shape||deformed to||input image)

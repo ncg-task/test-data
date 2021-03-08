@@ -1,0 +1,53 @@
+{
+  "has" : {
+    "Approach" : {
+      "show" : {
+        "even larger performance gains" : {
+          "has" : "possible",
+          "by" : {
+            "jointly pretraining" : {
+              "has" : {
+                "both directions" : {
+                  "of" : "large language - model - inspired self - attention cloze model"
+                }
+              }
+            }
+          },
+          "from sentence" : "In this paper , we show that even larger performance gains are possible by jointly pretraining both directions of a large language - model - inspired self - attention cloze model ."
+        }
+      },
+      "has" : {
+        "Our bi-directional transformer architecture" : {
+          "predicts" : {
+            "every token" : {
+              "in" : "training data",
+              "from sentence" : "Our bi-directional transformer architecture predicts every token in the training data ( ) ."
+            }
+          }
+        },
+        "Our model" : {
+          "separately computes" : {
+            "both forward and backward states" : {
+              "with" : "Equal contribution"
+            },
+            "from sentence" : "Our model separately computes both forward and backward states with * Equal contribution . :"
+          }
+        }
+      },
+      "introducing" : {
+        "cloze - style training objective" : {
+          "where" : {
+            "model" : {
+              "predict" : {
+                "center word" : {
+                  "given" : "left - to - right and right - to - left context representations"
+                }
+              }
+            }
+          },
+          "from sentence" : "We achieve this by introducing a cloze - style training objective where the model must predict the center word given left - to - right and right - to - left context representations ."
+        }
+      }
+    }
+  }
+}

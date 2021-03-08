@@ -1,0 +1,7 @@
+(Contribution||has||Approach)
+(Approach||modify||neural graphbased approach)
+(neural graphbased approach||build||network)
+(network||uses||more regularization)
+(network||has||larger)
+(neural graphbased approach||replace||traditional MLP - based attention mechanism and affine label classifier)
+(traditional MLP - based attention mechanism and affine label classifier||with||biaffine ones)

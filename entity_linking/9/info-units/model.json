@@ -1,0 +1,140 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "method" : {
+          "to construct" : {
+            "novel embedding" : {
+              "has" : {
+                "jointly maps" : {
+                  "has" : {
+                    "words and entities" : {
+                      "into" : "same continuous vector space"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In this paper , we propose a method to construct a novel embedding that jointly maps words and entities into the same continuous vector space ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "similar words and entities" : {
+          "placed" : {
+            "close" : {
+              "to" : "one another",
+              "in" : "vector space"
+            }
+          },
+          "from sentence" : "In this model , similar words and entities are placed close to one another in a vector space ."
+        },
+        "Our model" : {
+          "based on" : "skip - gram model",
+          "learns" : {
+            "to predict" : {
+              "has" : {
+                "each context word" : {
+                  "given" : "target word"
+                }
+              }
+            },
+            "from sentence" : "Our model is based on the skip - gram model , a recently proposed embedding model that learns to predict each context word given the target word ."            
+          },
+          "consists of" : {
+            "following three models" : {
+              "has" : {
+                "conventional skip - gram model" : {
+                  "learns" : {
+                    "to predict" : {
+                      "has" : {
+                        "neighboring words" : {
+                          "given" : {
+                            "target word" : {
+                              "in" : "text corpora"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "KB graph model" : {
+                  "learns" : {
+                    "to estimate" : {
+                      "has" : {
+                        "neighboring entities" : {
+                          "given" : {
+                            "target entity" : {
+                              "in" : {
+                                "link graph" : {
+                                  "of" : "KB"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "anchor context model" : {
+                  "learns" : {
+                    "to predict" : {
+                      "has" : {
+                        "neighboring words" : {
+                          "given" : {
+                            "target entity" : {
+                              "using" : {
+                                "anchors and their context words" : {
+                                  "in" : "KB"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  } 
+                }
+              },
+              "from sentence" : "Our model consists of the following three models based on the skip - gram model :
+1 ) the conventional skip - gram model that learns to predict neighboring words given the target word in text corpora , 2 ) the KB graph model that learns to estimate neighboring entities given the target entity in the link graph of the KB , and 3 ) the anchor context model that learns to predict neighboring words given the target entity using anchors and their context words in the KB ."
+
+            }
+          }
+        },
+        "Our NED method" : {
+          "combines" : {
+            "contexts" : {
+              "with" : "several standard features",
+              "using" : "supervised machine learning"
+            }
+          },
+          "from sentence" : "Our NED method combines these contexts with several standard features ( e.g. , prior probability ) using supervised machine learning ."
+        }
+      },
+      "measure" : {
+        "similarity" : {
+          "between" : "any pair of items",
+          "by simply computing" : "cosine similarity",
+          "from sentence" : "Hence , we can measure the similarity between any pair of items ( i.e. , words , entities , and a word and an entity ) by simply computing their cosine similarity ."
+        }
+      },
+      "develop" : {
+        "straightforward NED method" : {
+          "computes" : {
+            "two contexts" : {
+              "using" : {
+                "proposed embedding" : {
+                  "has" : ["textual context similarity", "coherence"]
+                }
+              }
+            }
+          },
+          "from sentence" : "Based on our proposed embedding , we also develop a straightforward NED method that computes two contexts using the proposed embedding : textual context similarity , and coherence ."
+        }
+      }
+    }
+  }
+}

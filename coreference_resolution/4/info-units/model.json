@@ -1,0 +1,115 @@
+{
+  "has" : {
+    "Model" : {
+      "inspired by" : {
+        "mention - ranking model" : {
+          "for" : "coreference resolution",
+          "combines" : {
+            "Siamese Net" : {
+              "for learning" : {
+                "similarity" : {
+                  "between" : "sentences"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our model is inspired by the mention - ranking model for coreference resolution and combines it with a Siamese Net , for learning similarity between sentences ."
+        }
+      },
+      "has" : {
+        "LSTM - Siamese Net" : {
+          "Given" : ["anaphoric sentence", "candidate antecedent"],
+          "learns" : {
+            "representations" : {
+              "for" : {
+                "the candidate and the anaphoric sentence" : {
+                  "in" : "shared space"
+                }
+              }
+            }
+          },
+          "from sentence" : "Given an anaphoric sentence ( AntecS in ( 1 ) ) and a candidate antecedent ( any constituent in a given context , e.g. being obsoleted by microprocessor - based machines in ( 1 ) ) , the LSTM - Siamese Net learns representations for the candidate and the anaphoric sentence in a shared space ."
+        },
+        "representations" : {
+          "combined into" : {
+            "joint representation" : {
+              "to calculate" : {
+                "score" : {
+                  "characterizes" : "relation"
+                }
+              },
+              "from sentence" : "These representations are combined into a joint representation used to calculate a score that characterizes the relation between them ."
+            }
+          }
+        },
+        "learned score" : {
+          "to select" : {
+            "highest - scoring antecedent candidate" : {
+              "for" : {
+                "given anaphoric sentence" : {
+                  "hence" : "anaphor"
+                }
+              },
+              "from sentence" : "The learned score is used to select the highest - scoring antecedent candidate for the given anaphoric sentence and hence its anaphor ."
+            }
+          }
+        },
+        "easily adaptable" : {
+          "to" : "other languages"
+        }
+      },
+      "produces" : {
+        "large amounts" : {
+          "of" : "instances",
+          "from sentence" : "It produces large amounts of instances and is easily adaptable to other languages ."
+        }
+      }      
+      "consider" : {
+        "one anaphor" : {
+          "at" : "a time",
+          "provide" : {
+            "embedding" : {
+              "of" : {
+                "context" : {
+                  "of" : "anaphor"
+                },
+                "head" : {
+                  "of" : "anaphoric phrase"
+                }
+              },
+              "to characterize" : {
+                "each individual anaphorsimilar" : {
+                  "for" : {
+                    "individuating" : {
+                      "has" : {
+                        "multiply occurring predicates" : {
+                          "in" : "SRL"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "We consider one anaphor at a time and provide the embedding of the context of the anaphor and the embedding of the head of the anaphoric phrase to the input to characterize each individual anaphorsimilar to the encoding proposed by for individuating multiply occurring predicates in SRL ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "show" : {
+        "model" : {
+          "learns" : {
+            "relation" : {
+              "between" : {
+                "anaphor" : {
+                  "in" : "anaphoric sentence",
+                  "and" : "antecedent"
+                }
+              },
+              "from sentence" : "With deeper inspection we show that the model learns a relation between the anaphor in the anaphoric sentence and its antecedent ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "DCN" : {
+          "has" : {
+            "capability" : {
+              "to estimate" : {
+                "start and end points" : {
+                  "of" : "answer span",
+                  "has" : "multiple times"
+                }
+              }
+            }
+          },
+          "from sentence" : "The performance of the Dynamic Coattention Network on the SQuAD dataset , compared to other submitted models on the leaderboard 3 , is shown in The DCN has the capability to estimate the start and end points of the answer span multiple times , each time conditioned on its previous estimates ."
+        },
+        "model" : {
+          "explore" : {
+            "local maxima" : {
+              "corresponding to" : "multiple plausible answers",
+              "from sentence" : "By doing so , the model is able to explore local maxima corresponding to multiple plausible answers , as is shown in ."
+            }
+          }
+        }
+      }
+    }
+  }  
+}

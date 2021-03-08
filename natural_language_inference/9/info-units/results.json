@@ -1,0 +1,44 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our BERT model" : {
+          "for" : "NQ",
+          "performs" : {
+            "dramatically better" : {
+              "than" : {
+                "models" : {
+                  "presented in" : "original NQ paper"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our BERT model for NQ performs dramatically better than the models presented in the original NQ paper ."
+        },
+        "Our model" : {
+          "closes" : {
+            "gap" : {
+              "between" : {
+                "F 1 score" : {
+                  "achieved by" : {
+                    "original baseline systems and the super - annotator upper bound" : {
+                      "by" : {
+                        "30 %" : {
+                          "for" : "long answer NQ task"
+                        },
+                        "50 %" : {
+                          "for" : "short answer NQ task"
+                        }
+                      },
+                      "from sentence" : "Our model closes the gap between the F 1 score achieved by the original baseline systems and the super - annotator upper bound by 30 % for the long answer NQ task and by 50 % for the short answer NQ task ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }      
+    }
+  }
+}

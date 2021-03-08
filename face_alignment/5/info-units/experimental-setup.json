@@ -1,0 +1,16 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "All our models" : {
+          "trained with" : {
+            "Caffe" : {
+              "on" : "4 Titan X GPUs",
+              "from sentence" : "All our models are trained with Caffe [ 24 ] on 4 Titan X GPUs ."
+            }
+          }
+        }
+      }      
+    }
+  }
+}

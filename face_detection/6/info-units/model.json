@@ -1,0 +1,60 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "mine" : {
+          "has" : {
+            "hard examples" : {
+              "at" : {
+                "image level" : {
+                  "in parallel with" : "anchor level"
+                }
+              },
+              "from sentence" : "To address this issue , we propose to mine hard examples at image level in parallel with anchor level ."
+            }
+          }
+        },
+        "dynamically assign" : {
+          "has" : {
+            "difficulty scores" : {
+              "to" : "training images",
+              "during" : "learning process",
+              "determine whether" : {
+                "image" : {
+                  "has" : ["well - detected", {"useful" : {"for" : "further training"}}]
+                }
+              }
+            }
+          },
+          "from sentence" : "More specifically , we propose to dynamically assign difficulty scores to training images during the learning process , which can determine whether an image is already well - detected or still useful for further training ."
+        },
+        "improve" : {
+          "has" : "detection quality",
+          "by exclusively exploiting" : "small faces",
+          "from sentence" : "Apart from mining the hard images , we also propose to improve the detection quality by exclusively exploiting small faces ."
+        }
+      },
+      "fully utilize" : {
+        "images" : {
+          "has" : ["not perfectly detected", {"better facilitate" : {"has" : "learning process"}}],
+          "from sentence" : "This allows us to fully utilize the images which were not perfectly detected to better facilitate the following learning process ."
+        }
+      },
+      "has" : {
+        "our detector" : {
+          "is" : "more efficient",
+          "has" : {
+            "specially designed" : {
+              "leveraging" : {
+                "small faces" : {
+                  "during" : "training"
+                }
+              }
+            }
+          },
+          "from sentence" : "Compared with these methods , our detector is more efficient since it is specially designed to aggressively leveraging the small faces during training ."
+        }
+      }
+    }
+  }
+}

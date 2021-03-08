@@ -1,0 +1,14 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "Leveraging" : {
+        "unlabeled data" : {
+          "from" : "other domains",
+          "has" : "not offer consistent improvement",
+          "from sentence" : "Leveraging the unlabeled data from other domains does not offer consistent improvement , however can provide additional value in isolated cases ."
+
+        }
+      }
+    }
+  }
+}

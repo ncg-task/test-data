@@ -1,0 +1,159 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "deep cascade model" : {
+          "combines" : {
+            "advantages" : {
+              "of" : {
+                "both methods" : {
+                  "in" : "coarse - to - fine manner"
+                }
+              }
+            }
+          },
+          "from sentence" : "To address the above problems , we propose a deep cascade model which combines the advantages of both methods in a coarse - to - fine manner ."
+        }
+      },
+      "has" : {
+        "deep cascade model" : {
+          "designed to" : {
+            "keep" : {
+              "has" : {
+                "balance" : {
+                  "between" : "effectiveness and efficiency"
+                }
+              }
+            },
+            "from sentence" : "The deep cascade model is designed to properly keep the balance between the effectiveness and efficiency ."
+          }
+        },
+        "simple features and ranking functions" : {
+          "used to" : {
+            "select" : {
+              "has" : {
+                "candidate set" : {
+                  "of" : "most relevant contents",
+                  "filtering out" : "irrelevant documents and paragraphs"
+                }
+              }
+            },
+            "from sentence" : "At early stages of the model , simple features and ranking functions are used to select a candidate set of most relevant contents , filtering out the irrelevant documents and paragraphs as much as possible ."
+          }
+        },
+        "selected paragraphs" : {
+          "passed to" : {
+            "attention - based deep MRC model" : {
+              "for" : {
+                "extracting" : {
+                  "has" : {
+                    "actual answer span" : {
+                      "at" : "word level"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Then the selected paragraphs are passed to the attention - based deep MRC model for extracting the actual answer span at word level ."
+            }
+          }
+        },
+        "jointly optimize" : {
+          "has" : {
+            "all the three tasks" : {
+              "in" : "unified deep MRC model",
+              "shares" : "some common bottom layers",
+              "from sentence" : "We jointly optimize all the three tasks in a unified deep MRC model , which shares some common bottom layers ."
+            }
+          }
+        },
+        "cascaded structure" : {
+          "enables" : {
+            "models" : {
+              "to perform" : {
+                "coarse - to - fine pruning" : {
+                  "at" : "different stages"
+                }
+              }
+            }
+          },
+          "has" : {
+            "better models" : {
+              "learnt" : "effectively and efficiently"
+            }
+          },
+          "from sentence" : "This cascaded structure enables the models to perform a coarse - to - fine pruning at different stages , better models can be learnt effectively and efficiently ."
+        },
+        "overall framework" : {
+          "has" : {
+            "our model" : {
+              "consists of" : ["document retrieval", "paragraph retrieval", "answer extraction"]
+            }
+          },
+          "from sentence" : "The overall framework of our model is demonstrated in , which consists of three modules : document retrieval , paragraph retrieval and answer extraction ."
+        },
+        "first module" : {
+          "as" : {
+            "input" : {
+              "takes" : "question and a collection of raw documents"
+            }
+          },
+          "from sentence" : "The first module takes the question and a collection of raw documents as input ."
+        },
+        "module" : {
+          "at" : "each subsequent stage",
+          "consumes" : {
+            "output" : {
+              "from" : "previous stage"
+            }
+          },
+          "further" : {
+            "prunes" : {
+              "has" : {
+                "documents , paragraphs and answer spans" : {
+                  "given" : "question"
+                }
+              }
+            }
+          },
+          "from sentence" : "The module at each subsequent stage consumes the output from the previous stage , and further prunes the documents , paragraphs and answer spans given the question ."
+        },
+        "ranking function" : {
+          "used as" : {
+            "preliminary filter" : {
+              "to discard" : "most of the irrelevant documents or paragraphs"
+            }
+          },
+          "from sentence" : "The ranking function is first used as a preliminary filter to discard most of the irrelevant documents or paragraphs , so as to keep our framework efficient ."
+        },
+        "extraction function" : {
+          "deal with" : "auxiliary document and paragraph extraction tasks",
+          "has" : {
+            "jointly optimized" : {
+              "with" : {
+                "final answer extraction module" : {
+                  "for" : "better extraction performance"
+                }
+              }
+            }
+          },
+          "from sentence" : "The extraction function is then designed to deal with the auxiliary document and paragraph extraction tasks , which is jointly optimized with the final answer extraction module for better extraction performance ."
+        }
+      },
+      "To better support" : {
+        "answer extraction" : {
+          "introduce" : {
+            "document extraction and paragraph extraction" : {
+              "as" : "two auxiliary tasks",
+              "helps to" : {
+                "narrow down" : {
+                  "has" : "entire search space"
+                }
+              },
+              "from sentence" : "To better support the answer extraction , we also introduce the document extraction and paragraph extraction as two auxiliary tasks , which helps to quickly narrow down the entire search space ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

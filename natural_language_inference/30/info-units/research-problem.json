@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Matching Natural Language Sentences", {"from sentence" : "Convolutional Neural Network Architectures for Matching Natural Language Sentences"}],
+    ["Semantic matching", {"from sentence" : "Semantic matching is of central importance to many natural language tasks [ 2,28 ] ."}],
+    ["Matching two potentially heterogenous language objects", {"from sentence" : "Matching two potentially heterogenous language objects is central to many natural language applications ."}]
+  ]
+}

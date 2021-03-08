@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Model" : {
+      "incorporate" : {
+        "positioninvariance" : {
+          "into" : "RNN"
+        }
+      },
+      "propose" : {
+        "novel model" : {
+          "named" : "Disconnected Recurrent Neural Network ( DRNN )"
+        },
+        "from sentence" : "In this paper , we incorporate positioninvariance into RNN and propose a novel model named Disconnected Recurrent Neural Network ( DRNN ) ."
+      },
+      "maintain" : {
+        "position - invariance" : {
+          "utilize" : {
+            "max pooling" : {
+              "to extract" : "important information"
+            }
+          },
+          "from sentence" : "To maintain the position - invariance , we utilize max pooling to extract the important information , which has been suggested by ."
+        }
+      },
+      "has" : {
+        "Our proposed model" : {
+          "regarded as" : {
+            "special 1D CNN" : {
+              "where" : {
+                "convolution kernels" : {
+                  "replaced with" : "recurrent units"
+                }
+              },
+              "from sentence" : "Our proposed model can also be regarded as a special 1D CNN where convolution kernels are replaced with recurrent units ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

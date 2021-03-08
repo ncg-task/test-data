@@ -1,0 +1,5 @@
+(Contribution||has||Model)
+(Model||use||deep learning)
+(deep learning||to learn||basic features)
+(basic features||has||combinations)
+(combinations||from||scratch)

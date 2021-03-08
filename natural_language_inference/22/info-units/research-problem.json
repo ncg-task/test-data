@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Question Answering", {"from sentence" : "Multi- task Sentence Encoding Model for Semantic Retrieval in Question Answering Systems"}],
+    ["Question Answering ( QA )", {"from sentence" : "Question Answering ( QA ) systems are used to provide proper responses to users ' questions automatically ."}],
+    ["QA", {"from sentence" : "Sentence matching is an essential task in the QA systems and is usually reformulated as a Paraphrase Identification ( PI ) problem ."}]
+  ]
+}

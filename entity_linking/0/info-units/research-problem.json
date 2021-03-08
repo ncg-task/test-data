@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Joint Entity Disambiguation", {"from sentence" : "Deep Joint Entity Disambiguation with Local Neural Attention"}],
+    ["Entity disambiguation ( ED )", {"from sentence" : "Entity disambiguation ( ED ) is an important stage in text understanding which automatically resolves references to entities in a given knowledge base ( KB ) ."}],
+    ["ED", {"from sentence" : "ED research has largely focused on two types of contextual information for disambiguation : local information based on words that occur in a context window around an entity mention , and , global information , exploiting document - level coherence of the referenced entities ."}]
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "accuracy" : {
+          "on" : "AFLW2000 - 3D",
+          "of" : {
+            "our method" : {
+              "has" : {
+                "consistently improves" : {
+                  "by adding" : "more datasets"
+                }
+              }
+            }
+          },
+          "from sentence" : "The accuracy of our method on the AFLW2000 - 3D consistently improves by adding more datasets ."
+        },
+        "result" : {
+          "shows" : {
+            "images" : {
+              "with" : {
+                "NME - lp" : {
+                  "between" : "5 % and 15 %",
+                  "has" : {
+                    "SPC" : {
+                      "has" : "helpful"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "This result shows that for the images with NME - lp between 5 % and 15 % the SPC is helpful ."
+            }
+          }
+        }        
+      },
+      "For" : {
+        "AFLW - PIFA dataset" : {
+          "has" : {
+            "our method" : {
+              "achieves" : {
+                "9.5 % and 20 %" : {
+                  "has" : {
+                    "relative improvement" : {
+                      "by utilizing" : {
+                        "datasets" : {
+                          "in" : {
+                            "stage 2 and stage 3" : {
+                              "over" : "first stage"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "For the AFLW - PIFA dataset , our method achieves 9.5 % and 20 % relative improvement by utilizing the datasets in the stage 2 and stage 3 over the first stage , respectively ."
+              }
+            }
+          }
+        }
+      },
+      "including" : {
+        "datasets" : {
+          "from" : "second and third stages",
+          "have" : "26 % relative improvement",
+          "achieve" : {
+            "NME" : {
+              "of" : "3.86 %"
+            }
+          },
+          "from sentence" : "If including the datasets from both the second and third stages , we can have 26 % relative improvement and achieve NME of 3.86 % ."
+        }
+      },
+      "Comparing" : {
+        "LFC + SPC and LFC + CFC performances" : {
+          "shows that" : {
+            "CFC" : {
+              "has" : {
+                "more helpful" : {
+                  "than" : "SPC"
+                }
+              }
+            }
+          },
+          "from sentence" : "Comparing LFC + SPC and LFC + CFC performances shows that the CFC is more helpful than the SPC ."
+        }
+      },
+      "Using" : {
+        "all constraints" : {
+          "achieves" : "best performance",
+          "from sentence" : "Using all constraints achieves the best performance ."
+        }
+      }
+    }
+  }
+}

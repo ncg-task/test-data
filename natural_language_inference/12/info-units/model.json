@@ -1,0 +1,46 @@
+{
+  "has" : {
+    "Model" : {
+      "has" : {
+        "\" Relation Memory Network \" ( RMN )" : {
+          "to find" : {
+            "complex relation" : {
+              "when" : {
+                "a lot of information" : {
+                  "is" : "given"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our proposed model , \" Relation Memory Network \" ( RMN ) , is able to find complex relation even when a lot of information is given ."
+        },
+        "RMN" : {
+          "inherits" : {
+            "RN 's MLP - based output feature map" : {
+              "on" : "Memory Network architecture",
+              "from sentence" : "In other words , RMN inherits RN 's MLP - based output feature map on Memory Network architecture ."
+            }
+          }
+        }
+      },
+      "uses" : {
+        "MLP" : {
+          "to find" : {
+            "relevant information" : {
+              "with" : {
+                "new generalization" : {
+                  "has" : {
+                    "simply erase" : {
+                      "has" : "information already used"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "It uses MLP to find out relevant information with a new generalization which simply erase the information already used ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "EpiReader" : {
+          "achieves" : {
+            "state - of - the - art performance" : {
+              "across" : "board",
+              "for" : "both datasets",
+              "from sentence" : "The EpiReader achieves state - of - the - art performance across the board for both datasets ."
+            }
+          }
+        },
+        "improvement" : {
+          "on" : {
+            "CBT - NE" : {
+              "has" : {
+                "more modest" : {
+                  "at" : "1.1 %"
+                }
+              },
+              "from sentence" : "The improvement on CBT - NE is more modest at 1.1 % ."
+            }
+          }
+        }
+      },
+      "On" : {
+        "CNN" : {
+          "score" : {
+            "2.2 % higher" : {
+              "on" : "test"
+            }
+          },
+          "from sentence" : "On CNN , we score 2.2 % higher on test than the best previous model of ."
+        },
+        "CBT - CN" : {
+          "has" : {
+            "our single model" : {
+              "scores" : {
+                "4.0 % higher" : {
+                  "than" : {
+                    "previous best" : {
+                      "of" : "AS Reader"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "On CBT - CN our single model scores 4.0 % higher than the previous best of the AS Reader ."
+            }
+          }
+        }
+      },
+      "Looking" : {
+        "more closely" : {
+          "at" : {
+            "our CBT - NE results" : {
+              "found that" : {
+                "validation and test accuracies" : {
+                  "has" : {
+                    "relatively high variance" : {
+                      "in" : {
+                        "late epochs" : {
+                          "of" : "training"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Looking more closely at our CBT - NE results , we found that the validation and test accuracies had relatively high variance even in late epochs of training ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

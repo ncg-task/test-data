@@ -1,0 +1,67 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "see" : {
+        "lower results" : {
+          "obtained by" : {
+            "Flat scenario" : {
+              "compared to" : "other scenarios",
+              "from sentence" : "As shown in , we can see the lower results obtained by the Flat scenario compared to the other scenarios ( e.g. BLEU 16.7 vs. 17.5 for resp ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "comparison" : {
+          "between" : "scenario Hierarchical - kv and Hierarchical -k",
+          "shows" : {
+            "omitting entirely" : {
+              "has" : {
+                "record values" : {
+                  "in" : "attention mechanism",
+                  "has" : "more effective"
+                }
+              }
+            },
+            "from sentence" : "Second , the comparison between scenario Hierarchical - kv and Hierarchical -k shows that omitting entirely the influence of the record values in the attention mechanism is more effective : this last variant performs slightly better in all metrics excepted CS - R% , reinforcing our intuition that focusing on the structure modeling is an important part of data encoding as well as confirming the intuition explained in Section 3.3 : once an entity is selected , facts about this entity are relevant based on their key , not value which might add noise ."
+          }
+        },
+        "Our hierarchical models" : {
+          "achieve" : {
+            "significantly better scores" : {
+              "on" : "all metrics",
+              "compared to" : "flat architecture",
+              "from sentence" : "Our hierarchical models achieve significantly better scores on all metrics when compared to the flat architecture Wiseman , reinforcing the crucial role of structure in data semantics and saliency ."
+            }
+          },
+          "has" : {
+            "outperform" : {
+              "has" : {
+                "two - step decoders" : {
+                  "of" : "Li and Puduppully - plan",
+                  "on both" : "BLEU and all qualitative metrics",
+                  "from sentence" : "Our hierarchical models outperform the two - step decoders of Li and Puduppully - plan on both BLEU and all qualitative metrics , showing that capturing structure in the encoding process is more effective that predicting a structure in the decoder ( i.e. , planning or templating ) ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "shows" : {
+        "our Flat scenario" : {
+          "obtains" : "significant higher BLEU score",
+          "generates" : {
+            "fluent descriptions" : {
+              "with" : {
+                "accurate mentions" : {
+                  "included in" : "gold descriptions"
+                }
+              }
+            },
+            "from sentence" : "Results shows that our Flat scenario obtains a significant higher BLEU score ( 16.7 vs. 14.5 ) and generates fluent descriptions with accurate mentions ( RG - P % ) thatare also included in the gold descriptions ( CS - R% ) ."
+          }
+        }
+      }
+    }
+  }
+}

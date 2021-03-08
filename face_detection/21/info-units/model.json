@@ -1,0 +1,136 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "new cascade Convolutional Neural Network" : {
+          "trained" : "end - to - end",
+          "from sentence" : "In contrast , we propose a new cascade Convolutional Neural Network that is trained end - to - end ."
+        },
+        "region - of - interest ( ROI ) convolution scheme" : {
+          "to make" : {
+            "run-time" : {
+              "of" : "Supervised Transformer Network",
+              "to be" : "more efficient"
+            },
+            "from sentence" : "Therefore , we propose a region - of - interest ( ROI ) convolution scheme to make the run-time of the Supervised Transformer Network to be more efficient ."            
+          },
+          "first uses" : {
+            "conventional boosting cascade" : {
+              "to obtain" : {
+                "set" : {
+                  "of" : {
+                    "face candidate areas" : {
+                      "into" : "irregular binary ROI mask"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "It first uses a conventional boosting cascade to obtain a set of face candidate areas .
+Then , we combine these regions into irregular binary ROI mask ."
+
+            }
+          }
+        }
+      },
+      "has" : {
+        "first stage" : {
+          "is" : "multi-task Region Proposal Network ( RPN )",
+          "simultaneously proposes" : {
+            "candidate face regions" : {
+              "along with" : "associated facial landmarks"
+            }
+          },
+          "from sentence" : "The first stage is a multi-task Region Proposal Network ( RPN ) , which simultaneously proposes candidate face regions along with associated facial landmarks ."
+        },
+        "network" : {
+          "calculated on" : {
+            "original resolution" : {
+              "to better leverage" : "more discriminative information"
+            },
+            "from sentence" : "Different from Li et al. , this network is calculated on the original resolution to better leverage more discriminative information ."
+          }
+        },
+        "aligned candidate face region" : {
+          "fed into" : {
+            "second - stage network" : {
+              "has" : "RCNN",
+              "for" : "further verification"
+            }
+          },
+          "from sentence" : "The aligned candidate face region is then fed into the second - stage network , a RCNN , for further verification ."
+        },
+        "All DNN operations" : {
+          "including" : ["convolution", "ReLU", "pooling", "concatenation"],
+          "processed inside" : "ROI mask",
+          "has" : {
+            "significantly reduce" : {
+              "has" : "computation"
+            }
+          },
+          "from sentence" : "All DNN operations ( including convolution , ReLU , pooling , and concatenation ) are all processed inside the ROI mask , and hence significantly reduce the computation ."
+        }
+      },
+      "jointly conduct" : ["face detection and face alignment", {"from sentence" : "Inspired by Chen et al. , we jointly conduct face detection and face alignment , since face alignment is helpful to distinguish faces / non - faces patterns ."}],
+      "keep" : {
+        "K face candidate regions" : {
+          "with" : "top responses",
+          "in" : {
+            "local neighborhood" : {
+              "from" : "RPN"
+            }
+          },
+          "from sentence" : "Note we only keep the K face candidate regions with top responses in a local neighborhood from the RPN ."
+        }
+      },
+      "concatenate" : {
+        "feature maps" : {
+          "from" : "two cascaded networks together",
+          "to form" : {
+            "architecture" : {
+              "trained" : "end - to - end"
+            }
+          }
+        },
+        "from sentence" : "We concatenate the feature maps from the two cascaded networks together to form an architecture that is trained end - to - end , as shown in ."
+      },
+      "jointly defines" : {
+        "transform" : {
+          "from" : "candidate face region",
+          "has" : {
+            "canonical positions" : {
+              "of" : {
+                "facial landmarks" : {
+                  "in" : "aligned face image"
+                }
+              }
+            },
+            "predicted facial landmarks" : {
+              "in" : "candidate face region"
+            }
+          }
+        },
+        "from sentence" : "Note that the canonical positions of the facial landmarks in the aligned face image and the predicted facial landmarks in the candidate face region jointly defines the transform from the candidate face region ."
+      },
+      "In" : {
+        "end - to - end training" : {
+          "has" : {
+            "training" : {
+              "of" : {
+                "first - stage RPN" : {
+                  "to predict" : "facial landmarks",
+                  "supervised by" : {
+                    "annotated facial landmarks" : {
+                      "in each" : "true face regions"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "In the end - to - end training , the training of the first - stage RPN to predict facial landmarks is also supervised by annotated facial landmarks in each true face regions ."
+        }
+      },
+      "call" : ["Supervised Transformer Network", {"from sentence" : "We hence call our network a Supervised Transformer Network ."}]
+    }
+  }
+}

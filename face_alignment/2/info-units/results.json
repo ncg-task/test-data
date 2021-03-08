@@ -1,0 +1,22 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "Celeb A" : {
+          "has" : {
+            "DeCaFA" : {
+              "sets" : {
+                "new state - of - the - art" : {
+                  "on" : "three databases"
+                }
+              },
+              "from sentence" : "Finally , shows a comparison of our method and state - of - the - art approaches on Celeb A .
+Overall , DeCaFA sets a new state - of - the - art on the three databases with several evaluation metrics ."
+
+            }
+          }
+        }
+      }      
+    }
+  }
+}

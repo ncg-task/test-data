@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Volumetric Regression Networks" : {
+          "has" : {
+            "largely outperform" : {
+              "has" : {
+                "3DDFA and EOS" : {
+                  "on" : "all datasets"
+                }
+              }
+            }
+          },
+          "from sentence" : "Volumetric Regression Networks largely outperform
+3DDFA and EOS on all datasets , verifying that directly regressing the 3D facial structure is a much easier problem for CNN learning ."
+
+        },
+        "All VRNs" : {
+          "has" : {
+            "perform well" : {
+              "across" : {
+                "whole spectrum" : {
+                  "of" : ["facial poses", "expressions", "occlusions"]
+                }
+              }
+            }
+          },
+          "from sentence" : "2 . All VRNs perform well across the whole spectrum of facial poses , expressions and occlusions ."
+        },
+        "best performing VRN" : {
+          "guided by" : {
+            "detected landmarks" : {
+              "at" : {
+                "cost" : {
+                  "of" : "higher computational complexity"
+                }
+              }
+            },
+            "from sentence" : "3 . The best performing VRN is the one guided by detected landmarks , however at the cost of higher computational complexity :"
+          }
+        },
+        "VRN - Multitask" : {
+          "has" : {
+            "not always perform" : {
+              "has" : {
+                "particularly better" : {
+                  "than" : "plain VRN"
+                }
+              }
+            }
+          },
+          "from sentence" : "4 . VRN - Multitask does not always perform particularly better than the plain VRN ( in fact on BU - 4 DFE it performs worse ) , not justifying the increase of network complexity ."
+        }
+      }      
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "has" : {
+    "Approach" : {
+      "has" : {
+        "ADAPT team" : {
+          "focused on" : {
+            "two specialised domain English subtasks" : {
+              "by developing" : {
+                "unsupervised system" : {
+                  "builds" : {
+                    "word embeddings" : {
+                      "from" : "supplied reference corpora"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The ADAPT team focused on the two specialised domain English subtasks by developing an unsupervised system that builds word embeddings from the supplied reference corpora for these domains ."
+            }
+          }
+        },
+        "unsupervised approach" : {
+          "expectation that" : {
+            "generalise" : {
+              "has" : {
+                "more easily" : {
+                  "has" : "unseen hypernym - hyponym pairs"
+                }
+              }
+            }
+          },
+          "from sentence" : "Even though unsupervised systems tend to rank behind supervised systems in NLP tasks in general , our motivation to focus on an unsupervised approach is derived from the fact that they do not require explicit hand - annotated data , and from the expectation that they are able to generalise more easily to unseen hypernym - hyponym pairs ."
+        }
+      }
+    }
+  }
+}

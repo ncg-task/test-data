@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "Dynamic Coattention Network ( DCN )" : {
+          "has" : {
+            "end - to - end neural network" : {
+              "for" : "question answering"
+            }
+          },
+          "from sentence" : "We introduce the Dynamic Coattention Network ( DCN ) , illustrated in , an end - to - end neural network for question answering ."
+        }
+      },
+      "has" : {
+        "The model" : {
+          "consists of" : {
+            "coattentive encoder" : {
+              "captures" : {
+                "interactions" : {
+                  "between" : "question and the document"
+                }
+              }
+            },
+            "dynamic pointing decoder" : {
+              "alternates between" : {
+                "estimating" : {
+                  "has" : {
+                    "start and end" : {
+                      "of" : "answer span"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "The model consists of a coattentive encoder that captures the interactions between the question and the document , as well as a dynamic pointing decoder that alternates between estimating the start and end of the answer span ."
+          }
+        }
+      }
+    }
+  }
+}

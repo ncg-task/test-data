@@ -1,0 +1,68 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "FDDB Dataset" : {
+              "has" : {
+                "PyramidBox" : {
+                  "achieves" : "state - ofart performance"
+                }
+              },
+              "from sentence" : "FDDB Dataset .
+The PyramidBox achieves state - ofart performance and the result is shown in and ."
+
+            },
+            "WIDER FACE Dataset" : {
+              "has" : {
+                "Our PyramidBox" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : {
+                        "others" : {
+                          "across" : "all three subsets"
+                        }
+                      },
+                      "for" : {
+                        "validation set" : {
+                          "has" : {
+                            "0.961" : {
+                              "has" : "easy"
+                            },
+                            "0.950" : {
+                              "has" : "medium"
+                            },
+                            "0.889" : {
+                              "has" : "hard"
+                            }   
+                          }
+                        },
+                        "testing set" : {
+                          "has" : {
+                            "0.956" : {
+                              "has" : "easy"
+                            },
+                            "0.946" : {
+                              "has" : "medium"
+                            },
+                            "0.887" : {
+                              "has" : "hard"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "WIDER FACE Dataset .
+Our PyramidBox outperforms others across all three subsets , i.e. 0.961 ( easy ) , 0.950 ( medium ) , 0.889 ( hard ) for validation set , and 0.956 ( easy ) , 0.946 ( medium ) , 0.887 ( hard ) for testing set ."
+
+              }              
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our submission" : {
+          "with" : "attribute pairs",
+          "achieved" : {
+            "first place" : {
+              "in categories" : ["( 1B ) Italian ( all and entities )", "( 1C ) Spanish entities", "( 2B ) music entities"],
+              "from sentence" : "Our submission with attribute pairs achieved first place in categories ( 1B ) Italian ( all and entities ) , ( 1C ) Spanish entities , and ( 2B ) music entities ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

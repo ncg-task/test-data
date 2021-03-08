@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Deep contextualized word representations", {"from sentence" : "Deep contextualized word representations"}],
+    ["deep contextualized word representation", {"from sentence" : "We introduce a new type of deep contextualized word representation that models both ( 1 ) complex characteristics of word use ( e.g. , syntax and semantics ) , and ( 2 ) how these uses vary across linguistic contexts ( i.e. , to model polysemy ) ."}],
+    ["Pre-trained word representations", {"from sentence" : "Pre-trained word representations are a key component in many neural language understanding models ."}]
+  ]
+}

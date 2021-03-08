@@ -1,0 +1,192 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Experiments ( supervised )" : {
+              "has" : {
+                "Hyperparameters" : {
+                  "has" : {
+                    "Optimization" : {
+                      "done with" : {
+                        "SGD" : {
+                          "with" : {
+                            "mini-batch size 50 or 100" : {
+                              "with" : "momentum"
+                            },
+                            "optionally rmsprop" : {
+                              "for" : "acceleration"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "Experiments ( supervised )
+Optimization was done with SGD with mini-batch size 50 or 100 with momentum or optionally rmsprop for acceleration ."
+    
+                    }
+                  }
+                },
+                "Results" : {
+                  "see that" : {
+                    "one - hot bidirectional LSTM" : {
+                      "with" : "pooling",
+                      "has" : {
+                        "outperforms" : {
+                          "has" : "word - vector LSTM ( wv - LSTM )",
+                          "on" : "all the datasets"
+                        }
+                      },
+                      "from sentence" : "Comparing the two types of LSTM in , we see that our one - hot bidirectional LSTM with pooling ( oh - 2 LSTMp ) outperforms word - vector LSTM ( wv - LSTM ) on all the datasets , confirming the effectiveness of our approach ."
+                    }
+                  },
+                  "review" : {
+                    "non -LSTM baseline methods" : {
+                      "on" : {
+                        "three" : {
+                          "out of" : "four datasets",
+                          "has" : {
+                            "oh - 2 LSTMp" : {
+                              "has" : {
+                                "outperforms" : {
+                                  "has" : ["SVM", "CNN"]
+                                }
+                              }
+                            }
+                          },
+                          "from sentence" : "Now we review the non -LSTM baseline methods .
+    In , on three out of the four datasets , oh - 2 LSTMp outperforms SVM and the CNN ."
+    
+                        },
+                        "RCV1" : {
+                          "has" : {
+                            "n-gram SVM" : {
+                              "has" : {
+                                "no better" : {
+                                  "than" : "bag - of - word SVM"
+                                }
+                              }
+                            },
+                            "bow - CNN" : {
+                              "has" : {
+                                "outperforms" : {
+                                  "has" : "seq-CNN"
+                                }
+                              }
+                            }
+                          },
+                          "from sentence" : "Only on RCV1 , n-gram SVM is no better than bag - of - word SVM , and only on RCV1 , bow - CNN outperforms seq-CNN ."
+                        }
+                      },
+                      "has" : {
+                        "one - hot CNN" : {
+                          "works" : "surprising well",
+                          "from sentence" : "Overall , one - hot CNN works surprising well considering its simplicity , and this observation motivates the idea of combining the two types of region embeddings , discussed later ."
+                        }
+                      }
+                    }
+                  },
+                  "has" : {
+                    "previous best performance" : {
+                      "on" : {
+                        "20NG" : {
+                          "of" : {
+                            "DL15" : {
+                              "is" : "15.3",
+                              "from sentence" : "The previous best performance on 20NG is 15.3 ( not shown in the table ) of DL15 , obtained by pre-training wv - LSTM of 1024 units with labeled training data ."     
+                            }
+                          },
+                          "has" : {
+                            "Our oh - 2 LSTMp" : {
+                              "achieved" : "13.32",
+                              "from sentence" : "Our oh - 2 LSTMp achieved 13.32 , which is 2 % better ."
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Semi-supervised experiments" : {
+              "has" : {
+                "pre-trained wv - LSTM" : {
+                  "has" : {
+                    "clearly outperformed" : {
+                      "has" : "supervised wv - LSTM"
+                    },
+                    "underperformed" : {
+                      "has" : {
+                        "models" : {
+                          "with" : "region tv-embeddings"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Semi-supervised experiments
+    Although the pre-trained wv - LSTM clearly outperformed the supervised wv - LSTM , it underperformed the models with region tv-embeddings ."
+    
+                },
+                "wv - 2 LSTMp using the Google News vectors" : {
+                  "performed" : "relatively poorly",
+                  "from sentence" : "On our tasks , wv - 2 LSTMp using the Google News vectors ( row # 2 ) performed relatively poorly ."
+                },
+                "LSTM" : {
+                  "has" : {
+                    "CNN" : {
+                      "has" : {
+                        "rivals or outperforms" : {
+                          "on" : "IMDB / Elec"
+                        },
+                        "underperforms" : {
+                          "on" : "RCV1"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "The LSTM ( row # 4 ) rivals or outperforms the CNN ( row # 5 ) on IMDB / Elec but underperforms it on RCV1 ."
+                }
+              },
+              "review" : {
+                "performance" : {
+                  "of" : {
+                    "one - hot CNN" : {
+                      "with" : {
+                        "one 200 - dim CNN tv-embedding" : {
+                          "has" : {
+                            "comparable" : {
+                              "with" : {
+                                "our LSTM" : {
+                                  "with" : "two 100 - dim LSTM tv-embeddings"
+                                }
+                              }
+                            }
+                          },
+                          "from sentence" : "Now we review the performance of one - hot CNN with one 200 - dim CNN tv-embedding row # 5 ) , which is comparable with our LSTM with two 100 - dim LSTM tv-embeddings ( row # 4 ) in terms of the dimensionality of tv-embeddings ."
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "Increasing" : {
+                "dimensionality" : {
+                  "of" : "LSTM tvembeddings",
+                  "from" : {
+                    "100" : {
+                      "to" : "300"
+                    }
+                  },
+                  "on" : "RCV1",
+                  "obtain" : "8.62",
+                  "from sentence" : "Increasing the dimensionality of LSTM tvembeddings from 100 to 300 on RCV1 , we obtain 8.62 , but it still does not reach 7.97 of the CNN ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

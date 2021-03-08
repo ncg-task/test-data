@@ -1,0 +1,50 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "LSTM modules" : {
+          "applied in" : "our model",
+          "has" : "200 output units",
+          "from sentence" : "In practice , the LSTM modules applied in our model have 200 output units ."
+        },
+        "initial learning rate" : {
+          "set as" : "0.001",
+          "decays" : {
+            "0.001 %" : {
+              "has" : "every 100 steps"
+            }
+          },
+          "from sentence" : "The initial learning rate is set as 0.001 and decays 0.001 % every 100 steps ."
+        },
+        "model" : {
+          "optimized with" : "Adam algorithm",
+          "from sentence" : "The model is optimized with the Adam algorithm ( Kingma and Ba , 2014 ) ."
+        }
+      },
+      "In" : {
+        "ASL" : {
+          "calculate" : {
+            "cross - sentence dependency" : {
+              "using" : {
+                "multilayer perceptron" : {
+                  "with" : {
+                    "one hidden layer" : {
+                      "consisting of" : "150 hidden units"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In ASL , we calculate cross - sentence dependency using a multilayer perceptron with one hidden layer consisting of 150 hidden units ."
+            }
+          }
+        }
+      },
+      "select" : {
+        "up to 40 continuous sentences" : {
+          "for" : "training",
+          "from sentence" : "We randomly select up to 40 continuous sentences for training if the input is too long ."
+        }
+      }
+    }
+  }
+}

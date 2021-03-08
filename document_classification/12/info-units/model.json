@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "new graph neural networkbased method" : {
+          "for" : "text classification",
+          "from sentence" : "In this work , we propose a new graph neural networkbased method for text classification ."
+        }
+      },
+      "construct" : {
+        "single large graph" : {
+          "from" : "entire corpus",
+          "contains" : {
+            "words and documents" : {
+              "as" : "nodes"
+            }
+          },
+          "from sentence" : "We construct a single large graph from an entire corpus , which contains words and documents as nodes ."
+        }
+      },
+      "model" : {
+        "graph" : {
+          "with" : {
+            "Graph Convolutional Network ( GCN )" : {
+              "has" : {
+                "simple and effective graph neural network" : {
+                  "captures" : "high order neighborhoods information"
+                }
+              },
+              "from sentence" : "We model the graph with a Graph Convolutional Network ( GCN ) , a simple and effective graph neural network that captures high order neighborhoods information ."
+            }
+          },
+          "has" : {
+            "edge" : {
+              "built" : {
+                "byword co-occurrence information" : {
+                  "between" : "two word nodes"
+                }
+              },
+              "built using" : {
+                "word frequency and word 's document frequency" : {
+                  "between" : "word node and document node"
+                }
+              },
+              "from sentence" : "The edge between two word nodes is built byword co-occurrence information and the edge between a word node and document node is built using word frequency and word 's document frequency ."
+            }
+          }
+        }
+      },
+      "turn" : {
+        "text classification problem" : {
+          "into" : "anode classification problem",
+          "from sentence" : "We then turn text classification problem into anode classification problem ."
+        }
+      }
+    }
+  }
+}

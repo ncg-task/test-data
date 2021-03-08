@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Recurrent Neural Network Grammars", {"from sentence" : "What Do Recurrent Neural Network Grammars Learn About Syntax ?"}],
+    ["Recurrent neural network grammars ( RNNG )", {"from sentence" : "Recurrent neural network grammars ( RNNG ) area recently proposed probabilistic generative modeling family for natural language ."}],
+    ["RNNGs", {"from sentence" : "We focus on RNNGs as generative probabilistic models over trees , as summarized in 2 ."}]
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "single model" : {
+          "is" : {
+            "little bit worse" : {
+              "than" : {
+                "performance" : {
+                  "of" : "simultaneously published models"
+                }
+              },
+              "from sentence" : "mance of our single model is a little bit worse than performance of simultaneously published models ." 
+            }
+          }
+        },
+        "ensemble" : {
+          "of" : {
+            "our models" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : {
+                    "these models" : {
+                      "use" : "pre-trained word embeddings"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "However , ensemble of our models outperforms these models even though they use pre-trained word embeddings ."
+            }
+          }
+        },
+        "On the CNN dataset" : {
+          "has" : {
+            "our single model" : {
+              "with" : "best validation accuracy",
+              "achieves" : {
+                "test accuracy" : {
+                  "of" : "69.5 %"
+                }
+              } 
+            }
+          },
+          "from sentence" : "On the CNN dataset our single model with best validation accuracy achieves a test accuracy of 69.5 % ."
+        },
+        "average performance" : {
+          "of" : "top 20 % models",
+          "has" : {
+            "69.9 %" : {
+              "has" : {
+                "even 0.5 % better" : {
+                  "than" : "single best - validation model"
+                }
+              }
+            }
+          },
+          "from sentence" : "The average performance of the top 20 % models according to validation accuracy is 69.9 % which is even 0.5 % better than the single best - validation model ."
+        }
+      },
+      "Fusing" : {
+        "multiple models" : {
+          "gives" : {
+            "significant further increase" : {
+              "in" : "accuracy",
+              "on" : "CNN and Daily Mail datasets"
+            }
+          },
+          "from sentence" : "Fusing multiple models then gives a significant further increase in accuracy on both CNN and Daily Mail datasets .."
+        }
+      },
+      "In" : {
+        "named entity prediction" : {
+          "has" : {
+            "our best single model" : {
+              "with" : {
+                "accuracy" : {
+                  "of" : {
+                    "68.6 %" : {
+                      "performs" : {
+                        "2 % absolute" : {
+                          "has" : {
+                            "better" : {
+                              "than" : {
+                                "MemNN" : {
+                                  "with" : "self supervision"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "averaging ensemble" : {
+              "performs" : {
+                "4 % absolute" : {
+                  "has" : {
+                    "better" : {
+                      "than" : "best previous result"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In named entity prediction our best single model with accuracy of 68.6 % performs 2 % absolute better than the MemNN with self supervision , the averaging ensemble performs 4 % absolute better than the best previous result ."
+            }
+          }
+        },
+        "common noun prediction" : {
+          "has" : {
+            "our single models" : {
+              "has" : {
+                "0.4 % absolute" : {
+                  "has" : {
+                    "better" : {
+                      "than" : "Mem NN"
+                    }
+                  }
+                }
+              }
+            },
+            "ensemble" : {
+              "has" : {
+                "improves" : {
+                  "has" : {
+                    "performance" : {
+                      "to" : "69 %",
+                      "has" : {
+                        "6 % absolute" : {
+                          "has" : {
+                            "better" : {
+                              "than" : "MemNN"
+                            }
+                          }
+                        } 
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "In common noun prediction our single models is 0.4 % absolute better than Mem NN however the ensemble improves the performance to 69 % which is 6 % absolute better than MemNN ."   
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Model" : {
+      "proposes" : {
+        "unified multi-scale deep CNN" : {
+          "denoted" : "multi -scale CNN ( MS - CNN )",
+          "for" : "fast object detection",
+          "from sentence" : "This work proposes a unified multi-scale deep CNN , denoted the multi -scale CNN ( MS - CNN ) , for fast object detection ."
+        }
+      },
+      "has" : {
+        "this network" : {
+          "consists of" : {
+            "two sub-networks" : {
+              "has" : ["object proposal network", "accurate detection network"],
+              "learned" : "end - to - end",
+              "share" : "computations"
+            },
+            "from sentence" : "Similar to , this network consists of two sub-networks : an object proposal network and an accurate detection network .
+Both of them are learned end - to - end and share computations ."
+
+          }
+        },
+        "complimentary detectors" : {
+          "at" : {
+            "different output layers" : {
+              "has" : {
+                "combined" : {
+                  "to form" : "strong multi-scale detector"
+                }
+              },
+              "from sentence" : "The complimentary detectors at different output layers are combined to form a strong multi-scale detector ."
+            }
+          }
+        }
+      },
+      "to ease" : {
+        "inconsistency" : {
+          "between" : {
+            "sizes" : {
+              "of" : {
+                "objects and receptive fields" : {
+                  "has" : {
+                    "object detection" : {
+                      "performed with" : {
+                        "multiple output layers" : {
+                          "focusing on" : {
+                            "objects" : {
+                              "within" : "certain scale ranges"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "However , to ease the inconsistency between the sizes of objects and receptive fields , object detection is performed with multiple output layers , each focusing on objects within certain scale ranges ( see ) ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "has" : {
+    "Model" : {
+      "aim at" : {
+        "modeling" : {
+          "has" : {
+            "joint disambiguation" : {
+              "of" : {
+                "target text" : {
+                  "as" : "whole"
+                }
+              },
+              "in terms of" : "sequence labeling problem"
+            }
+          },
+          "from sentence" : "In this paper our focus is on supervised WSD , but we depart from previous approaches and adopt a different perspective on the task : instead of framing a separate classification problem for each given word , we aim at modeling the joint disambiguation of the target text as a whole in terms of a sequence labeling problem ."
+        }
+      },
+      "has" : {
+        "design , analyze and compare" : {
+          "experimentally" : {
+            "various neural architectures" : {
+              "of" : "different complexities",
+              "ranging from" : {
+                "single bidirectional Long Short - Term Memory" : {
+                  "to" : "sequence - tosequence approach"
+                }
+              }            
+            }
+          },
+          "from sentence" : "With this in mind , we design , analyze and compare experimentally various neural architectures of different complexities , ranging from a single bidirectional Long Short - Term Memory to a sequence - tosequence approach ."
+        },        
+        "Each architecture" : {
+          "reflects" : {
+            "particular way" : {
+              "of" : {
+                "modeling" : {
+                  "has" : "disambiguation problem"
+                }
+              }
+            }
+          },
+          "trained" : {
+            "end - to - end" : {
+              "from" : {
+                "sense - annotated text" : {
+                  "to" : "sense labels"
+                }
+              }
+            }
+          },
+          "learn" : {
+            "single all - words model" : {
+              "from" : {
+                "training data" : {
+                  "without" : ["fine tuning", {"explicit engineering" : {"of" : "local features"}}]
+                }
+              }
+            }
+          },
+          "from sentence" : "Each architecture reflects a particular way of modeling the disambiguation problem , but they all share some key features that set them apart from previous supervised approaches to WSD : they are trained end - to - end from sense - annotated text to sense labels , and learn a single all - words model from the training data , without fine tuning or explicit engineering of local features ."
+        }
+      }
+    }
+  }
+}

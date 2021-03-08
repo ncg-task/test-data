@@ -1,0 +1,102 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "novel model" : {
+          "has" : {
+            "decomposing and composing" : {
+              "has" : {
+                "lexical semantics" : {
+                  "over" : "sentences"
+                }
+              }
+            }
+          },
+          "from sentence" : "In this paper , we propose a novel model to tackle all these challenges jointly by decomposing and composing lexical semantics over sentences ."
+        }
+      },
+      "Given" : {
+        "sentence pair" : {
+          "has" : {
+            "model" : {
+              "represents" : {
+                "each word" : {
+                  "as" : "low -dimensional vector"
+                }
+              },
+              "calculates" : {
+                "semantic matching vector" : {
+                  "for" : {
+                    "each word" : {
+                      "based on" : {
+                        "all words" : {
+                          "in" : "other sentence"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Given a sentence pair , the model represents each word as a low -dimensional vector ( challenge 1 ) , and calculates a semantic matching vector for each word based on all words in the other sentence ( challenge 2 ) ."
+        }
+      },
+      "based on" : {
+        "semantic matching vector" : {
+          "has" : {
+            "each word vector" : {
+              "decomposed into" : {
+                "two components" : {
+                  "has" : ["similar component", "dissimilar component"]
+                }
+              }
+            }
+          },
+          "from sentence" : "Then based on the semantic matching vector , each word vector is decomposed into two components : a similar component and a dissimilar component ( challenge 3 ) ."
+        }
+      },
+      "use" : {
+        "similar components" : {
+          "of" : "all the words",
+          "to represent" : {
+            "similar parts" : {
+              "of" : "sentence pair"
+            }
+          }
+        },
+        "dissimilar components" : {
+          "of" : "every word",
+          "to model" : {
+            "dissimilar parts" : {
+              "has" : "explicitly"
+            }
+          }
+        },
+        "from sentence" : "We use similar components of all the words to represent the similar parts of the sentence pair , and dissimilar components of every word to model the dissimilar parts explicitly ."
+      },
+      "has" : {
+        "two - channel CNN operation" : {
+          "performed" : {
+            "to compose" : {
+              "has" : {
+                "similar and dissimilar components" : {
+                  "into" : "feature vector"
+                }
+              }
+            }
+          },
+          "from sentence" : "After this , a two - channel CNN operation is performed to compose the similar and dissimilar components into a feature vector ( challenge 2 and 3 ) ."
+        },
+        "composed feature vector" : {
+          "utilized" : {
+            "to predict" : {
+              "has" : "sentence similarity"
+            }
+          },
+          "from sentence" : "Finally , the composed feature vector is utilized to predict the sentence similarity ."
+        }
+      }
+    }
+  }
+}

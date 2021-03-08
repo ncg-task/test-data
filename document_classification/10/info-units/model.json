@@ -1,0 +1,82 @@
+{
+  "has" : {
+    "Model" : {
+      "proposes" : {
+        "Neural Attentive Bagof - Entities ( NABoE ) model" : {
+          "has" : {
+            "neural network model" : {
+              "addresses" : {
+                "text classification problem" : {
+                  "by modeling" : {
+                    "semantics" : {
+                      "in" : "target documents",
+                      "using" : {
+                        "entities" : {
+                          "in" : "KB"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "This study proposes the Neural Attentive Bagof - Entities ( NABoE ) model , which is a neural network model that addresses the text classification problem by modeling the semantics in the target documents using entities in the KB ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "For each" : {
+        "entity name" : {
+          "in" : "document",
+          "has" : {
+            "our model" : {
+              "detects" : {
+                "entities" : {
+                  "referred to by" : "name"
+                }
+              },
+              "represents" : {
+                "document" : {
+                  "using" : {
+                    "weighted average" : {
+                      "of" : {
+                        "embeddings" : {
+                          "of" : "entities"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "For each entity name in a document ( e.g. , \" Apple \" ) , our model first detects entities that maybe referred to by this name ( e.g. , Apple Inc. , Apple ( food ) ) , and then represents the document using the weighted average of the embeddings of these entities ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "weights" : {
+          "computed using" : {
+            "novel neural attention mechanism" : {
+              "that are" : {
+                "less ambiguous" : {
+                  "in" : "meaning"
+                },
+                "more relevant" : {
+                  "to" : "document"
+                }
+              },
+              "from sentence" : "The weights are computed using a novel neural attention mechanism that enables the model to focus on a small subset of the entities that are less ambiguous in meaning and more relevant to the document ."
+            }
+          }
+        },
+        "attention mechanism" : {
+          "to compute" : {
+            "weights" : {
+              "jointly addressing" : "entity linking and entity salience detection tasks"
+            },
+            "from sentence" : "In other words , the attention mechanism is designed to compute weights by jointly addressing entity linking and entity salience detection tasks ."
+          } 
+        }
+      }
+    }
+  }
+}

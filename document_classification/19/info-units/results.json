@@ -1,0 +1,90 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "BLSTM - 2DCNN model" : {
+          "achieves" : {
+            "excellent performance" : {
+              "on" : ["4 out of 6 tasks", {"from sentence" : "Results
+The BLSTM - 2DCNN model achieves excellent performance on 4 out of 6 tasks ."
+              
+              }]
+            },
+            "52.4 % and 89.5 %" : {
+              "has" : {
+                "test accuracies" : {
+                  "on" : ["SST - 1", "SST - 2"]
+                }
+              },
+              "from sentence" : "Especially , it achieves 52.4 % and 89.5 % test accuracies on SST - 1 and SST - 2 respectively ."
+            }
+          }
+        },
+        "BLSTM - 2DPooling" : {
+          "performs" : {
+            "worse" : {
+              "than" : "state - of - the - art models"
+            }
+          },
+          "from sentence" : "BLSTM - 2DPooling performs worse than the state - of - the - art models ."
+        },
+        "BLSTM - CNN" : {
+          "beats" : {
+            "all baselines" : {
+              "on" : ["SST - 1", "SST - 2", "TREC datasets"]
+            }
+          },
+          "from sentence" : "BLSTM - CNN beats all baselines on SST - 1 , SST - 2 , and TREC datasets ."
+        }
+      },
+      "for" : {
+        "Subj and MR datasets" : {
+          "has" : {
+            "BLSTM - 2DCNN" : {
+              "gets" : "second higher accuracies"
+            }
+          },
+          "from sentence" : "As for Subj and MR datasets , BLSTM - 2DCNN gets a second higher accuracies ."
+        }
+      },
+      "Compared with" : {
+        "RCNN" : {
+          "has" : {
+            "BLSTM - 2DCNN" : {
+              "achieves" : "comparable result",
+              "from sentence" : "Compared with RCNN , BLSTM - 2DCNN achieves a comparable result ."
+            }
+          }
+        },
+        "ReNN" : {
+          "has" : {
+            "proposed two models" : {
+              "has" : {
+                "do not depend" : {
+                  "on" : {
+                    "external language - specific features" : {
+                      "such as" : "dependency parse trees"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Compared with ReNN , the proposed two models do not depend on external language - specific features such as dependency parse trees ."
+            }
+          }
+        },
+        "DSCNN" : {
+          "has" : {
+            "BLSTM - 2DCNN" : {
+              "has" : {
+                "outperforms" : {
+                  "on" : "five datasets"
+                }
+              },
+              "from sentence" : "Compared with DSCNN , BLSTM - 2DCNN outperforms it on five datasets ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

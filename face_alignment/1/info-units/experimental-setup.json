@@ -1,0 +1,90 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "Each of our architectures" : {
+          "trained" : {
+            "end - to - end" : {
+              "using" : "RMSProp",
+              "with" : {
+                "initial learning rate" : {
+                  "of" : {
+                    "10 ? 4" : {
+                      "has" : {
+                        "lowered" : {
+                          "after" : {
+                            "40 epochs" : {
+                              "to" : "10 ?5"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Each of our architectures was trained end - to - end using RMSProp with an initial learning rate of 10 ? 4 , which was lowered after 40 epochs to 10 ?5 ."
+            }
+          }
+        },
+        "input samples" : {
+          "adjusted with" : {
+            "colour scaling" : {
+              "on" : "each RGB channel"
+            }
+          },
+          "from sentence" : "Finally , the input samples were adjusted with some colour scaling on each RGB channel ."
+        }
+      },
+      "During" : {
+        "training" : {
+          "has" : {
+            "random augmentation" : {
+              "applied to" : {
+                "each input sample ( face image )" : {
+                  "has" : "corresponding target ( 3D volume )"
+                }
+              }
+            }
+          },
+          "applied" : ["in - plane rotation r", "translation t z , t y", "scale s"],
+          "from sentence" : "During training , random augmentation was applied to each input sample ( face image ) and its corresponding target ( 3D volume ) : we applied in - plane rotation r ? [ ?45 , ... , 45 ] , translation t z , t y ? [ ? 15 , ... , 15 ] and scale s ? [ 0.85 , ... , 1.15 ] jitter ."
+        }
+      },
+      "In" : {
+        "20 % of cases" : {
+          "has" : {
+            "input and target" : {
+              "has" : "flipped horizontally"
+            }
+          },
+          "from sentence" : "In 20 % of cases , the input and target were flipped horizontally ."
+        },
+        "case" : {
+          "of" : {
+            "VRN - Guided" : {
+              "has" : {
+                "landmark detection module" : {
+                  "trained to" : {
+                    "regress" : {
+                      "has" : {
+                        "Gaussians" : {
+                          "with" : {
+                            "standard deviation" : {
+                              "of" : "approximately 3 pixels (? = 1 )"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In the case of the VRN - Guided , the landmark detection module was trained to regress Gaussians with standard deviation of approximately 3 pixels (? = 1 ) ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

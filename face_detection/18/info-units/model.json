@@ -1,0 +1,74 @@
+{
+  "has" : {
+    "Model" : {
+      "presents" : {
+        "advanced CNN based approach" : {
+          "named" : "Contextual Multi - Scale Region - based CNN ( CMS - RCNN )",
+          "to handle" : {
+            "problem" : {
+              "of" : {
+                "face detection" : {
+                  "in" : {
+                    "digital face images" : {
+                      "collected under" : "numerous challenging conditions"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "This paper presents an advanced CNN based approach named Contextual Multi - Scale Region - based CNN ( CMS - RCNN ) to handle the problem of face detection in digital face images collected under numerous challenging conditions , e.g. heavy facial occlusion , illumination , extreme offangle , low - resolution , scale difference , etc ."
+        }
+      },
+      "has" : {
+        "Our designed region - based CNN architecture" : {
+          "allows" : {
+            "network" : {
+              "to simultaneously look at" : "multi-scale features",
+              "to explicitly look outside" : {
+                "facial regions" : {
+                  "as" : "potential body regions"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our designed region - based CNN architecture allows the network to simultaneously look at multi-scale features , as well as to explicitly look outside facial regions as the potential body regions ."
+        },
+        "Our CMS - RCNN method" : {
+          "introduces" : {
+            "Multi - Scale Region Proposal Network ( MS - RPN )" : {
+              "to generate" : [{"set" : {"of" : "region candidates"}}, "Contextual Multi - Scale Convolution Neural Network ( CMS - CNN )"],
+              "to do" : {
+                "inference" : {
+                  "on" : {
+                    "region candidates" : {
+                      "of" : "facial regions"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Our CMS - RCNN method introduces the Multi - Scale Region Proposal Network ( MS - RPN ) to generate a set of region candidates and the Contextual Multi - Scale Convolution Neural Network ( CMS - CNN ) to do inference on the region candidates of facial regions ."
+            }
+          }
+        }
+      },
+      "helps to" : {
+        "synchronize" : {
+          "for" : {
+            "facial representation" : {
+              "has" : {
+                "global semantic features" : {
+                  "in" : "high level layers"
+                },
+                "localization features" : {
+                  "in" : "low level layers"
+                }
+              },
+              "from sentence" : "Additionally this architecture also helps to synchronize both the global semantic features in high level layers and the localization features in low level layers for facial representation ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

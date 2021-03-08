@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Model" : {
+      "develop" : {
+        "our supervised WSD model" : {
+          "leverages" : "Bidirectional Long Short - Term Memory ( BLSTM ) network",
+          "from sentence" : "In this effort , we develop our supervised WSD model that leverages a Bidirectional Long Short - Term Memory ( BLSTM ) network ."
+        }
+      },
+      "works with" : {
+        "neural sense vectors" : {
+          "i.e." : "sense embeddings",
+          "are" : {
+            "learned" : {
+              "during" : "model training"
+            }
+          },
+          "employs" : {
+            "neural word vectors" : {
+              "i.e." : "word embeddings",
+              "are" : {
+                "learned" : {
+                  "through" : {
+                    "unsupervised deep learning approach" : {
+                      "called" : {
+                        "GloVe" : {
+                          "for" : "context words"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "This network works with neural sense vectors ( i.e. sense embeddings ) , which are learned during model training , and employs neural word vectors ( i.e. word embeddings ) , which are learned through an unsupervised deep learning approach called GloVe ( Global Vectors for word representation ) for the context words ."
+        }
+      }
+    }
+  }
+}

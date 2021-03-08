@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["Neural Network Transition - Based Parsing", {"from sentence" : "Structured Training for Neural Network Transition - Based Parsing"}],
+    ["neural network transition - based dependency parsing", {"from sentence" : "We present structured perceptron training for neural network transition - based dependency parsing ."}],
+    ["dependency parsing", {"from sentence" : "Lately , dependency parsing has emerged as a popular approach to this problem due to the availability of dependency treebanks in many languages and the efficiency of dependency parsers ."}],
+    ["transition - based parsing", {"from sentence" : "In transition - based parsing , sentences are processed in a linear left to right pass ; at each position , the parser needs to choose from a set of possible actions defined by the transition strategy ."}]
+  ]
+}

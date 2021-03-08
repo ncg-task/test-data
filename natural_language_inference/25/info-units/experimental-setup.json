@@ -1,0 +1,95 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "choose" : {
+        "K = 4 and N = 2" : {
+          "for" : {
+            "good performance" : {
+              "when" : {
+                "evaluating" : {
+                  "on" : "dev set"
+                }
+              }
+            }
+          },
+          "from sentence" : "We choose K = 4 and N = 2 for the good performance when evaluating on the dev set ."
+        }
+      },
+      "has" : {
+        "multi-task deep attention framework" : {
+          "adopt" : {
+            "Adam optimizer" : {
+              "for" : "training",
+              "with" : {
+                "mini-batch size" : {
+                  "of" : "32"
+                },
+                "initial learning rate" : {
+                  "of" : "0.0005"
+                }
+              }
+            }
+          },
+          "from sentence" : "For the multi-task deep attention framework , we adopt the Adam optimizer for training , with a mini-batch size of 32 and initial learning rate of 0.0005 ."
+        },
+        "word embeddings" : {
+          "has" : {
+            "fixed" : {
+              "during" : "training"
+            }
+          },
+          "from sentence" : "The word embeddings are fixed during training ."
+        },
+        "hidden size" : {
+          "of" : "LSTM",
+          "set as" : {
+            "150" : {
+              "for" : "TriviaQA"
+            },
+            "128" : {
+              "for" : "DuReader"
+            }
+          },
+          "from sentence" : "The hidden size of LSTM is set as 150 for TriviaQA and 128 for DuReader ."
+        },
+        "task - specific hyper - parameters" : {
+          "set as" : "? 1 = ? 2 = 0.5"
+        },
+        "Regularization parameter" : {
+          "set as" : {
+            "small value" : {
+              "of" : "0.01"
+            },
+            "from sentence" : "The task - specific hyper - parameters ? 1 and ? 2 in Equ. 15 are set as ? 1 = ? 2 = 0.5 . Regularization parameter ? in Equ.
+16 is set as a small value of 0.01 ."
+
+          }
+        },
+        "All models" : {
+          "trained on" : {
+            "Nvidia Tesla M40 GPU" : {
+              "with" : "Cudnn LSTM cell",
+              "in" : "Tensorflow 1.3",
+              "from sentence" : "All models are trained on Nvidia Tesla M40 GPU with Cudnn LSTM cell in Tensorflow 1.3 ."
+            }
+          }
+        }
+      },
+      "use" : {
+        "GloVe 300 dimensional word embeddings" : {
+          "in" : "TriviaQA",
+          "train" : {
+            "word2 vec word embeddings" : {
+              "with" : {
+                "whole DuReader corpus" : {
+                  "for" : "DuReader"
+                }
+              }
+            }
+          },
+          "from sentence" : "We use the GloVe 300 dimensional word embeddings in TriviaQA and train a word2 vec word embeddings with the whole DuReader corpus for DuReader ."
+        }
+      }
+    }
+  }
+}

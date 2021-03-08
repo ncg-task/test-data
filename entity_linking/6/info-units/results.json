@@ -1,0 +1,133 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "English all - words results" : {
+          "has" : {
+            "GAS and GAS ext" : {
+              "achieves" : {
+                "state - of - theart performance" : {
+                  "on" : {
+                    "concatenation" : {
+                      "of" : "all test datasets"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "English all - words results
+GAS and GAS ext achieves the state - of - theart performance on the concatenation of all test datasets ."
+
+        },
+        "our best model" : {
+          "beat" : {
+            "IMS + emb" : {
+              "on" : "SE3 , SE13 and SE15 test sets"
+            },
+            "from sentence" : "However , our best model can also beat IMS + emb on the SE3 , SE13 and SE15 test sets ."
+          }
+        }
+      },
+      "performs" : {
+        "best" : {
+          "on" : "all the test sets"
+        }
+      },
+      "find" : {
+        "GAS ext" : {
+          "with" : {
+            "concatenation memory updating strategy" : {
+              "achieves" : {
+                "best results" : {
+                  "has" : "70.6",
+                  "on" : {
+                    "concatenation" : {
+                      "of" : "four test datasets"
+                    }
+                  }
+                }
+              },
+              "from sentence" : ". ways performs best on all the test sets 11 , we can find that GAS ext with concatenation memory updating strategy achieves the best results 70.6 on the concatenation of the four test datasets ."
+            }
+          }
+        }
+      },
+      "find that" : {
+        "our best model" : {
+          "has" : {
+            "outperforms" : {
+              "has" : {
+                "previous best neural network models" : {
+                  "on" : "every individual test set"
+                }
+              }
+            }
+          },
+          "from sentence" : "Compared with other three neural - based methods in the fourth block , we can find that our best model outperforms the previous best neural network models on every individual test set ."
+        }
+      },
+      "Incorporating" : {
+        "glosses" : {
+          "into" : "neural WSD",
+          "has" : {
+            "greatly improve" : {
+              "has" : "performance"
+            }
+          }
+        }
+      },
+      "extending" : {
+        "original gloss" : {
+          "has" : {
+            "further boost" : {
+              "has" : "results"
+            }
+          }
+        },
+        "from sentence" : "Incorporating glosses into neural WSD can greatly improve the performance and extending the original gloss can further boost the results ."
+      },
+      "Compared with" : {
+        "Bi - LSTM baseline" : {
+          "has" : {
+            "our proposed model" : {
+              "has" : {
+                "greatly improves" : {
+                  "has" : "WSD task",
+                  "by" : {
+                    "2.2 % F1 - score" : {
+                      "with" : "gloss knowledge"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Compared with the Bi - LSTM baseline which only uses labeled data , our proposed model greatly improves the WSD task by 2.2 % F1 - score with the help of gloss knowledge ."
+        }
+      },
+      "compared with" : {
+        "GAS" : {
+          "has" : {
+            "GAS ext" : {
+              "has" : {
+                "further improve" : {
+                  "has" : {
+                    "performance" : {
+                      "with the help of" : {
+                        "extended glosses" : {
+                          "through" : "semantic relations"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Furthermore , compared with the GAS which only uses original gloss as the background knowledge , GAS ext can further improve the performance with the help of the extended glosses through the semantic relations ."
+        }
+      }
+    }
+  }
+}

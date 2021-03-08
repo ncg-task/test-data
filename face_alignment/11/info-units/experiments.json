@@ -1,0 +1,73 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Neutral Pose Reconstruction on MICC" : {
+              "has" : {
+                "Our results" : {
+                  "has" : {
+                    "improved absolute error" : {
+                      "to" : "ground truth",
+                      "by" : "20 - 25 %"
+                    }
+                  },
+                  "from sentence" : "Neutral Pose Reconstruction on MICC
+Our results indicate that we have improved absolute error to the ground truth by 20 - 25 % , and our results are more consistent from person to person , with less than half the standard deviation when compared to ."
+
+                },
+                "more stable" : {
+                  "across" : "changing environments",
+                  "from sentence" : "We are also more stable across changing environments , with similar results for all three test sets ."
+                }
+              }
+            },
+            "Face Recognition Results" : {
+              "has" : {
+                "Our method" : {
+                  "achieves" : {
+                    "average similarity" : {
+                      "between" : {
+                        "rendering and photo" : {
+                          "of" : {
+                            "0.403" : {
+                              "on" : "MoFA test"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "from sentence" : "Face Recognition Results
+Our method achieves an average similarity between rendering and photo of 0.403 on MoFA test ( the dataset for which results for all methods are available ) ."
+
+                  }
+                },
+                "Our method 's results" : {
+                  "closer to" : {
+                    "same - person distribution" : {
+                      "than" : "differentperson distribution"
+                    },
+                    "from sentence" : "Our method 's results are closer to the same - person distribution than the differentperson distribution in all cases , while the other methods results ' are closer to the different - person distribution ."
+                  }
+                },
+                "distance" : {
+                  "between" : {
+                    "GT distribution and the same - person LFW distribution" : {
+                      "has" : {
+                        "very low" : {
+                          "with" : "same mean"
+                        }
+                      },
+                      "from sentence" : "Notably , the distance between the GT distribution and the same - person LFW distribution is very low , with almost the same mean ( 0.51 vs 0.50 ) , indicating the VGG - Face network has little trouble bridging the domain gap between photograph and rendering , and that our method does not yet reach the ground - truth baseline ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

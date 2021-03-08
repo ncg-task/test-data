@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "proposed model" : {
+          "namely" : "Knowledge - based Inference Model ( KIM )",
+          "enriches" : {
+            "ESIM" : {
+              "with" : "external knowledge"
+            }
+          },
+          "obtains" : {
+            "accuracy" : {
+              "of" : "88.6 %"
+            }
+          },
+          "from sentence" : "The proposed model , namely Knowledge - based Inference Model ( KIM ) , which enriches ESIM with external knowledge , obtains an accuracy of 88.6 % , the best single - model performance reported on the SNLI dataset ."
+        },
+        "difference" : {
+          "between" : {
+            "ESIM and KIM" : {
+              "has" : {
+                "statistically significant" : {
+                  "under" : {
+                    "one - tailed paired t- test" : {
+                      "at" : "99 % significance level"
+                    }
+                  },
+                  "from sentence" : "The difference between ESIM and KIM is statistically significant under the one - tailed paired t- test at the 99 % significance level ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "on" : {
+        "MultiNLI dataset" : {
+          "has" : {
+            "baseline ESIM" : {
+              "achieves" : {
+                "76.8 % and 75.8 %" : {
+                  "on" : "in - domain and cross - domain test set"
+                }
+              },
+              "from sentence" : "shows the performance of models on the MultiNLI dataset .
+The baseline ESIM achieves 76.8 % and 75.8 % on in - domain and cross - domain test set , respectively ."
+
+            }
+          },
+          "extend" : {
+            "ESIM" : {
+              "with" : "external knowledge",
+              "achieve" : {
+                "significant gains" : {
+                  "to" : "77.2 % and 76.4 %"
+                }
+              },
+              "from sentence" : "If we extend the ESIM with external knowledge , we achieve significant gains to 77.2 % and 76.4 % respectively ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

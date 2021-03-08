@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["TRACKING THE WORLD STATE", {"from sentence" : "TRACKING THE WORLD STATE WITH RECURRENT ENTITY NETWORKS"}],
+    ["simple story understanding scenario", {"from sentence" : "In this paper , we investigate this problem through a simple story understanding scenario , in which the agent is given a sequence of textual statements and events , and then given another series of statements about the final state of the world ."}]
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "has" : {
+    "Experiments" : {
+      "compare" : {
+        "face detector and alignment" : {
+          "against" : {
+            "state - of - the - art methods" : {
+              "in" : ["Face Detection Data Set and Benchmark ( FDDB )", "WIDER FACE", "Annotated Facial Landmarks in the Wild ( AFLW ) benchmark"]
+            }
+          },
+          "from sentence" : "Then we compare our face detector and alignment against the state - of - the - art methods in Face Detection Data Set and Benchmark ( FDDB ) , WIDER FACE , and Annotated Facial Landmarks in the Wild ( AFLW ) benchmark ."
+        }
+      },      
+      "has" : {
+        "effectiveness" : {
+          "of" : {
+            "online hard sample mining" : {
+              "has" : {
+                "very clear" : {
+                  "has" : {
+                    "hard sample mining" : {
+                      "beneficial to" : "performance improvement"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The effectiveness of online hard sample mining
+It is very clear that the hard sample mining is beneficial to performance improvement ."
+
+            },
+            "joint detection and alignment" : {
+              "suggests" : {
+                "joint landmarks localization task learning" : {
+                  "beneficial for" : "face classification and bounding box regression tasks"
+                }
+              },
+              "from sentence" : "The effectiveness of joint detection and alignment
+We also compare the performance of bounding box regression in these two O - Nets. suggests that joint landmarks localization task learning is beneficial for both face classification and bounding box regression tasks ."
+
+            }
+          }
+        }
+      },
+      "on" : {
+        "face detection" : {
+          "has" : {
+            "consistently outperforms" : {
+              "has" : {
+                "all the previous approaches" : {
+                  "by" : {
+                    "large margin" : {
+                      "in" : "benchmarks"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "D. Evaluation on face detection
+( a ) - ( d ) shows that our method consistently outperforms all the previous approaches by a large margin in both the benchmarks ."
+
+        },
+        "face alignment" : {
+          "has" : {
+            "outperforms" : {
+              "has" : "all the state - of - the - art methods",
+              "with" : "margin"
+            }
+          },
+          "from sentence" : "Evaluation on face alignment
+( e ) shows that our method outperforms all the state - of - the - art methods with a margin ."
+
+        }
+      }      
+    }
+  }
+}

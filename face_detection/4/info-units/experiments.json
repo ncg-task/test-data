@@ -1,0 +1,114 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "FDDB dataset" : {
+              "has" : {
+                "DSFD , Pyramid Box , S3FD and SSH" : {
+                  "achieve" : {
+                    "high accuracy" : {
+                      "with" : "marginal gaps"
+                    }
+                  },
+                  "from sentence" : "FDDB dataset .
+DSFD , Pyramid Box , S3FD and SSH can achieve high accuracy with marginal gaps ."
+
+                },
+                "proposed LFFD" : {
+                  "gains" : {
+                    "slightly lower accuracy" : {
+                      "than" : "first four methods"
+                    }
+                  },
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "FaceBoxes"
+                    }
+                  },
+                  "from sentence" : "The proposed LFFD gains slightly lower accuracy than the first four methods , but outperforms FaceBoxes evidently ."
+                },
+                "LFFD" : {
+                  "has" : {
+                    "superior" : {
+                      "for detecting" : "unconstrained faces",
+                      "from sentence" : "The results indicate that LFFD is superior for detecting unconstrained faces ."
+                    }
+                  }
+                }
+              }
+            },
+            "WIDER FACE dataset" : {
+              "has" : {
+                "performance drop" : {
+                  "evident for" : ["DSFD", "PyramidBox", "S3FD and SSH"],
+                  "from sentence" : "WIDER FACE dataset .
+Firstly , performance drop is evident for DSFD , PyramidBox , S3FD and SSH compared to their original results ."
+
+                },
+                "Pyramid Box" : {
+                  "obtains" : {
+                    "best results" : {
+                      "on" : "Hard parts"
+                    }
+                  }
+                },
+                "performance" : {
+                  "of" : {
+                    "SSH" : {
+                      "on" : "Hard parts",
+                      "has" : {
+                        "decreased dramatically" : {
+                          "due to" : "neglect of some tiny faces"
+                        }
+                      },
+                      "from sentence" : "Secondly , Pyramid Box obtains the best results on Hard parts , whereas the performance of SSH on Hard parts is decreased dramatically mainly due to the neglect of some tiny faces ."
+                    }
+                  }
+                },
+                "FaceBoxes" : {
+                  "not get" : {
+                    "desirable results" : {
+                      "on" : "Medium and Hard parts",
+                      "from sentence" : "Thirdly , FaceBoxes does not get desirable results on Medium and Hard parts ."
+                    }
+                  }
+                },
+                "proposed method LFFD" : {
+                  "has" : {
+                    "consistently outperforms" : {
+                      "has" : "Face - Boxes"
+                    }
+                  },
+                  "having" : {
+                    "gaps" : {
+                      "with" : "state of the art methods"
+                    }
+                  },
+                  "from sentence" : "Fourthly , the proposed method LFFD consistently outperforms Face - Boxes , although having gaps with state of the art methods ."
+                },
+                "LFFD" : {
+                  "better than" : {
+                    "SSH" : {
+                      "uses" : {
+                        "VGG16" : {
+                          "as" : {
+                            "backbone" : {
+                              "on" : "Hard parts"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "from sentence" : "Additionally , LFFD is better than SSH that uses VGG16 as the backbone on Hard parts ."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

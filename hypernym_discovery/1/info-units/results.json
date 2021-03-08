@@ -1,0 +1,75 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Convolution or recurrent gated mechanisms" : {
+          "in" : ["CNN - based ( CNN , RCNN )", "RNN ( GRU , LSTM ) based neural networks"],
+          "helpful of" : {
+            "modeling" : {
+              "has" : {
+                "semantic connections" : {
+                  "between" : {
+                    "words" : {
+                      "in" : "phrase"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "guide" : {
+            "networks" : {
+              "to discover" : "hypernym relationships"
+            }
+          },
+          "from sentence" : "Convolution or recurrent gated mechanisms in either CNN - based ( CNN , RCNN ) or RNN ( GRU , LSTM ) based neural networks could essentially be helpful of modeling the semantic connections between words in a phrase , and guide the networks to discover the hypernym relationships ."
+        }
+      },
+      "observe" : {
+        "CNN - based network performance" : {
+          "has" : {
+            "better" : {
+              "than" : "RNN - based"
+            }
+          },
+          "from sentence" : "We also observe CNN - based network performance is better than RNN - based , which indicates local features between words could be more important than long - term dependency in this task where the term length is up to trigrams ."
+        }
+      },
+      "investigate" : {
+        "performance" : {
+          "of" : {
+            "neural models" : {
+              "on" : {
+                "specific domains" : {
+                  "conduct" : {
+                    "experiments" : {
+                      "on" : "medical and medicine subtask"
+                    }
+                  },
+                  "has" : {
+                    "outperform" : {
+                      "has" : "term embedding"
+                    },
+                    "from sentence" : "To investigate the performance of neural models on specific domains , we conduct experiments on medical and medicine subtask .
+All the neural models outperform term embedding averaging in terms of all the metrics and CNN - based network also performs better than RNN - based ones in most of the metrics using word embedding , which verifies our hypothesis in the general - purpose task ."
+
+                  },
+                  "Compared with" : {
+                    "word embedding" : {
+                      "has" : {
+                        "sense embedding" : {
+                          "shows" : "much poorer result"
+                        }
+                      },
+                      "from sentence" : "Compared with word embedding , the sense embedding shows a much poorer result though they work closely in generalpurpose subtask ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

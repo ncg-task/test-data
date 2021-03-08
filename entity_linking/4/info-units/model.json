@@ -1,0 +1,137 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "Neural Text - Entity Encoder ( NTEE )" : {
+          "has" : "neural network model",
+          "to jointly learn" : {
+            "distributed representations" : {
+              "of" : ["texts ( i.e. , sentences and paragraphs )", "KB entities"]
+            }
+          },
+          "from sentence" : "In particular , we propose Neural Text - Entity Encoder ( NTEE ) , a neural network model to jointly learn distributed representations of texts ( i.e. , sentences and paragraphs ) and KB entities ."
+        }
+      },
+      "For" : {
+        "every text" : {
+          "in" : "KB",
+          "has" : {
+            "our model" : {
+              "predict" : "relevant entities",
+              "places" : {
+                "text and the relevant entities" : {
+                  "has" : {
+                    "close" : {
+                      "to" : "each other",
+                      "in" : "continuous vector space"
+                    }
+                  }
+                },
+                "from sentence" : "For every text in the KB , our model aims to predict its relevant entities , and places the text and the relevant entities close to each other in a continuous vector space ."
+              }
+            }
+          }
+        }
+      },
+      "use" : {
+        "humanedited entity annotations" : {
+          "obtained from" : {
+            "Wikipedia" : {
+              "as" : {
+                "supervised data" : {
+                  "of" : {
+                    "relevant entities" : {
+                      "to" : {
+                        "texts" : {
+                          "containing" : "these annotations"
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "We use humanedited entity annotations obtained from Wikipedia ( see ) as supervised data of relevant entities to the texts containing these annotations ."
+              }
+            }
+          }
+        }
+      },
+      "has" : {
+        "KB entities" : {
+          "has" : {
+            "conventionally used" : {
+              "to model" : {
+                "semantics" : {
+                  "of" : "texts"
+                }
+              }
+            }
+          },
+          "from sentence" : "Note that , KB entities have been conventionally used to model semantics of texts ."
+        },
+        "representative example" : {
+          "has" : {
+            "Explicit Semantic Analysis ( ESA )" : {
+              "represents" : {
+                "semantics" : {
+                  "of" : "text",
+                  "using" : {
+                    "sparse vector space" : {
+                      "has" : {
+                        "each dimension" : {
+                          "corresponds to" : {
+                            "relevance score" : {
+                              "of" : {
+                                "text" : {
+                                  "to" : "each entity"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "A representative example is Explicit Semantic Analysis ( ESA ) , which represents the semantics of a text using a sparse vector space , where each dimension corresponds to the relevance score of the text to each entity ."              
+            },
+            "ESA" : {
+              "shows" : {
+                "text" : {
+                  "has" : {
+                    "accurately represented" : {
+                      "using" : {
+                        "small set" : {
+                          "of" : "relevant entities"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Essentially , ESA shows that text can be accurately represented using a small set of its relevant entities ."
+                }
+              }
+            }
+          },
+          "placing" : {
+            "texts and entities" : {
+              "into" : {
+                "same vector space" : {
+                  "enables" : {
+                    "easily compute" : {
+                      "has" : {
+                        "similarity" : {
+                          "between" : "texts and entities"
+                        }
+                      }
+                    }
+                  }                  
+                }
+              },
+              "from sentence" : "Furthermore , we also consider that placing texts and entities into the same vector space enables us to easily compute the similarity between texts and entities , which can be beneficial for various KB - related tasks ."
+            }
+          } 
+        }
+      }
+    }
+  }
+}

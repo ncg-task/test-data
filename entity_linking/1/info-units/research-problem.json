@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Named Entity Disambiguation", {"from sentence" : "Pre-training of Deep Contextualized Embeddings of Words and Entities for Named Entity Disambiguation"}],
+    ["named entity disambiguation ( NED )", {"from sentence" : "In this paper , we propose a new contextualized embedding model of words and entities for named entity disambiguation ( NED ) ."}],
+    ["NED", {"from sentence" : "We evaluated our model by addressing NED using a simple NED model based on the trained contextualized embeddings ."}]
+  ]
+}

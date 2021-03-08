@@ -1,0 +1,40 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "performance" : {
+          "of" : {
+            "MS - CNN detector" : {
+              "evaluated on" : "KITTI and Caltech Pedestrian benchmarks",
+              "from sentence" : "The performance of the MS - CNN detector was evaluated on the KITTI and Caltech Pedestrian benchmarks ."
+            }
+          }
+        },
+        "All times" : {
+          "reported for" : {
+            "implementation" : {
+              "on" : {
+                "single CPU core ( 2.40 GHz )" : {
+                  "of" : {
+                    "Intel Xeon E5 - 2630 server" : {
+                      "with" : {
+                        "64 GB" : {
+                          "of" : "RAM"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "All times are reported for implementation on a single CPU core ( 2.40 GHz ) of an Intel Xeon E5 - 2630 server with 64 GB of RAM ."
+                }
+              }
+            }
+          }
+        },
+        "NVIDIA Titan GPU" : {
+          "used for" : "CNN computations",
+          "from sentence" : "An NVIDIA Titan GPU was used for CNN computations ."
+        }
+      }      
+    }
+  }
+}

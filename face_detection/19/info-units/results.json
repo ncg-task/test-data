@@ -1,0 +1,34 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "FDNet1.0" : {
+          "on" : {
+            "validation set" : {
+              "wins" : {
+                "two 1st places" : {
+                  "has" : {
+                    "easy set" : {
+                      "has" : "95.9 %"
+                    },
+                    "medium set" : {
+                      "has" : "94.5 %"
+                    }
+                  }
+                },
+                "one 2nd place" : {
+                  "has" : {
+                    "hard set" : {
+                      "has" : "87.9 %"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Compared with the recently published top approaches , FDNet1.0 wins two 1st places ( easy set = 95.9 % , medium set = 94.5 % ) and one 2nd place ( hard set = 87.9 % ) on the validation set , as illustrated in ."
+            }
+          }
+        }
+      }      
+    }
+  }
+}

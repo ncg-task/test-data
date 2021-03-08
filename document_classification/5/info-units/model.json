@@ -1,0 +1,31 @@
+{
+  "has" : {
+    "Model" : {
+      "presents" : {
+        "new approach" : {
+          "to" : "hierarchical document classification",
+          "call" : "Hierarchical Deep Learning for Text classification ( HDLTex )",
+          "from sentence" : "This paper presents a new approach to hierarchical document classification that we call Hierarchical Deep Learning for Text classification ( HDLTex ) ."
+        }
+      },
+      "has" : {
+        "HDLTex" : {
+          "combines" : {
+            "deep learning architectures" : {
+              "to allow" : {
+                "over all and specialized learning" : {
+                  "by" : {
+                    "level" : {
+                      "of" : "document hierarchy"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "HDLTex combines deep learning architectures to allow both over all and specialized learning by level of the document hierarchy ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

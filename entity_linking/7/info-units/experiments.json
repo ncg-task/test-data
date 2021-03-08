@@ -1,0 +1,260 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Sem Eval Tasks" : {
+              "has" : {
+                "Our proposed algorithms" : {
+                  "achieve" : {
+                    "highest all - words F 1 scores" : {
+                      "except for" : "Sem - Eval 2013"
+                    }
+                  },
+                  "from sentence" : "Sem Eval Tasks
+Our proposed algorithms achieve the highest all - words F 1 scores except for Sem - Eval 2013 ."
+
+                },
+                "Unified WSD" : {
+                  "has" : {
+                    "highest F 1 score" : {
+                      "on" : "Nouns ( Sem - Eval - 7 Coarse )"
+                    },
+                    "our algorithms" : {
+                      "has" : {
+                        "outperform" : {
+                          "has" : {
+                            "Unified WSD" : {
+                              "on" : "other part - of - speech tags"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Unified WSD has the highest F 1 score on Nouns ( Sem - Eval - 7 Coarse ) , but our algorithms outperform Unified WSD on other part - of - speech tags ."
+                }
+              }
+            },
+            "Word2 Vec vectors Vs. LSTM" : {
+              "performs" : {
+                "similar" : {
+                  "has" : "IMS + Word2 Vec ( T: SemCor )"
+                },
+                "from sentence" : "Word2 Vec vectors Vs. LSTM
+It performs similar to IMS + Word2 Vec ( T: SemCor ) , a SVM - based classifier studied in ."                
+              },
+              "shows" : {
+                "LSTM classifier" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "Word2 Vec classifier",
+                      "across" : "board"
+                    }
+                  },
+                  "from sentence" : "shows that the LSTM classifier outperforms the Word2 Vec classifier across the board ."
+                }
+              }
+            },
+            "Sem Cor Vs. OMSTI" : {
+              "has" : {
+                "LSTM classifier" : {
+                  "trained with" : {
+                    "OMSTI" : {
+                      "performs" : {
+                        "worse" : {
+                          "than" : {
+                            "trained" : {
+                              "with" : "SemCor"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Sem Cor Vs. OMSTI
+Contrary to the results observed in , the LSTM classifier trained with OMSTI performs worse than that trained with SemCor ."
+
+                },
+                "SVM classifier" : {
+                  "able to learn" : {
+                    "model" : {
+                      "copes with" : "noise"
+                    }
+                  },
+                  "has" : {
+                    "our naive nearest neighbor classifiers" : {
+                      "do not have" : "learned model",
+                      "deal" : {
+                        "less well" : {
+                          "with" : "noisy labels"
+                        }
+                      }
+                    },
+                    "from sentence" : "While the SVM classifier studied in maybe able to learn a model which copes with this noise , our naive nearest neighbor classifiers do not have a learned model and deal less well with noisy labels ."
+                  }
+                }
+              }
+            },
+            "NOAD Eval" : {
+              "has" : {
+                "LSTM classifier" : {
+                  "has" : {
+                    "Most frequent sense" : {
+                      "has" : {
+                        "LSTM" : {
+                          "has" : {
+                            "outperforms" : {
+                              "has" : "Word2Vec",
+                              "by" : {
+                                "more than 10 % overall words" : {
+                                  "has" : {
+                                    "most of the gains" : {
+                                      "from" : "verbs and adverbs"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "NOAD Eval
+LSTM classifier
+Most frequent sense :
+LSTM outperforms Word2Vec by more than 10 % overall words , where most of the gains are from verbs and adverbs ."
+
+                    },
+                    "Change of training data" : {
+                      "has" : {
+                        "SemCor ( or MASC ) trained classifier" : {
+                          "on" : {
+                            "par" : {
+                              "with" : {
+                                "NOAD trained classifier" : {
+                                  "on" : "F1 score"
+                                }
+                              }
+                            }
+                          },
+                          "from sentence" : "Change of training data
+The SemCor ( or MASC ) trained classifier is on a par with the NOAD trained classifier on F1 score ."
+
+                        }
+                      }
+                    },
+                    "Change of language model capacity" : {
+                      "balance" : {
+                        "accuracy and resource usage" : {
+                          "use" : {
+                            "second best LSTM model ( h = 2048 and p = 512 )" : {
+                              "by" : "default"
+                            }
+                          },
+                          "from sentence" : "Change of language model capacity
+To balance the accuracy and resource usage , we use the second best LSTM model ( h = 2048 and p = 512 ) by default ."
+
+                        }
+                      }
+                    }
+                  }
+                },
+                "Semi-supervised WSD" : {
+                  "has" : {
+                    "LP" : {
+                      "did not yield" : {
+                        "clear benefits" : {
+                          "using" : "Word2 Vec language model"
+                        }
+                      },
+                      "from sentence" : "Semi-supervised WSD
+As can be observed from , LP did not yield clear benefits when using the Word2 Vec language model ."
+
+                    },
+                    "Change of seed data" : {
+                      "has" : {
+                        "LP" : {
+                          "has" : {
+                            "substantially improves" : {
+                              "has" : "classifier F1",
+                              "when" : {
+                                "training datasets" : {
+                                  "are" : ["SemCor + NOAD", "MASC + NOAD"]
+                                }
+                              },
+                              "from sentence" : "Change of seed data :
+As can be seen in , LP substantially improves classifier F1 when the training datasets are SemCor + NOAD or MASC + NOAD ."
+
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "Change of graph density" : {
+                      "construct" : {
+                        "LP graph" : {
+                          "by connecting" : {
+                            "two nodes" : {
+                              "if" : {
+                                "affinity" : {
+                                  "has" : "above 95 % percentile"
+                                }
+                              },
+                              "from sentence" : "Change of graph density :
+By default , we construct the LP graph by connecting two nodes if their affinity is above 95 % percentile ."
+
+                            }
+                          }
+                        }
+                      },
+                      "has" : {
+                        "F1 scores" : {
+                          "has" : {
+                            "relatively stable" : {
+                              "when" : {
+                                "percentile" : {
+                                  "ranges between" : "85 to 98"
+                                }
+                              }
+                            },
+                            "decrease" : {
+                              "when" : {
+                                "percentile" : {
+                                  "drops to" : "80"
+                                }
+                              }
+                            },
+                            "from sentence" : "The F1 scores are relatively stable when the percentile ranges between 85 to 98 , but decrease when the percentile drops to 80 ."
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "see" : {
+                    "significant improvements" : {
+                      "has" : {
+                        "6.3 % increase" : {
+                          "on" : "SemCor"
+                        },
+                        "7.3 % increase" : {
+                          "on" : "MASC"
+                        }
+                      },
+                      "using" : {
+                        "LP" : {
+                          "with" : "LSTM language model"
+                        }
+                      },
+                      "from sentence" : "We did see significant improvements , 6.3 % increase on SemCor and 7.3 % increase on MASC , using LP with the LSTM language model ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

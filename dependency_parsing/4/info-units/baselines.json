@@ -1,0 +1,7 @@
+{
+  "has" : {
+    "Baselines" : {
+      "re-implemented" : ["graph - based Deep Biaffine ( BIAF ) parser", {"from sentence" : "For fair comparison of the parsing performance , we re-implemented the graph - based Deep Biaffine ( BIAF ) parser , which achieved state - of - the - art results on a wide range of languages ."}]
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "has" : {
+    "Approach" : {
+      "propose" : {
+        "deep , end - to - end , neural comprehension model" : {
+          "call" : "EpiReader",
+          "from sentence" : "We propose a deep , end - to - end , neural comprehension model that we call the EpiReader ."
+        }
+      },
+      "factors into" : {
+        "two components" : {
+          "has" : {
+            "first component" : {
+              "extracts" : {
+                "small set of potential answers" : {
+                  "based on" : {
+                    "shallow comparison" : {
+                      "of" : "question with its supporting text"
+                    }
+                  }
+                }
+              },
+              "call" : "Extractor",
+              "from sentence" : "The EpiReader factors into two components .
+The first component extracts a small set of potential answers based on a shallow comparison of the question with its supporting text ; we call this the Extractor ."
+
+            },
+            "second component" : {
+              "reranks" : {
+                "proposed answers" : {
+                  "based on" : {
+                    "deeper semantic comparisons" : {
+                      "with" : "text"
+                    }
+                  }
+                }
+              },
+              "call" : "Reasoner",
+              "from sentence" : "The second component reranks the proposed answers based on deeper semantic comparisons with the text ; we call this the Reasoner ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "semantic comparisons" : {
+          "implemented by" : "Reasoner",
+          "based on" : {
+            "concept" : {
+              "of" : "recognizing textual entailment ( RTE )"
+            }
+          },
+          "known as" : "natural language inference",
+          "from sentence" : "The semantic comparisons implemented by the Reasoner are based on the concept of recognizing textual entailment ( RTE ) , also known as natural language inference ."
+        },
+        "Extractor" : {
+          "serves" : {
+            "important function" : {
+              "of" : {
+                "filtering" : {
+                  "has" : {
+                    "large set of potential answers" : {
+                      "down to" : {
+                        "small , tractable set" : {
+                          "of" : "likely candidates",
+                          "for" : "more thorough testing"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Thus , the Extractor serves the important function of filtering a large set of potential answers down to a small , tractable set of likely candidates for more thorough testing ."
+            }
+          },
+          "follows" : {
+            "form" : {
+              "of" : "pointer network"
+            }
+          },
+          "uses" : {
+            "differentiable attention mechanism" : {
+              "to indicate" : {
+                "words" : {
+                  "in" : "text",
+                  "potentially answer" : "question"
+                }
+              },
+              "from sentence" : "The Extractor follows the form of a pointer network , and uses a differentiable attention mechanism to indicate words in the text that potentially answer the question ."
+            }
+          },
+          "outputs" : {
+            "small set" : {
+              "of" : {
+                "answer candidates" : {
+                  "along with" : {
+                    "estimated probabilities" : {
+                      "of" : "correctness"
+                    }
+                  },
+                  "from sentence" : "The Extractor outputs a small set of answer candidates along with their estimated probabilities of correctness ."
+                }
+              }
+            }
+          }
+        },
+        "Reasoner" : {
+          "forms" : {
+            "hypotheses" : {
+              "by inserting" : {
+                "candidate answers" : {
+                  "into" : "question"
+                }
+              },
+              "estimates" : {
+                "concordance" : {
+                  "of" : "each hypothesis",
+                  "with" : {
+                    "each sentence" : {
+                      "in" : "supporting text"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The Reasoner forms hypotheses by inserting the candidate answers into the question , then estimates the concordance of each hypothesis with each sentence in the supporting text ."
+            }
+          }
+        }
+      },
+      "used ( on it s own ) for" : {
+        "question answering" : {
+          "with" : "Attention Sum Reader",
+          "from sentence" : "This approach was used ( on it s own ) for question answering with the Attention Sum Reader ."
+        }
+      },
+      "use" : {
+        "these estimates" : {
+          "as" : {
+            "measure" : {
+              "of" : {
+                "evidence" : {
+                  "for" : "hypothesis"
+                }
+              }
+            }
+          }
+        }
+      },
+      "aggregate" : {
+        "evidence" : {
+          "overall" : "sentences"
+        },
+        "from sentence" : "We use these estimates as a measure of the evidence for a hypothesis , and aggregate evidence overall sentences ."
+      },
+      "combine" : {
+        "Reasoner 's evidence" : {
+          "with" : "Extractor 's probability estimates",
+          "to produce" : {
+            "final ranking" : {
+              "of" : "answer candidates"
+            }
+          },
+          "from sentence" : "In the end , we combine the Reasoner 's evidence with the Extractor 's probability estimates to produce a final ranking of the answer candidates ."
+        }
+      }
+    }
+  }
+}

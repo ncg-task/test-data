@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Unconstrained Face Detection", {"from sentence" : "CMS- RCNN : Contextual Multi- Scale Region - based CNN for Unconstrained Face Detection"}],
+    ["Robust face detection in the wild", {"from sentence" : "Robust face detection in the wild is one of the ultimate components to support various facial related problems , i.e. unconstrained face recognition , facial periocular recognition , facial landmarking and pose estimation , facial expression recognition , 3 D facial model construction , etc ."}],
+    ["face detection", {"from sentence" : "Although the face detection problem has been intensely studied for decades with various commercial applications , it still meets problems in some real - world scenarios due to numerous challenges , e.g. heavy facial occlusions , extremely low resolutions , strong illumination , exceptionally pose variations , image or video compression artifacts , etc ."}]
+  ]
+}

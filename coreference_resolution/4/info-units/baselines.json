@@ -1,0 +1,29 @@
+{
+  "has" : {
+    "Baselines" : {
+      "report" : {
+        "preceding sentence baseline ( PS BL )" : {
+          "chooses" : {
+            "previous sentence" : {
+              "for" : "antecedent"
+            }
+          }
+        },
+        "TAGbaseline ( TAG BL )" : {
+          "randomly chooses" : {
+            "candidate" : {
+              "with" : {
+                "constituent tag label" : {
+                  "in" : "{S , VP , ROOT , SBAR }"
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "Baselines and evaluation metrics
+Additionally , we report the preceding sentence baseline ( PS BL ) that chooses the previous sentence for the antecedent and TAGbaseline ( TAG BL ) that randomly chooses a candidate with the constituent tag label in {S , VP , ROOT , SBAR } ."
+
+      }
+    }
+  }
+}

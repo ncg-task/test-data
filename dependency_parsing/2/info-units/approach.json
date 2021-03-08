@@ -1,0 +1,47 @@
+{
+  "has" : {
+    "Approach" : {
+      "give" : {
+        "probabilistic interpretation" : {
+          "to" : {
+            "ensemble parser" : {
+              "has" : {
+                "viewing" : {
+                  "has" : {
+                    "instance" : {
+                      "of" : "minimum Bayes risk inference"
+                    }
+                  }
+                },
+                "from sentence" : "We give a probabilistic interpretation to the ensemble parser ( with a minor modification ) , viewing it as an instance of minimum Bayes risk inference ."
+              }
+            }
+          }
+        }
+      },
+      "has" : {
+        "distilling" : {
+          "has" : {
+            "ensemble" : {
+              "into" : {
+                "single FOG parser" : {
+                  "with" : "discriminative training",
+                  "defining" : "new cost function"
+                }
+              },
+              "from sentence" : "We address this issue in 5 by distilling the ensemble into a single FOG parser with discriminative training by defining a new cost function , inspired by the notion of \" soft targets \" ."
+            }
+          }
+        }
+      },
+      "derive" : {
+        "cost" : {
+          "of" : "each possible attachment",
+          "from" : "ensemble 's division of votes",
+          "use" : "discriminative learning",
+          "from sentence" : "The essential idea is to derive the cost of each possible attachment from the ensemble 's division of votes , and use this cost in discriminative learning ."
+        }
+      }
+    }
+  }
+}

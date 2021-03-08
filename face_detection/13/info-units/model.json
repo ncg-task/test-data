@@ -1,0 +1,21 @@
+{
+  "has" : {
+    "Model" : {
+      "Based on" : {
+        "single - stage design" : {
+          "propose" : {
+            "novel pixel - wise face localisation method" : {
+              "named" : "Reti- naFace",
+              "employs" : {
+                "multi-task learning strategy" : {
+                  "to simultaneously predict" : ["face score", "face box", "five facial landmarks", {"3D position and correspondence" : {"of" : "each facial pixel"}}]
+                }
+              },
+              "from sentence" : "Based on a single - stage design , we propose a novel pixel - wise face localisation method named Reti- naFace , which employs a multi-task learning strategy to simultaneously predict face score , face box , five facial landmarks , and 3D position and correspondence of each facial pixel ."
+            }
+          }
+        }
+      }      
+    }
+  }
+}

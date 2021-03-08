@@ -1,0 +1,37 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "single LSTM - LM ( GS )" : {
+          "with" : "Charniak ( GS )",
+          "reaches" : "93.6"
+        },
+        "ensemble of eight LSTM - LMs ( GS )" : {
+          "with" : "Charniak ( GS )",
+          "achieves" : {
+            "new state of the art" : {
+              "has" : "93.8 F 1"
+            }
+          },
+          "from sentence" : "Results
+A single LSTM - LM ( GS ) together with Charniak ( GS ) reaches 93.6 and an ensemble of eight LSTM - LMs ( GS ) with Charniak ( GS ) achieves a new state of the art , 93.8 F 1 ."
+
+        }
+      },
+      "When" : {
+        "trees" : {
+          "converted to" : {
+            "Stanford dependencies" : {
+              "has" : {
+                "5 UAS and LAS" : {
+                  "has" : "95.9 % and 94.1 %"
+                }
+              }
+            },
+            "from sentence" : "When trees are converted to Stanford dependencies , 5 UAS and LAS are 95.9 % and 94.1 % , 6 more than 1 % higher than those of the state of the art dependency parser ."
+          }
+        }
+      }
+    }
+  }
+}

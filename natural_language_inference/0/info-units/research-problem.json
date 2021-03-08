@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Reasoning over Multiple Mentions using Coreference", {"from sentence" : "Neural Models for Reasoning over Multiple Mentions using Coreference"}],
+    ["coreference - based reasoning", {"from sentence" : "We call this coreference - based reasoning since multiple pieces of information , which may lie across sentence , paragraph or document boundaries , are tied together with the help of referring expressions which denote the same real - world entity ."}]
+  ]
+}

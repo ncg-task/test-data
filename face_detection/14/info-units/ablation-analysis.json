@@ -1,0 +1,66 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "Scale" : {
+          "has" : {
+            "results" :{
+              "of" : "small scale",
+              "has" : {
+                "abysmal" : {
+                  "has" : {
+                    "none of the algorithms" : {
+                      "able to achieve" : "more than 12 % AP" 
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Scale .
+The results of small scale are abysmal : none of the algorithms is able to achieve more than 12 % AP ."
+
+            }
+          }
+        },
+        "Occlusion" : {
+          "With" : {
+            "partial occlusion" : {
+              "has" : {
+                "performance" : {
+                  "has" : "drops significantly"
+                }
+              },
+              "from sentence" : "Occlusion .
+With partial occlusion , the performance drops significantly ."
+
+            }
+          },
+          "has" : {
+            "maximum AP" : {
+              "has" : {
+                "only 26.5 %" : {
+                  "achieved by" : "Faceness"
+                }
+              },
+              "from sentence" : "The maximum AP is only 26.5 % achieved by Faceness ."
+            }
+          }
+        },
+        "Pose" : {
+          "has" : {
+            "best performance" : {
+              "achieved by" : "Faceness",
+              "with" : {
+                "recall" : {
+                  "has" : "below 20 %"
+                }
+              },
+              "from sentence" : "Pose .
+The best performance is achieved by Faceness , with a recall below 20 % ."
+
+            }
+          }    
+        }
+      }
+    }
+  }  
+}

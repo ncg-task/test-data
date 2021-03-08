@@ -1,0 +1,78 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "Traditional Methods" : {
+          "has" : {
+            "Bag - of - words and its TFIDF" : {
+              "has" : {
+                "bag - of - words model" : {
+                  "has" : {
+                    "constructed" : {
+                      "by selecting" : {
+                        "50,000 most frequent words" : {
+                          "from" : "training subset"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Traditional Methods
+Bag - of - words and its TFIDF .
+For each dataset , the bag - of - words model is constructed by selecting 50,000 most frequent words from the training subset ."
+
+                }
+              }
+            },
+            "Bag - of - ngrams and its TFIDF" : {
+              "has" : {
+                "bag - of - ngrams models" : {
+                  "has" : {
+                    "constructed" : {
+                      "by selecting" : {
+                        "500,000 most frequent n-grams ( up to 5 - grams )" : {
+                          "from" : {
+                            "training subset" : {
+                              "for" : "each dataset"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Bag - of - ngrams and its TFIDF .
+The bag - of - ngrams models are constructed by selecting the 500,000 most frequent n-grams ( up to 5 - grams ) from the training subset for each dataset ."
+
+                }
+              }
+            },
+            "Bag - of - means on word embedding" : {
+              "uses" : {
+                "k-means" : {
+                  "on" : {
+                    "word2vec" : {
+                      "learnt from" : {
+                        "training subset" : {
+                          "of" : "each dataset"
+                        }
+                      },
+                      "from sentence" : "Bag - of - means on word embedding .
+We also have an experimental model that uses k-means on word2vec learnt from the training subset of each dataset , and then use these learnt means as representatives of the clustered words ."
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Deep Learning Methods" : {
+          "has" : ["Word - based ConvNets", "Long - short term memory", {"from sentence" : "Deep Learning Methods
+Word - based ConvNets .
+Long - short term memory ."}]
+
+        }
+      }
+    }
+  }
+}
+

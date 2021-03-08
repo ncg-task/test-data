@@ -1,0 +1,82 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "weakly supervised multimodal annotation segmentation ( WSMA - Seg ) approach" : {
+          "uses" : {
+            "segmentation models" : {
+              "to achieve" : {
+                "accurate and robust object detection" : {
+                  "without" : "NMS"
+                }
+              }
+            }
+          },
+          "from sentence" : "Motivated by this , in this work , we propose a weakly supervised multimodal annotation segmentation ( WSMA - Seg ) approach , which uses segmentation models to achieve an accurate and robust object detection without NMS ."
+        }
+      },
+      "In" : {
+        "training phase" : {
+          "has" : {
+            "WSMA - Seg" : {
+              "first converts" : {
+                "weakly supervised bounding box annotations" : {
+                  "in" : "detection tasks",
+                  "to" : {
+                    "multi-channel segmentation - like masks" : {
+                      "called" : "multimodal annotations"
+                    }
+                  }
+                }
+              },
+              "has" : {
+                "segmentation model" : {
+                  "trained using" : {
+                    "multimodal annotations" : { 
+                      "as" : "labels",
+                      "to learn" : {
+                        "multimodal heatmaps" : {
+                          "for" : "training images"
+                        }
+                      }
+                    }
+                  }
+                }         
+              },
+              "from sentence" : "In the training phase , WSMA - Seg first converts weakly supervised bounding box annotations in detection tasks to multi-channel segmentation - like masks , called multimodal annotations ; then , a segmentation model is trained using multimodal annotations as labels to learn multimodal heatmaps for the training images ."
+            }
+          }
+        },
+        "testing phase" : {
+          "has" : {
+            "resulting heatmaps" : {
+              "of" : "given test image",
+              "converted into" : {
+                "instance - aware segmentation map" : {
+                  "based on" : "pixel - level logic operation"
+                }
+              }
+            },
+            "contour tracing operation" : {
+              "generate" : {
+                "contours" : {
+                  "for" : "objects",
+                  "using" : "segmentation map"
+                }
+              }
+            },
+            "bounding boxes" : {
+              "of" : "objects",
+              "created as" : {
+                "circumscribed quadrilaterals" : {
+                  "of" : "their corresponding contours"
+                }              
+              },
+              "from sentence" : "In the testing phase , the resulting heatmaps of a given test image are converted into an instance - aware segmentation map based on a pixel - level logic operation ; then , a contour tracing operation is conducted to generate contours for objects using the segmentation map ; finally , bounding boxes of objects are created as circumscribed quadrilaterals of their corresponding contours ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "TBCNN sentence pair model" : {
+          "followed by" : "simple concatenation alone",
+          "has" : {
+            "outperforms" : {
+              "has" : {
+                "existing sentence encoding - based approaches" : {
+                  "without" : "pretraining",
+                  "including" : "feature - rich method",
+                  "from sentence" : "As seen , the TBCNN sentence pair model , followed by simple concatenation alone , outperforms existing sentence encoding - based approaches ( without pretraining ) , including a feature - rich method using 6 groups of humanengineered features , long short term memory ."
+                }
+              }
+            }
+          }
+        },
+        "Model Variant" : {
+          "using" : {
+            "element - wise product alone" : {
+              "has" : {
+                "significantly worse" : {
+                  "than" : "concatenation or element - wise difference"
+                }
+              },
+              "from sentence" : "Model Variant
+We first analyze each heuristic separately : using element - wise product alone is significantly worse than concatenation or element - wise difference ; the latter two are comparable to each other ."
+
+            }
+          },
+          "Combining" : {
+            "different matching heuristics" : {
+              "has" : {
+                "improves" : {
+                  "has" : "result"
+                },
+                "TBCNN - pair model" : {
+                  "with" : {
+                    "concatenation , element - wise product and difference" : {
+                      "yields" : {
+                        "highest performance" : {
+                          "of" : "82.1 %"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Combining different matching heuristics improves the result : the TBCNN - pair model with concatenation , element - wise product and difference yields the highest performance of 82.1 % ."
+            }
+          },
+          "applying" : {
+            "element - wise product" : {
+              "has" : {
+                "improves" : {
+                  "has" : "accuracy",
+                  "by" : "another 0.5 %"
+                }
+              },
+              "from sentence" : "Further applying element - wise product improves the accuracy by another 0.5 % ."
+            }
+          },
+          "has" : {
+            "full TBCNN - pair model" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : {
+                    "all existing sentence encoding - based approaches" : {
+                      "in - cluding" : {
+                        "1024d gated recurrent unit ( GRU ) - based RNN" : {
+                          "with" : "\" skip - thought \" pretraining"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "The full TBCNN - pair model outperforms all existing sentence encoding - based approaches , in - cluding a 1024d gated recurrent unit ( GRU ) - based RNN with \" skip - thought \" pretraining ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

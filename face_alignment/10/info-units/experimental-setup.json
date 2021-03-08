@@ -1,0 +1,198 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "used" : ["Matlab 2017a", "Mat - ConvNet toolbox", {"from sentence" : "In our experiments , we used Matlab 2017a and the Mat - ConvNet toolbox 2 ."}],
+      "use" : {
+        "only use one GPU card" : {
+          "for measuring" : "run time",
+          "from sentence" : "Note that we only use one GPU card for measuring the run time ."
+        }
+      },
+      "for" : {
+        "network training" : {
+          "set" : {
+            "weight decay" : {
+              "to" : "5 10 ? 4"
+            },
+            "momentum" : {
+              "to" : "0.9"
+            },
+            "batch size" : {
+              "to" : "8"
+            }
+          },
+          "from sentence" : "We set the weight decay to 5 10 ? 4 , momentum to 0.9 and batch size to 8 for network training ."
+        }
+      },
+      "For" : {
+        "convolutional layer" : {
+          "used" : {
+            "3 3 kernels" : {
+              "with" : {
+                "stride" : {
+                  "of" : "1"
+                }
+              }
+            }
+          },
+          "from sentence" : "For the convolutional layer , we used 3 3 kernels with the stride of 1 ."
+        },
+        "proposed PDB strategy" : {
+          "has" : {
+            "number of bins K" : {
+              "set to" : {
+                "17" : {
+                  "for" : "AFLW"
+                },
+                "9" : {
+                  "for" : "300W"
+                }
+              }
+            }
+          },
+          "from sentence" : "For the proposed PDB strategy , the number of bins K was set to 17 for AFLW and 9 for 300W ."
+        },
+        "CNN - 6" : {
+          "has" : {
+            "input image size" : {
+              "has" : "64 64 3"
+            }
+          },
+          "reduced" : {
+            "learning rate" : {
+              "from" : {
+                "3 10 ? 6" : {
+                  "to" : "3 10 ?8",
+                  "for" : "L2 loss"
+                },
+                "3 10 ?5" : {
+                  "to" : "3 10 ? 7",
+                  "for" : "other loss functions"
+                }
+              }
+            }
+          },
+          "from sentence" : "For CNN - 6 , the input image size is 64 64 3 . We reduced the learning rate from 3 10 ? 6 to 3 10 ?8 for the L2 loss , and from 3 10 ?5 to 3 10 ? 7 for the other loss functions ."
+        },
+        "CNN - 7" : {
+          "has" : {
+            "input image size" : {
+              "is" : "128 128 3"
+            }
+          },
+          "reduced" : {
+            "learning rate" : {
+              "from" : {
+                "1 10 ? 6" : {
+                  "to" : {
+                    "1 10 ?8" : {
+                      "for" : "L2 loss"
+                    }
+                  }
+                },
+                "1 10 ? 5" : {
+                  "to" : {
+                    "1 10 ? 7" : {
+                      "for" : "other loss functions"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "bounding box perturbation" : {
+          "applied" : {
+            "random translations" : {
+              "to" : {
+                "upper-left and bottom - right corners" : {
+                  "of" : "face bounding box",
+                  "within" : {
+                    "5 %" : {
+                      "of" : "bounding"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "For bounding box perturbation , we applied random translations to the upper-left and bottom - right corners of the face bounding box within 5 % of the bounding ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "parameters" : {
+          "of" : {
+            "Wing loss" : {
+              "set" : "tow = 10 and = 2"
+            }
+          },
+          "from sentence" : "The parameters of the Wing loss were set tow = 10 and = 2 . For CNN - 7 , the input image size is 128 128 3 . We reduced the learning rate from 1 10 ? 6 to 1 10 ?8 for the L2 loss , and from 1 10 ? 5 to 1 10 ? 7 for the other loss functions ."          
+        },
+        "training and testing" : {
+          "of" : "our networks",
+          "conducted on" : {
+            "server" : {
+              "running" : "Ubuntu 16.04",
+              "with" : ["Intel Xeon E5-2667 v4 CPU", "256 GB RAM", "4 NVIDIA GeForce GTX Titan X ( Pascal ) cards"]
+            }
+          },
+          "from sentence" : "The training and testing of our networks were conducted on a server running Ubuntu 16.04 with 2 Intel Xeon E5-2667 v4 CPU , 256 GB RAM and 4 NVIDIA GeForce GTX Titan X ( Pascal ) cards ."
+        },
+        "Each model" : {
+          "trained for" : "120 k iterations",
+          "from sentence" : "Each model was trained for 120 k iterations ."
+        },
+        "standard ReLu function" : {
+          "used for" : "nonlinear activation"
+        },
+        "Max pooling" : {
+          "with" : {
+            "stride" : {
+              "of" : "2"
+            }
+          },
+          "used to" : {
+            "downsize" : {
+              "has" : "feature maps"
+            }
+          },
+          "from sentence" : "The standard ReLu function was used for nonlinear activation , and Max pooling with the stride of 2 was used to downsize feature maps ."
+        },
+        "randomly injected" : {
+          "has" : {
+            "Gaussian blur (? = 1 )" : {
+              "to" : "each training image",
+              "with" : {
+                "probability" : {
+                  "of" : "50 %"
+                }
+              }
+            }
+          },
+          "from sentence" : "Last , we randomly injected Gaussian blur (? = 1 ) to each training image with the probability of 50 % ."
+        }
+      },
+      "To perform" : {
+        "data augmentation" : {
+          "has" : {
+            "randomly rotated" : {
+              "has" : {
+                "training image" : {
+                  "between" : {
+                    "[ ? 30 , 30 ] degrees" : {
+                      "for" : "CNN - 6"
+                    },
+                    "[ ? 10 , 10 ] degrees" : {
+                      "for" : "CNN - 7"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "To perform data augmentation , we randomly rotated each training image between [ ? 30 , 30 ] degrees for CNN - 6 and between [ ? 10 , 10 ] degrees for CNN - 7 ."
+        }
+      }
+    }
+  }
+}

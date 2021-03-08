@@ -1,0 +1,36 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "utilize" : {
+        "300D Glo Ve 840B vectors ( Pennington et al. , 2014 )" : {
+          "as" : "our pre-trained word embeddings",
+          "from sentence" : "We utilize the 300D Glo Ve 840B vectors ( Pennington et al. , 2014 ) as our pre-trained word embeddings ."
+        }
+      },
+      "use" : {
+        "Adadelta ( Zeiler , 2012 )" : {
+          "to optimize" : "all the trainable parameters",
+          "from sentence" : "We use Adadelta ( Zeiler , 2012 ) to optimize all the trainable parameters ."
+        }
+      },
+      "of" : {
+        "Adadelta" : {
+          "set as" : "1 e ? 6",
+          "from sentence" : "The hyperparameter of Adadelta is set as Zeiler ( 2012 ) suggest that is 1 e ? 6 and ? is 0.95 ."
+        }
+      },
+      "To avoid" : {
+        "gradient explosion problem" : {
+          "apply" : "gradient norm clipping",
+          "from sentence" : "To avoid the gradient explosion problem , we apply gradient norm clipping ."
+        }
+      },
+      "has" : {
+        "batch size" : {
+          "set to" :"128",
+          "from sentence" : "The batch size is set to 128 and all the dimensions of input vectors and hidden shows that our proposed model significantly outperforms all the other models in 7 datasets ."
+        }
+      }
+    }
+  }
+}

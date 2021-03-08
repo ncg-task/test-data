@@ -1,0 +1,46 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "general framework PhaseCond" : {
+          "for" : {
+            "use" : {
+              "of" : "multiple attention layers"
+            }
+          },
+          "from sentence" : "Inspired by the above - mentioned works , we are proposing to introduce a general framework PhaseCond for the use of multiple attention layers ."
+        }
+      },
+      "has" : {
+        "multi-hops architecture" : {
+          "used to" : {
+            "captures" : {
+              "has" : "question - aware passage representations"
+            },
+            "refines" : {
+              "has" : "results",
+              "by using" : "self - attention model"
+            }
+          },
+          "from sentence" : "First , previous research on the self - attention model is to purely capture long - distance dependencies , and therefore a multi-hops architecture is used to alternatively captures question - aware passage representations and refines the results by using a self - attention model ."          
+        },
+        "domains" : {
+          "such as" : {
+            "machine translation" : {
+              "has" : {
+                "jointly align and translate" : {
+                  "has" : {
+                    "words , question - passage attention models" : {
+                      "for" : ["machine comprehension", {"question answering" : {"calculate" : {"alignment matrix" : {"corresponding to" : "all question and passage word pairs"}}}}]
+                    },
+                    "from sentence" : "Second , unlike the domains such as machine translation which jointly align and translate words , question - passage attention models for machine comprehension and question answering calculate the alignment matrix corresponding to all question and passage word pairs ."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

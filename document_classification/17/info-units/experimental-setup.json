@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "dictionary" : {
+          "consists of" : ["abcdefghijklmnopqrstuvwxyz0123456 789-,;.!?:'\" / | # $ % & *' +=<>( ) [ ]{}", "special padding", "space", "unknown token"],
+          "from sentence" : "The dictionary consists of the following characters \" abcdefghijklmnopqrstuvwxyz0123456 789-,;.!?:'\" / | # $ % & *' +=<>( ) [ ]{} \" plus a special padding , space and unknown token which add up to a total of 69 tokens ."
+          
+        },
+        "input text" : {
+          "padded to" : {
+            "fixed size" : {
+              "of" : "1014"
+            },
+            "from sentence" : "The input text is padded to a fixed size of 1014 , larger text are truncated ."
+          }
+        },
+        "character embedding" : {
+          "of" : "size 16",
+          "from sentence" : "The character embedding is of size 16 ."
+        },
+        "Training" : {
+          "performed with" : {
+            "SGD" : {
+              "using" : {
+                "mini-batch" : {
+                  "of" : {
+                    "size" : {
+                      "has" : "128"
+                    }
+                  }
+                },
+                "initial learning rate" : {
+                  "of" : "0.01"
+                },
+                "momentum" : {
+                  "of" : "0.9"
+                },
+                "from sentence" : "Training is performed with SGD , using a mini-batch of size 128 , an initial learning rate of 0.01 and momentum of 0.9 ."
+              }
+            }
+          }
+        },
+        "implementation" : {
+          "done using" : "Torch 7",
+          "from sentence" : "The implementation is done using Torch 7 ."
+        }
+      },
+      "performed on" : ["single NVidia K40 GPU", {"from sentence" : "All experiments are performed on a single NVidia K40 GPU ."}],
+      "use" : {
+        "temporal batch norm" : {
+          "without" : "dropout",
+          "from sentence" : "Unlike previous research on the use of ConvNets for text processing , we use temporal batch norm without dropout ."
+        }
+      }
+    }
+  }
+}

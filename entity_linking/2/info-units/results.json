@@ -1,0 +1,140 @@
+{
+  "has" : {
+    "Results" : {
+      "report" : {
+        "F1 - score" : {
+          "on" : "each in - dividual test set",
+          "obtained on" : {
+            "concatenation" : {
+              "of" : {
+                "all four test sets" : {
+                  "divided by" : "part - of - speech tag"
+                }
+              }
+            }
+          },
+          "from sentence" : "We report the F1 - score on each in - dividual test set , as well as the F1- score obtained on the concatenation of all four test sets , divided by part - of - speech tag ."
+        }
+      },
+      "considered" : {
+        "Context2 Vec and It Makes Sense" : {
+          "has" : ["original implementation", {"best configuration" : {"integrates" : {"word embeddings" : {"using" : "exponential decay"}}}}],
+          "from sentence" : "As supervised systems , we considered Context2 Vec and It Makes Sense , both the original implementation and the best configuration reported by , which also integrates word embeddings using exponential decay ."
+        }
+      },
+      "has" : {
+        "both BLSTM and Seq2Seq" : {
+          "achieved" : {
+            "results" : {
+              "has" : ["state - of - the - art", "statistically equivalent"],
+              "to" : {
+                "best supervised system" : {
+                  "in" : "each benchmark",
+                  "performing" : {
+                    "on par" : {
+                      "with" : {
+                        "word experts" : {
+                          "tuned over" : "explicitly engineered features"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "11 Overall , both BLSTM and Seq2Seq achieved results that are either state - of - the - art or statistically equivalent ( unpaired t- test , p < 0.05 ) to the best supervised system in each benchmark , performing on par with word experts tuned over explicitly engineered features ."
+        },
+        "BLSTM models" : {
+          "has" : {
+            "tended consistently" : {
+              "has" : {
+                "outperform" : {
+                  "has" : "Seq2Seq counterparts"
+                }
+              },
+              "from sentence" : "Interestingly enough , BLSTM models tended consistently to outperform their Seq2Seq counterparts , suggesting that an encoder - decoder architecture , despite being more powerful , might be suboptimal for WSD ."
+            }
+          }
+        },
+        "English All - words WSD" : {
+          "worth noting" : {
+            "RNN - based architectures" : {
+              "has" : {
+                "outperformed" : {
+                  "has" : {
+                    "classical supervised approaches" : {
+                      "dealing with" : "verbs"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "English All - words WSD
+It is worth noting that RNN - based architectures outperformed classical supervised approaches when dealing with verbs , which are shown to be highly ambiguous ."
+
+            }
+          }        
+        },
+        "Both BLSTM and Seq2Seq" : {
+          "has" : {
+            "outperformed" : {
+              "has" : {
+                "UKB and IMS" : {
+                  "trained on" : "SemCor",
+                  "as well as" : {
+                    "recent supervised approaches" : {
+                      "based on" : ["distributional semantics", "neural architectures"]
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Both BLSTM and Seq2Seq outperformed UKB and IMS trained on SemCor , as well as recent supervised approaches based on distributional semantics and neural architectures ."
+            }
+          }
+        },
+        "Multilingual All - words WSD" : {
+          "has" : {
+            "F - score figures" : {
+              "show" : {
+                "bilingual and multilingual models" : {
+                  "has" : {
+                    "consistently outperformed" : {
+                      "has" : "MFS baseline"
+                    }
+                  }
+                }
+              },
+              "achieved" : {
+                "results" : {
+                  "has" : {
+                    "competitive" : {
+                      "with" : {
+                        "best participating systems" : {
+                          "in" : "task"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Multilingual All - words WSD
+F - score figures show that bilingual and multilingual models , despite being trained only on English data , consistently outperformed the MFS baseline and achieved results that are competitive with the best participating systems in the task ."
+
+            }
+          },
+          "note" : {
+            "overall F- score performance" : {
+              "has" : "did not change substantially",
+              "when" : {
+                "moving" : {
+                  "from" : "bilingual to multilingual models"
+                }
+              },
+              "from sentence" : "We also note that the overall F- score performance did not change substantially ( and slightly improved ) when moving from bilingual to multilingual models , despite the increase in the number of target languages treated simultaneously ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

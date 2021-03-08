@@ -1,0 +1,29 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "MemNN" : {
+          "has" : ["strongly supervised AM + NG + NL Memory Networks approach", {"from sentence" : "MemNN : The strongly supervised AM + NG + NL Memory Networks approach , proposed in ."}]
+        },
+        "MemNN- WSH" : {
+          "has" : {
+            "weakly supervised heuristic version" : {
+              "of" : "MemNN",
+              "from sentence" : "MemNN- WSH :
+A weakly supervised heuristic version of MemNN where the supporting sentence labels are not used in training ."
+
+            }
+          }
+        },
+        "LSTM" : {
+          "has" : {
+            "standard LSTM model" : {
+              "trained using" : "question / answer pairs only",
+              "from sentence" : "LSTM : A standard LSTM model , trained using question / answer pairs only ( i.e. also weakly supervised ) ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

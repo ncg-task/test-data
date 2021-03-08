@@ -1,0 +1,51 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Abstractive Summarization" : {
+              "has" : {
+                "pragmatic methods" : {
+                  "obtain" : {
+                    "improvements" : {
+                      "has" : {
+                        "0.2-0.5" : {
+                          "in" : "ROUGE scores"
+                        },
+                        "0.2-1.8" : {
+                          "has" : "METEOR"
+                        }
+                      },
+                      "over" : "base S 0 model"
+                    }
+                  },
+                  "with" : {
+                    "distractor - based approach SD" : {
+                      "has" : {
+                        "outperforming" : {
+                          "has" : "reconstructorbased approach S R"
+                        }
+                      },
+                      "from sentence" : "Abstractive Summarization
+The pragmatic methods obtain improvements of 0.2-0.5 in ROUGE scores and 0.2-1.8 METEOR over the base S 0 model , with the distractor - based approach SD 1 outperforming the reconstructorbased approach S R 1 ."
+
+                    }
+                  }
+                },
+                "SD" : {
+                  "has" : {
+                    "strong" : {
+                      "across" : "all metrics",
+                      "from sentence" : "SD 1 is strong across all metrics , obtaining results competitive to the best previous abstractive systems . ( b ) Coverage ratios by attribute type ( columns ) for the base model S0 , and for the pragmatic system SD 1 when constructing the distractor by masking the specified attribute ( rows ) ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

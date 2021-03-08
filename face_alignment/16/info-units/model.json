@@ -1,0 +1,72 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "novel deep learning framework" : {
+          "named" : "Multi - Center Learning ( MCL )",
+          "to exploit" : {
+            "strong correlations" : {
+              "among" : "landmarks"
+            }
+          },
+          "from sentence" : "In this work 1 , we propose a novel deep learning framework named Multi - Center Learning ( MCL ) to exploit the strong correlations among landmarks ."
+        },
+        "model assembling method" : {
+          "to integrate" : {
+            "multiple shape prediction layers" : {
+              "into" : "one shape prediction layer",
+              "from sentence" : "Moreover , to decrease the model complexity , we propose a model assembling method to integrate multiple shape prediction layers into one shape prediction layer ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "our network" : {
+          "uses" : {
+            "multiple shape prediction layers" : {
+              "to predict" : "locations of landmarks"
+            }
+          }
+        },
+        "each shape prediction layer" : {
+          "emphasizes on" : {
+            "detection" : {
+              "of" : {
+                "cluster" : {
+                  "of" : "landmarks"
+                }
+              }
+            }
+          },
+          "from sentence" : "In particular , our network uses multiple shape prediction layers to predict the locations of landmarks , and each shape prediction layer emphasizes on the detection of a certain cluster of landmarks respectively ."
+        },
+        "entire framework" : {
+          "reinforces" : {
+            "learning process" : {
+              "of" : "each landmark",
+              "with" : "low model complexity"
+            },
+            "from sentence" : "The entire framework reinforces the learning process of each landmark with a low model complexity ."
+          }
+        }
+      },
+      "By weighting" : {
+        "loss" : {
+          "of" : {
+            "each landmark" : {
+              "has" : {
+                "challenging landmarks" : {
+                  "has" : "focused firstly"
+                },
+                "cluster of landmarks" : {
+                  "has" : "further optimized"
+                }
+              },
+              "from sentence" : "By weighting the loss of each landmark , challenging landmarks are focused firstly , and each cluster of landmarks is further optimized respectively ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

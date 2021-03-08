@@ -1,0 +1,51 @@
+{
+  "has" : {
+    "Model" : {
+      "apply" : {
+        "sparse feature pairs" : {
+          "to" : "hypernym extraction",
+          "from sentence" : "Here we apply sparse feature pairs to hypernym extraction ."
+        }
+      },
+      "has" : {
+        "Sparse representation" : {
+          "related to" : {
+            "hypernymy" : {
+              "through" : "Formal concept Analysis ( FCA )",
+              "from sentence" : "Sparse representation is related to hypernymy in various natural ways .
+One of them is through Formal concept Analysis ( FCA ) ."
+
+            }
+          }
+        },
+        "hierarchical sparse coding" : {
+          "where" : {
+            "trees" : {
+              "describe" : {
+                "order" : {
+                  "in which" : {
+                    "variables" : {
+                      "enter" : "model",
+                      "take" : "non - zero values"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Another natural formulation is related to hierarchical sparse coding , where trees describe the order in which variables \" enter the model \" ( i.e. , take non - zero values ) ."
+            }
+          }
+        }
+      },
+      "Exploiting" : {
+        "correspondence" : {
+          "between" : {
+            "variable tree and the hypernym hierarchy" : {
+              "offers" : "natural choice"
+            }
+          },
+          "from sentence" : "Exploiting the correspondence between the variable tree and the hypernym hierarchy offers itself as a natural choice ."
+        }
+      }
+    }
+  }
+}

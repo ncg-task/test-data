@@ -1,0 +1,54 @@
+{
+  "has" : {
+    "Model" : {
+      "called" : {
+        "Attention Sum Reader ( AS Reader )" : {
+          "has" : {
+            "tailor - made" : {
+              "to leverage" : {
+                "fact" : {
+                  "that" : {
+                    "answer" : {
+                      "is" : {
+                        "word" : {
+                          "from" : "context document"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Our model called the Attention Sum Reader ( AS Reader ) 4 is tailor - made to leverage the fact that the answer is a word from the context document ."
+            }
+          }
+        }
+      },
+      "compute" : {
+        "vector embedding" : {
+          "of" : [["query", {"from sentence" : "We compute a vector embedding of the query ."}], 
+          [{"each individual word" : {"in" : {"context" : {"of" : "whole document ( contextual embedding )"}}}}, 
+          {"from sentence" : "We compute a vector embedding of each individual word in the context of the whole document ( contextual embedding ) ."}]
+          ]
+        }
+      },
+      "Using" : {
+        "dot product" : {
+          "between" : {
+            "question embedding and the contextual embedding" : {
+              "of" : {
+                "each occurrence" : {
+                  "of" : {
+                    "candidate answer" : {
+                      "in" : "document"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Using a dot product between the question embedding and the contextual embedding of each occurrence of a candidate answer in the document , we select the most likely answer ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

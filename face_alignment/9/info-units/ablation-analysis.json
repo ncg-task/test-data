@@ -1,0 +1,35 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "on" : {
+        "300 - VW" : {
+          "has" : {
+            "Semantic alignment" : {
+              "has" : {
+                "consistently improve" : {
+                  "has" : {
+                    "performance" : {
+                      "on" : "all subset sets"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "To verify the effectiveness of different components in our framework , we conduct this ablation study on 300 - VW .
+9 , Semantic alignment can consistently improve the performance on all subset sets , demonstrating the strong generalization capacity of SA ."
+
+            },
+            "GHCU" : {
+              "has" : {
+                "more effective" : {
+                  "on" : "challenge data set ( Category 3 )",
+                  "has" : "8.15 % vs 9.91 %"
+                }
+              },
+              "from sentence" : "GHCU is more effective on the challenge data set ( Category 3 ) : 8.15 % vs 9.91 % ; Combining SA and GHCU works better than single of them , showing the complementary of these two mechanisms ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

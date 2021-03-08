@@ -1,0 +1,113 @@
+{
+  "has" : {
+    "Model" : {
+      "develop" : {
+        "novel context zoom - in network ( ConZNet )" : {
+          "for" : "RC tasks",
+          "skip through" : {
+            "irrelevant parts" : {
+              "of" : "document"
+            }
+          },
+          "generate" : {
+            "answer" : {
+              "using" : "only the relevant regions of text"
+            }
+          },
+          "from sentence" : "To address the issues above we develop a novel context zoom - in network ( ConZNet ) for RC tasks , which can skip through irrelevant parts of a document and generate an answer using only the relevant regions of text ."
+        }
+      },
+      "has" : {
+        "ConZNet architecture" : {
+          "consists of" : {
+            "two phases" : {
+              "In" : {
+                "first phase" : {
+                  "identify" : {
+                    "relevant regions" : {
+                      "of" : "text",
+                      "by employing" : "reinforcement learning algorithm"
+                    }
+                  },
+                  "from sentence" : "The ConZNet architecture consists of two phases .
+In the first phase we identify the relevant regions of text by employing a reinforcement learning algorithm ."
+
+                }
+              },
+              "has" : {
+                "second phase" : {
+                  "based on" : {
+                    "encoder - decoder architecture" : {
+                      "comprehends" : {
+                        "identified regions of text" : {
+                          "generates" : {
+                            "answer" : {
+                              "by using" : {
+                                "residual self - attention network" : {
+                                  "as" : "encoder"
+                                },
+                                "RNNbased sequence generator" : {
+                                  "along with" : "pointer network",
+                                  "as" : "decoder"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "The second phase is based on an encoder - decoder architecture , which comprehends the identified regions of text and generates the answer by using a residual self - attention network as encoder and a RNNbased sequence generator along with a pointer network as the decoder ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "our method" : {
+          "has" : {
+            "ability" : {
+              "to select" : {
+                "relevant regions" : {
+                  "of" : {
+                    "text" : {
+                      "not just based on" : "question",
+                      "also on" : {
+                        "regions" : {
+                          "related to" : "each other"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Unlike existing approaches , our method has the ability to select relevant regions of text not just based on the question but also on how well regions are related to each other ."
+                }
+              }
+            }
+          }
+        },
+        "our decoder" : {
+          "combines" : ["span prediction", "sequence generation"],
+          "from sentence" : "Moreover , our decoder combines span prediction and sequence generation ."
+        }
+      },
+      "allows" : {
+        "decoder" : {
+          "to copy" : {
+            "words" : {
+              "from" : {
+                "relevant regions" : {
+                  "of" : "text"
+                }
+              }
+            }
+          },
+          "to generate" : {
+            "words" : {
+              "from" : "fixed vocabulary"
+            }
+          }
+        },
+        "from sentence" : "This allows the decoder to copy words from the relevant regions of text as well as to generate words from a fixed vocabulary ."
+      }
+    }
+  }
+}

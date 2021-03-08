@@ -1,0 +1,26 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "novel neural network - based model" : {
+          "for" : {
+            "jointly learning" : {
+              "has" : "POS tagging and dependency paring"
+            }
+          },
+          "from sentence" : "In this paper , we present a novel neural network - based model for jointly learning POS tagging and dependency paring ."
+        }
+      },
+      "has" : {
+        "joint model" : {
+          "extends" : {
+            "well - known BIST graph - based dependency parser" : {
+              "with" : "additional lower - level BiLSTM - based tagging component"
+            }
+          },
+          "from sentence" : "Our joint model extends the well - known BIST graph - based dependency parser with an additional lower - level BiLSTM - based tagging component ."
+        }
+      }
+    }
+  }
+}

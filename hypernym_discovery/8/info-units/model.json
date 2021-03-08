@@ -1,0 +1,28 @@
+{
+  "has" : {
+    "Model" : {
+      "presents" : {
+        "Apollo team 's system" : {
+          "for" : "hypernym discovery",
+          "participated in" : {
+            "task 9" : {
+              "of" : "Semeval 2018"
+            }
+          },
+          "based on" : "unsupervised machine learning",
+          "from sentence" : "This paper presents the Apollo team 's system for hypernym discovery which participated in task 9 of Semeval 2018 based on unsupervised machine learning ."
+        }
+      },
+      "has" : {
+        "rule - based system" : {
+          "exploits" : {
+            "syntactic dependency paths" : {
+              "generalize" : "Hearst - style lexical patterns"
+            }
+          },
+          "from sentence" : "It is a rule - based system that exploits syntactic dependency paths that generalize Hearst - style lexical patterns ."
+        }
+      }
+    } 
+  }
+}

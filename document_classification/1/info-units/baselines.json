@@ -1,0 +1,47 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "Fine-tune ( Ft )" : {
+          "Fine - tuning" : {
+            "pre-trained model" : {
+              "with" : "source - domain training set",
+              "from sentence" : "Fine-tune ( Ft ) : Fine - tuning the pre-trained model with the source - domain training set ."
+            }
+          }
+        },
+        "Fine - tune with UDA ( UDA )" : {
+          "utilizes" : {
+            "unlabeled data" : {
+              "from" : "target domain",
+              "by optimizing" : "UDA loss function"
+            },
+            "from sentence" : "Fine - tune with UDA ( UDA ) :
+This method utilizes the unlabeled data from the target domain by optimizing the UDA loss function ( Eq. ) ."
+
+          }
+        },
+        "Self - training based on the UDA model ( UDA + Self )" : {
+          "first train" : "Ft model and UDA model",
+          "choose" : {
+            "teacher model" : {
+              "used to train" : {
+                "new XLM student" : {
+                  "using" : {
+                    "only unlabeled data U tgt" : {
+                      "in" : "target domain"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Self - training based on the UDA model ( UDA + Self ) :
+We first train the Ft model and UDA model , and choose the better one as the teacher model .
+The teacher model is used to train a new XLM student using only unlabeled data U tgt in the target domain , as described above ."
+
+        }
+      }
+    }
+  }
+}

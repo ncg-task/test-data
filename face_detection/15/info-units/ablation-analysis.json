@@ -1,0 +1,49 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "FaceBoxes Anchor densification strategy" : {
+          "has" : "crucial",
+          "from sentence" : "FaceBoxes Anchor densification strategy is crucial ."
+        },
+        "Our anchor densification strategy" : {
+          "used to" : {
+            "increase" : {
+              "has" : {
+                "density" : {
+                  "of" : "small anchors",
+                  "to improve" : {
+                    "recall rate" : {
+                      "of" : "small faces"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Our anchor densification strategy is used to increase the density of small anchors ( i.e. , 32 32 and 64 64 ) in order to improve the recall rate of small faces ."
+            }
+          }
+        },
+        "RDCL" : {
+          "has" : "efficient and accuracy - preserving",
+          "from sentence" : "RDCL is efficient and accuracy - preserving ."
+        }
+      },
+      "see" : {
+        "m AP" : {
+          "on" : "FDDB",
+          "has" : {
+            "reduced" : {
+              "from" : {
+                "96.0 %" : {
+                  "to" : "94.9 %"
+                }
+              },
+              "after ablating" : "anchor densification strategy"
+            }
+          },
+          "from sentence" : "2 , we can see that the m AP on FDDB is reduced from 96.0 % to 94.9 % after ablating the anchor densification strategy ."
+        }
+      }
+    }      
+  }
+}

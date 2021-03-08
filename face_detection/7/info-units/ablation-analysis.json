@@ -1,0 +1,73 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "handle" : {
+        "all scales of features" : {
+          "in" : "deep CNN model",
+          "can be" : {
+            "branched out" : {
+              "at" : "any depth of the network"
+            }
+          },
+          "from sentence" : "Theoretically RSA can handle all scales of features in a deep CNN model and therefore can be branched out at any depth of the network ."
+        }
+      },
+      "has" : {
+        "minimum operation" : {
+          "in" : "each component",
+          "means" : {
+            "only the scaleforecast network" : {
+              "is" : "used"
+            }
+          }
+        },
+        "maximum operation" : {
+          "indicates" : {
+            "amount" : {
+              "when" : {
+                "faces appear" : {
+                  "at" : "all scales"
+                }
+              }
+            }
+          },
+          "from sentence" : "The minimum operation in each component means only the scaleforecast network is used where no face appears in the image ; and the maximum operation indicates the amount when faces appear at all scales ."
+        },
+        "Most of the computation" : {
+          "happens before" : "layer res2 b",
+          "has" : {
+            "acceptable error rate" : {
+              "of" : "3.44 %",
+              "from sentence" : "Most of the computation happens before layer res2 b and it has an acceptable error rate of 3.44 % ."
+            }             
+          }
+        },
+        "increase" : {
+          "has" : {
+            "times" : {
+              "of" : "recurrent operation",
+              "has" : {
+                "error rate" : {
+                  "has" : {
+                    "goes up" : {
+                      "due to" : {
+                        "cumulative effect" : {
+                          "of" : {
+                            "rolling out" : {
+                              "has" : "predictions"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "For a particular case , as the times of the recurrent operation increase , the error rate goes up due to the cumulative effect of rolling out the predictions ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

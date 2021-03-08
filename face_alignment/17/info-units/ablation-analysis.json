@@ -1,0 +1,75 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "Disentanglement" : {
+          "of" : {
+            "style and structure" : {
+              "has" : {
+                "key" : {
+                  "influences" : {
+                    "quality" : {
+                      "of" : "style - augmented samples"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Disentanglement of style and structure is the key that influences quality of style - augmented samples ."
+            }
+          }
+        },
+        "Style - augmented synthetic images" : {
+          "improve" : {
+            "detectors ' performance" : {
+              "by" : "large margin"
+            }
+          },
+          "has" : {
+            "improvement" : {
+              "has" : {
+                "even larger" : {
+                  "when" :  {
+                    "number" : {
+                      "of" : "training images",
+                      "has" : "quite small"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Style - augmented synthetic images improve detectors ' performance by a large margin , while the improvement is even larger when the number of training images is quite small ."
+        }
+      },
+      "evaluate" : {
+        "our method" : {
+          "by adding" : {
+            "number" : {
+              "of" : {
+                "random sampled styles k" : {
+                  "of" : {
+                    "each annotated landmarks" : {
+                      "on" : "ResNet - 50 baseline"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "We evaluate our method by adding the number of random sampled styles k of each annotated landmarks on a ResNet - 50 baseline ."
+          }
+        }
+      },
+      "By adding" : {
+        "number" : {
+          "of" : "augmented styles",
+          "has" : {
+            "model" : {
+              "has" : "continue gaining improvement"
+            }
+          },
+          "from sentence" : "By adding a number of augmented styles , the model continue gaining improvement ."
+        }
+      }
+    }
+  }  
+}

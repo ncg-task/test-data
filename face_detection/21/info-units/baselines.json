@@ -1,0 +1,27 @@
+{
+  "has" : {
+    "Baselines" : {
+      "On" : {
+        "FDDB dataset" : {
+          "compare with" : "all public methods",
+          "from sentence" : "On the FDDB dataset , we compare with all public methods ."
+        },
+        "AFW and PASCAL faces datasets" : {
+          "compare with" : [
+            {"deformable part based methods" : {
+              "e.g." : ["structure model", "Tree Parts Model"]
+			}}, 
+            {"cascade - based methods" : {
+              "e.g ." : "Headhunter"}}, 
+            {"commercial system" : {
+              "e.g." : ["face.com", "Face ++", "Picasa"]
+			}}
+          ],
+          "from sentence" : "On the AFW and PASCAL faces datasets , we compare with ( 1 ) deformable part based methods , e.g. structure model and Tree Parts Model ( TSM ) ; ( 2 ) cascade - based methods , e.g .
+Headhunter ; ( 3 ) commercial system , e.g. face.com , Face ++ and Picasa ."
+
+        }
+      }
+    }
+  }
+}

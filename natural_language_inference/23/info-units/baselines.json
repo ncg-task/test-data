@@ -1,0 +1,68 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "Neural bag - of - words ( NBOW )" : {
+          "has" : {
+            "Each sequence" : {
+              "represented as" : {
+                "sum of the embeddings" : {
+                  "of" : "words",
+                  "has" : "concatenated",
+                  "fed to" : "MLP"                  
+                }
+              }
+            }
+          },
+          "from sentence" : "Neural bag - of - words ( NBOW ) :
+Each sequence is represented as the sum of the embeddings of the words it contains , then they are concatenated and fed to a MLP ."
+
+        },
+        "Single LSTM" : {
+          "has" : {
+            "Two sequences" : {
+              "encoded by" : "single LSTM",
+              "from sentence" : "Single LSTM : Two sequences are encoded by a single LSTM , proposed by ."
+            }
+          }
+        },
+        "Parallel LSTMs" : {
+          "has" : {
+            "Two sequences" : {
+              "has" : {
+                "first encoded" : {
+                  "by" : {
+                    "two LSTMs" : {
+                      "has" : "separately"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Parallel LSTMs : Two sequences are first encoded by two LSTMs separately , then they are concatenated and fed to a MLP ."
+        },
+        "Attention LSTMs" : {
+          "has" : {
+            "Two sequences" : {
+              "encoded by" : {
+                "LSTMs" : {
+                  "with" : "attention mechanism"
+                }
+              }
+            }
+          },
+          "from sentence" : "Attention LSTMs : Two sequences are encoded by LSTMs with attention mechanism , proposed by ."
+        },
+        "Word - by - word Attention LSTMs" : {
+          "has" : {
+            "improved strategy" : {
+              "of" : "attention LSTMs",
+              "from sentence" : "Word - by - word Attention LSTMs : An improved strategy of attention LSTMs , which introduces word - by - word attention mechanism and is proposed by . :"
+            }
+          }
+        }
+      }      
+    }
+  }
+}

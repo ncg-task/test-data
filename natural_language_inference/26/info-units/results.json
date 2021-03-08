@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our model" : {
+          "on" : {
+            "development set" : {
+              "has" : {
+                "F 1 score" : {
+                  "of" : "74.0"
+                },
+                "EM score" : {
+                  "of" : "70.3"
+                }              
+              }
+            },
+            "Test set" : {
+              "has" : {
+                "F 1 score" : {
+                  "of" : "72.6"
+                },
+                "EM score" : {
+                  "of" : "69.2"
+                }
+              }
+            },
+            "from sentence" : "Our model achieves an F 1 score of 74.0 and an EM score of 70.3 on the development set , and an F 1 score of 72.6 and an EM score of 69.2 on Test set 1 , as shown in ."            
+          },
+          "has" : {
+            "outperforms" : {
+              "has" : "most of the previous approaches",
+              "from sentence" : "Our model outperforms most of the previous approaches ."
+            }
+          }
+        }
+      },
+      "Comparing to" : {
+        "best - performing systems" : {
+          "has" : {
+            "our model" : {
+              "has" : {
+                "simple architecture" : {
+                  "has" : "end - to - end model"
+                }
+              }
+            }
+          },
+          "from sentence" : "Comparing to the best - performing systems , our model has a simple architecture and is an end - to - end model ."
+        }
+      },
+      "among" : {
+        "all the end - to - end models" : {
+          "achieve" : "best F1 scores",
+          "from sentence" : "In fact , among all the end - to - end models , we achieve the best F1 scores ."
+        }
+      }
+    }
+  }
+}

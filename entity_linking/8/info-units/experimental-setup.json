@@ -1,0 +1,38 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "train" : {
+          "has" : {
+            "RELIC" : {
+              "obtain" : {
+                "data" : {
+                  "from" : "2018 - 10 - 22 dump of English Wikipedia"
+                }
+              }
+            }
+          },
+          "from sentence" : "To train RELIC , we obtain data from the 2018 - 10 - 22 dump of English Wikipedia ."
+        }
+      },
+      "limit" : {
+        "each context sentence" : {
+          "to" : "128 tokens",
+          "from sentence" : "We limit each context sentence to 128 tokens ."
+        }
+      },
+      "set" : {
+        "entity embedding size" : {
+          "to" : "d = 300",
+          "from sentence" : "We set the entity embedding size to d = 300 ."
+        }
+      },
+      "train" : {
+        "model" : {
+          "using" : "Tensor Flow"
+        },
+        "from sentence" : "We train the model using Tensor Flow"
+      }
+    }
+  }
+}

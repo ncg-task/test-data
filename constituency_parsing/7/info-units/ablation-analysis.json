@@ -1,0 +1,68 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "RNNG" : {
+          "with" : "only a stack",
+          "has" : {
+            "strongest" : {
+              "of" : "ablations"
+            },
+            "outperforms" : {
+              "has" : {
+                "\" full \" RNNG" : {
+                  "with" : "all three data structures"
+                }
+              }
+            },
+            "from sentence" : "The RNNG with only a stack is the strongest of the ablations , and it even outperforms the \" full \" RNNG with all three data structures ."
+          }
+        },
+        "stack - only results" : {
+          "has" : {
+            "best published PTB results" : {
+              "for" : "phrasestructure and dependency parsing"
+            }
+          },
+          "from sentence" : "We remark that the stack - only results are the best published PTB results for both phrasestructure and dependency parsing among supervised models ."
+        }
+      },
+      "Ablating" : {
+        "stack" : {
+          "gives" : {
+            "worst" : {
+              "among" : "new results"
+            }
+          },
+          "from sentence" : "Ablating the stack gives the worst among the new results ."
+        }
+      },
+      "seen in" : {
+        "language modeling" : {
+          "has" : {
+            "stack - only RNNG" : {
+              "achieves" : "best performance"
+            }
+          },
+          "ablating" : {
+            "stack" : {
+              "has" : "most harmful"
+            }
+          },
+          "from sentence" : "A similar performance degradation is seen in language modeling : the stack - only RNNG achieves the best performance , and ablating the stack is most harmful ."
+        }
+      },
+      "modeling" : {
+        "syntax" : {
+          "without" : "explicit composition",
+          "provides" : {
+            "little benefit" : {
+              "over" : "sequential LSTM language model"
+            }
+          },
+          "from sentence" : "Indeed , modeling syntax without explicit composition ( the stackablated RNNG ) provides little benefit over a sequential LSTM language model ."
+        }
+      }
+    }
+  }
+}

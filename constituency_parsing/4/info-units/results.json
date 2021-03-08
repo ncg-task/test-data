@@ -1,0 +1,93 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Augmenting the candidate set" : {
+              "has" : {
+                "RG" : {
+                  "decreases" : {
+                    "performance" : {
+                      "from" : {
+                        "93.45 F1" : {
+                          "to" : "92.78 F1"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Augmenting the candidate set
+RG decreases performance from 93.45 F1 to 92.78 F1 on the development set ."
+
+            },
+            "Score combination" : {
+              "combining" : {
+                "scores" : {
+                  "of" : "both models",
+                  "has" : {
+                    "improves" : {
+                      "using" : {
+                        "score" : {
+                          "of" : "either model alone"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Score combination
+We find that combining the scores of both models improves on using the score of either model alone , regardless of the source of candidates ."
+
+            },
+            "Strengthening model combination" : {
+              "Combining" : {
+                "candidates and scores" : {
+                  "from" : "all three models",
+                  "obtain" : "93.94 F1",
+                  "from sentence" : "Strengthening model combination
+2 Combining candidates and scores from all three models ( row 9 ) , we obtain 93.94 F1 . :"
+
+                }
+              }
+            },
+            "Ensembling" : {
+              "using" : {
+                "ensembled RD models" : {
+                  "has" : {
+                    "lower" : {
+                      "than" : {
+                        "rescoring" : {
+                          "has" : "single RD model"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Ensembling Finally , we compare to another commonly used model combination method : ensembling multiple instances of the same model type trained from different random initializations .
+Performance when using only the ensembled RD models ( row 10 ) is lower than rescoring a single RD model with score combinations of single models , either RD + RG ( row 3 ) or RD + LM ( row 6 ) ."
+
+                }
+              }
+            }
+          },
+          "In" : {
+            "PTB setting" : {
+              "has" : {
+                "ensembling" : {
+                  "with" : "score combination",
+                  "achieves" : {
+                    "best over all result" : {
+                      "of" : "94.25"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In the PTB setting , ensembling with score combination achieves the best over all result of 94.25 ( row 13 ) ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

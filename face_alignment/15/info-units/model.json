@@ -1,0 +1,89 @@
+{
+  "has" : {
+    "Model" : {
+      "fit" : {
+        "3D dense face model" : {
+          "to" : "image",
+          "from sentence" : "poses , we propose to fit the 3D dense face model rather than the sparse landmark shape model to the image ."
+        }
+      },
+      "call" : ["3D Dense Face Alignment ( 3DDFA )", {"from sentence" : "We call this method 3D Dense Face Alignment ( 3DDFA ) ."}],
+      "To resolve" : {
+        "fitting process" : {
+          "in" : "DDFA",
+          "propose" : "cascaded convolutional neutral network ( CNN ) based regression method",
+          "from sentence" : "To resolve the fitting process in 3 DDFA , we propose a cascaded convolutional neutral network ( CNN ) based regression method ."
+        }
+      },
+      "adopt" : {
+        "CNN" : {
+          "to fit" : {
+            "3D face model" : {
+              "with" : {
+                "specifically designed feature" : {
+                  "namely" : "Projected Normalized Coordinate Code ( PNCC )",
+                  "from sentence" : "In this work , we adopt CNN to fit the 3D face model with a specifically designed feature , namely Projected Normalized Coordinate Code ( PNCC ) ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "has" : {
+        "Weighted Parameter Distance Cost ( WPDC )" : {
+          "proposed as" : "cost function",
+          "from sentence" : "Besides , Weighted Parameter Distance Cost ( WPDC ) is proposed as the cost function ."
+        },
+        "first attempt" : {
+          "to solve" : {
+            "3D face alignment" : {
+              "with" : "CNN",
+              "from sentence" : "To the best of our knowledge , this is the first attempt to solve the 3D face alignment with CNN ."
+            }
+          }
+        },
+        "synthesized samples" : {
+          "simulate" : {
+            "face appearances" : {
+              "in" : "large poses"
+            }
+          },
+          "boost" : {
+            "performance" : {
+              "of" : "prior and our proposed face alignment algorithms"
+            }
+          },
+          "from sentence" : "The synthesized samples well simulate the face appearances in large poses and boost the performance of both prior and our proposed face alignment algorithms ."
+        }
+      },
+      "To enable" : {
+        "training" : {
+          "of" : {
+            "3DDFA" : {
+              "construct" : {
+                "face database" : {
+                  "containing" : {
+                    "pairs" : {
+                      "of" : "2D face images and 3D face models"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "To enable the training of the 3DDFA , we construct a face database containing pairs of 2D face images and 3D face models ."
+        }
+      },
+      "propose" : {
+        "face profiling algorithm" : {
+          "to synthesize" : {
+            "60 k + training samples" : {
+              "across" : "large poses",
+              "from sentence" : "We further propose a face profiling algorithm to synthesize 60 k + training samples across large poses ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Gated Attention RNNG" : {
+              "clear that" : {
+                "model" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "baseline RNNG"
+                    }
+                  },
+                  "with" : "all three structures",
+                  "achieves" : {
+                    "competitive performance" : {
+                      "with" : "strongest , stack - only , RNNG variant"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Gated Attention RNNG
+It is clear that the model outperforms the baseline RNNG with all three structures present and achieves competitive performance with the strongest , stack - only , RNNG variant ."
+
+            },
+            "Headedness in Phrases" : {
+              "has" : {
+                "model" : {
+                  "has" : {
+                    "higher overlap" : {
+                      "with" : {
+                        "conversion" : {
+                          "using" : {
+                            "Collins head rules" : {
+                              "has" : "49.8 UAS"
+                            }
+                          }
+                        }
+                      },
+                      "than" : {
+                        "Stanford head rules" : {
+                          "has" : "40.4 UAS"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Headedness in Phrases
+The model has a higher overlap with the conversion using Collins head rules ( 49.8 UAS ) rather than the Stanford head rules ( 40.4 UAS ) ."
+
+                },
+                "attention - based tree output" : {
+                  "has" : {
+                    "high error rate ( ? 90 % )" : {
+                      "when" : {
+                        "dependent" : {
+                          "is" : "verb"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "In general , the attention - based tree output has a high error rate ( ? 90 % ) when the dependent is a verb , since the constituent with the highest attention weight in a verb phrase is often the noun phrase instead of the verb , as discussed above ."
+                },
+                "conversion accuracy" : {
+                  "has" : {
+                    "better" : {
+                      "for" : {
+                        "nouns" : {
+                          "has" : "? 50 % error"
+                        }
+                      }
+                    },
+                    "much better" : {
+                      "for" : [{"determiners" : {"has" : "30 %"}}, {"particles" : {"has" : "6 %"}}],
+                      "with respect to" : "Collins head rules",
+                      "from sentence" : "The conversion accuracy is better for nouns ( ? 50 % error ) , and much better for determiners ( 30 % ) and particles ( 6 % ) with respect to the Collins head rules ."
+                    }
+                  }
+                }
+              }
+            },
+            "The Role of Nonterminal Labels" : {
+              "On" : {
+                "test data" : {
+                  "with" : "usual split",
+                  "has" : {
+                    "GA - RNNG" : {
+                      "achieves" : "94.2 %"
+                    },
+                    "U - GA - RNNG" : {
+                      "achieves" : "93.5 %"
+                    }
+                  },
+                  "from sentence" : "The Role of Nonterminal Labels
+On test data ( with the usual split ) , the GA - RNNG achieves 94.2 % , while the U - GA - RNNG achieves 93.5 % ."
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

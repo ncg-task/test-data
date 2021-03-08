@@ -1,0 +1,92 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "our AoA Reader" : {
+          "has" : {
+            "outperforms" : {
+              "has" : "state - of - the - art systems",
+              "by" : {
+                "large margin" : {
+                  "where" : {
+                    "2.3 % and 2.0 % absolute improvements" : {
+                      "over" : {
+                        "EpiReader" : {
+                          "in" : "CBTest NE and CN test sets"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "As we can see that , our AoA Reader outperforms state - of - the - art systems by a large margin , where 2.3 % and 2.0 % absolute improvements over EpiReader in CBTest NE and CN test sets , which demonstrate the effectiveness of our model ."
+            }
+          }
+        },
+        "single model" : {
+          "stay on par with" : "previous best ensemble system",
+          "has" : {
+            "absolute improvement" : {
+              "has" : {
+                "0.9 %" : {
+                  "beyond" : {
+                    "best ensemble model ( Iterative Attention )" : {
+                      "in" : "CBTest NE validation set"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "We have also found that our single model could stay on par with the previous best ensemble system , and even we have an absolute improvement of 0.9 % beyond the best ensemble model ( Iterative Attention ) in the CBTest NE validation set ."
+            }
+          }
+        },
+        "ensemble model" : {
+          "has" : {
+            "our AoA Reader" : {
+              "shows" : {
+                "significant improvements" : {
+                  "over" : "previous best ensemble models",
+                  "by" : "large margin"
+                }
+              },
+              "setup" : "new state - of - the - art system",
+              "from sentence" : "When it comes to ensemble model , our AoA Reader also shows significant improvements over previous best ensemble models by a large margin and setup a new state - of - the - art system ."
+            }
+          }
+        },
+        "significant boost" : {
+          "in" : "performance",
+          "where" : {
+            "4.1 % and 3.7 % improvements" : {
+              "made in" : {
+                "CNN validation and test set" : {
+                  "against" : "CAS Reader"
+                }
+              }
+            }
+          },
+          "from sentence" : "Instead of using pre-defined merging heuristics , and letting the model explicitly learn the weights between individual attentions results in a significant boost in the performance , where 4.1 % and 3.7 % improvements can be made in CNN validation and test set against CAS Reader ."
+        }        
+      },
+      "by adding" : {
+        "additional features" : {
+          "in" : "re-ranking step",
+          "has" : {
+            "another significant boost" : {
+              "has" : {
+                "2.0 % to 3.7 %" : {
+                  "over" : {
+                    "Ao A Reader" : {
+                      "in" : "CBTest NE / CN test sets"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Also by adding additional features in the re-ranking step , there is another significant boost 2.0 % to 3.7 % over Ao A Reader in CBTest NE / CN test sets ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

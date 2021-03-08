@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "For" : {
+        "discriminative model" : {
+          "used" : [{
+            "hidden dimensions" : {
+              "of" : "128"
+            }
+          }, 
+		  "2 - layer LSTMs"],
+          "from sentence" : "For the discriminative model , we used hidden dimensions of 128 and 2 - layer LSTMs ( larger numbers of dimensions reduced validation set performance ) ."
+        },
+        "generative model" : {
+          "used" : ["256 dimensions", "2 layer LSTMs"],
+          "from sentence" : "For the generative model , we used 256 dimensions and 2 layer LSTMs ."
+        },
+        "both models" : {
+          "tuned" : {
+            "dropout rate" : {
+              "to maximize" : "validation set likelihood",
+              "obtaining" : {
+                "optimal rates" : {
+                  "of" : ["0.2 ( discriminative )", "0.3 ( generative )"]
+                }
+              }
+            },
+            "from sentence" : "For both models , we tuned the dropout rate to maximize validation set likelihood , obtaining optimal rates of 0.2 ( discriminative ) and 0.3 ( generative ) ."
+          }
+        },
+        "sequential LSTM baseline" : {
+          "for" : {
+            "language model" : {
+              "found" : {
+                "optimal dropout rate" : {
+                  "of" : "0.3"
+                }
+              },
+              "from sentence" : "For the sequential LSTM baseline for the language model , we also found an optimal dropout rate of 0.3 ."
+            }
+          }
+        },
+        "training" : {
+          "used" : {
+            "stochastic gradient descent" : {
+              "with" : {
+                "learning rate" : {
+                  "of" : "0.1"
+                }
+              },
+              "from sentence" : "For training we used stochastic gradient descent with a learning rate of 0.1 ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

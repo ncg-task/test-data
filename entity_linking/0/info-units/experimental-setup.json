@@ -1,0 +1,129 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "implemented in" : ["Torch framework", {"from sentence" : "All models are implemented in the Torch framework ."}],
+      "For" : {
+        "entity embeddings only" : {
+          "use" : {
+            "Wikipedia ( Feb 2014 ) corpus" : {
+              "for" : "training",
+              "from sentence" : "For entity embeddings only , we use Wikipedia ( Feb 2014 ) corpus for training ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "Entity vectors" : {
+          "has" : {
+            "initialized randomly" : {
+              "from" : {
+                "0 mean normal distribution" : {
+                  "with" : "standard deviation 1"
+                }
+              },
+              "from sentence" : "Entity vectors are initialized randomly from a 0 mean normal distribution with standard deviation 1 ."
+            }
+          },
+          "train" : {
+            "each entity vector" : {
+              "on" : "entity 's Wikipedia canonical description page",
+              "for" : "400 iterations"
+            },
+            "from sentence" : "We first train each entity vector on the entity 's Wikipedia canonical description page ( title words included ) for 400 iterations ."
+          }
+        },
+        "Training" : {
+          "takes" : {
+            "20 hours" : {
+              "on" : {
+                "single TitanX GPU" : {
+                  "with" : {
+                    "12 GB" : {
+                      "of" : "memory"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Training of those takes 20 hours on a single TitanX GPU with 12 GB of memory ."
+            }
+          }
+        },
+        "Our local and global ED models" : {
+          "trained on" : "AIDA - train ( multiple epochs )",
+          "validated on" : "AIDA - A",
+          "tested on" : ["AIDA - B", {"from sentence" : "Our local and global ED models are trained on AIDA - train ( multiple epochs ) , validated on AIDA - A and tested on AIDA - B and other datasets mentioned in Section 7.1 ."}],
+          "use" : {
+            "Adam" : {
+              "with" : {
+                "learning rate" : {
+                  "of" : "1e - 4",
+                  "until" : {
+                    "validation accuracy" : {
+                      "exceeds" : "90 %",
+                      "setting it to" : "1e - 5"
+                    }
+                  },
+                  "from sentence" : "We use Adam with learning rate of 1e - 4 until validation accuracy exceeds 90 % , afterwards setting it to 1e - 5 ."
+                }
+              }
+            }              
+          },
+          "has" : {
+            "regularize" : {
+              "use" : "early stopping",
+              "stop" : {
+                "learning" : {
+                  "if" : {
+                    "validation accuracy" : {
+                      "has" : {
+                        "does not increase" : {
+                          "after" : "500 epochs"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "To regularize , we use early stopping , i.e. we stop learning if the validation accuracy does not increase after 500 epochs ."
+            },
+            "Training" : {
+              "on" : {
+                "single GPU" : {
+                  "takes" : {
+                    "on average" : {
+                      "has" : ["2 ms per mention", {"16 hours" : {"for" : {"1250 epochs" : {"over" : "AIDA - train"}}}}]
+                    }
+                  },
+                  "from sentence" : "Training on a single GPU takes , on average , 2 ms per mention , or 16 hours for 1250 epochs over AIDA - train ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "use" : {
+        "Adagrad" : {
+          "with" : {
+            "learning rate" : {
+              "of" : "0.3"
+            }
+          },
+          "from sentence" : "We use Adagrad with a learning rate of 0.3 ."
+        }
+      },
+      "choose" : {
+        "embedding size" : {
+          "has" : "d = 300"
+        },
+        "pre-trained ( fixed ) Word2 Vec word vectors" : {
+          "has" : "8 , ? = 0.6 , ? = 0.1"
+        },
+        "window size" : {
+          "of" : "20",
+          "for" : "hyperlinks"
+        },
+        "from sentence" : "We choose embedding size d = 300 , pre-trained ( fixed ) Word2 Vec word vectors 8 , ? = 0.6 , ? = 0.1 and window size of 20 for the hyperlinks ."
+      }
+    }
+  }
+}

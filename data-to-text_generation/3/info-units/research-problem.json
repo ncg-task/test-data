@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Text Generation", {"from sentence" : "Pragmatically Informative Text Generation"}],
+    ["language generation and interpretation", {"from sentence" : "Computational approaches to pragmatics cast language generation and interpretation as gametheoretic or Bayesian inference procedures ."}]
+  ]
+}

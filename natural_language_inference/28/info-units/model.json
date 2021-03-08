@@ -1,0 +1,93 @@
+{
+  "has" : {
+    "Model" : {
+      "with" : {
+        "new kind of memory - augmented neural network" : {
+          "uses" : {
+            "distributed memory and processor architecture" : {
+              "has" : "Recurrent Entity Network ( EntNet )"
+            }
+          },
+          "from sentence" : "We propose to handle this scenario with a new kind of memory - augmented neural network that uses a distributed memory and processor architecture : the Recurrent Entity Network ( EntNet ) ."
+        }
+      },
+      "consists of" : {
+        "fixed number" : {
+          "of" : {
+            "dynamic memory cells" : {
+              "containing" : ["vector key w j", "vector value ( or content ) h j"]
+            }
+          },
+          "from sentence" : "The model consists of a fixed number of dynamic memory cells , each containing a vector key w j and a vector value ( or content ) h j ."
+        }
+      },
+      "has" : {
+        "Each cell" : {
+          "associated with" : {
+            "own \" processor \"" : {
+              "has" : {
+                "simple gated recurrent network" : {
+                  "may update" : {
+                    "cell value" : {
+                      "given" : "input"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Each cell is associated with its own \" processor \" , a simple gated recurrent network that may update the cell value given an input ."
+            }
+          }
+        },
+        "EntNet" : {
+          "can be seen as" : {
+            "bank" : {
+              "of" : "gated RNNs",
+              "has" : {
+                "hidden states" : {
+                  "correspond to" : "latent concepts and attributes"
+                },
+                "parameters" : {
+                  "describe" : {
+                    "laws" : {
+                      "of" : "world"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Alternatively , the EntNet can be seen as a bank of gated RNNs ( all sharing the same parameters ) , whose hidden states correspond to latent concepts and attributes , and whose parameters describe the laws of the world according to which the attributes of objects are updated ."
+            }
+          }
+        },
+        "hidden state" : {
+          "has" : {
+            "updated" : {
+              "when" : {
+                "new information" : {
+                  "relevant to" : {
+                    "concept" : {
+                      "has" : "received"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Their hidden state is updated only when new information relevant to their concept is received , and remains otherwise unchanged ."
+            }
+          }
+        },
+        "keys" : {
+          "used in" : {
+            "addressing / gating mechanism" : {
+              "correspond to" : "concepts or entities",
+              "modified only during" : {
+                "learning" : {
+                  "not during" : "inference"
+                }
+              },
+              "from sentence" : "The keys used in the addressing / gating mechanism also correspond to concepts or entities , but are modified only during learning , not during inference ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

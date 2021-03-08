@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Character - based Data - to - text Generation", {"from sentence" : "Copy Mechanism and Tailored Training for Character - based Data - to - text Generation"}],
+    ["natural language generation", {"from sentence" : "In the last few years , many different methods have been focusing on using deep recurrent neural networks for natural language generation ."}],
+    ["text generation", {"from sentence" : "Moreover , since characters constitute the common \" building blocks \" of every text , it also allows a more general approach to text generation , enabling the possibility to exploit transfer learning for training ."}]
+  ]
+}

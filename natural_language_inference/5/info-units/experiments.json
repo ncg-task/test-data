@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "QASent dataset" : {
+              "adding" : {
+                "some word overlap features" : {
+                  "between" : "two sentences",
+                  "has" : {
+                    "performance" : {
+                      "has" : "improved significantly"
+                    }
+                  }
+                },
+                "from sentence" : "QASent dataset .
+After adding some word overlap features between the two sentences , the performance was improved significantly ( the third row of ) ."
+
+              },
+              "see that" : {
+                "our model" : {
+                  "got" : {
+                    "best MAP" : {
+                      "among" : "all previous work"
+                    },
+                    "comparable MRR" : {
+                      "than" : "dos"
+                    }
+                  },
+                  "from sentence" : "We can see that our model ( the last row of ) got the best MAP among all previous work , and a comparable MRR than dos ."
+                }
+              }
+            },
+            "Wiki QA dataset" : {
+              "has" : {
+                "best performance" : {
+                  "acquired by" : "bigram CNN model",
+                  "combining with" : "word overlap features",
+                  "from sentence" : "Wiki QA dataset .
+The best performance ( shown at the second row of ) was acquired by a bigram CNN model combining with the word overlap features ."
+
+                }
+              }
+            },
+            "MSRP dataset" : {
+              "has" : {
+                "our model" : {
+                  "obtained" : {
+                    "comparable performance" : {
+                      "without using" : ["any sparse features", "extra annotated resources", "specific training strategies"]
+                    },
+                    "from sentence" : "MSRP dataset .
+Comparing to these neural network based models , our model obtained a comparable performance ( the last row of ) without using any sparse features , extra annotated resources and specific training strategies ."
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

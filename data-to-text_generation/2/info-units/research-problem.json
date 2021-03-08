@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Structured Data to Text Generation", {"from sentence" : "Deep Graph Convolutional Encoders for Structured Data to Text Generation"}],
+    ["neural text generation from graph - structured data", {"from sentence" : "Most previous work on neural text generation from graph - structured data relies on standard sequence - to - sequence methods ."}],
+    ["graph structured data to text generation", {"from sentence" : "Most previous work casts the graph structured data to text generation task as a sequenceto - sequence problem ."}]
+  ]
+}

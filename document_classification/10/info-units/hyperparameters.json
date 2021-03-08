@@ -1,0 +1,35 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "model" : {
+          "trained using" : {
+            "mini-batch SGD" : {
+              "with" : {
+                "learning rate" : {
+                  "controlled by" : "Adam"
+                },
+                "mini-batch size" : {
+                  "set to" : "32"
+                }
+              }
+            },
+            "from sentence" : "The model was trained using mini-batch SGD with its learning rate controlled by Adam and its mini-batch size set to 32 ."
+          }
+        },
+        "size" : {
+          "of" : {
+            "embeddings" : {
+              "of" : {
+                "words and entities" : {
+                  "set to" : "d = 300"
+                }
+              },
+              "from sentence" : "The size of the embeddings of words and entities was set to d = 300 ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

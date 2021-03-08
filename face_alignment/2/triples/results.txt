@@ -1,0 +1,5 @@
+(Contribution||has||Results)
+(Results||on||Celeb A)
+(Celeb A||has||DeCaFA)
+(DeCaFA||sets||new state - of - the - art)
+(new state - of - the - art||on||three databases)

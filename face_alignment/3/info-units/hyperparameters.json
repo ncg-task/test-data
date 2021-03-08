@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "use" : {
+        "RM - SProp" : {
+          "with" : {
+            "initial learning rate" : {
+              "of" : "1 10 ?4"
+            }
+          },
+          "from sentence" : "During training , we use RM - SProp with an initial learning rate of 1 10 ?4 ."
+        }
+      },
+      "set" : {
+        "momentum" : {
+          "to be" : "0"
+        },
+        "weight decay" : {
+          "to be" : "1 10 ?5"
+        },
+        "from sentence" : "We set the momentum to be 0 ( adopted from ) and the weight decay to be 1 10 ?5 ."
+      },
+      "has" : {
+        "train" : {
+          "for" : "240 epoches",
+          "has" : {
+            "learning rate" : {
+              "reduced to" : {
+                "1 10 ?5 and 1 10 ? 6" : {
+                  "after" : "80 and 160 epoches"
+                }
+              }
+            }
+          },
+          "from sentence" : "We train for 240 epoches , and the learning rate is reduced to 1 10 ?5 and 1 10 ? 6 after 80 and 160 epoches ."
+        },
+        "Data augmentation" : {
+          "performed with" : {
+            "random rotation" : {
+              "has" : "50"
+            },
+            "translation" : {
+              "has" : "25 px"
+            },
+            "flipping" : {
+              "has" : "50 %"
+            },
+            "rescaling" : {
+              "has" : "15 %"
+            }
+          },
+          "from sentence" : "Data augmentation is performed with random rotation ( 50 ) , translation ( 25 px ) , flipping ( 50 % ) , and rescaling ( 15 % ) ."
+        }
+      },
+      "used" : ["Random Gaussian blur", "noise", "occlusion", {"from sentence" : "Random Gaussian blur , noise and occlusion are also used ."}]
+    }
+  }
+}

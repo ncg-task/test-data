@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "Light and Fast Face Detector ( LFFD )" : {
+          "for" : "edge devices",
+          "has" : {
+            "considerably balancing" : {
+              "has" : "accuracy and running efficiency"
+            }
+          },
+          "from sentence" : "In this paper , we propose a Light and Fast Face Detector ( LFFD ) for edge devices , considerably balancing both accuracy and running efficiency ."
+        }
+      },
+      "inspired by" : {
+        "one - stage and multi-scale object detection method SSD" : {
+          "enlightens" : "some other face detectors",
+          "from sentence" : "The proposed method is inspired by the one - stage and multi-scale object detection method SSD which also enlightens some other face detectors ."
+        }
+      },
+      "has" : {
+        "One of the characteristics" : {
+          "of" : {
+            "SSD" : {
+              "is" : {
+                "pre-defined anchor boxes" : {
+                  "has" : {
+                    "manually designed" : {
+                      "for" : "each detection branch"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "One of the characteristics of SSD is that pre-defined anchor boxes are manually designed for each detection branch ."
+        }        
+      }
+    }
+  }
+}

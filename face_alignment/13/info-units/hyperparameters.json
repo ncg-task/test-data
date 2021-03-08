@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "model" : {
+          "optimized using" : {
+            "Adam optimizer" : {
+              "with" : {
+                "initial learning rate" : {
+                  "of" : {
+                    "0.001" : {
+                      "when minimizing" : "L 0"    
+                    },
+                    "0.0002" : {
+                      "when minimizing" : "L"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The model is optimized using Adam optimizer with an initial learning rate of 0.001 when minimizing L 0 , and 0.0002 when minimizing L."
+            }
+          }
+        }
+      },
+      "set" : {
+        "following parameters" : {
+          "has" : {
+            "Q" : {
+              "has" : "53 , 215"
+            },
+            "U = V" : {
+              "has" : "128"
+            },
+            "l S = l T" : {
+              "has" : "160"
+            }
+          },
+          "from sentence" : "We set the following parameters : Q = 53 , 215 , U = V = 128 , l S = l T = 160 . ? values are set to make losses to have similar magnitudes ."
+        }
+      }
+    }
+  }
+}

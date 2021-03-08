@@ -1,0 +1,61 @@
+{
+  "has" : {
+    "Model" : {
+      "adapting" : {
+        "weight initialization" : {
+          "to" : {
+            "optimization dynamics" : {
+              "of" : "specific learning task at hand"
+            }
+          },
+          "from sentence" : "Our work explores the idea of adapting the weight initialization to the optimization dynamics of the specific learning task at hand ."
+        }
+      },
+      "From" : {
+        "Bayesian perspective" : {
+          "has" : {
+            "improved weight initialization" : {
+              "leads to" : {
+                "more accurate posterior" : {
+                  "has" : "better generalization ability"
+                }
+              },
+              "from sentence" : "From the Bayesian perspective , improved weight initialization can be viewed as starting with a better prior , which leads to a more accurate posterior and thus better generalization ability ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "adaptive prior" : {
+          "implemented via" : "Markov Chain Monte Carlo ( MCMC ) methods",
+          "from sentence" : "For example , in the seminal works , an adaptive prior is implemented via Markov Chain Monte Carlo ( MCMC ) methods ."
+        }
+      },
+      "incorporate" : {
+        "adaptive initialization" : {
+          "for" : "neural network training",
+          "use" : {
+            "cyclical batch size schedules" : {
+              "to control" : {
+                "noise ( or temperature )" : {
+                  "of" : "SGD"
+                }
+              }
+            }
+          },
+          "from sentence" : "Motivated by these ideas , we incorporate an \" adaptive initialization \" for neural network training ( see section 2 for details ) , where we use cyclical batch size schedules to control the noise ( or temperature ) of SGD ."
+        }
+      },
+      "studying" : {
+        "different cyclical annealing strategies" : {
+          "for" : {
+            "wide range" : {
+              "of" : "problems"
+            }
+          },
+          "from sentence" : "Here , we build upon this work by studying different cyclical annealing strategies for a wide range of problems ."
+        }
+      }
+    }
+  }  
+}

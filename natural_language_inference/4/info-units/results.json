@@ -1,0 +1,25 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "lengthy - document cases" : {
+          "such as" : "Trivi aQA and QUASAR - T",
+          "has" : {
+            "our model" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : "all the published results"
+                }
+              }
+            }
+          }
+        },
+        "short - document case" : {
+          "such as" : "SQuAD",
+          "achieve" : "best results",
+          "from sentence" : "Overall , in lengthy - document cases such as Trivi aQA and QUASAR - T , our model outperforms all the published results , as seen in Tables 2 and 3 , while in the short - document case such as SQuAD , we mostly achieve the best results , as seen in ."
+        }
+      }
+    }
+  }
+}

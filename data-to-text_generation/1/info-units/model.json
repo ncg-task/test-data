@@ -1,0 +1,30 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "neural ensemble natural language generator" : {
+          "has" : {
+            "train and test" : {
+              "on" : {
+                "three large unaligned datasets" : {
+                  "in" : "restaurant , television , and laptop domains"
+                }
+              },
+              "from sentence" : "Here we present a neural ensemble natural language generator , which we train and test on three large unaligned datasets in the restaurant , television , and laptop domains ."
+            }
+          }
+        }
+      },
+      "explore" : {
+        "novel ways" : {
+          "to represent" : {
+            "MR inputs" : {
+              "including" : [{"novel methods" : {"for" : {"delexicalizing" : {"has" : "slots and their values"}}}}, "automatic slot alignment", "semantic reranker"],
+              "from sentence" : "We explore novel ways to represent the MR inputs , including novel methods for delexicalizing slots and their values , automatic slot alignment , as well as the use of a semantic reranker ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

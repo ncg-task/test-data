@@ -1,0 +1,116 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our hybrid system" : {
+          "ranked" : {
+            "1st" : {
+              "on" : {
+                "all three sub - tasks" : {
+                  "has" : "submitted runs"
+                }
+              }
+            },
+            "from sentence" : "Our hybrid system was ranked 1st on all three sub - tasks for which we submitted runs ."
+          },
+          "has" : {
+            "scores" : {
+              "has" : {
+                "much higher" : {
+                  "than" : "strongest baselines",
+                  "from sentence" : "As shown in , the scores obtained using this system are much higher than the strongest baselines for this task ."
+                }
+              }
+            },
+            "likely" : {
+              "has" : {
+                "improve" : {
+                  "has" : {
+                    "our scores" : {
+                      "on" : "2A and 2B",
+                      "from sentence" : "Furthermore , it is likely that we could improve our scores on 2A and 2B , since we only tuned the system on 1A ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Our cross-evaluation results" : {
+          "computed using" : "normal evaluation setup",          
+          "has" : {
+            "better" : {
+              "than" : "supervised baseline"
+            }
+          },
+          "training" : {
+            "our system" : {
+              "on" : {
+                "general - purpose data" : {
+                  "produced" : {
+                    "better results" : {
+                      "on" : "domain - specific test set",
+                      "than" : {
+                        "strong , supervised baseline" : {
+                          "trained on" : "domain - specific data"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Our cross-evaluation results are better than the supervised baseline computed using the normal evaluation setup , so training our system on general - purpose data produced better results on a domain - specific test set than a strong , supervised baseline trained on the domain - specific data ."
+        },
+        "unsupervised system" : {
+          "has" : {
+            "outperformed" : {
+              "has" : ["all other unsupervised systems", {"supervised baseline" : {"on" : "2A"}}]
+            },
+            "from sentence" : "Note that the unsupervised system outperformed all other unsupervised systems evaluated on this task , and even outperformed the supervised baseline on 2A ."            
+          }
+        },
+        "run 1" : {
+          "has" : {
+            "best" : {
+              "on" : "all 3 test sets",
+              "use" : "hybrid system",
+              "from sentence" : "Given this observation , we find it somewhat surprising that run 1 is the best on all 3 test sets when we use the hybrid system ."
+            }
+          }
+        }
+      },
+      "compare" : {
+        "runs 1 and 2" : {
+          "of" : "our hybrid system",
+          "see that" : {
+            "data augmentation" : {
+              "has" : {
+                "improved" : {
+                  "has" : {
+                    "our scores" : {
+                      "has" : {
+                        "slightly" : {
+                          "on" : "1A and 2B"
+                        }
+                      }
+                    }
+                  }
+                },
+                "increased" : {
+                  "by" : {
+                    "several points" : {
+                      "on" : "2A"
+                    }
+                  },
+                  "from sentence" : "If we compare runs 1 and 2 of our hybrid system , we see that data augmentation improved our scores slightly on 1A and 2B , and increased them by several points on 2A ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

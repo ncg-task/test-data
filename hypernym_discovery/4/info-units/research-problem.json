@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Hypernym discovery", {"from sentence" : "Hypernym discovery aims to discover the hypernym word sets given a hyponym word and proper corpus ."}],
+    ["Hypernym Detection", {"from sentence" : "In the past SemEval contest ( Sem Eval - 2015 task 17 1 , SemEval - 2016 task 13 2 ) , the \" Hypernym Detection \" task was treated as a classfication task , i.e. , given a ( hyponym , hypernym ) pair , deciding whether the pair is a true hypernymic relation or not ."}]
+  ]
+}

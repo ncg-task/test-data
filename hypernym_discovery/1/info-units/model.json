@@ -1,0 +1,40 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "neural network architecture" : {
+          "for" : "concerned task"
+        }
+      },
+      "empirically study" : {
+        "various neural networks" : {
+          "to model" : {
+            "distributed representations" : {
+              "for" : "words and phrases"
+            }
+          }
+        },
+        "from sentence" : "In this work , we introduce a neural network architecture for the concerned task and empirically study various neural networks to model the distributed representations for words and phrases ."
+      },
+      "leverage" : {
+        "unambiguous vector representation" : {
+          "via" : "term embedding"
+        }
+      },
+      "take" : {
+        "advantage" : {
+          "of" : {
+            "deep neural networks" : {
+              "to discover" : {
+                "hypernym relationships" : {
+                  "between" : "terms"
+                }
+              }
+            }
+          },
+          "from sentence" : "In our system , we leverage an unambiguous vector representation via term embedding , and we take advantage of deep neural networks to discover the hypernym relationships between terms ."
+        }
+      }
+    }
+  }
+}

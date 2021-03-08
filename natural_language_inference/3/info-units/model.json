@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Model" : {
+      "take" : {
+        "closer look" : {
+          "at" : {
+            "modeling questions" : {
+              "in" : "end - to - end neural network framework",
+              "from sentence" : "In this paper , we take a closer look at modeling questions in such an end - to - end neural network framework , since we regard question understanding is of importance for such problems ."
+            }
+          }
+        }
+      },
+      "introduced" : {
+        "syntactic information" : {
+          "to help" : {
+            "encode" : {
+              "has" : "questions"
+            }
+          },
+          "from sentence" : "We first introduced syntactic information to help encode questions ."
+        }
+      },
+      "viewed and modelled" : {
+        "different types" : {
+          "of" : {
+            "questions" : {
+              "has" : {
+                "information" : {
+                  "shared" : "among them"
+                }
+              },
+              "as an" : "adaptation problem"
+            }
+          }
+        },
+        "from sentence" : "We then viewed and modelled different types of questions and the information shared among them as an adaptation problem and proposed adaptation models for them ."
+      }
+    }
+  }  
+}

@@ -1,0 +1,21 @@
+{
+  "has" : {
+    "Model" : {
+      "train" : {
+        "both mLSTM and Transformer language models" : {
+          "on" : "large 40 GB text dataset",
+          "transfer" : {
+            "those models" : {
+              "to" : {
+                "two text classification problems" : {
+                  "has" : ["binary sentiment", {"multidimensional emotion classification" : {"based on" : "Plutchik wheel of emotions"}}]
+                }
+              }
+            }
+          },
+          "from sentence" : "In this work , we train both mLSTM and Transformer language models on a large 40 GB text dataset , then transfer those models to two text classification problems : binary sentiment ( including Neutral labels ) , and multidimensional emotion classification based on the Plutchik wheel of emotions ."
+        }
+      }
+    }
+  }
+}

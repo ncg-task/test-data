@@ -1,0 +1,53 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Between - all - models comparisons" : {
+          "show" : {
+            "our single model" : {
+              "sits among" : "5 top - performing algorithms",
+              "from sentence" : "Between - all - models comparisons
+We show our single model sits among the 5 top - performing algorithms , considering that in other algorithms for each ambiguous word one separate classifier is trained ( i.e. in the same number of ambiguous words in a language there have to be classifiers ; which means 57 classifiers for this specific task ) ."
+
+            }
+          },
+          "shows" : {
+            "results" : {
+              "of" : "top - performing and low - performing supervised algorithms",
+              "from sentence" : "shows the results of the top - performing and low - performing supervised algorithms ."
+            }
+          }
+        },
+        "Within - our - model comparisons" : {
+          "reverse" : {
+            "sequential follow of information" : {
+              "into" : "our Bidirectional LSTM"
+            }
+          },
+          "shuffle" : {
+            "order" : {
+              "of" : "context words"
+            }
+          },
+          "replace" : {
+            "our Bidirectional LSTMs" : {
+              "with" : {
+                "two different fully - connected networks" : {
+                  "of" : "same size 50"
+                }
+              }
+            }
+          },
+          "achieved" : {
+            "results" : {
+              "has" : "notably less than 72.5 %"
+            }
+          },
+          "from sentence" : "Within - our - model comparisons
+We observe if reverse the sequential follow of information into our Bidirectional LSTM , we shuffle the order of the context words , or even replace our Bidirectional LSTMs with two different fully - connected networks of the same size 50 ( the size of the LSTMs outputs ) , the achieved results were notably less than 72.5 % ."
+
+        }
+      }
+    }
+  }
+}

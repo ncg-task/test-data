@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "task - oriented word embedding method" : {
+          "denoted as" : "ToWE",
+          "from sentence" : "In this paper , we propose a task - oriented word embedding method ( denoted as ToWE ) to solve the aforementioned problem ."
+        }
+      },
+      "has" : {
+        "words ' contextual information and task information" : {
+          "are" : "inherently jointed",
+          "from sentence" : "In our method , the words ' contextual information and task information are inherently jointed to construct the word embeddings ."
+        }
+      },
+      "To model" : {
+        "task information" : {
+          "has" : {
+            "regularize" : {
+              "has" : {
+                "distribution" : {
+                  "of" : "salient words"
+                }
+              }
+            },
+            "adjust" : {
+              "has" : {
+                "distribution" : {
+                  "of" : {
+                    "other words" : {
+                      "in" : "embedding space"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "To model the task information , we regularize the distribution of the salient words to have a clear classification boundary , and then adjust the distribution of the other words in the embedding space correspondingly ."
+        }
+      }
+    }
+  }
+}

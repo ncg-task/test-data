@@ -1,0 +1,64 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "Our network" : {
+          "implemented in" : "Caffe framework",
+          "from sentence" : "Our network is implemented in the Caffe framework ."
+        },
+        "new layer" : {
+          "consisting of" : ["3D TPS transformation module", "camera projection module", "bilinear sampler module"],
+          "from sentence" : "A new layer is created consisting of the 3D TPS transformation module , the camera projection module and the bilinear sampler module ."
+        },
+        "2D landmark regression" : {
+          "implemented by" : {
+            "attaching" : {
+              "has" : {
+                "additional layers" : {
+                  "on top of" : "last convolution layer"
+                }
+              }
+            }
+          },
+          "from sentence" : "The 2D landmark regression is implemented by attaching additional layers on top of the last convolution layer ."
+        }
+      },
+      "adopt" : {
+        "two architectures" : {
+          "name" : "AlexNet and VGG - 16",
+          "has" : {
+            "pre-trained models" : {
+              "for" : "our shared feature extraction networks"
+            }
+          },
+          "use" : {
+            "convolution layers" : {
+              "from" : "pre-trained models",
+              "to initialize" : "ours"
+            }
+          },
+          "from sentence" : "We adopt two architectures , AlexNet and VGG - 16 , as the pre-trained models for our shared feature extraction networks in , i.e. we use the convolution layers from the pre-trained models to initialize ours ."
+        }
+      },
+      "For" : {
+        "AlexNet architecture" : {
+          "has" : {
+            "freeze" : {
+              "has" : "first layer"
+            }
+          }
+        }
+      },
+      "for" : {
+        "VGG - 16 architecture" : {
+          "has" : {
+            "first 4 layers" : {
+              "has" : "frozen"
+            }
+          }
+        },
+        "from sentence" : "For the AlexNet architecture , we freeze the first layer while for the VGG - 16 architecture , the first 4 layers are frozen ."
+      }
+    }
+  }
+}

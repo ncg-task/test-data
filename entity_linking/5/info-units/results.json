@@ -1,0 +1,119 @@
+{
+  "has" : {
+    "Results" : {
+      "showed" : {
+        "our vocabulary reduction method" : {
+          "has" : {
+            "improves" : {
+              "has" : {
+                "coverage" : {
+                  "of" : {
+                    "supervised systems" : {
+                      "overall" : "WordNet vocabulary"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "In subsection 3.2 , we showed that our vocabulary reduction method improves the coverage of supervised systems overall WordNet vocabulary ."
+        }
+      },
+      "see that" : {
+        "coverage improvement" : {
+          "holds" : {
+            "true" : {
+              "on" : "evaluation tasks",
+              "for" : "both training sets"
+            }
+          },
+          "from sentence" : "In , we can see that this coverage improvement holds true on the evaluation tasks , for both training sets ."
+        }
+      },
+      "has" : {
+        "difference of scores" : {
+          "obtained by" : "our system",
+          "using" : "sense vocabulary reduction or not",
+          "has" : "not significant",
+          "from sentence" : "Now if we look at the results in , the difference of scores obtained by our system using the sense vocabulary reduction or not is overall not significant ( regarding the \" ALL \" column ) ."
+        },
+        "sense reduction method" : {
+          "has" : {
+            "does not consistently improves or decreases" : {
+              "has" : {
+                "score" : {
+                  "on" : "every task"
+                }
+              }
+            },
+            "result" : {
+              "has" : {
+                "roughly the same" : {
+                  "as" : "without sense reduction"
+                }
+              }
+            }
+          },
+          "from sentence" : "Once again , the sense reduction method does not consistently improves or decreases the score on every task , and in overall ( task \" ALL \" ) , the result is roughly the same as without sense reduction applied ."
+        },
+        "ensembling" : {
+          "has" : {
+            "very efficient method" : {
+              "in" : "WSD",
+              "has" : {
+                "improves systematically" : {
+                  "has" : "all our results"
+                }
+              },
+              "from sentence" : "As we can see , ensembling is a very efficient method in WSD as it improves systematically all our results ."
+            }
+          }
+        }
+      },
+      "notice" : {
+        "very large gap" : {
+          "on" : "SemEval 2013 task",
+          "when" : {
+            "SemCor" : {
+              "used" : {
+                "alone" : {
+                  "for" : "training"
+                }
+              }
+            }
+          },
+          "from sentence" : "However we can notice a very large gap on the SemEval 2013 task , especially when the SemCor is used alone for training ."
+        }
+      },
+      "add" : {
+        "WordNet Gloss Tagged" : {
+          "to" : "training data",
+          "obtain" : {
+            "systematically state of the art results" : {
+              "on" : {
+                "all tasks" : {
+                  "except" : "SensEval 3"
+                }
+              },
+              "from sentence" : "When we add the WordNet Gloss Tagged to the training data however , we obtain systematically state of the art results on all tasks except on SensEval 3 ."
+            }
+          }
+        }
+      },
+      "with" : {
+        "ensembles" : {
+          "has" : {
+            "scores" : {
+              "has" : {
+                "significantly higher" : {
+                  "when applying" : "vocabulary reduction algorithm"
+                }
+              }
+            }
+          },
+          "from sentence" : "Interestingly , with ensembles , the scores are significantly higher when applying the vocabulary reduction algorithm ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "attention - based models" : {
+          "has" : {
+            "outperform" : {
+              "has" : "pure LSTM - based approaches"
+            }
+          },
+          "from sentence" : "We expect that the attention - based models would therefore outperform the pure LSTM - based approaches ."
+        },
+        "Word distance benchmark" : {
+          "has" : {
+            "relatively strong performance" : {
+              "of" : {
+                "word distance benchmark" : {
+                  "relative to" : "frame - semantic benchmark",
+                  "perform" : "better"
+                }
+              },
+              "from sentence" : "Word distance benchmark
+More surprising perhaps is the relatively strong performance of the word distance benchmark , particularly relative to the frame - semantic benchmark , which we had expected to perform better ."
+
+            }
+          }
+        },
+        "Neural models" : {
+          "has" : {
+            "Impatient and the Attentive Readers" : {
+              "has" : {
+                "outperforming" : {
+                  "has" : "all other models"
+                }
+              },
+              "from sentence" : "Neural models
+Within the group of neural models explored here , the results paint a clear picture with the Impatient and the Attentive Readers outperforming all other models ."
+
+            },
+            "The Deep LSTM" : {
+              "has" : {
+                "Reader" : {
+                  "performs" : "surprisingly well",
+                  "from sentence" : "The Deep LSTM
+Reader performs surprisingly well , once again demonstrating that this simple sequential architecture can do a reasonable job of learning to abstract long sequences , even when they are up to two thousand tokens in length ."
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }  
+}

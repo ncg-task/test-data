@@ -1,0 +1,63 @@
+{
+  "has" : {
+    "Approach" : {
+      "centered around" : ["BiRNNs", {"from sentence" : "Our proposal ( Section 3 ) is centered around BiRNNs , and more specifically BiLSTMs , which are strong and trainable sequence models ( see Section 2.3 ) ."}],
+      "represent" : {
+        "each word" : {
+          "by" : "BiLSTM encoding"
+        }
+      },
+      "use" : {
+        "concatenation" : {
+          "of" : {
+            "minimal set" : {
+              "of" : {
+                "BiLSTM encodings" : {
+                  "as" : "feature function",
+                  "passed to" : "non-linear scoring function ( multi - layer perceptron )"
+                }
+              },
+              "from sentence" : "We represent each word by its BiLSTM encoding , and use a concatenation of a minimal set of such BiLSTM encodings as our feature function , which is then passed to a non-linear scoring function ( multi - layer perceptron ) ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "BiLSTM" : {
+          "trained with" : {
+            "rest of the parser" : {
+              "to learn" : {
+                "good feature representation" : {
+                  "for" : "parsing problem"
+                }
+              },
+              "from sentence" : "Crucially , the BiLSTM is trained with the rest of the parser in order to learn a good feature representation for the parsing problem ."
+            }
+          }
+        },
+        "graphbased parser" : {
+          "has" : {
+            "jointly train" : {
+              "has" : {
+                "structured - prediction model" : {
+                  "on top of" : "BiLSTM"
+                }
+              },
+              "from sentence" : "In the graphbased parser , we jointly train a structured - prediction model on top of a BiLSTM , propagating errors from the structured objective all the way back to the BiLSTM feature - encoder ."
+            }
+          }
+        }
+      },
+      "using" : {
+        "BiLSTM feature extractor" : {
+          "in" : {
+            "two parsing architectures" : {
+              "has" : ["transition - based", "graph - based"],
+              "from sentence" : "We demonstrate the effectiveness of the approach by using the BiLSTM feature extractor in two parsing architectures , transition - based ( Section 4 ) as well as a graph - based ( Section 5 ) ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

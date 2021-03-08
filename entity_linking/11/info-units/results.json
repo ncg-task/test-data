@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Results" : {
+      "observe" : {
+        "our systems" : {
+          "use" : {
+            "sense vocabulary compression" : {
+              "through" : ["hypernyms", "all relations"],
+              "use" : {
+                "not" : {
+                  "has" : {
+                    "systems" : {
+                      "obtain" : {
+                        "scores" : {
+                          "has" : "overall equivalent"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In the results in , we first observe that our systems that use the sense vocabulary compression through hypernyms or through all relations obtain scores that are overall equivalent to the systems that do not use it ."
+            }
+          }
+        }
+      },
+      "In comparison to" : {
+        "other works" : {
+          "has" : {
+            "outperform systematically" : {
+              "has" : {
+                "state of the art" : {
+                  "on" : "every task"
+                }
+              }
+            } 
+          },
+          "from sentence" : "In comparison to the other works , thanks to the Princeton WordNet Gloss Corpus added to the training data and the use of BERT as input embeddings , we outperform systematically the state of the art on every task ."
+        }
+      }
+    }
+  }
+}

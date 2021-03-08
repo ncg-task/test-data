@@ -1,0 +1,72 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "new multi-scale face detector" : {
+          "with" : "extremely tiny size ( EXTD )",
+          "from sentence" : "In this paper , we propose a new multi-scale face detector with extremely tiny size ( EXTD ) resolving the two mentioned problems ."
+        }
+      },
+      "has" : {
+        "main discovery" : {
+          "share" : {
+            "network" : {
+              "in generating" : "each feature - map"
+            }
+          },
+          "from sentence" : "The main discovery is that we can share the network in generating each feature - map , as shown in ."
+        },
+        "sharing" : {
+          "significantly reduce" : "number of parameters",
+          "enables" : {
+            "model" : {
+              "to use" : {
+                "more layers" : {
+                  "to generate" : {
+                    "low - level feature maps" : {
+                      "for detecting" : "small faces"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "The sharing can significantly reduce the number of parameters , and this enables our model to use more layers to generate the low - level feature maps used for detecting small faces ."
+        },
+        "proposed iterative architecture" : {
+          "makes" : {
+            "network" : {
+              "to observe" : {
+                "features" : {
+                  "from" : ["various scale of faces", "various layer locations"]
+                }
+              }
+            }
+          },
+          "offer" : {
+            "abundant semantic information" : {
+              "to" : "network",
+              "without adding" : "additional parameters"
+            }
+          },
+          "from sentence" : "Also , the proposed iterative architecture makes the network to observe the features from various scale of faces and from various layer locations , and hence offer abundant semantic information to the network , without adding additional parameters ."
+        },
+        "Our baseline framework" : {
+          "follows" : "FPN - like structures",
+          "applied to" : "SSD - like architecture",
+          "from sentence" : "Our baseline framework follows FPN - like structures , but can also be applied to SSD - like architecture ."
+        }
+      },
+      "design" : {
+        "backbone network" : {
+          "reduces" : {
+            "size of the feature map" : {
+              "by" : "half"
+            }
+          }
+        },
+        "from sentence" : "As in the figure , we design a backbone network such that reduces the size of the feature map by half , and we can get the other feature maps with recurrently passing the network ."
+      }
+    }
+  }
+}

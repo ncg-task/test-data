@@ -1,0 +1,7 @@
+(Contribution||has||Results)
+(Results||has||attention mechanism)
+(attention mechanism||helps||re-weight)
+(re-weight||according to||importance)
+(re-weight||has||words)
+(Results||observed||more attention)
+(more attention||given to||Nones , Verbs and Adjectives)

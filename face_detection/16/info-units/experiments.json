@@ -1,0 +1,198 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Face Detection" : {
+              "has" : {
+                "both HyperFace and HF - ResNet" : {
+                  "has" : {
+                    "outperform" : {
+                      "has" : {
+                        "all the reported academic and commercial detectors" : {
+                          "on" : "AFW and PASCAL datasets"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Face Detection
+As can be seen from these figures , both HyperFace and HF - ResNet outperform all the reported academic and commercial detectors on the AFW and PASCAL datasets ."
+
+                },
+                "HyperFace" : {
+                  "achieves" : {
+                    "high mean average precision ( m AP )" : {
+                      "of" : {
+                        "97.9 % and 92.46 %" : {
+                          "for" : "AFW and PASCAL datasets"
+                        }
+                      },
+                      "from sentence" : "HyperFace achieves a high mean average precision ( m AP ) of 97.9 % and 92.46 % , for AFW and PASCAL datasets respectively ."
+                    }
+                  }
+                },
+                "HF - ResNet" : {
+                  "has" : {
+                    "further improves" : {
+                      "has" : {
+                        "m AP" : {
+                          "to" : "99.4 % and 96.2 %"
+                        }
+                      },
+                      "from sentence" : "HF - ResNet further improves the m AP to 99.4 % and 96.2 %"
+                    }
+                  }
+                }
+              },
+              "on" : {
+                "FDDB dataset" : {
+                  "has" : {
+                    "HyperFace performance" : {
+                      "comparable to" : ["DP2MFD", "Faceness"],
+                      "with" : {
+                        "m AP" : {
+                          "of" : "90.1 %"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "In spite of these issues , HyperFace performance is comparable to recently published deep learning - based face detection methods such as DP2MFD and Faceness on the FDDB dataset 1 with m AP of 90.1 % ."
+                }
+              },
+              "show" : {
+                "multitask CNNs" : {
+                  "has" : ["Multitask Face", 
+                    "HyperFace",
+                    {"outperform" : {
+                      "has" : "R - CNN Face",
+                      "by" : "wide margin"
+                    }
+                  }],
+                  "from sentence" : "clearly show that multitask CNNs ( Multitask Face and HyperFace ) outperform R - CNN Face by a wide margin ."
+                }
+              }
+            },
+            "Landmarks Localization" : {
+              "shows" : {
+                "HyperFace" : {
+                  "performs" : {
+                    "consistently accurate" : {
+                      "overall" : "pose angles"
+                    }
+                  },
+                  "from sentence" : "Landmarks Localization
+shows that HyperFace performs consistently accurate overall pose angles ."
+
+                }
+              },
+              "find" : {
+                "R - CNN Fiducial and Multitask Face" : {
+                  "attain" : "similar performance",
+                  "from sentence" : "Moreover , we find that R - CNN Fiducial and Multitask Face attain similar performance ."
+                }
+              },
+              "observe" : {
+                "HyperFace" : {
+                  "achieves" : {
+                    "comparable NME" : {
+                      "of" : "10.88"
+                    }
+                  }
+                },                
+                "HF - ResNet" : {
+                  "achieves" : {
+                    "state - of - theart result" : {
+                      "on" : "IBUG",
+                      "with" : {
+                        "NME" : {
+                          "of" : "8.18"
+                        }
+                      }
+                    },
+                    "from sentence" : "We observe that HyperFace achieves a comparable NME of 10.88 , while HF - ResNet achieves the state - of - theart result on IBUG with NME of 8.18 ."                    
+                  },                  
+                  "has" : {
+                    "significantly improves" : {
+                      "has" : {
+                        "performance" : {
+                          "over" : "HyperFace",
+                          "for both" : "AFW and AFLW datasets"
+                        }
+                      },
+                      "from sentence" : "Additionally , we observe that HF - ResNet significantly improves the performance over HyperFace for both AFW and AFLW datasets ."
+                    }
+                  }
+                }
+              }
+            },
+            "Pose Estimation" : {
+              "has" : {
+                "both HyperFace and HF - ResNet" : {
+                  "has" : {
+                    "outperform" : {
+                      "has" : "existing methods",
+                      "by" : "large margin"
+                    }
+                  },
+                  "from sentence" : "Pose Estimation
+As can be seen from the figure , both HyperFace and HF - ResNet outperform existing methods by a large margin ."
+
+                },
+                "HF - ResNet" : {
+                  "has" : {
+                    "further improves" : {
+                      "has" : {
+                        "performance" : {
+                          "for" : ["roll", "pitch", "yaw"]
+                        }
+                      },
+                      "from sentence" : "HF - ResNet further improves the performance for roll , pitch as well as yaw ."
+                    }
+                  }
+                }
+              }
+            },
+            "Gender Recognition" : {
+              "On" : {
+                "LFWA dataset" : {
+                  "has" : {
+                    "our method" : {
+                      "has" : {
+                        "outperforms" : {
+                          "has" : "PANDA and FaceTracer"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Gender Recognition
+On the LFWA dataset , our method outperforms PANDA and FaceTracer , and is equal to ."
+
+                }
+              },
+              "has" : {
+                "HF - ResNet" : {
+                  "achieves" : {
+                    "state - of - the - art results" : {
+                      "on both" : "CelebA and LFWA datasets",
+                      "from sentence" : "HF - ResNet achieves state - of - the - art results on both CelebA and LFWA datasets ."
+                    }
+                  }
+                },
+                "HyperFace" : {
+                  "with" : ["linear bounding box regression", "traditional NMS"],
+                  "achieves" : {
+                    "m AP" : {
+                      "of" : "94 %"
+                    }
+                  },
+                  "from sentence" : "The HyperFace with a linear bounding box regression and traditional NMS achieves a m AP of 94 % ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

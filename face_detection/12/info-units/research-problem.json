@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["object detection in images", {"from sentence" : "Region proposal mechanisms are essential for existing deep learning approaches to object detection in images ."}],
+    ["object detection", {"from sentence" : "Existing deep learning approaches to solve this task ( e.g. , R - CNN and its variants ) mainly rely on region proposal mechanisms ( e.g. , region proposal networks ( RPN s ) ) to generate potential bounding boxes in an image and then classify these bounding boxes to achieve object detection ."}]
+  ]
+}

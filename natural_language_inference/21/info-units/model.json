@@ -1,0 +1,28 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "novel neural network architecture" : {
+          "called" : "attention - over - attention model",
+          "from sentence" : "In this paper , we present a novel neural network architecture , called attention - over - attention model ."
+        }
+      },
+      "place" : {
+        "another attention mechanism" : {
+          "over" : "existing document - level attention",
+          "from sentence" : "As we can understand the meaning literally , our model aims to place another attention mechanism over the existing document - level attention ."
+        }
+      },
+      "has" : {
+        "our model" : {
+          "automatically generate" : {
+            "attended attention" : {
+              "over" : "various document - level attentions"
+            }
+          },
+          "from sentence" : "Unlike the previous works , that are using heuristic merging functions , or setting various pre-defined non-trainable terms , our model could automatically generate an \" attended attention \" over various document - level attentions , and make a mutual look not only from query - to - document but also document - to - query , which will benefit from the interactive information ."          
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "explicit , symbolic , text planning stage" : {
+          "has" : {
+            "output" : {
+              "fed into" : "neural generation system"
+            }
+          },
+          "from sentence" : "Proposal we propose an explicit , symbolic , text planning stage , whose output is fed into a neural generation system ."
+        }
+      },
+      "has" : {
+        "text planner" : {
+          "determines" : "information structure",
+          "expresses" : {
+            "unambiguously" : {
+              "has" : {
+                "sequence" : {
+                  "of" : "ordered trees"
+                }
+              },
+              "from sentence" : "The text planner determines the information structure and expresses it unambiguously - in our case as a sequence of ordered trees ."
+            }
+          }
+        },
+        "plan" : {
+          "has" : {
+            "neural generation system" : {
+              "transform" : "fluent , natural language text",
+              "from sentence" : "Once the plan is determined , 2 a neural generation system is used to transform it into fluent , natural language text ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

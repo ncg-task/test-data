@@ -1,0 +1,40 @@
+{
+  "has" : {
+    "Approach" : {
+      "introduce" : {
+        "term" : {
+          "in" : {
+            "update equations" : {
+              "for" : "Gated Recurrent Units ( GRU )",
+              "given" : ["input sequence",
+                {"coreference clusters" : {"extracted from" : "external system"}}
+              ],
+              "from sentence" : "Specifically , given an input sequence and coreference clusters extracted from an external system , we introduce a term in the update equations for Gated Recurrent Units ( GRU ) which depends on the hidden state of the coreferent antecedent of the current token ( if it exists ) ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "hidden states" : {
+          "propagated along" : {
+            "in parallel" : {
+              "has" : ["coreference chains", "original sequence"]
+            }
+          },
+          "from sentence" : "This way hidden states are propagated along coreference chains and the original sequence in parallel ."
+        }
+      },
+      "compare" : {
+        "our Coref - GRU layer" : {
+          "with" : "regular GRU layer",
+          "incorporating it in" : {
+            "recent model" : {
+              "for" : "reading comprehension"
+            }
+          },
+          "from sentence" : "We compare our Coref - GRU layer with the regular GRU layer by incorporating it in a recent model for reading comprehension ."
+        }
+      }
+    }
+  }
+}

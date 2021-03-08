@@ -1,0 +1,34 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "VCG model" : {
+          "shows" : {
+            "overall F- score result" : {
+              "has" : {
+                "better" : {
+                  "than" : "DBPedia Spotlight baseline",
+                  "by" : "wide margin"
+                }
+              }
+            }
+          },
+          "from sentence" : "The VCG model shows the overall F- score result that is better than the DBPedia Spotlight baseline by a wide margin ."
+        },
+        "our model" : {
+          "achieves" : {
+            "higher precision values" : {
+              "compared to" : "other approaches"
+            }
+          },
+          "keep" : {
+            "satisfactory level" : {
+              "of" : "recall"
+            }
+          },
+          "from sentence" : "It is notable that again our model achieves higher precision values as compared to other approaches and manages to keep a satisfactory level of recall ."
+        }
+      }      
+    }
+  }
+}

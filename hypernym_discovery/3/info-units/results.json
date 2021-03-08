@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Results" : {
+      "of" : {
+        "TAXOEMBED and all comparison systems" : {
+          "has" : {
+            "Yago and WiBi" : {
+              "achieve" : {
+                "best" : {
+                  "has" : "over all results"
+                }
+              },
+              "from sentence" : "shows the results of TAXOEMBED and all comparison systems .
+As expected , Yago and WiBi achieve the best over all results ."
+
+            },
+            "TAXOEM - BED" : {
+              "based solely on" : "distributional information",
+              "performed" : {
+                "competitively" : {
+                  "detecting" : {
+                    "new hypernyms" : {
+                      "compared to" : "DefIE",
+                      "has" : {
+                        "improving" : {
+                          "has" : {
+                            "recall" : {
+                              "in" : "most domains"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "has" : {
+                    "surpassing" : {
+                      "has" : {
+                        "Yago" : {
+                          "in" : {
+                            "technical areas" : {
+                              "like" : "biology or health"
+                            }
+                          },
+                          "from sentence" : "However , TAXOEM - BED , based solely on distributional information , performed competitively in detecting new hypernyms when compared to DefIE , improving its recall in most domains , and even surpassing Yago in technical areas like biology or health ."
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "our model" : {
+              "has" : {
+                "does not perform particularly well" : {
+                  "on" : "media and physics",
+                  "from sentence" : "However , our model does not perform particularly well on media and physics ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "has research problem" : [
+    "POS tagging", "dependency parsing", {"from sentence" : "From POS tagging to dependency parsing for biomedical event extraction"}
+  ]
+}

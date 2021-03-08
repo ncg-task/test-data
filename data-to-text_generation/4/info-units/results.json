@@ -1,0 +1,94 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "NCP" : {
+          "has" : {
+            "improves" : {
+              "upon" : "vanilla encoderdecoder models ( ED + JC , ED + CC )",
+              "irrespective of" : "copy mechanism",
+              "from sentence" : "Results
+As can be seen , NCP improves upon vanilla encoderdecoder models ( ED + JC , ED + CC ) , irrespective of the copy mechanism being employed ."
+
+            }
+          },
+          "achieves" : {
+            "comparable scores" : {
+              "with" : {
+                "either joint or conditional copy mechanism" : {
+                  "indicates" : {
+                    "content planner" : {
+                      "brings" : "performance improvements"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In fact , NCP achieves comparable scores with either joint or conditional copy mechanism which indicates that it is the content planner which brings performance improvements ."
+            }
+          }
+        },
+        "NCP + CC" : {
+          "achieves" : {
+            "best content selection and content ordering scores" : {
+              "in terms of" : "BLEU",
+              "from sentence" : "Overall , NCP + CC achieves best content selection and content ordering scores in terms of BLEU ."
+            }
+          }
+        },
+        "template - based system" : {
+          "obtains" : {
+            "low" : {
+              "has" : "BLEU and CS precision"
+            }
+          },
+          "scores" : {
+            "high" : {
+              "on" : "CS recall and RG metrics"
+            }
+          },
+          "from sentence" : "As far as the template - based system is concerned , we observe that it obtains low BLEU and CS precision but scores high on CS recall and RG metrics ."
+        }
+      },
+      "Compared to" : {
+        "best reported system" : {
+          "achieve" : {
+            "absolute improvement" : {
+              "of" : {
+                "approximately 12 %" : {
+                  "in terms of" : "relation generation"
+                }
+              }
+            }
+          },
+          "has" : {
+            "content selection" : {
+              "has" : {
+                "precision" : {
+                  "has" : {
+                    "improves" : {
+                      "by" : "5 %"
+                    }      
+                  }
+                },
+                "recall" : {
+                  "by" : "15 %"
+                }
+              }
+            },
+            "content ordering" : {
+              "has" : {
+                "increases" : {
+                  "by" : "3 %"
+                },
+                "BLEU" : {
+                  "by" : "1.5 points"
+                }
+              }
+            }
+          },
+          "from sentence" : "Compared to the best reported system in Wiseman et al. , we achieve an absolute improvement of approximately 12 % in terms of relation generation ; content selection precision also improves by 5 % and recall by 15 % , content ordering increases by 3 % , and BLEU by 1.5 points ."          
+        }
+      }
+    }
+  }
+}

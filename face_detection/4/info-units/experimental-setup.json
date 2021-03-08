@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "initialize" : {
+        "parameters" : {
+          "with" : "xavier method"
+        }
+      },
+      "train" : [{"network" : {
+          "from" : "scratch",
+          "from sentence" : "We initialize all parameters with xavier method and train the network from scratch ."
+          }
+        }, 
+        ["1,500,000 iterations"]
+      ],
+      "reduce" : {
+        "learning rate" : {
+          "by" : {
+            "multiplying" : {
+              "has" : "0.1",
+              "at" : {
+                "iteration" : {
+                  "has" : ["600,000", "1,000,000", "1,200,000", "1,400,000"]
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "We train 1,500,000 iterations and reduce the learning rate by multiplying 0.1 at iteration 600,000 , 1,000,000 , 1,200,000 and 1,400,000 ."
+      },
+      "has" : {
+        "optimization method" : {
+          "is" : {
+            "SGD" : {
+              "with" : ["0.9 momentum", "zero weight decay", "batch size 32"]
+            }
+          },
+          "from sentence" : "The optimization method is SGD with 0.9 momentum , zero weight decay and batch size 32 ."
+        },
+        "initial learning rate" : {
+          "is" : "0.1",
+          "from sentence" : "The initial learning rate is 0.1 ."
+        },
+        "training time" : {
+          "about" : {
+            "5 days" : {
+              "with" : "two NVIDIA GTX 1080 TI"
+            }
+          },
+          "from sentence" : "The training time is about 5 days with two NVIDIA GTX 1080 TI ."
+        },
+        "Our method" : {
+          "implemented using" : "MXNet",
+          "from sentence" : "Our method is implemented using MXNet and the source code is released ."
+        }
+      }
+    }
+  }
+}

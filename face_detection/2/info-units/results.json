@@ -1,0 +1,82 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "AFW Dataset" : {
+          "has" : {
+            "SRN" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : {
+                    "state - of - the - art methods" : {
+                      "with" : "top AP score ( 99.87 % )"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "AFW Dataset .
+As shown in , SRN outperforms these state - of - the - art methods with the top AP score ( 99.87 % ) ."
+
+            }
+          }
+        },
+        "PASCAL Face Dataset" : {
+          "has" : {
+            "SRN" : {
+              "achieves" : {
+                "state - of - the - art results" : {
+                  "by improving" : {
+                    "4.99 % AP score" : {
+                      "compared to" : "second best method STN"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "PASCAL Face Dataset .
+SRN achieves the state - of - the - art results by improving 4.99 % AP score compared to the second best method STN ."
+
+            }
+          }
+        },
+        "FDDB Dataset" : {
+          "has" : {
+            "our SRN" : {
+              "sets" : {
+                "new state - of - the - art performance" : {
+                  "i.e." : "98.8 % true positive rate",
+                  "when" : {
+                    "number of false positives" : {
+                      "equal to" : "1000"
+                    }
+                  },
+                  "from sentence" : "FDDB Dataset .
+As shown in ( c ) , our SRN sets a new state - of - the - art performance , i.e. , 98.8 % true positive rate when the number of false positives is equal to 1000 ."
+
+                }
+              }
+            }
+          }
+        },
+        "WIDER FACE Dataset" : {
+          "find" : {
+            "SRN" : {
+              "performs" : {
+                "favourably" : {
+                  "against" : "state - of - the - art",
+                  "based on" : {
+                    "average precision ( AP )" : {
+                      "across" : "three subsets"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "WIDER FACE Dataset .
+As shown in , we find that SRN performs favourably against the state - of - the - art based on the average precision ( AP ) across the three subsets , especially on the Hard subset which contains a large amount of small faces ."
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

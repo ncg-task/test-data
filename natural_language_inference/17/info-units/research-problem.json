@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["NATURAL LANGUAGE UNDERSTAND - ING", {"from sentence" : "GLUE : A MULTI - TASK BENCHMARK AND ANALYSIS PLATFORM FOR NATURAL LANGUAGE UNDERSTAND - ING"}],
+    ["natural language understanding ( NLU )", {"from sentence" : "For natural language understanding ( NLU ) technology to be maximally useful , it must be able to process language in away that is not exclusive to a single task , genre , or dataset ."}],
+    ["NLU", {"from sentence" : "However , the low absolute performance of our best model indicates the need for improved general NLU systems ."}]
+  ]
+}

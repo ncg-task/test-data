@@ -1,0 +1,66 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Text GCN" : {
+          "performs" : "best",
+          "has" : {
+            "significantly outperforms" : {
+              "has" : ["all baseline models", {"p < 0.05" : {"based on" : "student t- test"}}],
+              "on" : "four datasets"
+            }
+          },
+          "from sentence" : "Text GCN performs the best and significantly outperforms all baseline models ( p < 0.05 based on student t- test ) on four datasets , which showcases the effectiveness of the proposed method on long text datasets ."
+        },
+        "LSTM - based models" : {
+          "rely on" : "pre-trained word embeddings",
+          "perform" : {
+            "better" : {
+              "when" : {
+                "documents" : {
+                  "are" : "shorter"
+                }
+              }
+            }
+          },
+          "from sentence" : "Similarly , LSTM - based models also rely on pre-trained word embeddings and tend to perform better when documents are shorter ."
+        },
+        "PV - DBOW" : {
+          "achieves" : {
+            "comparable results" : {
+              "to" : "strong baselines",
+              "on" : ["20 NG", "Ohsumed"],
+              "from sentence" : "PV - DBOW achieves comparable results to strong baselines on 20 NG and Ohsumed , but the results on shorter text are clearly inferior to others ."
+            }
+          }
+        },
+        "PV - DM" : {
+          "performs" : {
+            "worse" : {
+              "than" : "PV - DBOW",
+              "from sentence" : "PV - DM performs worse than PV - DBOW , the only comparable results are on MR , where word orders are more essential ."
+            }
+          }
+        },
+        "Graph - CNN models" : {
+          "show" : "competitive performances",
+          "from sentence" : "Graph - CNN models also show competitive performances ."
+        }
+      },
+      "provided" : {
+        "pre-trained Glo Ve word embeddings" : {
+          "has" : {
+            "CNN" : {
+              "performs" : {
+                "much better" : {
+                  "on" : ["Ohsumed", "20 NG"]
+                }
+              }
+            }
+          },
+          "from sentence" : "When pre-trained Glo Ve word embeddings are provided , CNN performs much better , especially on Ohsumed and 20 NG ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "To perform" : {
+        "data augmentation" : {
+          "has" : {
+            "randomly sample" : {
+              "has" : ["angle of rotation", {"bounding box scale" : {"from" : "Gaussian distribution"}}]
+            }
+          },
+          "from sentence" : "To perform data augmentation , we randomly sample the angle of rotation and the bounding box scale from Gaussian distribution ."
+        }
+      },
+      "use" : {
+        "four - stage stacked hourglass network" : {
+          "as" : "backbone",
+          "trained by" : "optimizer RMSprop",
+          "from sentence" : "We use a four - stage stacked hourglass network as our backbone which is trained by the optimizer RMSprop ."
+        }
+      },
+      "When" : {
+        "training" : {
+          "has" : {
+            "roughly converged model" : {
+              "with" : "human annotations",
+              "has" : {
+                "initial learning rate" : {
+                  "has" : ["2.5 10 ?4", {"decayed" : {"to" : "2.5 10 ? 6", "after" : "120 epochs"}}],
+                  "from sentence" : "When training the roughly converged model with human annotations , the initial learning rate is 2.5 10 ?4 which is decayed to 2.5 10 ? 6 after 120 epochs ."
+                }
+              }
+            }
+          },
+          "with" : {
+            "Semantic Alignment" : {
+              "has" : {
+                "initial learning rate" : {
+                  "has" : "2.5 10 ? 6",
+                  "divided by" : {
+                    "5 , 2 and 2" : {
+                      "at" : "epoch 30 , 60 and 90"
+                    }
+                  },
+                  "from sentence" : "When training with Semantic Alignment from the beginning of the aforementioned roughly converged model , the initial learning rate is 2.5 10 ? 6 and is divided by 5 , 2 and 2 at epoch 30 , 60 and 90 respectively ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "set" : {
+        "batch size" : {
+          "to" : "10",
+          "for" : "network training",
+          "from sentence" : "We set batch size to 10 for network training ."
+        }
+      },
+      "has" : {
+        "our models" : {
+          "has" : {
+            "trained" : {
+              "with" : "PyTorch",
+              "on" : "2 Titan X GPUs"
+            }
+          },
+          "from sentence" : "1 . All our models are trained with PyTorch [ 18 ] on 2 Titan X GPUs ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "run" : {
+        "experiments" : {
+          "on" : {
+            "DGX - 1 machines" : {
+              "with" : "8 NVIDIA V100 GPUs"
+            }
+          }
+        }
+      },	
+      "has" : {
+        "machines" : {
+          "interconnected by" : "Infiniband",
+          "from sentence" : "We run experiments on DGX - 1 machines with 8 NVIDIA V100 GPUs and machines are interconnected by Infiniband ."		  
+        },	  
+        "CNN models" : {
+          "use" : {
+            "adaptive softmax" : {
+              "in" : "output"
+            }
+          },
+          "has" : {
+            "headband" : {
+              "contains" : {
+                "60K most frequent types" : {
+                  "with" : {
+                    "dimensionality" : {
+                      "has" : "1024"
+                    }
+                  },
+                  "followed by" : {
+                    "160 K band" : {
+                      "with" : {
+                        "dimensionality" : {
+                          "has" : "256"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Experimental setup
+CNN models use an adaptive softmax in the output : the headband contains the 60K most frequent types with dimensionality 1024 , followed by a 160 K band with dimensionality 256 . with a momentum of 0.99 and we renormalize gradients if their norm exceeds 0.1 ."
+
+        },
+        "learning rate" : {
+          "has" : {
+            "linearly warmed up" : {
+              "from" : {
+                "10 ? 7" : {
+                  "to" : "1"
+                }
+              },
+              "for" : "16 K steps"
+            },
+            "annealed" : {
+              "using" : {
+                "cosine learning rate schedule" : {
+                  "with" : {
+                    "single phase" : {
+                      "to" : "0.0001"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "The learning rate is linearly warmed up from 10 ? 7 to 1 for 16 K steps and then annealed using a cosine learning rate schedule with a single phase to 0.0001 ."
+        }
+      },
+      "use" : ["NCCL2 library", "torch", {"from sentence" : "We also use the NCCL2 library and the torch ."}]
+    }
+  }
+}

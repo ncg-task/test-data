@@ -1,0 +1,56 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our method MCL" : {
+          "has" : {
+            "outperforms" : {
+              "has" : "most of the state - of - the - art methods",
+              "on" : {
+                "AFLW dataset" : {
+                  "where" : {
+                    "relative error reduction" : {
+                      "achieved" : "3.93 %",
+                      "compared to" : "RecNet"
+                    }
+                  }
+                }
+            },
+            "from sentence" : "Our method MCL outperforms most of the state - of - the - art methods , especially on AFLW dataset where a relative error reduction of 3.93 % is achieved compared to RecNet ."
+          }
+        }
+      },
+        "challenging images" : {
+          "from" : "AFLW and COFW",
+          "from sentence" : "We compare with other methods on several challenging images from AFLW and COFW respectively in ."
+        },
+        "MCL" : {
+          "demonstrates" : {
+            "superior capability" : {
+              "of handling" : ["severe occlusions", {"complex variations" : {"of" : "pose , expression , illumination"}}]
+            },
+            "from sentence" : "MCL demonstrates a superior capability of handling severe occlusions and complex variations of pose , expression , illumination ."
+          }
+        },
+        "average running speed" : {
+          "of" : {
+            "deep learning methods" : {
+              "for detecting" : "68 facial landmarks"
+            }
+          },
+          "from sentence" : "The average running speed of deep learning methods for detecting 68 facial landmarks are presented in ."
+        }
+      },
+      "observed" : {
+        "MCL" : {
+          "achieves" : {
+            "competitive performance" : {
+              "on" : "all three benchmarks"
+            },
+            "from sentence" : "It is observed that MCL achieves competitive performance on all three benchmarks ."
+          }
+        }
+      }
+    }
+  }
+}

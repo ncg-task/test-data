@@ -1,0 +1,37 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "parser" : {
+          "combines" : {
+            "encoder" : {
+              "built using" : {
+                "self - attentive architecture" : {
+                  "with" : "decoder",
+                  "customized for" : "parsing"
+                }
+              },
+              "from sentence" : "In this paper , we introduce a parser that combines an encoder built using this kind of self - attentive architecture with a decoder customized for parsing ( ) ."
+            }
+          }
+        }
+      },
+      "present" : {
+        "a version of our model" : {
+          "uses" : "character LSTM",
+          "performs" : {
+            "better" : {
+              "than" : "other lexical representationseven",
+              "if" : {
+                "word embeddings" : {
+                  "has" : "removed"
+                }
+              },
+              "from sentence" : "We also present a version of our model that uses a character LSTM , which performs better than other lexical representationseven if word embeddings are removed from the model ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

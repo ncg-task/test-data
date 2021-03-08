@@ -1,0 +1,49 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "use" : {
+        "20 , 10 , and 10 epochs" : {
+          "for" : "stage 1 to 3",
+          "To train" : "network",
+          "from sentence" : "To train the network , we use 20 , 10 , and 10 epochs for stage 1 to 3 ."
+        }
+      },
+      "set" : {
+        "initial global learning rate" : {
+          "as" : "1 e ? 3"
+        }
+      },
+      "reduce" : {
+        "learning rate" : {
+          "by" : {
+            "factor" : {
+              "of" : "10"
+            }
+          },
+          "when" : {
+            "training error" : {
+              "approaches" : "plateau"
+            }
+          }
+        },
+        "from sentence" : "We set the initial global learning rate as 1 e ? 3 , and reduce the learning rate by a factor of 10 when the training error approaches a plateau ."
+      },
+      "has" : {
+        "minibatch size" : {
+          "has" : "32"
+        },
+        "weight decay" : {
+          "has" : "0.005"
+        },
+        "leak factor" : {
+          "for" : {
+            "Leaky ReLU" : {
+              "has" : "0.01"
+            }
+          },
+          "from sentence" : "The minibatch size is 32 , weight decay is 0.005 , and the leak factor for Leaky ReLU is 0.01 ."
+        }
+      }
+    }
+  }
+}

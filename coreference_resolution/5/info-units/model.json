@@ -1,0 +1,60 @@
+{
+  "has" : {
+    "Model" : {
+      "posit" : {
+        "global context" : {
+          "has" : "indeed necessary",
+          "for" : {
+            "further improvements" : {
+              "in" : "coreference resolution"
+            }
+          }
+        },
+        "from sentence" : "In this work , we posit that global context is indeed necessary for further improvements in coreference resolution , but argue that informative cluster , rather than mention , level features are very difficult to devise , limiting their effectiveness ."
+      },
+      "learn" : {
+        "representations" : {
+          "of" : "mention clusters",
+          "by embedding" : {
+            "sequentially" : {
+              "using" : "recurrent neural network"
+            }
+          },
+          "from sentence" : "Accordingly , we instead propose to learn representations of mention clusters by embedding them sequentially using a recurrent neural network ( shown in Section 4 ) ."
+        }
+      },
+      "has" : "no manually defined cluster features",
+      "learns" : {
+        "global representation" : {
+          "from" : {
+            "individual mentions" : {
+              "present in" : "each cluster"
+            },
+            "from sentence" : "Our model has no manually defined cluster features , but instead learns a global representation from the individual mentions present in each cluster ."            
+          },
+          "into" : ["mention - ranking style coreference system", {"from sentence" : "We incorporate these representations into a mention - ranking style coreference system ."}]
+        }
+      },
+      "including" : {
+        "the recurrent neural network and the mention - ranking sub-system" : {
+          "trained" : {
+            "end - to - end" : {
+              "on" : "coreference task"
+            }
+          },
+          "from sentence" : "The entire model , including the recurrent neural network and the mention - ranking sub-system , is trained end - to - end on the coreference task ."
+        }
+      },
+      "train" : {
+        "model" : {
+          "as" : {
+            "local classifier" : {
+              "with" : "fixed context",
+              "from sentence" : "We train the model as a local classifier with fixed context ( that is , as a history - based model ) ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Reading Comprehension", {"from sentence" : "Attention - over - Attention Neural Networks for Reading Comprehension"}],
+    ["Cloze - style reading comprehension", {"from sentence" : "Cloze - style reading comprehension is a representative problem in mining relationship between document and query ."}],
+    ["read and comprehend the human languages", {"from sentence" : "To read and comprehend the human languages are challenging tasks for the machines , which requires that the understanding of natural languages and the ability to do reasoning over various clues ."}]
+  ]
+}

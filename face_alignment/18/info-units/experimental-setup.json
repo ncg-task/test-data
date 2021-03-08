@@ -1,0 +1,72 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "During" : {
+        "data augmentation" : {
+          "has" : {
+            "total of 10 images" : {
+              "created from" : {
+                "each input image" : {
+                  "in" : "training set"
+                }
+              }
+            }
+          },
+          "from sentence" : "During data augmentation a total of 10 images are created from each input image in the training set ."
+        }
+      },
+      "has" : {
+        "Training" : {
+          "performed using" : ["Theano 0.9.0", "Lasagne 0.2"],
+          "from sentence" : "Training is performed using Theano 0.9.0 and Lasagne 0.2 ."
+        },
+        "Python implementation" : {
+          "runs at" : {
+            "73 fps" : {
+              "for" : {
+                "images" : {
+                  "processed in" : "parallel"
+                }
+              }
+            },
+            "45 fps" : {
+              "for" : {
+                "images" : {
+                  "processed" : "sequentially" 
+                }
+              }
+            }
+          },
+          "on" : "GeForce GTX 1070 GPU",
+          "from sentence" : "The Python implementation runs at 73 fps for images processed in parallel and at 45 fps for images processed sequentially on a GeForce GTX 1070 GPU ."
+        }
+      },
+      "For" : {
+        "optimization" : {
+          "use" : {
+            "Adam stochastic optimization" : {
+              "with" : {
+                "initial step size" : {
+                  "of" : "0.001"
+                },
+                "mini batch size" : {
+                  "of" : "64"
+                }
+              },
+              "from sentence" : "For optimization we use Adam stochastic optimization with an initial step size of 0.001 and mini batch size of 64 ."
+            }
+          }
+        },
+        "validation" : {
+          "use" : {
+            "random subset" : {
+              "of" : "100 images",
+              "from" : "training set",
+              "from sentence" : "For validation we use a random subset of 100 images from the training set ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

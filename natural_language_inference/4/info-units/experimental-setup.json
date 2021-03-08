@@ -1,0 +1,89 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "build" : {
+        "model and Sonnet" : {
+          "to implement" : "memory interface",
+          "from sentence" : "Implementation details . to build the model and Sonnet 2 to implement the memory interface ."
+        }
+      },
+      "has" : {
+        "NLTK" : {
+          "used for" : {
+            "tokenizing" : {
+              "has" : "words"
+            }
+          },
+          "from sentence" : "NLTK is used for tokenizing words ."
+        },
+        "hidden vector dimension l" : {
+          "set to" : "200",
+          "from sentence" : "The hidden vector dimension l is set to 200 ."
+        },
+        "batch size" : {
+          "set to" : {
+            "20" : {
+              "for" : "TriviaQA"
+            },
+            "30" : {
+              "for" : "SQuAD and QUASAR - T"
+            }
+          },
+          "from sentence" : "The batch size is set to 20 for TriviaQA and 30 for SQuAD and QUASAR - T ."
+        },
+        "Our model" : {
+          "require" : {
+            "more memory" : {
+              "than" : "existing methods"
+            }
+          }
+        },
+        "single GPU" : {
+          "has" : {
+            "enough" : {
+              "has" : {
+                "train" : {
+                  "has" : "model",
+                  "within" : "reasonable amount of time"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our model does require more memory than existing methods , but a single GPU ( e.g. , M40 with 12 GB memory ) was enough to train model within a reasonable amount of time ."
+        }
+      },
+      "In" : {
+        "memory controller" : {
+          "use" : "four read heads and one write head",
+          "has" : {
+            "memory size" : {
+              "set to" : "100 36"
+            }
+          },
+          "initialized as" : "0",
+          "from sentence" : "In the memory controller , we use four read heads and one write head , and the memory size is set to 100 36 , with all initialized as 0 ."
+        }
+      },
+      "use" : {
+        "AdaDelta ( Zeiler , 2012 )" : {
+          "as" : "optimizer",
+          "with" : {
+            "learning rate" : {
+              "of" : "0.5"
+            }
+          },
+          "from sentence" : "We use AdaDelta ( Zeiler , 2012 ) as an optimizer with a learning rate of 0.5 ."
+        },
+        "exponential moving average" : {
+          "of" : "weights",
+          "with" : {
+            "decaying factor" : {
+              "of" : "0.001"
+            }
+          },
+          "from sentence" : "We use an exponential moving average of weights with a decaying factor of 0.001 ."
+        }
+      }
+    }
+  }
+}

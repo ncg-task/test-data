@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Multi - Document Reading Comprehension", {"from sentence" : "A Deep Cascade Model for Multi - Document Reading Comprehension"}],
+    ["Machine reading comprehension ( MRC )", {"from sentence" : "Machine reading comprehension ( MRC ) , which empowers computers with the ability to read and comprehend knowledge and then answer questions from textual data , has made rapid progress in recent years ."}],
+    ["MRC", {"from sentence" : "From the early cloze - style test to answer extraction from a single paragraph , and to the more complex open - domain question answering from web data , great efforts have been made to push the MRC technique to more practical applications ."}]
+  ]
+}

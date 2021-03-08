@@ -1,0 +1,93 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "Wiseman" : {
+          "has" : {
+            "standard encoder - decoder system" : {
+              "with" : "copy mechanism",
+              "from sentence" : "Baselines
+Wiseman is a standard encoder - decoder system with copy mechanism ."
+
+            }
+          }
+        },
+        "Li" : {
+          "has" : {
+            "standard encoder - decoder" : {
+              "with" : "delayed copy mechanism"
+            },
+            "text" : {
+              "first generated with" : {
+                "placeholders" : {
+                  "replaced by" : {
+                    "salient records" : {
+                      "extracted from" : {
+                        "table" : {
+                          "by" : "pointer network"
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "Li is a standard encoder - decoder with a delayed copy mechanism : text is first generated with placeholders , which are replaced by salient records extracted from the table by a pointer network ."
+              }
+            }
+          }
+        },
+        "Puduppully - plan" : {
+          "acts in" : {
+            "two steps" : {
+              "has" : {
+                "first standard encoder - decoder" : {
+                  "generates" : "plan"
+                },
+                "second standard encoder - decoder" : {
+                  "generates" : {
+                    "text" : {
+                      "from" : "plan"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Puduppully - plan acts in two steps : a first standard encoder - decoder generates a plan , i.e. a list of salient records from the table ; a second standard encoder - decoder generates text from this plan ."
+            }
+          }
+        },
+        "Puduppully - updt" : {
+          "consists in" : {
+            "standard encoder - decoder" : {
+              "with" : {
+                "added module" : {
+                  "aimed at" : {
+                    "updating" : {
+                      "has" : "record representations",
+                      "during" : "generation process"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Puduppully - updt .
+It consists in a standard encoder - decoder , with an added module aimed at updating record representations during the generation process ."
+
+            }
+          },
+          "At" : {
+            "each decoding step" : {
+              "has" : {
+                "a gated recurrent network" : {
+                  "computes" : {
+                    "records" : {
+                      "should be" : "updated"
+                    }
+                  },
+                  "from sentence" : "At each decoding step , a gated recurrent network computes which records should be updated and what should be their new representation ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

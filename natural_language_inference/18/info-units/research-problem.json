@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Parameter Re-Initialization", {"from sentence" : "Parameter Re-Initialization through Cyclical Batch Size Schedules"}],
+    ["Optimal parameter initialization", {"from sentence" : "Optimal parameter initialization remains a crucial problem for neural network training ."}]
+  ]
+}

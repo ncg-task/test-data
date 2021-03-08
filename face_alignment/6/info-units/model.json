@@ -1,0 +1,85 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "3 DDE ( 3D Deeply - initialized Ensemble ) regressor" : {
+          "has" : {
+            "robust and efficient face alignment algorithm" : {
+              "based on" : {
+                "coarse - to - fine cascade" : {
+                  "of" : "ERTs"
+                },
+                "from sentence" : "In this paper we present the 3 DDE ( 3D Deeply - initialized Ensemble ) regressor , a robust and efficient face alignment algorithm based on a coarse - to - fine cascade of ERTs ."
+              }
+            }
+          }
+        }
+      },
+      "initialized by" : {
+        "robustly fitting" : {
+          "has" : {
+            "3 D face model" : {
+              "to" : {
+                "probability maps" : {
+                  "produced by" : "CNN"
+                }
+              }
+            }
+          },
+          "from sentence" : "It is initialized by robustly fitting a 3 D face model to the probability maps produced by a CNN ."
+        }
+      },
+      "has" : {
+        "ERT" : {
+          "implicitly imposes" : {
+            "prior face shape" : {
+              "on" : "solution"
+            },
+            "from sentence" : "On the other hand , the ERT implicitly imposes a prior face shape on the solution , addressing the shortcomings of deep models when occlusions and ambiguous face configurations are present ."
+          }
+        },
+        "coarse - to - fine structure" : {
+          "tackles" : {
+            "combinatorial explosion" : {
+              "of" : "parts deformation"
+            },
+            "from sentence" : "Finally , its coarse - to - fine structure tackles the combinatorial explosion of parts deformation , which is also a key limitation of approaches using shape constraints ."
+          }
+        }
+      },
+      "improve" : {
+        "initialization" : {
+          "by using" : {
+            "RANSAC - like procedure" : {
+              "has" : {
+                "increases" : {
+                  "has" : {
+                    "robustness" : {
+                      "presence of" : "occlusions"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "First we improve the initialization by using a RANSAC - like procedure that increases its robustness in the presence of occlusions ."
+            }
+          }
+        }
+      },  
+      "introduced" : {
+        "early stopping and better data augmentation techniques" : {
+          "for" : {
+            "increasing" : {
+              "has" : "regularization"
+            }
+          },
+          "when" : {
+            "training" : {
+              "has" : ["ERT", "CNN"]
+            }
+          },
+          "from sentence" : "We have also introduced early stopping and better data augmentation techniques for increasing the regularization when training both the ERT and the CNN ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "has" : {
+    "Approach" : {
+      "use" : {
+        "well - defined facial boundaries" : {
+          "to represent" : {
+            "geometric structure" : {
+              "of" : "human face"
+            }
+          },
+          "from sentence" : "To this end , we use well - defined facial boundaries to represent the geometric structure of the human face ."
+        }
+      },
+      "represent" : {
+        "facial structure" : {
+          "using" : "13 boundary lines",
+          "from sentence" : "In this work , we represent facial structure using 13 boundary lines ."
+        }
+      },
+      "has" : {
+        "Our boundary - aware face alignment algorithm" : {
+          "contains" : {
+            "two stages" : {
+              "first estimate" : "facial boundary heatmaps",
+              "regress" : {
+                "landmarks" : {
+                  "with" : "boundary heatmaps"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our boundary - aware face alignment algorithm contains two stages .
+We first estimate facial boundary heatmaps and then regress landmarks with the help of boundary heatmaps ."
+
+        },
+        "jointly learned" : {
+          "in" : "end - to - end manner",
+          "has" : ["boundary heatmap estimator", "landmark regressor", "boundary effectiveness discriminator"],
+          "from sentence" : "The boundary heatmap estimator , landmark regressor , and boundary effectiveness discriminator can be jointly learned in an end - to - end manner ."
+        },
+        "boundary heatmaps" : {
+          "serve as" : {
+            "structure cue" : {
+              "to guide" : {
+                "feature learning" : {
+                  "for" : "landmark regressor"
+                }
+              }
+            }
+          },
+          "from sentence" : "The boundary heatmaps serve as structure cue to guide feature learning for the landmark regressor ."
+        }
+      },
+      "To explore" : {
+        "relationship" : {
+          "between" : "facial boundaries and landmarks",
+          "introduce" : {
+            "adversarial learning ideas" : {
+              "by using" : "landmark - based boundary effectiveness discriminator"
+            }
+          },
+          "from sentence" : "To explore the relationship between facial boundaries and landmarks , we introduce adversarial learning ideas by using a landmark - based boundary effectiveness discriminator ."
+        }
+      },
+      "used" : {
+        "stacked hourglass structure" : {
+          "to estimate" : "facial boundary heatmap",
+          "model" : {
+            "structure" : {
+              "between" : {
+                "facial boundaries" : {
+                  "through" : {
+                    "message passing" : {
+                      "to increase" : {
+                        "robustness" : {
+                          "to" : "occlusion"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "We used stacked hourglass structure to estimate facial boundary heatmap and model the structure between facial boundaries through message passing to increase its robustness to occlusion ."
+        }
+      }
+    }
+  }
+}

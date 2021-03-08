@@ -1,0 +1,28 @@
+{
+  "has" : {
+    "Approach" : {
+      "to develop" : {
+        "deep architectures" : {
+          "able to learn" : {
+            "hierarchical representations" : {
+              "of" : "whole sentences",
+              "has" : {
+                "jointly" : {
+                  "with" : "task"
+                }
+              },
+              "from sentence" : "We believe that a challenge in NLP is to develop deep architectures which are able to learn hierarchical representations of whole sentences , jointly with the task ."
+            }
+          }
+        }
+      },
+      "use" : {
+        "deep architectures" : {
+          "of" : "many convolutional layers",
+          "using" : "up to 29 layers",
+          "from sentence" : "In this paper , we propose to use deep architectures of many convolutional layers to approach this goal , using up to 29 layers ."
+        }
+      }
+    }
+  }
+}

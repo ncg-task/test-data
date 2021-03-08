@@ -1,0 +1,204 @@
+{
+  "has" : {
+    "Baselines" : {
+      "compare" : {
+        "our Text GCN" : {
+          "with" : {
+            "multiple stateof - the - art text classification and embedding methods" : {
+              "has" : {
+                "TF - IDF + LR" : {
+                  "has" : {
+                    "bag - of - words model" : {
+                      "with" : "term frequencyinverse document frequency weighting"
+                    },
+                    "Logistic Regression" : {
+                      "used as" : "classifier"
+                    }
+                  },
+                  "from sentence" : "Baselines .
+We compare our Text GCN with multiple stateof - the - art text classification and embedding methods as follows :
+TF - IDF + LR : bag - of - words model with term frequencyinverse document frequency weighting .
+Logistic Regression is used as the classifier ."
+
+                },
+                "CNN : Convolutional Neural Network" : {
+                  "explored" : {
+                    "CNN -rand" : {
+                      "uses" : "randomly initialized word embeddings"
+                    },
+                    "CNN - non- static" : {
+                      "uses" : "pre-trained word embeddings"
+                    },
+                    "from sentence" : "CNN : Convolutional Neural Network ( Kim 2014 ) .
+We explored CNN -rand which uses randomly initialized word embeddings and CNN - non- static which uses pre-trained word embeddings ."
+
+                  }
+                },
+                "LSTM" : {
+                  "uses" : {
+                    "last hidden state" : {
+                      "as" : {
+                        "representation" : {
+                          "of" : "whole text"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "LSTM : The LSTM model defined in which uses the last hidden state as the representation of the whole text ."
+                },
+                "Bi- LSTM" : {
+                  "has" : {
+                    "bi-directional LSTM" : {
+                      "used in" : "text classification",
+                      "from sentence" : "Bi- LSTM : a bi-directional LSTM , commonly used in text classification ."
+                    }
+                  }
+                },
+                "PV - DBOW" : {
+                  "has" : {
+                    "paragraph vector model" : {
+                      "has" : {
+                        "orders" : {
+                          "of" : {
+                            "words" : {
+                              "in" : "text"
+                            }
+                          },
+                          "are" : "ignored"
+                        },
+                        "from sentence" : "PV - DBOW : a paragraph vector model proposed by , the orders of words in text are ignored ."
+                      },
+                      "used" : {
+                        "Logistic Regression" : {
+                          "as" : "classifier",
+                          "from sentence" : "We used Logistic Regression as the classifier ."
+                        }
+                      }
+                    }
+                  }
+                },
+                "PV - DM" : {
+                  "has" : {
+                    "paragraph vector model" : {
+                      "considers" : "word order",
+                      "from sentence" : "PV - DM : a paragraph vector model proposed by , which considers the word order ."
+                    }
+                  },
+                  "used" : {
+                    "Logistic Regression" : {
+                      "as" : "classifier",
+                      "from sentence" : "We used Logistic Regression as the classifier ."
+                    }
+                  }
+                },
+                "PTE" : {
+                  "has" : {
+                    "predictive text embedding" : {
+                      "firstly learns" : {
+                        "word embedding" : {
+                          "based on" : {
+                            "heterogeneous text network" : {
+                              "containing" : {
+                                "words , documents and labels" : {
+                                  "as" : "nodes"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "averages" : {
+                        "word embeddings" : {
+                          "as" : {
+                            "document embeddings" : {
+                              "for" : "text classification"
+                            }
+                          }
+                        },
+                        "from sentence" : "PTE : predictive text embedding , which firstly learns word embedding based on heterogeneous text network containing words , documents and labels as nodes , then averages word embeddings as document embeddings for text classification ."
+                      }
+                    }
+                  }
+                },
+                "fast Text" : {
+                  "treats" : {
+                    "average of word / n- grams embeddings" : {
+                      "as" : "document embeddings"
+                    }
+                  },
+                  "feeds" : {
+                    "document embeddings" : {
+                      "into" : "linear classifier"
+                    }
+                  },
+                  "from sentence" : "fast Text : a simple and efficient text classification method , which treats the average of word / n- grams embeddings as document embeddings , then feeds document embeddings into a linear classifier ."
+                },
+                "SWEM" : {
+                  "has" : {
+                    "simple word embedding models" : {
+                      "employs" : {
+                        "simple pooling strategies" : {
+                          "operated over" : "word embeddings"
+                        }
+                      },
+                      "from sentence" : "SWEM : simple word embedding models , which employs simple pooling strategies operated over word embeddings ."
+                    }
+                  }
+                },
+                "LEAM" : {
+                  "has" : {
+                    "label - embedding attentive models" : {
+                      "embeds" : {
+                        "words and labels" : {
+                          "in" : {
+                            "same joint space" : {
+                              "for" : "text classification"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "LEAM : label - embedding attentive models , which embeds the words and labels in the same joint space for text classification ."
+                    }
+                  },
+                  "utilizes" : ["label descriptions", {"from sentence" : "It utilizes label descriptions ."}]
+                },
+                "Graph - CNN - C" : {
+                  "has" : {
+                    "graph CNN model" : {
+                      "operates" : {
+                        "convolutions" : {
+                          "over" : {
+                            "word embedding similarity graphs" : {
+                              "used" : "Chebyshev filter"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "Graph - CNN - C : a graph CNN model that operates convolutions over word embedding similarity graphs ( Defferrard , Bresson , and Vandergheynst 2016 ) , in which Chebyshev filter is used ."
+                    }
+                  }
+                },
+                "Graph - CNN - S" : {
+                  "same as" : {
+                    "Graph - CNN - C" : {
+                      "using" : "Spline filter"
+                    }
+                  },
+                  "from sentence" : "Graph - CNN - S : the same as Graph - CNN - C but using Spline filter ) ."
+                },
+                "Graph - CNN - F" : {
+                  "same as" : {
+                    "Graph - CNN - C" : {
+                      "using" : "Fourier filter"
+                    }
+                  },
+                  "from sentence" : "Graph - CNN - F : the same as Graph - CNN - C but using Fourier filter ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

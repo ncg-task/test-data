@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Reading Comprehension", {"from sentence" : "Cut to the Chase : A Context Zoom - in Network for Reading Comprehension"}],
+    ["Reading Comprehension ( RC )", {"from sentence" : "In recent years many deep neural networks have been proposed to solve Reading Comprehension ( RC ) tasks ."}],
+    ["RC", {"from sentence" : "To show the effectiveness of our architecture , we conducted several experiments on the recently proposed and challenging RC dataset ' Nar - rative QA ' ."}]
+  ]
+}

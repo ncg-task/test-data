@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["parsing", {"from sentence" : "This form of training , which accounts for model predictions at training time , improves parsing accuracies ."}],
+    ["Natural language parsing", {"from sentence" : "Natural language parsing can be formulated as a series of decisions that read words in sequence and incrementally combine them to form syntactic structures ; this formalization is known as transitionbased parsing , and is often coupled with a greedy search procedure ."}],
+    ["transition - based parsing", {"from sentence" : "The literature on transition - based parsing is vast , but all works share in common a classification component that takes into account features of the current parser state 1 and predicts the next action to take conditioned on the state ."}]
+  ]
+}

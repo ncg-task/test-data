@@ -1,0 +1,33 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "MANN" : {
+          "named" : "SAM ( sparse access memory )",
+          "from sentence" : "In this paper , we present a MANN named SAM ( sparse access memory ) ."
+        }
+      },
+      "By thresholding" : {
+        "memory modifications" : {
+          "to" : "sparse subset"
+        }
+      },
+      "using" : {
+        "efficient data structures" : {
+          "for" : "content - based read operations"
+        }
+      },
+      "has" : {
+        "our model" : {
+          "has" : {
+            "optimal" : {
+              "in" : "space and time",
+              "with respect to" : "memory size"
+            },
+            "from sentence" : "By thresholding memory modifications to a sparse subset , and using efficient data structures for content - based read operations , our model is optimal in space and time with respect to memory size , while retaining end - to - end gradient based optimization ."
+          }
+        }
+      }
+    }
+  }
+}

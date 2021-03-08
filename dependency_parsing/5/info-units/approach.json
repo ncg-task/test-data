@@ -1,0 +1,66 @@
+{
+  "has" : {
+    "Approach" : {
+      "combine" : {
+        "representational power" : {
+          "of" : {
+            "neural networks" : {
+              "with" : {
+                "superior search" : {
+                  "enabled by" : "structured training and inference"
+                }
+              }
+            }
+          },
+          "from sentence" : "In this work , we combine the representational power of neural networks with the superior search enabled by structured training and inference , making our parser one of the most accurate dependency parsers to date ."
+        }
+      },
+      "train" : {
+        "neural network" : {
+          "to model" : {
+            "probability" : {
+              "of" : "individual parse actions"
+            }
+          },
+          "from sentence" : "As in prior work , we train the neural network to model the probability of individual parse actions ."
+        }
+      },
+      "use" : {
+        "activations" : {
+          "from" : {
+            "all layers" : {
+              "of" : "neural network"
+            }
+          },
+          "as" : {
+            "representation" : {
+              "in" : {
+                "structured perceptron model" : {
+                  "trained with" : "beam search and early updates"
+                }
+              },
+              "from sentence" : "Instead , we use the activations from all layers of the neural network as the representation in a structured perceptron model that is trained with beam search and early updates ( Section 3 ) ."
+            }
+          }
+        }
+      },
+      "generate" : {
+        "large quantities of high - confidence parse trees" : {
+          "by parsing" : "unlabeled data",
+          "with" : "two different parsers",
+          "selecting" : {
+            "only the sentences" : {
+              "has" : {
+                "two parsers" : {
+                  "produced" : "same trees"
+                }
+              }
+            },
+            "from sentence" : "To this end , we generate large quantities of high - confidence parse trees by parsing unlabeled data with two different parsers and selecting only the sentences for which the two parsers produced the same trees ( Section 3.3 ) ."            
+          },
+          "known as" : ["tri-training", {"from sentence" : "This approach is known as \" tri-training \" and we show that it benefits our neural network parser significantly more than other approaches ."}]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "jPTDP v 2.0" : {
+          "implemented using" : {
+            "DYNET v2.0" : {
+              "with" : "fixed random seed"
+            }
+          },
+          "from sentence" : "Our jPTDP v 2.0 is implemented using DYNET v2.0 with a fixed random seed ."
+        },
+        "Word embeddings" : {
+          "has" : {
+            "initialized" : {
+              "has" : ["randomly", "pre-trained word vectors"]
+            }
+          }
+        },
+        "character and POS tag embeddings" : {
+          "has" : "randomly initialized",
+          "from sentence" : "Word embeddings are initialized either randomly or by pre-trained word vectors , while character and POS tag embeddings are randomly initialized ."
+        }
+      },
+      "apply" : {
+        "dropout" : {
+          "with" : {
+            "67 % keep probability" : {
+              "to" : {
+                "inputs" : {
+                  "of" : ["BiLSTMs", "MLPs"]
+                }
+              }
+            }
+          },
+          "from sentence" : "We apply dropout with a 67 % keep probability to the inputs of BiLSTMs and MLPs ."
+        },
+        "word dropout" : {
+          "to learn" : {
+            "embedding" : {
+              "for" : "unknown words"
+            },
+            "from sentence" : "Following and , we also apply word dropout to learn an embedding for unknown words : we replace each word token w appearing # ( w ) times in the training set with a special \" unk \" symbol with probability punk ( w ) = 0.25 0.25 + # ( w ) ."
+          }
+        }
+      },
+      "optimize" : {
+        "objective loss" : {
+          "using" : "Adam",
+          "with" : [{"initial learning rate" : {"at" : "0.001"}}, "no mini-batches"],
+          "from sentence" : "We optimize the objective loss using Adam ( Kingma and Ba , 2014 ) with an initial learning rate at 0.001 and no mini-batches ."
+        }
+      },
+      "use" : ["100 - dimensional word embeddings", "50 - dimensional character embeddings", "100 dimensional POS tag embeddings", {"from sentence" : "For all experiments presented in this paper , we use 100 - dimensional word embeddings , 50 - dimensional character embeddings and 100 dimensional POS tag embeddings ."}],
+      "fix" : {
+        "number of hidden nodes" : {
+          "in" : "MLPs",
+          "at" : "100",
+          "from sentence" : "We also fix the number of hidden nodes in MLPs at 100 ."
+        }
+      }
+    }
+  }
+}

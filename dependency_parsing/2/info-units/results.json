@@ -1,0 +1,53 @@
+{
+  "has" : {
+    "Results" : {
+      "consider" : {
+        "neural FOG parser" : {
+          "trained with" : "Hamming cost",
+          "is" : {
+            "very strong benchmark" : {
+              "has" : {
+                "outperforming" : {
+                  "has" : "many higherorder graph - based and neural network models",
+                  "on" : "all three datasets",
+                  "from sentence" : "First , consider the neural FOG parser trained with Hamming cost ( C H in the second - to - last row ) .
+This is a very strong benchmark , outperforming many higherorder graph - based and neural network models on all three datasets ."
+
+                }
+              }
+            }
+          },
+          "training" : {
+            "distillation cost" : {
+              "gives" : {
+                "consistent improvements" : {
+                  "for" : "all languages"
+                }
+              },
+              "from sentence" : "Nonetheless , training the same model with distillation cost gives consistent improvements for all languages ."
+            }
+          },
+          "For" : {
+            "English" : {
+              "has" : {
+                "comes close" : {
+                  "to" : "slower ensemble"
+                }
+              },
+              "from sentence" : "For English , we see that this model comes close to the slower ensemble it was trained to simulate ."
+            },
+            "Chinese" : {
+              "achieves" : "best published scores"
+            }
+          },
+          "for" : {
+            "German" : {
+              "has" : "best published UAS scores",
+              "from sentence" : "For Chinese , it achieves the best published scores , for German the best published UAS scores , and just after Bohnet and Nivre ( 2012 ) for LAS ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

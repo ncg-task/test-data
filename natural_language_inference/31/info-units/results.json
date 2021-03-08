@@ -1,0 +1,121 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Learning with sparse memory access" : {
+          "shows" : {
+            "sparse models" : {
+              "learn with" : {
+                "comparable efficiency" : {
+                  "to" : "dense models"
+                }
+              },
+              "learn" : {
+                "more effectively" : {
+                  "for" : "priority sort and associative recall"
+                }
+              },
+              "from sentence" : "Learning with sparse memory access
+shows that sparse models are able to learn with comparable efficiency to the dense models and , surprisingly , learn more effectively for some tasks - notably priority sort and associative recall ."
+
+            }
+          }
+        },
+        "Scaling with a curriculum" : {
+          "For" : {
+            "all tasks" : {
+              "has" : {
+                "SAM" : {
+                  "has" : {
+                    "advance further" : {
+                      "than" : "other models",
+                      "in" : "associative recall task"
+                    },
+                    "advance" : {
+                      "through" : {
+                        "curriculum" : {
+                          "to" : {
+                            "sequences" : {
+                              "has" : "greater than 4000"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "Scaling with a curriculum
+For all tasks , SAM was able to advance further than the other models , and in the associative recall task , SAM was able to advance through the curriculum to sequences greater than 4000 ( ) ."
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "Question answering on the Babi tasks" : {
+          "has" : {
+            "MANNs" : {
+              "except" : "NTM",
+              "able to learn" : {
+                "solutions" : {
+                  "comparable to" : "previous best results",
+                  "failing at" : {
+                    "only 2" : {
+                      "of" : "tasks"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Question answering on the Babi tasks
+The MANNs , except the NTM , are able to learn solutions comparable to the previous best results , failing at only 2 of the tasks ."
+
+            },
+            "SDNC" : {
+              "solve" : {
+                "all but 1" : {
+                  "of" : "tasks"
+                }
+              },
+              "has" : {
+                "best reported result" : {
+                  "on" : "Babi"
+                }
+              },
+              "from sentence" : "The SDNC manages to solve all but 1 of the tasks , the best reported result on Babi that we are aware of ."
+            },
+            "NTM" : {
+              "has" : "perform poorly",
+              "from sentence" : "We believe the NTM may perform poorly since it lacks a mechanism which allows it to allocate memory effectively ."
+            }
+          }
+        },
+        "Learning on real world data" : {
+          "has" : {
+            "SAM" : {
+              "has" : {
+                "outperformed" : {
+                  "has" : "other models"
+                }
+              },
+              "from sentence" : "Learning on real world data
+SAM outperformed other models , presumably due to its much larger memory capacity ."
+
+            },
+            "All of the MANNs" : {
+              "able to" : {
+                "perform" : {
+                  "has" : {
+                    "much better" : {
+                      "than" : "chance"
+                    }
+                  },
+                  "from sentence" : "All of the MANNs were able to perform much better than chance with ?"
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

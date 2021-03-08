@@ -1,0 +1,45 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our system ( single model )" : {
+          "achieve" : {
+            "70.0 %" : {
+              "has" : "exact match"
+            },
+            "79.0 %" : {
+              "has" : "F 1 scores"
+            }
+          },
+          "on" : "test set",          
+          "surpasses" : "all the published results",
+          "from sentence" : "Our system ( single model ) can achieve 70.0 % exact match and 79.0 % F 1 scores on the test set , which surpasses all the published results and can match the top performance on the SQuAD leaderboard at the time of writing ."
+        }
+      },
+      "Without" : {
+        "aligned question embedding feature" : {
+          "has" : {
+            "our system" : {
+              "achieve" : {
+                "F1" : {
+                  "has" : "over 77 %"
+                }
+              }
+            }
+          },
+          "from sentence" : "Without the aligned question embedding feature ( only word embedding and a few manual features ) , our system is still able to achieve F1 over 77 % ."
+        }
+      },
+      "remove both" : {
+        "f aligned and f exact match" : {
+          "has" : {
+            "performance" : {
+              "drops" : "dramatically"
+            }
+          },
+          "from sentence" : "More interestingly , if we remove both f aligned and f exact match , the performance drops dramatically , so we conclude that both features play a similar but complementary role in the feature representation related to the paraphrased nature of a question vs. the context around an answer ."
+        }
+      }
+    }
+  }
+}

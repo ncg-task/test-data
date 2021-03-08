@@ -1,0 +1,57 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "proposed method" : {
+          "denoted by" : "WSD - TM",
+          "has" : {
+            "outperforms" : {
+              "has" : {
+                "state - of - the - art WSD system" : {
+                  "by" : "significant margin",
+                  "achieving" : {
+                    "overall F1 - score" : {
+                      "of" : "66.9",
+                      "compared to" : {
+                        "Moro14 's score" : {
+                          "of" : "65.5"
+                        }
+                      }
+                    },
+                    "from sentence" : "The proposed method , denoted by WSD - TM in the tables referring to WSD using topic models , outperforms the state - of - the - art WSD system by a significant margin ( pvalue < 0.01 ) by achieving an overall F1 - score of 66.9 as compared to Moro14 's score of 65.5 ."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "proposed system" : {
+          "has" : {
+            "outperforms" : {
+              "has" : {
+                "all previous knowledgebased systems" : {
+                  "overall" : "parts of speech"
+                }
+              }
+            }
+          },
+          "from sentence" : "The proposed system outperforms all previous knowledgebased systems overall parts of speech ."
+        }
+      },
+      "observe that" : {
+        "performance" : {
+          "of" : {
+            "proposed model" : {
+              "has" : {
+                "not much worse" : {
+                  "than" : "best supervised system"
+                }
+              }
+            }
+          },
+          "from sentence" : "We also observe that the performance of the proposed model is not much worse than the best supervised system , Melamud16 ( 69.4 ) ."
+        }
+      }
+    }
+  }
+}

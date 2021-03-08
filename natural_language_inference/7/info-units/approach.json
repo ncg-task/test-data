@@ -1,0 +1,57 @@
+{
+  "has" : {
+    "Approach" : {
+      "address" : {
+        "lack of" : {
+          "has" : {
+            "real natural language training data" : {
+              "introducing" : {
+                "novel approach" : {
+                  "to building" : "supervised reading comprehension data set"
+                }
+              },
+              "from sentence" : "In this work we seek to directly address the lack of real natural language training data by introducing a novel approach to building a supervised reading comprehension data set ."
+            }
+          }
+        }
+      },
+      "observe" : {
+        "summary and paraphrase sentences" : {
+          "with" : "associated documents",
+          "has" : {
+            "readily converted" : {
+              "to" : "context - query - answer triples",
+              "using" : "simple entity detection and anonymisation algorithms"
+            }
+          },
+          "from sentence" : "We observe that summary and paraphrase sentences , with their associated documents , can be readily converted to context - query - answer triples using simple entity detection and anonymisation algorithms ."
+        }
+      },
+      "collected" : {
+        "two new corpora" : {
+          "of" : {
+            "roughly a million news stories" : {
+              "with" : {
+                "associated queries" : {
+                  "from" : "CNN and Daily Mail websites"
+                }
+              }
+            }
+          },
+          "from sentence" : "Using this approach we have collected two new corpora of roughly a million news stories with associated queries from the CNN and Daily Mail websites ."
+        }
+      },
+      "demonstrate" : {
+        "efficacy" : {
+          "of" : "our new corpora",
+          "by building" : {
+            "novel deep learning models" : {
+              "for" : "reading comprehension"
+            }
+          },
+          "from sentence" : "We demonstrate the efficacy of our new corpora by building novel deep learning models for reading comprehension ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "has" : {
+    "Results" : {
+      "On" : {
+        "UAS and LAS" : {
+          "has" : {
+            "Full variation of STACKPTR" : {
+              "with" : "decoding beam size 10",
+              "has" : {
+                "outperforms" :{
+                  "has" : "BIAF",
+                  "on" : "Chinese"                  
+                }
+              },
+              "obtains" : {
+                "competitive performance" : {
+                  "on" : ["English", "German"]
+                }
+              },
+              "from sentence" : "Main Results
+On UAS and LAS , the Full variation of STACKPTR with decoding beam size 10 outperforms BIAF on Chinese , and obtains competitive performance on English and German ."
+
+            }
+          }
+        },
+        "LCM and UCM" : {
+          "has" : {
+            "STACKPTR" : {
+              "has" : {
+                "significantly outperforms" : {
+                  "has" : "BIAF",
+                  "on" : "all languages",
+                  "from sentence" : "On LCM and UCM , STACKPTR significantly outperforms BIAF on all languages , showing the superiority of our parser on complete sentence parsing ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "has" : {
+        "Full model" : {
+          "achieves" : {
+            "best accuracy" : {
+              "on" : "English and Chinese"
+            }
+          },
+          "performs" : {
+            "slightly worse" : {
+              "than" : "+ sib",
+              "on" : "German"
+            }
+          },
+          "from sentence" : "An interesting observation is that the Full model achieves the best accuracy on English and Chinese , while performs slightly worse than + sib on German ."
+        },
+        "re-implementation of BIAF" : {
+          "obtains" : {
+            "better performance" : {
+              "than" : "original one"
+            },
+            "from sentence" : "re-implementation of BIAF obtains better performance than the original one in , demonstrating the effectiveness of the character - level information ."            
+          },
+          "On" : {
+            "German" : {
+              "has" : {
+                "performance" : {
+                  "has" : {
+                    "competitive" : {
+                      "with" : "BIAF"
+                    },
+                    "significantly better" : {
+                      "than" : "other models"
+                    }
+                  },
+                  "from sentence" : "On German , the performance is competitive with BIAF , and significantly better than other models ."
+                }
+              }
+            }
+          }
+        },
+        "Our model" : {
+          "achieves" : {
+            "state - of - the - art performance" : {
+              "on both" : ["UAS", "LAS"],
+              "on" : "Chinese"
+            },
+            "best UAS" : {
+              "on" : "English"
+            },
+            "from sentence" : "Our model achieves state - of - the - art performance on both UAS and LAS on Chinese , and best UAS on English ."
+          }
+        }
+      },
+      "on" : {
+        "RA" : {
+          "has" : {
+            "slightly worse" : {
+              "than" : "BIAF"
+            }
+          },
+          "from sentence" : "The results of our parser on RA are slightly worse than BIAF ."
+        }
+      }
+    }
+  }
+}

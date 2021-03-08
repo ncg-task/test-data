@@ -1,0 +1,66 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "Adding" : {
+        "weights" : {
+          "to" : {
+            "central points" : {
+              "of" : "facial landmarks",
+              "reduces" : {
+                "NME" : {
+                  "by" : "0.09 to 0.23",
+                  "on" : "two stages"
+                }
+              },
+              "from sentence" : "2 . Adding weights to central points of the facial landmarks reduces the NME by 0.09 to 0.23 on the two stages , respectively ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "self - critic learning" : {
+          "has" : ["not used", {"NME" : {"has" : {"increases" : {"by" : "0.04/0.18", "for" : "with / without weight mask"}}}}],
+          "from sentence" : "If the self - critic learning is not used , the NME increases by 0.04/0.18 for with / without weight mask , respectively ."
+        },
+        "self - supervision scheme" : {
+          "reduce" : {
+            "NME" : {
+              "by" : {
+                "0.1" : {
+                  "when" : {
+                    "weight mask" : {
+                      "has" : "used"
+                    }
+                  }                  
+                },
+                "0.23" : {
+                  "if" : {
+                    "weight mask" : {
+                      "has" : "removed"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "While the self - supervision scheme reduce NME by 0.1 when the weight mask is used , and 0.23 if the weight mask is removed , no significant improvement is observed ."
+            }
+          }
+        }
+      },
+      "found" : {
+        "FLMs" : {
+          "as" : "input",
+          "has" : {
+            "accelerate" : {
+              "has" : {
+                "convergence" : {
+                  "of" : "training process"
+                }
+              }
+            }
+          },
+          "from sentence" : "Moreover , in our experiments , we found taking the FLMs as input can accelerate the convergence of training process ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "To preprocess" : {
+        "corpus" : {
+          "use" : {
+            "tokenizer" : {
+              "from" : "Stanford CoreNLP"
+            }
+          },
+          "from sentence" : "To preprocess the corpus , we use the tokenizer from Stanford CoreNLP ."
+        }
+      },
+      "use" : {
+        "Glo Ve word vectors" : {
+          "pretrained on" : "840B Common Crawl corpus",
+          "from sentence" : "We use as Glo Ve word vectors pretrained on the 840B Common Crawl corpus ."
+        },
+        "max sequence length" : {
+          "of" : "600",
+          "during" : "training"
+        },
+        "hidden state size" : {
+          "of" : "200",
+          "for" : ["recurrent units", "maxout layers", "linear layers"],
+          "from sentence" : "We use a max sequence length of 600 during training and a hidden state size of 200 for all recurrent units , maxout layers , and linear layers ."
+        },
+        "dropout" : {
+          "to regularize" : {
+            "our network" : {
+              "during" : "training"
+            }
+          }
+        }
+      },
+      "optimize" : {
+        "model" : {
+          "using" : "ADAM",
+          "from sentence" : "We use dropout to regularize our network during training , and optimize the model using ADAM ."
+        }
+      },
+      "limit" : {
+        "vocabulary" : {
+          "to" : {
+            "words" : {
+              "present in" : "Common Crawl corpus"
+            }
+          }
+        }
+      },
+      "set" : {
+        "embeddings" : {
+          "for" : "out - of - vocabulary words",
+          "to" : "zero"
+        },
+        "from sentence" : "We limit the vocabulary to words that are present in the Common Crawl corpus and set embeddings for out - of - vocabulary words to zero ."
+      },
+      "has" : {
+        "All LSTMs" : {
+          "has" : {
+            "randomly initialized" : {
+              "has" : "parameters"
+            },
+            "initial state" : {
+              "of" : "zero"
+            }
+          },
+          "from sentence" : "All LSTMs have randomly initialized parameters and an initial state of zero ."
+        },
+        "Sentinel vectors" : {
+          "has" : ["randomly initialized", {"optimized" : {"during" : "training"}}],
+          "from sentence" : "Sentinel vectors are randomly initialized and optimized during training ."
+        },
+        "All models" : {
+          "implemented and trained with" : "Chainer",
+          "from sentence" : "All models are implemented and trained with Chainer ."
+        }
+      },
+      "For" : {
+        "dynamic decoder" : {
+          "set" : {
+            "maximum number" : {
+              "of" : "iterations",
+              "to" : "4"
+            }
+          },
+          "use" : {
+            "maxout pool size" : {
+              "of" : "16"
+            }
+          },
+          "from sentence" : "For the dynamic decoder , we set the maximum number of iterations to 4 and use a maxout pool size of 16 ."
+        }
+      }
+    }
+  }
+}

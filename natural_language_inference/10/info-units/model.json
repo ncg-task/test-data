@@ -1,0 +1,60 @@
+{
+  "has" : {
+    "Model" : {
+      "achieve" : {
+        "high accuracy" : {
+          "with" : {
+            "fully neural approach" : {
+              "involving" : ["single feedforward network", "pre-trained skip - thought embeddings"]
+            }
+          },
+          "from sentence" : "Where previous approaches rely on feature engineering or involved neural network architectures , we achieve high accuracy with a fully neural approach involving only a single feedforward network and pre-trained skip - thought embeddings ."
+        }
+      },
+      "considering" : {
+        "only the last sentence" : {
+          "of" : "context",
+          "has" : {
+            "outperforms" : {
+              "has" : {
+                "models" : {
+                  "consider" : "full context"
+                }
+              }
+            }
+          },
+          "from sentence" : "Second , we find that considering only the last sentence of the context outperforms models that consider the full context ."
+        }
+      },
+      "has" : {
+        "our approach" : {
+          "using" : {
+            "skip - thought embeddings" : {
+              "for" : {
+                "sentences" : {
+                  "in" : "story"
+                }
+              },
+              "in" : "feed - forward neural network"
+            }
+          },
+          "training" : {
+            "model" : {
+              "on" : "provided validation set"
+            }
+          },
+          "considering" : {
+            "two endings" : {
+              "with" : {
+                "only the last sentence" : {
+                  "in" : "prompt"
+                }
+              }
+            }
+          },
+          "from sentence" : "In sum , our approach differs from previous efforts in the joint use of three strategies : ( 1 ) using skip - thought embeddings for sentences in the story in a feed - forward neural network , ( 2 ) training the model on the provided validation set , and ( 3 ) considering the two endings with only the last sentence in the prompt ."
+        }
+      }
+    }
+  }
+}

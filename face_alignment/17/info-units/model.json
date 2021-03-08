@@ -1,0 +1,70 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "new framework" : {
+          "to augment" : {
+            "training" : {
+              "for" : {
+                "facial landmark detection" : {
+                  "without using" : "extra knowledge"
+                }
+              }
+            },
+            "from sentence" : "To this end , we propose a new framework to augment training for facial landmark detection without using extra knowledge ."
+          }
+        }
+      },
+      "map" : {
+        "face images" : {
+          "into" : {
+            "space" : {
+              "of" : "structure and style"
+            }
+          },
+          "from sentence" : "Instead of directly generating images , we first map face images into the space of structure and style ."
+        }
+      },
+      "design" : {
+        "conditional variational auto - encoder model" : {
+          "has" : {
+            "Kullback - Leiber ( KL ) divergence loss and skip connections" : {
+              "incorporated for" : {
+                "compact representation" : {
+                  "of" : "style and structure" 
+                }
+              }
+            }
+          },
+          "To guarantee" : {
+            "disentanglement" : {
+              "of" : "these two spaces"
+            }
+          },
+          "from sentence" : "To guarantee the disentanglement of these two spaces , we design a conditional variational auto - encoder model , in which Kullback - Leiber ( KL ) divergence loss and skip connections are incorporated for compact representation of style and structure respectively ."
+        }
+      },
+      "perform" : {
+        "visual style translation" : {
+          "between" : "existing facial geometry",
+          "from sentence" : "By factoring these features , we perform visual style translation between existing facial geometry ."
+        }
+      },
+      "Given" : {
+        "existing facial structure , faces with glasses , of poor quality , under blur or strong lighting" : {
+          "rerendered from" : "corresponding style",
+          "train" : {
+            "facial landmark detectors" : {
+              "for" : {
+                "general and robust system" : {
+                  "to recognize" : "facial geometry"
+                }
+              },
+              "from sentence" : "Given existing facial structure , faces with glasses , of poor quality , under blur or strong lighting are rerendered from corresponding style , which are used to further train the facial landmark detectors for a rather general and robust system to recognize facial geometry ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

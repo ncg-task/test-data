@@ -1,0 +1,73 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "DDE" : {
+          "has" : {
+            "better" : {
+              "than" : "any other providing a public implementation in the literature"
+            },
+            "from sentence" : "Overall , 3 DDE is better than any other providing a public implementation in the literature ."
+          }
+        },
+        "outperform" : {
+          "has" : "RCN",
+          "from sentence" : "We also outperform RCN ( without any denoising model ) , a CNN architecture like the one used in 3DDE ."
+        },
+        "DAN and LAB" : {
+          "can not compete with" : {
+            "regularization" : {
+              "using" : "cascade of ERT"
+            }
+          },
+          "from sentence" : "Even DAN and LAB , that implement a cascade of CNN regressors , can not compete with the regularization obtained by using the cascade of ERT in 3 DDE ( see ) ."
+        }
+      },
+      "able to" : {
+        "improve" : {
+          "by" : {
+            "large margin" : {
+              "has" : {
+                "other ERT methods" : {
+                  "as" : "RCPR , ERT or c GPRT"
+                }
+              },
+              "from sentence" : "In general we are able to improve by a large margin other ERT methods as RCPR , ERT or c GPRT because of the better initialization and the robust features provided by the CNN ."
+            }
+          }
+        }
+      },
+      "obtains" : {
+        "best overall performance" : {
+          "in" : {
+            "indoor and outdoor subsets" : {
+              "of" : "private competition"
+            },
+            "full subset" : {
+              "of" : "300W public test set"
+            }
+          },
+          "from sentence" : "Our approach obtains the best overall performance in the indoor and outdoor subsets of the private competition ( see ) and in the full subset of the 300W public test set ( see ) ."
+        }
+      },
+      "In" : {
+        "challenging subset" : {
+          "of" : {
+            "300W public competition" : {
+              "has" : {
+                "SHN" : {
+                  "gets" : {
+                    "better results" : {
+                      "than" : "3DDE"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In the challenging subset of the 300W public competition , SHN gets better results than 3DDE ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

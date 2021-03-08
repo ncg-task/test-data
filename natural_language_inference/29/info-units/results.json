@@ -1,0 +1,73 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "EM result" : {
+          "of" : {
+            "baseline Iterative Aligner" : {
+              "has" : {
+                "lower" : {
+                  "than" : "RNET"
+                }
+              },
+              "from sentence" : "The EM result of our baseline Iterative Aligner is lower than RNET , confirming that the problem is not caused by our proposed model ."
+            }
+          }
+        },
+        "RNET" : {
+          "uses" : ["different feature set", "different encoding steps", {"different ensemble method" : {"from" : "our implementation"}}, {"from sentence" : "Our explanations is that 1 ) RNET uses a different feature set ( e.g. , Glo Ve 300 dimensional word vectors are employed ) and different encoding steps ( e.g. , three GRU layers are used for encoding question and passage representations ) , and 2 ) RNET uses a different ensemble method from our implementation ."}]
+        },
+        "multiple stacking layers" : {
+          "has" : {
+            "needed" : {
+              "to allow" : {
+                "evidence" : {
+                  "has" :{
+                    "fully propagated" : {
+                      "through" : "passage"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "In contrast , multiple stacking layers are needed to allow the evidence fully propagated through the passage ."
+          }
+        }
+      },
+      "shows" : {
+        "performance" : {
+          "with" : {
+            "different number of layers" : {
+              "for" : ["question - passage attention phase", "self - attention phase"]
+            }
+          },
+          "from sentence" : "shows the performance with different number of layers for both question - passage attention phase and self - attention phase ."
+        }
+      },
+      "For" : {
+        "question - passage attention phase" : {
+          "using" : {
+            "single layer" : {
+              "has" : {
+                "does n't degrade" : {
+                  "has" : "performance",
+                  "from" : {
+                    "default setting" : {
+                      "of" : "two layers",
+                      "has" : {
+                        "resulting" : {
+                          "in" : "different conclusion from"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "For the question - passage attention phase , using single layer does n't degrade the performance significantly from the default setting of two layers , resulting in a different conclusion from ; ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

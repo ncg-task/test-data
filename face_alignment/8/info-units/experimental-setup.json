@@ -1,0 +1,55 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "use" : {
+        "two - stage strategy" : {
+          "to train" : ["our model", {"from sentence" : "We use a two - stage strategy to train our model ."}],
+          "In" : {
+            "first stage" : {
+              "train" : {
+                "model" : {
+                  "using" : "overall loss L"
+                }
+              },
+              "from sentence" : "In the first stage , we train the model using the overall loss L."
+            },
+            "second stage" : {
+              "fine - tune" : "our model",
+              "using" : "Vertex Distance Cost",
+              "from sentence" : "In the second stage , we fine - tune our model using the Vertex Distance Cost , following ."
+            }
+          }
+        },
+        "SGD optimizer" : {
+          "for" : "CNN regressor",
+          "with" : {
+            "learning rate" : {
+              "beginning at" : "5 10 ?5",
+              "has" : "decays exponentially"
+            }
+          }
+        }        
+      },      
+      "has" : {
+        "discriminator" : {
+          "uses" : {
+            "Adam" : {
+              "as" : "optimizer",
+              "with" : {
+                "fixed learning rate" : {
+                  "has" : "1 10 ?4"
+                }
+              }
+            }
+          },
+          "from sentence" : "We use SGD optimizer for the CNN regressor with a learning rate beginning at 5 10 ?5 and decays exponentially , the discriminator uses the Adam as optimizer with the fixed learning rate 1 10 ?4 ."
+
+        },        
+        "Our proposed 2 DASL" : {
+          "implemented with" : "Pytorch",
+          "from sentence" : "Our proposed 2 DASL is implemented with Pytorch ."
+        }
+      }
+    }
+  }
+}

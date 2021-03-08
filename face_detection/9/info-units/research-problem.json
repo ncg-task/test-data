@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["Finding Tiny Faces", {"from sentence" : "Finding Tiny Faces"}],
+    ["object recognition", "detecting small objects", {"from sentence" : "Though tremendous strides have been made in object recognition , one of the remaining open challenges is detecting small objects ."}],
+    ["finding small faces", {"from sentence" : "We explore three aspects of the problem in the context of finding small faces : the role of scale invariance , image resolution , and contextual reasoning ."}],
+    ["face detection", {"from sentence" : "lem in the context of face detection : the role of scale invariance , image resolution and contextual reasoning ."}]
+  ]
+}

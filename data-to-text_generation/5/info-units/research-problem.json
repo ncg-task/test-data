@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Neural Data - to - Text Generation", {"from sentence" : "Step - by - Step : Separating Planning from Realization in Neural Data - to - Text Generation"}],
+    ["Data - to - text generation", {"from sentence" : "Data - to - text generation can be conceptually divided into two parts : ordering and structuring the information ( planning ) , and generating fluent language describing the information ( realization ) ."}]
+  ]
+}

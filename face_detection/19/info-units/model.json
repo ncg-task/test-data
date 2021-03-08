@@ -1,0 +1,60 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "detailed design Faster RCNN method" : {
+          "named" : "FDNet1.0",
+          "for" : "face detection",
+          "achieves" : "more decent performance",
+          "from sentence" : "In this report , we propose a detailed design Faster RCNN method named FDNet1.0 for face detection , which achieves more decent performance than previous methods ."
+        }
+      },
+      "has" : {
+        "deformable layer" : {
+          "with" : "fewer channels",
+          "attached to" : {
+            "backbone network" : {
+              "to produce" : {
+                "\" thin \" feature map" : {
+                  "fed to" : "full connected layer",
+                  "building" : "efficient yet accurate two - stage detector"
+                }
+              }
+            }
+          },
+          "from sentence" : "A deformable layer with fewer channels is attached to the backbone network to produce a \" thin \" feature map , which is subsequently fed to a full connected layer , building an efficient yet accurate two - stage detector ."
+        },
+        "multi-scale training and testing strategy" : {
+          "applied in" : "work",
+          "from sentence" : "Furthermore , the multi-scale training and testing strategy are also applied in our work ."
+        }
+      },
+      "At" : {
+        "testing time" : {
+          "find" : {
+            "comparable mean average precision ( m AP )" : {
+              "achieved when" : {
+                "top - ranked proposals ( e.g. , 6000 )" : {
+                  "has" : {
+                    "directly selected" : {
+                      "has" : {
+                        "without NMS" : {
+                          "in" : {
+                            "RPN stage" : {
+                              "over" : "WIDER FACE dataset"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "At testing time , we also find a comparable mean average precision ( m AP ) be achieved when the top - ranked proposals ( e.g. , 6000 ) are directly selected without NMS in the RPN stage over WIDER FACE dataset ."
+            }
+          }
+        }
+      }
+    }  
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "Effect of pose" : {
+          "has" : {
+            "performance" : {
+              "of" : "our method",
+              "has" : {
+                "decreases" : {
+                  "as" : {
+                    "increases" : {
+                      "has" : "pose"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Effect of pose .
+As shown in , the performance of our method decreases as the pose increases ."
+
+            }
+          }
+        },
+        "Effect of expression" : {
+          "has" : {
+            "performance variation" : {
+              "across" : {
+                "different expressions" : {
+                  "has" : "quite minor"
+                }
+              },
+              "from sentence" : "Effect of expression .
+This kind of extreme acted facial expressions generally do not occur in the training set , yet as shown in , the performance variation across different expressions is quite minor ."
+
+            }
+          }
+        },
+        "Effect of Gaussian size for guidance" : {
+          "has" : {
+            "performance" : {
+              "of" : "3D reconstruction",
+              "has" : {
+                "dropped" : {
+                  "by" : "negligible amount"
+                }
+              }
+            }
+          },
+          "from sentence" : "Effect of Gaussian size for guidance .
+The performance of the 3D reconstruction dropped by a negligible amount , suggesting that as long as the Gaussians are of a sensible size , guidance will always help ."
+
+        }
+      }      
+    }
+  }
+}

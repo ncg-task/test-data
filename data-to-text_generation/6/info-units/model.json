@@ -1,0 +1,45 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "character - level sequence - to - sequence model" : {
+          "with" : "attention mechanism",
+          "results in" : "completely neural end - to - end architecture",
+          "from sentence" : "In order to give an original contribution to the field , in this paper we present a character - level sequence - to - sequence model with attention mechanism that results in a completely neural end - to - end architecture ."
+        }
+      },
+      "does not require" : ["delexicalization", "tokenization", "lowercasing", {"from sentence" : "In contrast to traditional word - based ones , it does not require delexicalization , tokenization nor lowercasing ; besides , according to our experiments it never hallucinates words , nor duplicates them ."}],
+      "produces" : {
+        "vocabulary - free model" : {
+          "has" : "inherently more general",
+          "does not depend on" : "specific domain 's set of terms",
+          "on" : "general alphabet",
+          "from sentence" : "As we will see , such an approach achieves rather interesting performance results and produces a vocabulary - free model that is inherently more general , as it does not depend on a specific domain 's set of terms , but rather on a general alphabet ."
+        }
+      },
+      "has" : {
+        "character - wise copy mechanism" : {
+          "consisting in" : {
+            "soft switch" : {
+              "between" : "generation and copy mode"
+            }
+          }
+        },
+        "peculiar training procedure" : {
+          "has" : {
+            "improves" : {
+              "has" : "internal representation capabilities"
+            }
+          },
+          "enhancing" : "recall"
+        }
+      },
+      "consists in" : {
+        "exchange" : {
+          "of" : "encoder and decoder RNNs"
+        },
+        "from sentence" : "More specifically , our model shows two important features , with respect to the state - of - art architecture proposed by : ( i ) a character - wise copy mechanism , consisting in a soft switch between generation and copy mode , that disengages the model to learn rare and unhelpful self - correspondences , and ( ii ) a peculiar training procedure , which improves the internal representation capabilities , enhancing recall ; it consists in the exchange of encoder and decoder RNNs , ( GRUs As a further original contribution , we also introduce a new dataset , described in section 3.1 , whose particular structure allows to better highlight improvements in copying / recalling abilities with respect to character - based state - of - art approaches ."
+      }
+    }
+  }
+}

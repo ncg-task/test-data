@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Detecting Faces", {"from sentence" : "Detecting Faces Using Region - based Fully Convolutional Networks"}],
+    ["Face detection", {"from sentence" : "Face detection has achieved great success using the region - based methods ."}]
+  ]
+}

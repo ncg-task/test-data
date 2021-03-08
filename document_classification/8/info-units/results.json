@@ -1,0 +1,44 @@
+{
+  "has" : {
+    "Results" : {
+      "see that" : {
+        "very deep CNN ( VDCNN )" : {
+          "performs" : {
+            "well" : {
+              "in" : "large datasets"
+            }
+          },
+          "from sentence" : "We can see that very deep CNN ( VDCNN ) performs well in large datasets ."
+        }
+      },
+      "shows" : {
+        "our model" : {
+          "achieves" : {
+            "10 - 50 % relative error reduction" : {
+              "compared with" : "char - CRNN",
+              "from sentence" : "shows that our model achieves 10 - 50 % relative error reduction compared with char - CRNN in these datasets ."
+            }
+          }
+        },
+        "DRNN" : {
+          "performs" : {
+            "far better" : {
+              "than" : "CNN"
+            },
+            "from sentence" : "shows that DRNN performs far better than CNN ."
+          }
+        }
+      },
+      "has" : {
+        "Our model DRNN" : {
+          "achieves" : {
+            "much better performance" : {
+              "than" : "GRU and LSTM"
+            }
+          },
+          "from sentence" : "Our model DRNN achieves much better performance than GRU and LSTM ."
+        }
+      }
+    }
+  }
+}

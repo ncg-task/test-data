@@ -1,0 +1,123 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "SYNTHETIC WORLD MODEL TASK" : {
+              "For" : {
+                "MemN2N" : {
+                  "set" : {
+                    "number of hops" : {
+                      "equal to" : "T ? 2"
+                    },
+                    "embedding dimension" : {
+                      "to" : "d = 20"
+                    }
+                  },
+                  "from sentence" : "SYNTHETIC WORLD MODEL TASK
+For the MemN2N , we set the number of hops equal to T ? 2 and the embedding dimension to d = 20 ."
+
+                }
+              },
+              "has" : {
+                "EntNet" : {
+                  "has" : ["embedding dimension d = 20", "5 memory slots"]
+                },
+                "LSTM" : {
+                  "has" : "50 hidden units",
+                  "resulted in" : {
+                    "significantly" : {
+                      "more parameters" : {
+                        "than" : "other two models"
+                      }
+                    }
+                  },
+                  "from sentence" : "The EntNet had embedding dimension d = 20 and 5 memory slots , and the LSTM had 50 hidden units which resulted in it having significantly more parameters than the other two models ."
+                },
+                "All models" : {
+                  "trained with" : {
+                    "ADAM" : {
+                      "with" : {
+                        "initial learning rates" : {
+                          "set by" : {
+                            "grid search" : {
+                              "over" : "{ 0.1 , 0.01 , 0.001 }"
+                            }
+                          },
+                          "divided by" : {
+                            "2" : {
+                              "every" : "10,000 updates"
+                            }
+                          },
+                          "from sentence" : "All models were trained with ADAM with initial learning rates set by grid search over { 0.1 , 0.01 , 0.001 } and divided by 2 every 10,000 updates ."
+                        }
+                      }
+                    }
+                  }
+                },
+                "MemN2N" : {
+                  "has" : {
+                    "worst performance" : {
+                      "has" : {
+                        "degrades quickly" : {
+                          "as" : {
+                            "length" : {
+                              "of" : {
+                                "sequence" : {
+                                  "has" : "increases"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "The MemN2N has the worst performance , which degrades quickly as the length of the sequence increases ."
+                    }
+                  }
+                },
+                "LSTM" : {
+                  "performs" : "better",
+                  "has" : {
+                    "loses accuracy" : {
+                      "as" : {
+                        "length" : {
+                          "of" : "sequence",
+                          "has" : "increases"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "The LSTM performs better , but still loses accuracy as the length of the sequence increases ."
+                }
+              }
+            },
+            "CHILDRE N'S BOOK TEST ( CBT )" : {
+              "has" : {
+                "methods" : {
+                  "with" : {
+                    "limited memory" : {
+                      "such as" : "LSTMs",
+                      "perform" : {
+                        "well" : {
+                          "on" : {
+                            "more frequent , syntax based words" : {
+                              "such as" : "prepositions and verbs"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "CHILDRE N'S BOOK TEST ( CBT )
+It was shown in that methods with limited memory such as LSTMs perform well on more frequent , syntax based words such as prepositions and verbs , being similar to human performance , but poorly relative to humans on more semantically meaningful words such as named entities and common nouns ."
+
+                    }
+                  }
+                }
+              }  
+            }
+          }
+        }
+      }
+    }
+  }
+}

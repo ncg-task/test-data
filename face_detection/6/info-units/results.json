@@ -1,0 +1,87 @@
+{
+  "has" : {
+    "Results" : {
+      "show" : {
+        "precision - recall ( PR ) curve and average precision ( AP )" : {
+          "for" : "our model",
+          "compared with" : "many other state - of - the - arts",
+          "from sentence" : "In , we show the precision - recall ( PR ) curve and average precision ( AP ) for our model compared with many other state - of - the - arts on these three subsets ."
+        },
+        "discontinuous ROC curve" : {
+          "has" : {
+            "our method" : {
+              "achieves" : {
+                "state - of - the - art performance" : {
+                  "of" : {
+                    "TPR = 98.7 %" : {
+                      "given" : "1000 false positives"
+                    }
+                  },
+                  "from sentence" : "We show the discontinuous ROC curve at compared with , and our method achieves the state - of - the - art performance of TPR = 98.7 % given 1000 false positives ."
+                }
+              }                
+            }
+          }
+        },
+        "PR curve" : {
+          "has" : {
+            "our method" : {
+              "achieves" : {
+                "new the state - of - the - art performance" : {
+                  "of" : "AP = 99.0"
+                }
+              }
+            }
+          },
+          "from sentence" : "We show the PR curve at compared with , and our method achieves a new the state - of - the - art performance of AP = 99.0 ."
+        }
+      },
+      "has" : {
+        "our method" : {
+          "has" : {
+            "outperforms" : {
+              "has" : {
+                "current state - of - the - art" : {
+                  "by" : "large margin"
+                }
+              }
+            }
+          },
+          "achieves" : {
+            "best performance" : {
+              "on" : "hard subset",
+              "from sentence" : "As we can see , our method achieves the best performance on the hard subset , and outperforms the current state - of - the - art by a large margin ."              
+            },
+            "state - of - the - art and almost perfect performance" : {
+              "with" : {
+                "AP" : {
+                  "of" : "99.60"
+                }
+              },
+              "from sentence" : "As shown in compared with , our method achieves state - of - the - art and almost perfect performance , with an AP of 99.60 ."
+            }
+          }          
+        },
+        "Our performance" : {
+          "on" : {
+            "medium subset" : {
+              "has" : {
+                "comparable" : {
+                  "to" : "most recent state - of - the - art"
+                }
+              }
+            }
+          }
+        },
+        "performance" : {
+          "on" : {
+            "easy subset" : {
+              "has" : "bit worse"
+            }
+          },
+          "from sentence" : "Our performance on the medium subset is comparable to the most recent state - of - the - art and the performance on the easy subset is a bit worse since our method focuses on learning hard faces , and the architecture of our model is simpler compared with other state - of - thearts ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "multi-task RPN , Supervised Transformer , and feature combination" : {
+          "bring about" : {
+            "1 % , 1 % , and 2 %" : {
+              "has" : "recall improvement"
+            },
+            "from sentence" : "As shown in , multi-task RPN , Supervised Transformer , and feature combination will bring about 1 % , 1 % , and 2 % recall improvement respectively ."            
+          },
+          "remove" : {
+            "anyone part" : {
+              "cause" : "recall drop",
+              "from sentence" : "Besides , these three parts are complementary , remove anyone part will cause a recall drop ."
+            }
+          }
+        },
+        "Our non - top K suppression" : {
+          "has" : {
+            "close" : {
+              "to using" : "all candidates"
+            }
+          },
+          "achieved" : {
+            "consistently better results" : {
+              "than" : "NMS",
+              "under" : {
+                "same number" : {
+                  "of" : "candidates"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our non - top K suppression is very close to using all candidates , and achieved consistently better results than NMS under the same number of candidates ."
+        }
+      },
+      "found that" : {
+        "NMS" : {
+          "include" : "too much noisy low confidence candidates",
+          "from sentence" : "We found that NMS tend to include too much noisy low confidence candidates ."
+        }
+      }      
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "use" : {
+        "3 - layer bidirectional LSTMs" : {
+          "with" : {
+            "h = 128 hidden units" : {
+              "for" : "both paragraph and question encoding"
+            }
+          },
+          "from sentence" : "We use 3 - layer bidirectional LSTMs with h = 128 hidden units for both paragraph and question encoding ."
+        },
+        "Adamax" : {
+          "for" : "optimization",
+          "from sentence" : "We use Adamax for optimization as described in ."
+        }
+      },
+      "apply" : {
+        "Stanford CoreNLP toolkit" : {
+          "for" : "tokenization",
+          "generating" : ["lemma", "partof - speech", "named entity tags"],
+          "from sentence" : "We apply the Stanford CoreNLP toolkit for tokenization and also generating lemma , partof - speech , and named entity tags ."
+        }
+      },
+      "has" : {
+        "all the training examples" : {
+          "sorted by" : {
+            "length" : {
+              "of" : "paragraph"
+            }
+          },
+          "divided into" : {
+            "minibatches" : {
+              "of" : "32 examples each"
+            }
+          },
+          "from sentence" : "Lastly , all the training examples are sorted by the length of paragraph and divided into minibatches of 32 examples each ."
+        },
+        "Dropout" : {
+          "with" : "p = 0.3",
+          "applied to" : ["word embeddings", {"hidden units" : {"of" : "LSTMs"}}],
+          "from sentence" : "Dropout with p = 0.3 is applied to word embeddings and all the hidden units of LSTMs ."
+        }
+      }
+    }
+  }
+}

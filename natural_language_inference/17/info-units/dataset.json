@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Dataset" : {
+      "present" : {
+        "General Language Understanding Evaluation ( GLUE ) benchmark" : {
+          "has" : {
+            "collection" : {
+              "of" : {
+                "NLU tasks" : {
+                  "including" : ["question answering", "sentiment analysis", "textual entailment"]
+                }
+              }
+            }
+          },
+          "from sentence" : "To facilitate research in this direction , we present the General Language Understanding Evaluation ( GLUE ) benchmark : a collection of NLU tasks including question answering , sentiment analysis , and textual entailment , and an associated online platform for model evaluation , comparison , and analysis ."
+        }
+      },
+      "has" : {
+        "GLUE" : {
+          "not place" : {
+            "any constraints" : {
+              "on" : "model architecture",
+              "beyond" : {
+                "ability" : {
+                  "to process" : "single - sentence and sentence - pair inputs",
+                  "to make" : "corresponding predictions"
+                }
+              },
+              "from sentence" : "GLUE does not place any constraints on model architecture beyond the ability to process single - sentence and sentence - pair inputs and to make corresponding predictions ."
+            }
+          }
+        },
+        "Four" : {
+          "of" : {
+            "datasets" : {
+              "feature" : {
+                "privately - held test data" : {
+                  "to ensure" : {
+                    "benchmark" : {
+                      "used" : "fairly"
+                    }
+                  },
+                  "from sentence" : "Four of the datasets feature privately - held test data , which will be used to ensure that the benchmark is used fairly ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "For" : {
+        "some GLUE tasks" : {
+          "has" : {
+            "training data" : {
+              "has" : "plentiful"
+            }
+          }
+        },
+        "others" : {
+          "has" : ["limited", {"fails to match" : {"has" : {"genre" : {"of" : "test set"}}}}]
+        },
+        "from sentence" : "For some GLUE tasks , training data is plentiful , but for others it is limited or fails to match the genre of the test set ."
+      }
+    }
+  }
+}

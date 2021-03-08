@@ -1,0 +1,44 @@
+{
+  "has" : {
+    "Approach" : {
+      "constructed" : {
+        "an artificial dataset" : {
+          "by labelling" : {
+            "large corpus" : {
+              "with" : "BerkeleyParser"
+            }
+          },
+          "from sentence" : "We found this model to work poorly when we trained it on standard human - annotated parsing datasets ( 1M tokens ) , so we constructed an artificial dataset by labelling a large corpus with the BerkeleyParser ."
+        },
+        "second artificial dataset" : {
+          "consisting of" : {
+            "only high - confidence parse trees" : {
+              "measured by" : {
+                "agreement" : {
+                  "of" : "two parsers"
+                }
+              }
+            },
+            "from sentence" : "Finally , we constructed a second artificial dataset consisting of only high - confidence parse trees , as measured by the agreement of two parsers ."            
+          },
+          "trained" : {
+            "sequence - to - sequence model" : {
+              "with" : "attention",
+              "from sentence" : "We trained a sequence - to - sequence model with attention on this data and achieved an F 1 score of 92.5 on section 23 of the WSJ - a new state - of - the - art ."
+            }
+          }
+        }
+      },
+      "trained" : {
+        "sequence - to - sequence model" : {
+          "with" : {
+            "attention" : {
+              "on" : "small human - annotated parsing dataset"
+            }
+          },
+          "from sentence" : "We trained a sequence - to - sequence model with attention on the small human - annotated parsing dataset and were able to achieve an F 1 score of 88.3 on section 23 of the WSJ without the use of an ensemble and 90.5 with an ensemble , which matches the performance of the BerkeleyParser ( 90.4 ) when trained on the same data ."
+        }
+      }
+    }
+  }
+}

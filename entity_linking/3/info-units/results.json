@@ -1,0 +1,192 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Contextualized Embeddings" : {
+          "has" : {
+            "Simple k NN" : {
+              "with" : {
+                "ELMo" : {
+                  "as well as" : "BERT embeddings"
+                }
+              },
+              "beats" : {
+                "state of the art" : {
+                  "of" : "lexical sample task"
+                }
+              },
+              "from sentence" : "Contextualized Embeddings
+Simple k NN with ELMo as well as BERT embeddings beats the state of the art of the lexical sample task SE - 2 ( cp. Table 3 ) ."
+
+            },
+            "BERT" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : {
+                    "all others" : {
+                      "on" : "SE - 3 task"
+                    }
+                  },
+                  "from sentence" : "BERT also outperforms all others on the SE - 3 task ."
+                }
+              }
+            },
+            "similarity" : {
+              "of" : {
+                "contextualized embeddings" : {
+                  "has" : {
+                    "largely relies" : {
+                      "on" : {
+                        "semantically and structurally similar sentence contexts" : {
+                          "of" : "polysemic target words"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "In fact , similarity of contextualized embeddings largely relies on semantically and structurally similar sentence contexts of polysemic target words ."
+                }
+              }
+            },
+            "SE - 2 and SE - 3 training datasets" : {
+              "provide" : {
+                "more CWEs" : {
+                  "for" : "each word and sense"
+                }
+              },
+              "has" : {
+                "our approach" : {
+                  "performs" : {
+                    "better" : {
+                      "with" : {
+                        "growing number" : {
+                          "of" : "CWEs"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "As can be seen in , the SE - 2 and SE - 3 training datasets provide more CWEs for each word and sense , and our approach performs better with a growing number of CWEs , even with a higher average number of senses per word as is the casein SE - 3 ."
+            },
+            "CWEs" : {
+              "has" : {
+                "not organize well" : {
+                  "in" : {
+                    "spherically shaped form" : {
+                      "in" : "embedding space"
+                    }
+                  },
+                  "from sentence" : "Moreover , CWEs actually do not organize well in spherically shaped form in the embedding space ."
+                }
+              }
+            }
+          },
+          "observe" : {
+            "major performance drop" : {
+              "of" : {
+                "our approach" : {
+                  "for" : {
+                    "two all - words WSD tasks" : {
+                      "has" : {
+                        "no training data" : {
+                          "has" : {
+                            "provided" : {
+                              "along with" : "test set"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "However , we observe a major performance drop of our approach for the two all - words WSD tasks in which no training data is provided along with the test set ."
+            }
+          }
+        },
+        "Nearest Neighbors" : {
+          "has" : {
+            "K- Optimization" : {
+              "For" : {
+                "SensEval - 2 and SensEval - 3" : {
+                  "achieve" : "new state - of - the - art result",
+                  "from sentence" : "Nearest Neighbors
+K- Optimization :
+For SensEval - 2 and SensEval - 3 , we achieve a new state - of - the - art result ."
+  
+                },
+                "S7 - T *" : {
+                  "achieve" : {
+                    "minor improvements" : {
+                      "with" : "higher k"
+                    }
+                  },
+                  "has" : {
+                    "drastically lack behind" : {
+                      "has" : "state of the art"
+                    }
+                  },
+                  "from sentence" : "For the S7 - T * , we also achieve minor improvements with a higher k , but still drastically lack behind the state of the art ."
+                }
+              }
+            }
+          }
+        },
+        "Senses in CWE space" : {
+          "investigate" : {
+            "different CWE models" : {
+              "encode" : {
+                "information" : {
+                  "such as" : {
+                    "distinguishable senses" : {
+                      "in" : "vector space"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Senses in CWE space :
+We investigate how well different CWE models encode information such as distinguishable senses in their vector space ."
+
+            }
+          },
+          "has" : {
+            "Flair embeddings" : {
+              "has" : {
+                "hardly allow" : {
+                  "to distinguish" : {
+                    "any clusters" : {
+                      "has" : {
+                        "most senses" : {
+                          "scattered across" : "entire plot"
+                        }
+                      }
+                    },
+                    "from sentence" : "The Flair embeddings hardly allow to distinguish any clusters as most senses are scattered across the entire plot ."
+                  }
+                }
+              }
+            }
+          },
+          "In" : {
+            "ELMo embedding space" : {
+              "has" : {
+                "major senses" : {
+                  "has" : {
+                    "slightly more separated" : {
+                      "in" : {
+                        "different regions" : {
+                          "of" : "point cloud"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "In the ELMo embedding space , the major senses are slightly more separated in different regions of the point cloud ."
+                }
+              }
+            }
+          }
+        }
+      }      
+    }
+  }
+}

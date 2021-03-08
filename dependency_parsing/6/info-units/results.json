@@ -1,0 +1,23 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our model" : {
+          "gets" : {
+            "nearly the same UAS performance" : {
+              "on" : "PTB - SD 3.3.0",
+              "as" : "current SOTA model"
+            },
+            "SOTA UAS performance" : {
+              "on" : "CTB 5.1 7"
+            },
+            "SOTA performance" : {
+              "on" : "all CoNLL 09 languages",
+              "from sentence" : "Our model gets nearly the same UAS performance on PTB - SD 3.3.0 as the current SOTA model from in spite of its substantially simpler architecture , and gets SOTA UAS performance on CTB 5.1 7 as well as SOTA performance on all CoNLL 09 languages ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

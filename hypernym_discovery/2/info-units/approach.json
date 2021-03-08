@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Approach" : {
+      "perform" : {
+        "extensive evaluation" : {
+          "of" : {
+            "various unsupervised distributional measures" : {
+              "for" : "hypernymy detection",
+              "using" : {
+                "several distributional semantic models" : {
+                  "differ by" : "context type and feature weighting"
+                }
+              },
+              "from sentence" : "In this paper we perform an extensive evaluation of various unsupervised distributional measures for hypernymy detection , using several distributional semantic models that differ by context type and feature weighting ."
+            }
+          }
+        }
+      },
+      "analyze" : {
+        "performance" : {
+          "of" : "measures",
+          "in" : "different settings"
+        }
+      },
+      "suggest" : {
+        "principled way" : {
+          "to select" : ["suitable measure", "context type", "feature weighting"]
+        },
+        "from sentence" : "We analyze the performance of the measures in different settings and suggest a principled way to select the suitable measure , context type and feature weighting according to the task setting , yielding consistent performance across datasets ."
+      },
+      "compare" : {
+        "unsupervised measures" : {
+          "to" : "state - of - the - art supervised methods",
+          "from sentence" : "We also compare the unsupervised measures to the state - of - the - art supervised methods ."
+        }
+      }
+    }
+  }
+}

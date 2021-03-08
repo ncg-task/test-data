@@ -1,0 +1,26 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "parsers" : {
+          "implemented in" : "python",
+          "using" : {
+            "PyCNN toolkit" : {
+              "for" : "neural network training"
+            }
+          },
+          "from sentence" : "The parsers are implemented in python , using the PyCNN toolkit 11 for neural network training ."
+        },
+        "optimize" : {
+          "using" : "Adam optimizer"
+        }
+      },
+      "use" : {
+        "LSTM variant" : {
+          "implemented in" : "PyCNN",
+          "from sentence" : "We use the LSTM variant implemented in PyCNN , and optimize using the Adam optimizer ."          
+        }
+      }      
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Large data results" : {
+          "On" : {
+            "all the five datasets" : {
+              "has" : {
+                "DPCNN" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "all of the previous results"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Results
+Large data results
+On all the five datasets , DPCNN outperforms all of the previous results , which validates the effectiveness of our approach ."
+
+            }
+          }
+        },
+        "Small data results" : {
+          "has" : {
+            "DPCNN performances" : {
+              "with" : {
+                "100 - dim unsupervised embed - dings" : {
+                  "turned out to be" : {
+                    "as good as" : {
+                      "with" : "300 - dim unsupervised embeddings"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Small data results
+For these small datasets , the DPCNN performances with 100 - dim unsupervised embed - dings are shown , which turned out to be as good as those with 300 - dim unsupervised embeddings ."
+
+            },
+            "ShallowCNN" : {
+              "rivals" : "DPCNN",
+              "from sentence" : "ShallowCNN ( row 2 ) rivals DPCNN ( row 1 ) , and Zhang et al. 's best linear model ( row 3 ) moved up from the worst performer to the third best performer ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

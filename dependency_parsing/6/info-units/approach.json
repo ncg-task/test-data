@@ -1,0 +1,22 @@
+{
+  "has" : {
+    "Approach" : {
+      "modify" : {
+        "neural graphbased approach" : {
+          "build" : {
+            "network" : {
+              "has" : "larger",
+              "uses" : "more regularization"
+            }
+          },
+          "replace" : {
+            "traditional MLP - based attention mechanism and affine label classifier" : {
+              "with" : "biaffine ones"
+            }
+          },
+          "from sentence" : "We modify the neural graphbased approach first proposed by in a few ways to achieve competitive performance : we build a network that 's larger but uses more regularization ; we replace the traditional MLP - based attention mechanism and affine label classifier with biaffine ones ; and rather than using the top recurrent states of the LSTM in the biaffine transformations , we first put them through MLP operations that reduce their dimensionality ."
+        }
+      }
+    }
+  }
+}

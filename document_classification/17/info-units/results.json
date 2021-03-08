@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our deep architecture" : {
+          "works" : {
+            "well" : {
+              "on" : "big data sets"
+            }
+          },
+          "from sentence" : "Our deep architecture works well on big data sets in particular , even for small depths ."
+        },
+        "most important decrease" :{
+          "in" : "classification error",
+          "observed on" : {
+            "largest data set Amazon Full" : {
+              "has" : "more than 3 Million training samples"
+            }
+          },
+          "from sentence" : "The most important decrease in classification error can be observed on the largest data set Amazon Full which has more than 3 Million training samples . :"
+        }
+      },
+      "For" : {
+        "smallest depth" : {
+          "use" : "9 convolutional layers",
+          "see that" : {
+            "our model" : {
+              "performs" : {
+                "better" : {
+                  "than" : {
+                    "Zhang 's convolutional baselines" : {
+                      "includes" : "6 convolutional layers",
+                      "has" : "different architecture"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "For the smallest depth we use ( 9 convolutional layers ) , we see that our model already performs better than Zhang 's convolutional baselines ( which includes 6 convolutional layers and has a different architecture ) on the biggest data sets :"
+          }
+        }
+      },
+      "for" : {
+        "small depth" : {
+          "has" : {
+            "temporal max - pooling" : {
+              "works" : {
+                "best" : {
+                  "on" : "all data sets"
+                }
+              },
+              "from sentence" : "We also observe that for a small depth , temporal max - pooling works best on all data sets ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Detecting faces in an image", {"from sentence" : "Detecting faces in an image is considered to be one of the most practical tasks in computer vision applications , and many studies are proposed from the beginning of the computer vision research ."}],
+    ["face detection", {"from sentence" : "After the advent of deep neural networks , many face detection algorithms applying the deep network have reported significant performance improvement to the conventional face detectors ."}]
+  ]
+}

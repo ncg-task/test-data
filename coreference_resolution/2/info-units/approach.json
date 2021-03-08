@@ -1,0 +1,37 @@
+{
+  "has" : {
+    "Approach" : {
+      "explore using" : {
+        "two variants of reinforcement learning" : {
+          "to directly optimize" : {
+            "coreference system" : {
+              "for" : "coreference evaluation metrics"
+            }
+          },
+          "from sentence" : "To address this , we explore using two variants of reinforcement learning to directly optimize a coreference system for coreference evaluation metrics ."
+        }
+      },
+      "modify" : {
+        "max-margin coreference objective" : {
+          "by incorporating" : {
+            "reward" : {
+              "associated with" : {
+                "each coreference decision" : {
+                  "into" : "loss 's slack rescaling"
+                }
+              }
+            }
+          },
+          "from sentence" : "In particular , we modify the max-margin coreference objective proposed by by incorporating the reward associated with each coreference decision into the loss 's slack rescaling ."
+        }
+      },
+      "test" : ["REINFORCE policy gradient algorithm", {"from sentence" : "We also test the REINFORCE policy gradient algorithm ."}],
+      "has" : {
+        "Our model" : {
+          "has" : "neural mention - ranking model",
+          "from sentence" : "Our model is a neural mention - ranking model ."
+        }
+      }
+    }
+  }
+}

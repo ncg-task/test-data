@@ -1,0 +1,161 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "WFLW" : {
+              "has" : {
+                "light - weight Res - 18" : {
+                  "has" : {
+                    "improved" : {
+                      "by" : "13.8 %"
+                    }
+                  },
+                  "from sentence" : "WFLW
+The light - weight Res - 18 is improved by 13.8 % ."
+
+                },
+                "our method" : {
+                  "brings" : {
+                    "15.9 % improvement" : {
+                      "to" : "SAN model"
+                    },
+                    "9 % boost" : {
+                      "to" : "LAB",
+                      "from" : {
+                        "5.27 % NME" : {
+                          "to" : "4.76 %"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "In particular , for the strong baselines , our method also brings 15.9 % improvement to SAN model , and 9 % boost to LAB from 5.27 % NME to 4.76 % ."
+                }                
+              },
+              "utilizing" : {
+                "stronger baseline" : {
+                  "has" : {
+                    "our model" : {
+                      "achieves" : {
+                        "4.39 % NME" : {
+                          "under" : "style - augmented training"
+                        }
+                      },
+                      "has" : {
+                        "outperforms" : {
+                          "has" : {
+                            "state - of the - art entries" : {
+                              "by" : "large margin"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "By utilizing a stronger baseline , our model achieves 4.39 % NME under style - augmented training , outperforms state - of the - art entries by a large margin ."
+                }
+              },
+              "With" : {
+                "additional \" style- augmented \" synthetic training samples" : {
+                  "has" : {
+                    "our model" : {
+                      "based on" : "simple backbone",
+                      "has" : {
+                        "outperforms" : {
+                          "has" : "previous state - of - the - art methods"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "With additional \" style- augmented \" synthetic training samples , our model based on a simple backbone outperforms previous state - of - the - art methods ."
+                }
+              }
+            },
+            "300W" : {
+              "yields" : {
+                "1.8 % and 3.1 % improvement" : {
+                  "on" : "LAB and SAN",
+                  "manifest" : {
+                    "consistent benefit" : {
+                      "using" : "\" style - augmented \" strategy"
+                    }
+                  },
+                  "from sentence" : "300W
+However , our model still yields 1.8 % and 3.1 % improvement on LAB and SAN respectively , which manifest the consistent benefit when using the \" style - augmented \" strategy ."
+
+                }
+              }
+            },
+            "Common Cross - dataset Evaluation on COFW" : {
+              "has" : {
+                "Our model" : {
+                  "performs" : {
+                    "best" : {
+                      "with" : {
+                        "4.43 %" : {
+                          "has" : "mean error"
+                        },
+                        "2.82 %" : {
+                          "has" : "failure rate"
+                        }
+                      }
+                    },
+                    "from sentence" : "Common Cross - dataset Evaluation on COFW
+Our model performs the best with 4.43 % mean error and 2.82 % failure rate , which indicates high robustness to occlusion due to our proper utilization of style translation ."
+
+                  }
+                }
+              }
+            },
+            "AFLW" : {
+              "Exploiting" : {
+                "style information" : {
+                  "boosts" : {
+                    "landmark detectors" : {
+                      "with" : "large - scale training set"
+                    }
+                  },
+                  "from sentence" : "AFLW
+Exploiting style information also boosts landmark detectors with a large - scale training set ( 25 , 000 images in AFLW ) ."
+
+                }
+              },
+              "has" : {
+                "our method" : {
+                  "improves" : {
+                    "SAN baseline" : {
+                      "in terms of" : {
+                        "NME" : {
+                          "on" : "Full set",
+                          "from" : {
+                            "6.94 %" : {
+                              "to" : "6.01 %"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "Interestingly , our method improves SAN baseline in terms of NME on Full set from 6.94 % to 6.01 % , which indicates that augmenting in style level brings promising improvement on solving large pose variation ."
+                    }
+                  }
+                },
+                "visual comparison" : {
+                  "shows" : {
+                    "hidden face part" : {
+                      "has" : {
+                        "better modeled" : {
+                          "with" : "our strategy"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "The visual comparison in shows hidden face part is better modeled with our strategy ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "accuracy" : {
+          "has" : {
+            "steadily increases" : {
+              "add" : "more stages" 
+            },
+            "saturates" : {
+              "after" : {
+                "third" : {
+                  "on" : "LFPW and HELEN"
+                }
+              }
+            },
+            "from sentence" : "The accuracy steadily increases as we add more stages , and saturates after the third on LFPW and HELEN , which is a well - known behavior of cascaded models , showing that DeCaFA with weighted intermediate supervision indeed works as a cascade , by first providing coarse estimates and refining in the later stages ."            
+          }
+        },
+        "Coarsely annotated data ( 5 landmarks )" : {
+          "has" : {
+            "significantly helps" : {
+              "has" : "fine - grained landmark localization",
+              "from sentence" : "Coarsely annotated data ( 5 landmarks ) significantly helps the fine - grained landmark localization , as it is integrated a kind of weakly supervised scheme ."
+            }
+          }
+        },
+        "F 4 - Equation ( 7 ) and F 3 fusion ( cascaded models )" : {
+          "using" : "local + global information",
+          "rivals" : "basic deep approach F 1 - Equation ( 4 )",
+          "from sentence" : "F 4 - Equation ( 7 ) and F 3 fusion ( cascaded models ) using local + global information rivals the basic deep approach F 1 - Equation ( 4 ) ."
+        },
+        "F 5 - Equation fusion" : {
+          "uses" : {
+            "local and global cues" : {
+              "has" : {
+                "best" : {
+                  "by" : "significant margin"
+                }
+              },
+              "from sentence" : "Furthermore , F 5 - Equation fusion , which uses local and global cues is the best by a significant margin ."
+            }
+          }
+        }
+      },
+      "reinjecting" : {
+        "whole input image" : {
+          "has" : {
+            "significantly improves" : {
+              "has" : {
+                "accuracy" : {
+                  "on" : {
+                    "challenging data" : {
+                      "such as" : "300 W - challenging or WFLW - pose"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "First , reinjecting the whole input image ( F 3 - Equation vs F 2 - Equation ) significantly improves the accuracy on challenging data such as 300 W - challenging or WFLW - pose , where the first cascade stages may commit errors ."
+            }
+          }
+        }
+      },
+      "chaining" : {
+        "transfer layers" : {
+          "has" : {
+            "better than" : {
+              "using" : "independant transfer layers"
+            }
+          }
+        },
+        "from sentence" : "Furthermore , chaining the transfer layers is better than using independant transfer layers : likewise , in such a case , the first transfer layer benefits from the gradients from the subsequents layer at train time ."
+      }
+    }
+  }
+}

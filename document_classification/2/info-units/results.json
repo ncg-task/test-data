@@ -1,0 +1,113 @@
+{
+  "has" : {
+    "Results" : {
+      "see that" : {
+        "our simple LSTM reg model" : {
+          "achieves" : {
+            "state of the art" : {
+              "on" : "Reuters and IMDB",
+              "establishing" : {
+                "mean scores" : {
+                  "of" : {
+                    "87.0 and 52.8" : {
+                      "for" : "F 1 score and accuracy",
+                      "on" : {
+                        "test sets" : {
+                          "of" : "Reuters and IMDB"
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "We see that our simple LSTM reg model achieves state of the art on Reuters and IMDB ( see , rows 9 and 10 ) , establishing mean scores of 87.0 and 52.8 for F 1 score and accuracy on the test sets of Reuters and IMDB , respectively ."
+
+              }
+            }
+          }
+        }
+      },
+      "observe" : {
+        "LSTM reg" : {
+          "has" : {
+            "consistently improves" : {
+              "upon" : {
+                "performance" : {
+                  "of" : "LSTM base"
+                }
+              },
+              "across" : "all of the tasks"
+            }
+          },
+          "from sentence" : "We observe that LSTM reg consistently improves upon the performance of LSTM base across all of the tasks - see rows 9 and 10 , where , on average , regularization yields increases of 1.5 and 0.5 points for F 1 score and accuracy , respectively ."
+        }
+      },
+      "has" : {
+        "few of our LSTM reg runs" : {
+          "attain" : {
+            "state - of - theart test F 1 scores" : {
+              "on" : "AAPD"
+            }
+          },
+          "from sentence" : "A few of our LSTM reg runs attain state - of - theart test F 1 scores on AAPD ."
+        },
+        "non-neural LR and SVM baselines" : {
+          "perform" : "remarkably well",
+          "from sentence" : "Interestingly , the non-neural LR and SVM baselines perform remarkably well ."
+        }
+      },
+      "On" : {
+        "Reuters" : {
+          "has" : {
+            "SVM" : {
+              "has" : {
+                "beats" : {
+                  "has" : {
+                    "many neural baselines" : {
+                      "including" : "our non-regularized LSTM base"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "On Reuters , for example , the SVM beats many neural baselines , including our non-regularized LSTM base ( rows 2 - 9 ) ."
+        },
+        "AAPD" : {
+          "has" : {
+            "SVM" : {
+              "has" : {
+                "ties or beats" : {
+                  "has" : "other models"
+                }
+              },
+              "losing only to" : "SGM",
+              "from sentence" : "On AAPD , the SVM either ties or beats the other models , losing only to SGM ( rows 2 - 8 ) ."
+            }
+          }
+        }
+      },
+      "Compared to" : {
+        "SVM" : {
+          "has" : {
+            "LR baseline" : {
+              "appears" : {
+                "better suited" : {
+                  "for" : {
+                    "single - label datasets IMDB and Yelp 2014" : {
+                      "achieves" : {
+                        "better accuracy" : {
+                          "than" : "SVM"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Compared to the SVM , the LR baseline appears better suited for the single - label datasets IMDB and Yelp 2014 , where it achieves better accuracy than the SVM does ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "has" : {
+    "Model" : {
+      "build on" : {
+        "general framework" : {
+          "of" : "region embedding + pooling"
+        }
+      },
+      "explore" : {
+        "more sophisticated region embedding" : {
+          "via" : "Long Short - Term Memory ( LSTM )",
+          "in" : "supervised and semi-supervised settings"
+        },
+        "from sentence" : "In this work , we build on the general framework of ' region embedding + pooling ' and explore a more sophisticated region embedding via Long Short - Term Memory ( LSTM ) , seeking to overcome the shortcomings above , in the supervised and semi-supervised settings ."
+      },
+      "enable" : {
+        "learning" : {
+          "of" : {
+            "dependencies" : {
+              "over" : {
+                "larger time lags" : {
+                  "than feasible with" : "traditional recurrent networks"
+                }
+              }
+            }
+          },
+          "from sentence" : "It is designed to enable learning of dependencies over larger time lags than feasible with traditional recurrent networks ."
+        }
+      },
+      "has" : {
+        "LSTM" : {
+          "to embed" : {
+            "text regions" : {
+              "of" : "variable ( and possibly large ) sizes"
+            }
+          },
+          "from sentence" : "That is , an LSTM can be used to embed text regions of variable ( and possibly large ) sizes ."
+        },
+        "strategy" : {
+          "has" : {
+            "simplify the model" : {
+              "including" : {
+                "elimination" : {
+                  "of" : {
+                    "word embedding layer" : {
+                      "used to produce" : {
+                        "input" : {
+                          "to" : "LSTM"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Our strategy is to simplify the model as much as possible , including elimination of a word embedding layer routinely used to produce input to LSTM ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

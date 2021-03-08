@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Word Sense Disambiguation", {"from sentence" : "Does BERT Make Any Sense ? Interpretable Word Sense Disambiguation with Contextualized Embeddings"}],
+    ["word sense disambiguation ( WSD )", {"from sentence" : "Since vectors of the same word type can vary depending on the respective context , they implicitly provide a model for word sense disambiguation ( WSD ) ."}],
+    ["WSD", {"from sentence" : "We introduce a simple but effective approach to WSD using a nearest neighbor classification on CWEs ."}]
+  ]
+}

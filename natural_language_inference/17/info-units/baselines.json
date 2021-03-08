@@ -1,0 +1,12 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "Our simplest baseline architecture" : {
+          "based on" : "sentence - to - vector encoders",
+          "from sentence" : "Our simplest baseline architecture is based on sentence - to - vector encoders , and sets aside GLUE 's ability to evaluate models with more complex structures ."
+        }
+      }
+    }
+  }
+}

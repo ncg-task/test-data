@@ -1,0 +1,17 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "use" : ["cross-entropy loss", {"SGD" : {"with" : {"learning rate" : {"of": "0.01"}}}}, {"from sentence" : "We use cross-entropy loss and SGD with learning rate of 0.01 ."}],
+      "During" : {
+        "training" : {
+          "save" : {
+            "model" : {
+              "has" : "every 3000 iterations"
+            }
+          },
+          "from sentence" : "During training , we save the model every 3000 iterations , and calculate the validation accuracy ."
+        }
+      }
+    }
+  }
+}

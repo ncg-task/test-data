@@ -1,0 +1,48 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "methodology" : {
+          "for" : {
+            "learning" : {
+              "has" : {
+                "statistical texture model" : {
+                  "from" : "\" in - the -wild \" facial images",
+                  "has" : {
+                    "full correspondence" : {
+                      "with" : {
+                        "statistical shape prior" : {
+                          "exhibits" : "both identity and expression variations"
+                        }                 
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "We propose a methodology for learning a statistical texture model from \" in - the -wild \" facial images , which is in full correspondence with a statistical shape prior that exhibits both identity and expression variations ."
+              }
+            }
+          }
+        }
+      },
+      "show" : {
+        "how to learn" : {
+          "has" : {
+            "featurebased texture models" : {
+              "for" : "3 DMMs",
+              "from sentence" : "Motivated by the success of feature - based ( e.g. , HOG , SIFT ) Active Appearance Models ( AAMs ) we further show how to learn featurebased texture models for 3 DMMs ."
+            }
+          }
+        },
+        "advantage" : {
+          "using" : "\" in - the -wild \" feature - based texture model",
+          "has" : {
+            "fitting strategy" : {
+              "gets" : "simplified"
+            }
+          },
+          "from sentence" : "We show that the advantage of using the \" in - the -wild \" feature - based texture model is that the fitting strategy gets simplified since there is not need to optimize with respect to the illumination parameters ."
+        }
+      }
+    }
+  }
+}

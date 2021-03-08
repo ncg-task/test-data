@@ -1,0 +1,103 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "Single - Label to Multi - Label Text Classification" : {
+          "investigate" : {
+            "capability" : {
+              "of" : {
+                "capsule network" : {
+                  "on" : "multi-label text classification",
+                  "using only" : {
+                    "single - label samples" : {
+                      "as" : "training data"
+                    }
+                  },
+                  "from sentence" : "Single - Label to Multi - Label Text Classification
+In this section , we investigate the capability of capsule network on multi-label text classification by using only the single - label samples as training data ."
+
+                }
+              }
+            }
+          },
+          "observe that" : {
+            "capsule networks" : {
+              "have" : {
+                "substantial and significant improvement" : {
+                  "in terms of" : {
+                    "all four evaluation metrics" : {
+                      "over" : "strong baseline methods",
+                      "on" : {
+                        "test sets" : {
+                          "in" : "Reuters - Multi-label and Reuters - Full datasets"
+                        }
+                      },
+                      "from sentence" : "From the results , we can observe that the capsule networks have substantial and significant improvement in terms of all four evaluation metrics over the strong baseline methods on the test sets in both Reuters - Multi-label and Reuters - Full datasets ."
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "has" : {
+            "larger improvement" : {
+              "achieved on" : {
+                "Reuters - Multi - label dataset" : {
+                  "contains" : {
+                    "multi-label documents" : {
+                      "in" : "test set"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In particular , larger improvement is achieved on Reuters - Multi - label dataset which only contains the multi-label documents in the test set ."
+            },
+            "capsule network" : {
+              "has" : {
+                "much stronger transferring capability" : {
+                  "than" : "conventional deep neural networks"
+                }
+              },
+              "from sentence" : "The capsule network has much stronger transferring capability than the conventional deep neural networks ."
+            },
+            "good results" : {
+              "on" : {
+                "Reuters - Full" : {
+                  "indicate that" : {
+                    "capsule network" : {
+                      "has" : {
+                        "robust superiority" : {
+                          "over" : "competitors",
+                          "on" : "single - label documents"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "In addition , the good results on Reuters - Full also indicate that the capsule network has robust superiority over competitors on single - label documents ."
+                }
+              }
+            }
+          }
+        },
+        "Connection Strength Visualization" : {
+          "observe" : {
+            "capsule networks" : {
+              "has" : {
+                "correctly recognize and cluster" : {
+                  "has" : {
+                    "important phrases" : {
+                      "with respect to" : "text categories"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Connection Strength Visualization
+From the results , we observe that capsule networks can correctly recognize and cluster the important phrases with respect to the text categories ."
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "study" : {
+        "contribution" : {
+          "of" : {
+            "ARU component" : {
+              "has" : {
+                "accuracy" : {
+                  "has" : "decreases",
+                  "drop to" : "88.25 %"
+                }
+              },
+              "from sentence" : "We first study the contribution of the ARU component .
+The accuracy decreases , the accuracy will drop to 88.25 % ."
+
+            }
+          }
+        }
+      },
+      "has" : {
+        "attentive pooling" : {
+          "has" : {
+            "better" : {
+              "than" : "max pooling"
+            }
+          },
+          "from sentence" : "It turns out that the attentive pooling is better than max pooling ."
+        }
+      },
+      "remove" : {
+        "highway network" : {
+          "has" : {
+            "accuracy" : {
+              "has" : {
+                "drop" : {
+                  "to" : "88.36 %"
+                }
+              }
+            }
+          },
+          "from sentence" : "Then if we remove the highway network , the accuracy will drop to 88.36 % ."
+        },
+        "character - level embedding" : {
+          "has" : {
+            "accuracy" : {
+              "has" : {
+                "drop" : {
+                  "to" : "88.26 %"
+                }
+              }
+            }
+          },
+          "from sentence" : "Finally when we remove the character - level embedding , the accuracy will drop to 88.26 % ."
+        }
+      }
+    }
+  }
+}

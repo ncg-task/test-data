@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Named Entity Disambiguation", {"from sentence" : "Joint Learning of the Embedding of Words and Entities for Named Entity Disambiguation"}],
+    ["Named Entity Disambiguation ( NED )", {"from sentence" : "Named Entity Disambiguation ( NED ) refers to the task of resolving multiple named entity mentions in a document to their correct references in a knowledge base ( KB ) ( e.g. , Wikipedia ) ."}],
+    ["NED", {"from sentence" : "In this paper , we propose a novel embedding method specifically designed for NED ."}]
+  ]
+}

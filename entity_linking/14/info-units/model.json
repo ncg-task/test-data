@@ -1,0 +1,84 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "novel knowledge - based WSD algorithm" : {
+          "for" : "all - word WSD task",
+          "utilizes" : {
+            "whole document" : {
+              "as" : {
+                "context" : {
+                  "for" : "word"
+                }
+              }
+            }
+          },
+          "from sentence" : "In this paper , we propose a novel knowledge - based WSD algorithm for the all - word WSD task , which utilizes the whole document as the context for a word , rather than just the current sentence used by most WSD systems ."
+        }
+      },
+      "to model" : {
+        "whole document" : {
+          "for" : "WSD",
+          "leverage" : {
+            "formalism" : {
+              "of" : "topic models",
+              "especially" : "Latent Dirichlet Allocation ( LDA )"
+            }
+          },
+          "from sentence" : "In order to model the whole document for WSD , we leverage the formalism of topic models , especially Latent Dirichlet Allocation ( LDA ) ."
+        }
+      },
+      "has" : {
+        "Our method" : {
+          "has" : {
+            "variant" : {
+              "of" : "LDA",
+              "in which" : {
+                "topic proportions" : {
+                  "for" : "document",
+                  "replaced by" : {
+                    "synset proportions" : {
+                      "for" : "document"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Our method is a variant of LDA in which the topic proportions for a document are replaced by synset proportions for a document ."
+            }
+          }
+        }
+      },
+      "use" : {
+        "non-uniform prior" : {
+          "for" : {
+            "synset distribution" : {
+              "over" : "words",
+              "to model" : {
+                "frequency" : {
+                  "of" : "words",
+                  "within" : "synset"
+                }
+              }
+            }
+          },
+          "from sentence" : "We use a non-uniform prior for the synset distribution over words to model the frequency of words within a synset ."
+        }
+      },
+      "model" : {
+        "relationships" : {
+          "between" : "synsets",
+          "using" : {
+            "logisticnormal prior" : {
+              "for drawing" : {
+                "synset proportions" : {
+                  "of" : "document"
+                }
+              } 
+            }
+          },
+          "from sentence" : "Furthermore , we also model the relationships between synsets by using a logisticnormal prior for drawing the synset proportions of the document ."
+        }
+      }
+    }
+  }
+}

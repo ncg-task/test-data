@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["joint POS tagging and dependency parsing", {"from sentence" : "An improved neural network model for joint POS tagging and dependency parsing"}],
+    ["joint part - of - speech ( POS ) tagging and dependency parsing", {"from sentence" : "We propose a novel neural network model for joint part - of - speech ( POS ) tagging and dependency parsing ."}],
+    ["Dependency parsing", {"from sentence" : "Dependency parsing - a key research topic in natural language processing ( NLP ) in the last decade ) - has also been demonstrated to be extremely useful in many applications such as relation extraction , semantic parsing and machine translation ) ."}]
+  ]
+}

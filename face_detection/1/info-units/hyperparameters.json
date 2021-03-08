@@ -1,0 +1,24 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "tested" : {
+        "different activation functions" : {
+          "has" : ["ReLU", "PReLU", "Leaky - ReLU"],
+          "from sentence" : "Also , we tested different activation functions : ReLU , PReLU , and Leaky - ReLU for each model ."
+        }
+      },
+      "has" : {
+        "negative slope" : {
+          "of" : "Leaky - ReLU",
+          "set to" : "0.25",
+          "identical to" : {
+            "initial negative slope" : {
+              "of" : "PReLU"
+            }
+          },
+          "from sentence" : "The negative slope of the Leaky - ReLU is set to 0.25 , which is identical to the initial negative slope of the PReLU ."
+        }
+      }
+    }
+  }
+}

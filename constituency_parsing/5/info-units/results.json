@@ -1,0 +1,85 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Reranking experiments" : {
+              "has" : {
+                "bottom - up system" : {
+                  "performs" : {
+                    "slightly better" : {
+                      "than" : "top - down system"
+                    }
+                  },
+                  "from sentence" : "Reranking experiments
+The bottom - up system performs slightly better than the top - down system ."
+
+                },
+                "inorder system" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "both the bottom - up and the top - down system"
+                    },
+                    "from sentence" : "The inorder system outperforms both the bottom - up and the top - down system ."
+                  }
+                }
+              },
+              "find" : {
+                "the bottom - up parser and the top - down parser" : {
+                  "have" : {
+                    "similar results" : {
+                      "under" : "greedy setting"
+                    }
+                  },
+                  "from sentence" : "We find that the bottom - up parser and the top - down parser have similar results under the greedy setting , and the in - order parser outperforms both of them ."
+                }
+              }
+            },
+            "English constituent results" : {
+              "With" : {
+                "fully - supervise setting" : {
+                  "has" : {
+                    "inorder parser" : {
+                      "has" : {
+                        "outperforms" : {
+                          "has" : {
+                            "state - of - the - art discrete parser" : {
+                              "has" : "state - of - the - art neural parsers"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "English constituent results
+With the fully - supervise setting 5 , the inorder parser outperforms the state - of - the - art discrete parser , the state - of - the - art neural parsers"
+
+              }
+            },
+            "Chinese dependency results" : {
+              "has" : {
+                "final model" : {
+                  "achieves" : {
+                    "best results" : {
+                      "among" : "transitionbased parsing"
+                    }
+                  },
+                  "obtains" : {
+                    "comparable results" : {
+                      "to" : "state - of - the - art graph - based models"
+                    }
+                  },
+                  "from sentence" : "Chinese dependency results
+As shown in , by converting the results to dependencies 6 , our final model achieves the best results among transitionbased parsing , and obtains comparable results to the state - of - the - art graph - based models . 85.5 84.0 87.7 86.2"
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

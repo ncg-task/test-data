@@ -1,0 +1,70 @@
+{
+  "has" : {
+    "Results" : {
+      "Comparing with" : {
+        "baseline model" : {
+          "achieved" : "67.2 % F1 score"
+        }
+      },
+      "has" : {
+        "ASL model" : {
+          "has" : {
+            "improved" : {
+              "has" : {
+                "performance" : {
+                  "by" : "0.6 %"
+                }
+              }
+            }
+          },
+          "achieved" : ["67.8 % average F1", {"from sentence" : "Experiment Results and Discussion
+Comparing with the baseline model that achieved 67.2 % F1 score , the ASL model improved the performance by 0.6 % and achieved 67.8 % average F1 ."
+
+          }]
+        }
+      },
+      "show" : {
+        "models" : {
+          "consider" : "cross - sentence dependency",
+          "has" : {
+            "significantly outperform" : {
+              "has" : {
+                "baseline model" : {
+                  "encodes" : {
+                    "each sentence" : {
+                      "from" : "input document"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "show that the models that consider cross - sentence dependency significantly outperform the baseline model , which encodes each sentence from the input document separately ."
+            }
+          }
+        }
+      },
+      "indicated" : {
+        "ASL model" : {
+          "has" : {
+            "better performance" : {
+              "than" : "LSL model"
+            }
+          },
+          "extracts" : {
+            "context information" : {
+              "with" : {
+                "attention mechanism" : {
+                  "instead of" : {
+                    "simply viewing" : {
+                      "has" : "sentence - level embeddings"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Experiments also indicated that the ASL model has better performance than the LSL model , since it summarizes extracts context information with an attention mechanism instead of simply viewing sentence - level embeddings ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

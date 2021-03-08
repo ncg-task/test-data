@@ -1,0 +1,121 @@
+{
+  "has" : {
+    "Results" : {
+      "shows" : {
+        "our multi-step model" : {
+          "has" : {
+            "consistently outperforms" : {
+              "has" : {
+                "single - step model" : {
+                  "on" : {
+                    "dev set" : {
+                      "of" : "all four datasets"
+                    }
+                  }
+                }
+              },
+              "in terms of" : "accuracy",
+              "from sentence" : "shows that our multi-step model consistently outperforms the single - step model on the dev set of all four datasets in terms of accuracy ."
+            }
+          }
+        }
+      },
+      "on" : {
+        "SciTail dataset" : {
+          "has" : {
+            "SAN" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : "single - step model"
+                }
+              }
+            }
+          },
+          "from sentence" : "For example , on SciTail dataset , SAN outperforms the single - step model by ."
+        },
+        "most challenging \" Long Sentence \" and \" Quantity / Time \" categories" : {
+          "has" : {
+            "SAN 's result" : {
+              "has" : {
+                "substantially better" : {
+                  "than" : "previous systems"
+                }
+              },
+              "from sentence" : "In particular , on the most challenging \" Long Sentence \" and \" Quantity / Time \" categories , SAN 's result is substantially better than previous systems ."
+            }
+          }
+        }
+      },
+      "On" : {
+        "SciTail dataset" : {
+          "has" : {
+            "SAN" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : "GPT"
+                }
+              }
+            }
+          },
+          "from sentence" : "On SciTail dataset , SAN even outperforms GPT ."
+        }
+      },
+      "Comparing with" : {
+        "Single - step baseline" : {
+          "has" : {
+            "proposed model" : {
+              "obtains" : {
+                "+ 2.8 improvement" : {
+                  "on" : "Sc - iTail test set",
+                  "has" : "94.0 vs 91.2"
+                },
+                "+ 2.1 improvement" : {
+                  "on" : "SciTail dev set",
+                  "has" : "96.1 vs 93.9"
+                }
+              },
+              "from sentence" : "Comparing with Single - step baseline , the proposed model obtains + 2.8 improvement on the Sc - iTail test set ( 94.0 vs 91.2 ) and + 2.1 improvement on the SciTail dev set ( 96.1 vs 93.9 ) ."
+            }
+          }
+        },
+        "Chen 's model" : {
+          "has" : {
+            "biggest improvement" : {
+              "of" : {
+                "SAN" : {
+                  "on" : "\" Antonym \" category"
+                }
+              },
+              "from sentence" : "Comparing with Chen 's model , the biggest improvement of SAN ( 50 % vs 77 % and 58 % vs 85 % on Matched and Mismatched settings respectively ) is on the \" Antonym \" category ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "Our model" : {
+          "has" : {
+            "outperforms" : {
+              "has" : {
+                "best system" : {
+                  "in" : "RepEval 2017"
+                }
+              },
+              "except on" : "\" Conditional \" and \" Tense Difference \" categories"
+            }
+          },
+          "from sentence" : "Our model outperforms the best system in RepEval 2017 inmost cases , except on \" Conditional \" and \" Tense Difference \" categories ."
+        }
+      },
+      "find" : {
+        "SAN" : {
+          "works" : {
+            "extremely well" : {
+              "on" : "\" Active / Passive \" and \" Paraphrase \" categories"
+            }
+          },
+          "from sentence" : "We also find that SAN works extremely well on \" Active / Passive \" and \" Paraphrase \" categories ."
+        }
+      }
+    }
+  }
+}

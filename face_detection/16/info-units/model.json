@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "novel framework" : {
+          "based on" : "CNNs",
+          "for simultaneous" : ["face detection", "facial landmarks localization", "head pose estimation", "gender recognition"],
+          "from sentence" : "In this paper , we present a novel framework based on CNNs for simultaneous face detection , facial landmarks localization , head pose estimation and gender recognition from a given image ( see ) ."
+        }
+      },
+      "design" : {
+        "CNN architecture" : {
+          "to learn" : "common features",
+          "exploit" : "synergy",
+          "from sentence" : "We design a CNN architecture to learn common features for these tasks and exploit the synergy among them ."
+        }
+      },
+      "refer" : {
+        "set" : {
+          "of" : {
+            "intermediate layer features" : {
+              "as" : "hyperfeatures"
+            }
+          },
+          "from sentence" : "We refer the set of intermediate layer features as hyperfeatures ."
+        }
+      },
+      "construct" : {
+        "separate fusion - CNN" : {
+          "to fuse" : "hyperfeatures",
+          "from sentence" : "Hence , we construct a separate fusion - CNN to fuse the hyperfeatures ."
+        }
+      },
+      "to learn" : {
+        "tasks" : {
+          "has" : {
+            "train" : {
+              "has" : "simultaneously",
+              "using" : "multiple loss functions"
+            }
+          },
+          "from sentence" : "In order to learn the tasks , we train them simultaneously using multiple loss functions ."
+        }
+      },
+      "has" : {
+        "deep CNN" : {
+          "combined with" : "fusion - CNN",
+          "has" : {
+            "learned together" : {
+              "in" : "end -toend fashion"
+            }
+          },
+          "from sentence" : "The deep CNN combined with the fusion - CNN can be learned together in an end -toend fashion ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "has" : {
+    "Approach" : {
+      "scale" : {
+        "baselines" : {
+          "to" : {
+            "very large corpus" : {
+              "with" : "large output space"
+            }
+          },
+          "from sentence" : "In this work , we explore ways to scale these baselines to very large corpus with a large output space , in the context of text classification ."
+        }
+      },
+      "show that" : {
+        "linear models" : {
+          "with" : ["rank constraint", "fast loss approximation"],
+          "train on" : {
+            "billion words" : {
+              "within" : "ten minutes"
+            }
+          },
+          "from sentence" : "Inspired by the recent work in efficient word representation learning , we show that linear models with a rank constraint and a fast loss approximation can train on a billion words within ten minutes , while achieving performance on par with the state - of - the - art ."
+        }
+      }
+    }
+  }
+}

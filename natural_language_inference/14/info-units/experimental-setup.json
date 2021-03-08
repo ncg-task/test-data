@@ -1,0 +1,69 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "For" : {
+        "each mini-batch update" : {
+          "has" : {
+            "2 norm" : {
+              "of" : {
+                "whole gradient" : {
+                  "of" : "all parameters",
+                  "measured" : "5"
+                }
+              }
+            }
+          },
+          "from sentence" : "For each mini-batch update , the 2 norm of the whole gradient of all parameters is measured 5 and if larger than L = 50 , then it is scaled down to have norm L."
+        }
+      },
+      "use" : {
+        "learning rate annealing schedule" : {
+          "if" : {
+            "validation cost" : {
+              "has" : {
+                "not decreased" : {
+                  "after" : "one epoch"
+                }
+              }
+            }
+          },
+          "has" : {
+            "learning rate" : {
+              "has" : {
+                "scaled down" : {
+                  "by" : "factor 1.5"
+                }
+              }
+            }
+          },
+          "from sentence" : "We use the learning rate annealing schedule from , namely , if the validation cost has not decreased after one epoch , then the learning rate is scaled down by a factor 1.5 ."
+        }
+      },
+      "has" : {
+        "Weights" : {
+          "initialized using" : "N ( 0 , 0.05 )"
+        },
+        "batch size" : {
+          "set to" : "128",
+          "from sentence" : "Weights are initialized using N ( 0 , 0.05 ) and batch size is set to 128 ."
+        }
+      },
+      "On" : {
+        "Penn tree dataset" : {
+          "repeat" : {
+            "each training" : {
+              "has" : "10 times",
+              "with" : "different random initializations"
+            }
+          },
+          "pick" : {
+            "one" : {
+              "with" : "smallest validation cost"
+            }
+          },
+          "from sentence" : "On the Penn tree dataset , we repeat each training 10 times with different random initializations and pick the one with smallest validation cost ."
+        }
+      }
+    }
+  }
+}

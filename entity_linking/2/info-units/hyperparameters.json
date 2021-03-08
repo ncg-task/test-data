@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "used" : {
+        "layer of word embeddings" : {
+          "pre-trained 8 on" : {
+            "English uk WaC corpus" : {
+              "as" : "initialization"
+            }
+          },
+          "kept" : {
+            "fixed" : {
+              "during" : "training process"
+            }
+          },
+          "from sentence" : "To set a level playing field with comparison systems on English all - words WSD , we followed and , for all our models , we used a layer of word embeddings pre-trained 8 on the English uk WaC corpus as initialization , and kept them fixed during the training process ."
+        }
+      },
+      "For" : {
+        "all architectures" : {
+          "employed" : {
+            "2 layers" : {
+              "of" : {
+                "bidirectional LSTM" : {
+                  "with" : {
+                    "2048 hidden units" : {
+                      "has" : {
+                        "1024 units" : {
+                          "has" : "per direction"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "For all architectures we then employed 2 layers of bidirectional LSTM with 2048 hidden units ( 1024 units per direction ) ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

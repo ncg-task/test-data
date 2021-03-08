@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "train" : {
+        "model" : {
+          "used" : {
+            "stochastic gradient descent" : {
+              "with" : ["ADAM update rule", {"learning rate" : {"of" : "0.001 or 0.0005"}}],
+              "from sentence" : "To train the model we used stochastic gradient descent with the ADAM update rule and learning rate of 0.001 or 0.0005 ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "Weights" : {
+          "in" : {
+            "GRU networks" : {
+              "initialized by" : {
+                "random orthogonal matrices and biases" : {
+                  "initialized to" : "zero"
+                }
+              },
+              "from sentence" : "Weights in the GRU networks were initialized by random orthogonal matrices and biases were initialized to zero ."
+            }
+          }
+        }
+      },
+      "used" : {
+        "gradient clipping threshold" : {
+          "of" : "10"
+        },
+        "batches" : {
+          "of" : "size 32"
+        },
+        "from sentence" : "We also used a gradient clipping threshold of 10 and batches of size 32 ."
+      }
+    }
+  }
+}

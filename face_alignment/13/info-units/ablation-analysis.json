@@ -1,0 +1,28 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "Using" : {
+        "global image - based discriminator" : {
+          "has" : ["redundant", {"global structure" : {"guaranteed by" : "rendering layer"}}],
+          "from sentence" : "Using a global image - based discriminator is redundant as the global structure is guaranteed by the rendering layer ."
+        }
+      },
+      "using" : {
+        "global image - based discriminator" : {
+          "cause" : {
+            "severe artifacts" : {
+              "in" : "resultant texture"
+            }
+          },
+          "from sentence" : "Also , we empirically find that using global image - based discriminator can cause severe artifacts in the resultant texture ."
+        }
+      },
+      "has" : {
+        "patchGAN" : {
+          "offers" : "higher realism and fewer artifacts",
+          "from sentence" : "Clearly , patchGAN offers higher realism and fewer artifacts ."
+        }
+      }
+    }
+  }
+}

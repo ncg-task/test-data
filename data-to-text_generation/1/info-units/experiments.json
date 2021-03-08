@@ -1,0 +1,77 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "E2E Dataset" : {
+              "has" : {
+                "Results" : {
+                  "has" : {
+                    "Automatic Metric Evaluation" : {
+                      "has" : {
+                        "LSTM and the CNN models" : {
+                          "clearly benefit from" : {
+                            "additional pseudo - samples" : {
+                              "in" : "training set"
+                            }
+                          },
+                          "from sentence" : "Experiments on the E2E Dataset
+Automatic Metric Evaluation
+The results in show that both the LSTM and the CNN models clearly benefit from additional pseudo - samples in the training set ."
+
+                        }
+                      }
+                    }
+                  },
+                  "On" : {
+                    "official E2E test set" : {
+                      "has" : {
+                        "our ensemble model" : {
+                          "performs" : {
+                            "comparably" : {
+                              "to" : "baseline model"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "On the official E2E test set , our ensemble model performs comparably to the baseline model , TGen , in terms of automatic metrics ) ."
+                    }
+                  }
+                }
+              }
+            },
+            "TV and Laptop Datasets" : {
+              "has" : {
+                "Results" : {
+                  "has" : {
+                    "our ensemble model" : {
+                      "performs" : {
+                        "competitively" : {
+                          "with" : {
+                            "baseline" : {
+                              "on" : "TV dataset"
+                            }
+                          }
+                        }
+                      },
+                      "has" : {
+                        "outperforms" : {
+                          "on" : "Laptop dataset",
+                          "by" : "wide margin"
+                        }
+                      },
+                      "from sentence" : "Experiments on TV and Laptop Datasets
+    As shows , our ensemble model performs competitively with the baseline on the TV dataset , and it outperforms it on the Laptop dataset by a wide margin ."
+    
+                    }
+                  }
+                }
+              }
+            }
+          }          
+        }
+      }
+    }
+  }
+}

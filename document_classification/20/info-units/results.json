@@ -1,0 +1,95 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Binary Sentiment Tweets" : {
+              "has" : {
+                "Transformer" : {
+                  "gets" : {
+                    "close but does not exceed" : {
+                      "has" : {
+                        "state of the art" : {
+                          "on" : "SST dataset"
+                        }
+                      }
+                    }
+                  },
+                  "has" : {
+                    "exceeds" : {
+                      "has" : ["mL - STM and ELMo baseline", "Watson and Google Sentiment APIs"],
+                      "on" : "company tweets"
+                    }
+                  },
+                  "from sentence" : "Results
+Binary Sentiment Tweets
+While the Transformer gets close but does not exceed the state of the art on the SST dataset , it exceeds both the mL - STM and ELMo baseline as well as both Watson and Google Sentiment APIs on the company tweets ."
+
+                }
+              }
+            },
+            "Multi - Label Emotion Tweets" : {
+              "has" : {
+                "our models" : {
+                  "has" : {
+                    "outperform" : {
+                      "has" : "Watson",
+                      "on" : "every emotion category"
+                    }
+                  },
+                  "from sentence" : "Multi - Label Emotion Tweets
+We find that our models outperform Watson on every emotion category ."
+
+                }
+              } 
+            },
+            "Sem Eval Tweets" : {
+              "has" : {
+                "Our model" : {
+                  "achieved" : {
+                    "top macro-averaged F1 score" : {
+                      "among" : "all submission",
+                      "with" : {
+                        "lower scores" : {
+                          "for" : "micro -average F1"
+                        }
+                      },
+                      "from sentence" : "Sem Eval Tweets
+Our model achieved the top macro-averaged F1 score among all submission , with competitive but lower scores for the micro -average F1 an the Jaccard Index accuracy 8 ."
+
+                    }
+                  }
+                },
+                "Our models" : {
+                  "gets" : {
+                    "lower" : {
+                      "has" : {
+                        "F 1 scores" : {
+                          "on" : "company tweets dataset"
+                        }
+                      },
+                      "than on" : "equivalent Se -m Eval categories"
+                    },
+                    "from sentence" : "Our models gets lower F 1 scores on the company tweets dataset than on equivalent Se -m Eval categories ."
+                  }
+                }
+              },
+              "find" : {
+                "Transformer" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "m LSTM",
+                      "across" : "Plutchik categories"
+                    }
+                  },
+                  "from sentence" : "We also compare the deep learning architectures of the Transformer and m LSTM on this dataset in and find that the Transformer outperforms the m LSTM across Plutchik categories ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Machine reading", {"from sentence" : "Machine reading systems can be tested on their ability to answer questions posed on the contents of documents that they have seen , but until now large scale training and test datasets have been missing for this type of evaluation ."}],
+    ["machine reading and comprehension", {"from sentence" : "Traditional approaches to machine reading and comprehension have been based on either hand engineered grammars , or information extraction methods of detecting predicate argument triples that can later be queried as a relational database ."}]
+  ]
+}

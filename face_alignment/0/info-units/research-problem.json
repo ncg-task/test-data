@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["reconstructing facial shape from single images", {"from sentence" : "3D Morphable Models ( 3 DMMs ) are powerful statistical models of 3D facial shape and texture , and among the stateof - the - art methods for reconstructing facial shape from single images ."}],
+    ["3 D facial shape estimation from single images", {"from sentence" : "3 D facial shape estimation from single images has attracted the attention of many researchers the past twenty years ."}]
+  ]
+}

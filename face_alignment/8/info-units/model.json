@@ -1,0 +1,68 @@
+{
+  "has" : {
+    "Model" : {
+      "to overcome" : {
+        "intrinsic limitation" : {
+          "of" : "existing 3 D face recovery models",
+          "propose" : {
+            "novel learning method" : {
+              "leverages" : {
+                "2D \" in - the - wild \" face images" : {
+                  "has" : {
+                    "supervise and facilitate" : {
+                      "has" : "3D face model learning"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In order to overcome the intrinsic limitation of existing 3 D face recovery models , we propose a novel learning method that leverages 2D \" in - the - wild \" face images to effectively supervise and facilitate the 3D face model learning ."
+            }
+          }
+        }
+      },
+      "design" : {
+        "novel self - supervised learning method" : {
+          "to train" : {
+            "3 D face model" : {
+              "with" : {
+                "weak supervision" : {
+                  "from" : "2D images"
+                }
+              }
+            }
+          },
+          "from sentence" : "We design a novel self - supervised learning method that is able to train a 3 D face model with weak supervision from 2D images ."
+        }
+      },
+      "has" : {
+        "model" : {
+          "recover" : {
+            "2D landmarks" : {
+              "from" : "predicted 3D ones",
+              "via" : "direct 3D - to - 2D projection",
+              "from sentence" : "The model should be able to recover 2D landmarks from predicted 3D ones via direct 3D - to - 2D projection ."
+            }
+          }
+        },
+        "our proposed method" : {
+          "exploits" : {
+            "cycle - consistency" : {
+              "over" : "2D landmark predictions"
+            }
+          },
+          "from sentence" :"Additionally , our proposed method also exploits cycle - consistency over the 2D landmark predictions , i.e. , taking the recovered 2D landmarks as input , the model should be able to generate 2D landmarks ( by projecting its predicted 3D landmarks ) that have small difference with the annotated ones ."
+        }
+      },
+      "To facilitate" : {
+        "overall learning procedure" : {
+          "has" : {
+            "our method" : {
+              "exploits" : "self - critic learning"
+            }
+          },
+          "from sentence" : "To facilitate the overall learning procedure , our method also exploits self - critic learning ."
+        }
+      }
+    }
+  }
+}

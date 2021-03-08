@@ -1,0 +1,74 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Paragraph Level : GAP" : {
+              "shows" : {
+                "BERT" : {
+                  "has" : {
+                    "improves" : {
+                      "has" : "c 2 f - coref",
+                      "by" : {
+                        "9 % and 11.5 %" : {
+                          "for" : "base and large models"
+                        }
+                      },
+                      "from sentence" : "Paragraph Level : GAP
+Table 2 shows that BERT improves c 2 f - coref by 9 % and 11.5 % for the base and large models respectively ."
+
+                    }
+                  }
+                }
+              }
+            },
+            "Document Level : OntoNotes" : {
+              "shows" : {
+                "BERT - base" : {
+                  "offers" : {
+                    "improvement" : {
+                      "of" : {
+                        "0.9 %" : {
+                          "over" : "ELMo - based c2 fcoref model"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Document Level : OntoNotes
+shows that BERT - base offers an improvement of 0.9 % over the ELMo - based c2 fcoref model ."
+
+                }
+              },
+              "has" : {
+                "BERT - large" : {
+                  "has" : {
+                    "improves" : {
+                      "has" : "c 2 f - coref",
+                      "by" : {
+                        "much larger margin" : {
+                          "of" : "3.9 %"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "BERT - large , however , improves c 2 f - coref by the much larger margin of 3.9 % ."
+                }
+              },
+              "observe" : {
+                "overlap variant" : {
+                  "offers" : {
+                    "no improvement" : {
+                      "over" : "independent"
+                    }
+                  },
+                  "from sentence" : "We also observe that the overlap variant offers no improvement over independent ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Robust Facial Landmark Localisation", {"from sentence" : "Wing Loss for Robust Facial Landmark Localisation with Convolutional Neural Networks"}],
+    ["Facial landmark localisation", "face alignment", {"from sentence" : "Facial landmark localisation , or face alignment , aims at finding the coordinates of a set of pre-defined key points for 2 D face images ."}]
+  ]
+}

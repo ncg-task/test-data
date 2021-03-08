@@ -1,0 +1,48 @@
+{
+  "has" : {
+    "Model" : {
+      "proposed" : {
+        "unified deep learning framework" : {
+          "for" : {
+            "recognizing" : {
+              "has" : "textual entailment"
+            }
+          },
+          "from sentence" : "In this paper , we proposed a unified deep learning framework for recognizing textual entailment which dose not require any feature engineering , or external resources ."
+        }
+      },
+      "has" : {
+        "basic model" : {
+          "based on" : {
+            "building" : {
+              "has" : {
+                "biL - STM models" : {
+                  "on" : "both premises and hypothesis"
+                }
+              }
+            }
+          },
+          "from sentence" : "The basic model is based on building biL - STM models on both premises and hypothesis ."
+        },
+        "basic mean pooling encoder" : {
+          "roughly form" : {
+            "intuition" : {
+              "about" : "sentence is talking about"
+            }
+          },
+          "from sentence" : "The basic mean pooling encoder can roughly form a intuition about what this sentence is talking about ."
+        }
+      },
+      "introduced" : {
+        "simple effective input strategy" : {
+          "get ride of" : {
+            "same words" : {
+              "in" : "hypothesis and premise"
+            }
+          },
+          "from sentence" : "In addition , we introduced a simple effective input strategy that get ride of same words in hypothesis and premise , which further boosts our performance ."
+        }
+      }
+    }
+  }
+}

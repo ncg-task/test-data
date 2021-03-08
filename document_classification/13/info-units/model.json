@@ -1,0 +1,90 @@
+{
+  "has" : {
+    "Model" : {
+      "call" : {
+        "deep pyramid CNN ( DPCNN )" : {
+          "has" : {
+            "computation time" : {
+              "per" : "layer",
+              "has" : {
+                "decreases exponentially" : {
+                  "in" : "pyramid shape"
+                }
+              }
+            }
+          },
+          "from sentence" : "We call it deep pyramid CNN ( DPCNN ) , as the computation time per layer decreases exponentially in a ' pyramid shape ' ."
+        }
+      },
+      "After converting" : {
+        "discrete text" : {
+          "to" : "continuous representation",
+          "has" : {
+            "DPCNN architecture" : {
+              "alternates" : {
+                "a convolution block and a downsampling layer" : {
+                  "has" : "over and over"
+                }  
+              },
+              "from sentence" : "After converting discrete text to continuous representation , the DPCNN architecture simply alternates a convolution block and a downsampling layer over and over 1 , leading to a deep network in which internal data size ( as well as per-layer computation ) shrinks in a pyramid shape ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "network depth" : {
+          "treated as" : "meta-parameter",
+          "from sentence" : "The network depth can be treated as a meta-parameter ."
+        },
+        "computational complexity" : {
+          "bounded to be" : {
+            "no more than twice" : {
+              "of" : "one convolution block"
+            }
+          },
+          "from sentence" : "The computational complexity of this network is bounded to be no more than twice that of one convolution block ."
+        },
+        "DPCNN" : {
+          "with" : "15 weight layers",
+          "has" : {
+            "first layer" : {
+              "performs" : "text region embedding",
+              "from sentence" : "We show that DPCNN with 15 weight layers outperforms the previous best models on six benchmark datasets for sentiment classification and topic classification ..
+The first layer performs text region embedding , which generalizes commonly used word embedding to the embedding of text regions covering one or more words ."
+
+            },
+            "stacking" : {
+              "of" : {
+                "convolution blocks" : {
+                  "interleaved with" : {
+                    "pooling layers" : {
+                      "with" : "stride 2",
+                      "for" : "downsampling"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "It is followed by stacking of convolution blocks ( two convolution layers and a shortcut ) interleaved with pooling layers with stride 2 for downsampling ."
+              
+            },
+            "final pooling layer" : {
+              "aggregates" : {
+                "internal data" : {
+                  "for" : "each document",
+                  "into" : "one vector"
+                }
+              },
+              "from sentence" : "The final pooling layer aggregates internal data for each document into one vector ."
+            }
+          },
+          "use" : {
+            "max pooling" : {
+              "for" : "all pooling layers",
+              "from sentence" : "We use max pooling for all pooling layers ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

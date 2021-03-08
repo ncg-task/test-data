@@ -1,0 +1,23 @@
+{
+  "has" : {
+    "Model" : {
+      "learns" : {
+        "content plan" : {
+          "from" : "input"
+        }
+      },
+      "conditions on" : {
+        "content plan" : {
+          "to generate" : "output document"
+        },
+        "from sentence" : "Our model learns a content plan from the input and conditions on the content plan in order to generate the output document ( see for an illustration ) ."
+      },
+      "train" : {
+        "end - to - end" : {
+          "using" : "neural networks",
+          "from sentence" : "We train our model end - to - end using neural networks and evaluate its performance on ROTOWIRE , a recently released dataset which contains statistics of NBA basketball games paired with human - written summaries ( see ) ."
+        }
+      }
+    }
+  }
+}

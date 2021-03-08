@@ -1,0 +1,20 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "Word2vec" : {
+          "to produce" : "word embeddings",
+          "from sentence" : "Word2vec is used to produce the word embeddings ."
+        },
+        "skip - gram model ( - cbow 0 )" : {
+          "used with" : {
+            "embedding dimension" : {
+              "set to" : "300 ( - size 300 )"
+            }
+          },
+          "from sentence" : "The skip - gram model ( - cbow 0 ) is used with the embedding dimension set to 300 ( - size 300 ) ."
+        }
+      }
+    }
+  }
+}

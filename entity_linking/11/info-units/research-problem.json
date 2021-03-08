@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["Neural Word Sense Disambiguation", {"from sentence" : "Sense Vocabulary Compression through the Semantic Knowledge of WordNet for Neural Word Sense Disambiguation"}],
+    ["neural WSD", {"from sentence" : "We propose two different methods that greatly reduce the size of neural WSD models , with the benefit of improving their coverage without additional training data , and without impacting their precision ."}],
+    ["WSD", {"from sentence" : "In addition to our methods , we present a WSD system which relies on pre-trained BERT word vectors in order to achieve results that significantly outperforms the state of the art on all WSD evaluation tasks ."}],
+    ["Word Sense Disambiguation ( WSD )", {"from sentence" : "Word Sense Disambiguation ( WSD ) is a task which aims to clarify a text by assigning to each of its words the most suitable sense labels , given a predefined sense inventory ."}]
+  ]
+}

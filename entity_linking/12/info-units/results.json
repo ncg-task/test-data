@@ -1,0 +1,89 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "English all - words results" : {
+          "has" : {
+            "GAS and GAS ext" : {
+              "achieves" : {
+                "state - of - theart performance" : {
+                  "on" : {
+                    "concatenation" : {
+                      "of" : "all test datasets"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "English all - words results
+GAS and GAS ext achieves the state - of - theart performance on the concatenation of all test datasets ." 
+
+            }
+          },
+          "find" : {
+            "GAS ext" : {
+              "with" : "concatenation memory updating strategy",
+              "achieves" : {
+                "best results" : {
+                  "has" : "70.6",
+                  "on" : {
+                    "concatenation" : {
+                      "of" : "four test datasets"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Although there is no one system always performs best on all the test sets 10 , we can find that GAS ext with concatenation memory updating strategy achieves the best results 70.6 on the concatenation of the four test datasets ."
+            }
+          }
+        },
+        "Multiple Passes Analysis" : {
+          "shows" : {
+            "multiple passes operation" : {
+              "performs" : {
+                "better" : {
+                  "than" : "one pass"
+                }
+              },
+              "from sentence" : "Multiple Passes Analysis
+It shows that multiple passes operation performs better than one pass , though the improvement is not significant ."
+
+            },
+            "appropriate number of passes" : {
+              "boost" : "performance",
+              "avoid" : {
+                "over - fitting" : {
+                  "of" : "model"
+                }
+              },
+              "from sentence" : "It shows that appropriate number of passes can boost the performance as well as avoid over - fitting of the model ."
+            }
+          },
+          "with" : {
+            "increasing" : {
+              "has" : ["number of passes", {"F1 - score" : {"has" : "increases"}}],
+              "from sentence" : "In Table 3 , with the increasing number of passes , the F1 - score increases ."
+            }
+          },
+          "when" : {
+            "number of passes" : {
+              "has" : {
+                "larger than 3" : {
+                  "has" : {
+                    "F1- score" : {
+                      "stops" : {
+                        "increasing or even decreases" : {
+                          "due to" : "over-fitting"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "However , when the number of passes is larger than 3 , the F1- score stops increasing or even decreases due to over-fitting ."
+            }
+          }
+        }
+      }
+    }
+  }  
+}

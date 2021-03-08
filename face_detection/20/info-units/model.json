@@ -1,0 +1,62 @@
+{
+  "has" : {
+    "Model" : {
+      "adopt" : {
+        "variant of channel features" : {
+          "called" : "aggregate channel features",
+          "has" : {
+            "extracted directly" : {
+              "as" : {
+                "pixel values" : {
+                  "on" : "subsampled channels"
+                }
+              }
+            }
+          },
+          "from sentence" : "In this paper , we adopt a variant of channel features called aggregate channel features , which are extracted directly as pixel values on subsampled channels ."
+        }
+      },
+      "has" : {
+        "aggregate channel features" : {
+          "breakthrough" : {
+            "bottleneck" : {
+              "in" : "VJ framework"
+            }
+          },
+          "from sentence" : "With these two superiorities , the aggregate channel features breakthrough the bottleneck in VJ framework and have the potential to make great advance in face detection ."
+        }
+      },
+      "make" : {
+        "deep and all - round investigation" : {
+          "into" : {
+            "specific feature parameters" : {
+              "concerning" : ["channel types", "feature pool size", "subsampling method", "feature scale"]
+            }
+          },
+          "from sentence" : "To do so , we make a deep and all - round investigation into the specific feature parameters concerning channel types , feature pool size , subsampling method , feature scale and soon , which gives insights into the feature design and hopefully provides helpful guidelines for practitioners ."
+        }
+      },
+      "find that" : {
+        "multi-scaling" : {
+          "has" : "feature representation",
+          "enriches" : "representation capacity"
+        },
+        "different combinations of channel types" : {
+          "impact" : {
+            "performance" : {
+              "has" : "greatly"
+            }
+          }
+        },
+        "multi-view detection" : {
+          "proven to be" : {
+            "good match" : {
+              "with" : "aggregate channel features"
+            }
+          }
+        },
+        "from sentence" : "Through the deep exploration , we find that : 1 ) multi-scaling the feature representation further enriches the representation capacity since original aggregate channel features have uniform feature scale ; 2 ) different combinations of channel types impact the performance greatly , while for face detection the color channel in LUV space , plus gradient magnitude channel and gradient histograms channels in RGB space show best result ; 3 ) multi-view detection is proven to be a good match with aggregate channel features as the representation naturally encodes the facial structure ( ) ."
+      }
+    }
+  }
+}

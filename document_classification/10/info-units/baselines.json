@@ -1,0 +1,50 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "BoW" : {
+          "based on" : {
+            "logistic regression classifier" : {
+              "with" : "conventional binary BoW features"
+            }
+          },
+          "from sentence" : "Baselines
+BoW
+This model is based on a logistic regression classifier with conventional binary BoW features ."
+
+        },
+        "FTS- BRNN" : {
+          "based on" : {
+            "bidirectional RNN" : {
+              "with" : "gated recurrent units ( GRU )",
+              "from sentence" : "FTS- BRNN
+This model is based on a bidirectional RNN with gated recurrent units ( GRU ) ."
+
+            }
+          }
+        },
+        "NTEE" : {
+          "is" : {
+            "state - of - the - art model" : {
+              "uses" : {
+                "multi - layer perceptron classifier" : {
+                  "with" : {
+                    "features" : {
+                      "computed using" : {
+                        "embeddings" : {
+                          "of" : "words and entities",
+                          "trained on" : "Wikipedia"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "NTEE This model is a state - of - the - art model that uses a multi - layer perceptron classifier with the features computed using the embeddings of words and entities trained on Wikipedia using the neural network model proposed in their paper ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

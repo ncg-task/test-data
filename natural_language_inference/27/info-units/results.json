@@ -1,0 +1,60 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "SDNet" : {
+          "has" : {
+            "overpasses" : {
+              "has" : {
+                "all but one baseline models" : {
+                  "after" : "second epoch"
+                }
+              }
+            }
+          },
+          "achieves" : {
+            "state - of - the - art results" : {
+              "only after" : "8 epochs",
+              "from sentence" : "As seen , SDNet overpasses all but one baseline models after the second epoch , and achieves state - of - the - art results only after 8 epochs ."
+            },
+            "significantly better results" : {
+              "than" : "baseline models"
+            },
+            "from sentence" : "As shown , SDNet achieves significantly better results than baseline models ."
+          }      
+        },
+        "single SDNet model" : {
+          "improves" : {
+            "overall F 1" : {
+              "by" : "1.6 %"
+            }
+          },
+          "compared with" : {
+            "previous state - of - art model" : {
+              "on" : "CoQA",
+              "name" : "Flow QA"
+            }
+          },
+          "from sentence" : "In detail , the single SDNet model improves overall F 1 by 1.6 % , compared with previous state - of - art model on CoQA , Flow QA ."
+        },
+        "Ensemble SDNet model" : {
+          "has" : {
+            "further improves" : {
+              "overall" : {
+                "F 1 score" : {
+                  "by" : "2.7 %"
+                }
+              }
+            }
+          },
+          "achieve" : {
+            "over 80 % F 1 score" : {
+              "on" : "in - domain datasets ( 80.7 % )"
+            }
+          },
+          "from sentence" : "Ensemble SDNet model further improves overall F 1 score by 2.7 % , and it 's the first model to achieve over 80 % F 1 score on in - domain datasets ( 80.7 % ) ."
+        }
+      }
+    }
+  }
+}

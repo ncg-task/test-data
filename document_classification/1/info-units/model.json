@@ -1,0 +1,38 @@
+{
+  "has" : {
+    "Model" : {
+      "focus on" : {
+        "two approaches" : {
+          "for" : "domain adaptation",
+          "has" : {
+            "first method" : {
+              "based on" : {
+                "masked language model ( MLM ) pre-training" : {
+                  "using" : "unlabeled target language corpora",
+                  "from sentence" : "In particular , we focus on two approaches for domain adaptation .
+The first method is based on masked language model ( MLM ) pre-training ( as in ) using unlabeled target language corpora ."
+
+                }
+              }
+            },
+            "second method" : {
+              "has" : {
+                "unsupervised data augmentation ( UDA )" : {
+                  "where" : {
+                    "synthetic paraphrases" : {
+                      "generated from" : "unlabeled corpus"
+                    },
+                    "model" : {
+                      "trained on" : "label consistency loss"
+                    }
+                  },
+                  "from sentence" : "The second method is unsupervised data augmentation ( UDA ) ) , where synthetic paraphrases are generated from the unlabeled corpus , and the model is trained on a label consistency loss ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

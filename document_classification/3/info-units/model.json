@@ -1,0 +1,24 @@
+{
+  "has" : {
+    "Model" : {
+      "investigate" : {
+        "modifications" : {
+          "on" : "network proposed by Conneau et al.",
+          "aim of reducing" : "number of parameters , storage size and latency",
+          "from sentence" : "In this paper , we investigate modifications on the network proposed by Conneau et al. with the aim of reducing its number of parameters , storage size and latency with minimal performance degradation ."
+        }
+      },
+      "used" : ["Temporal Depthwise Separable Convolution", "Global Average Pooling techniques", {"from sentence" : "To achieve these improvements we used Temporal Depthwise Separable Convolution and Global Average Pooling techniques ."}],
+      "propose" : {
+        "Squeezed Very Deep Convolutional Neural Networks ( SVDCNN )" : {
+          "requires" : {
+            "significantly fewer parameters" : {
+              "compared to" : "stateof - the - art CNNs"
+            }
+          },
+          "from sentence" : "Therefore , our main contribution is to propose the Squeezed Very Deep Convolutional Neural Networks ( SVDCNN ) , a text classification model which requires significantly fewer parameters compared to the stateof - the - art CNNs ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "has" : {
+    "Results" : {
+      "observe" : {
+        "our trained scale network" : {
+          "recalls" : "almost 99 % at x = 1",
+          "from sentence" : "We can observe from the results that our trained scale network recalls almost 99 % at x = 1 , indicating that on average we only need to generate less than two predictions per image and that we can retrieve all face scales ."
+        }
+      },
+      "has" : {
+        "deeper" : {
+          "has" : {
+            "RSA" : {
+              "is" : "branched out",
+              "has" : {
+                "worse" : {
+                  "has" : {
+                    "feature approximation" : {
+                      "at" : "smaller scales"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "We can conclude that the deeper the RSA is branched out , the worse the feature approximation at smaller scales will be ."
+          }
+        }
+      }
+    }
+  }
+}

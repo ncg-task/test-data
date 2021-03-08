@@ -1,0 +1,49 @@
+{
+  "has" : {
+    "Approach" : {
+      "combines" : {
+        "path - based technique and distributional technique" : {
+          "via" : {
+            "concatenating" : {
+              "has" : {
+                "two feature vectors" : {
+                  "has" : {
+                    "feature vector" : {
+                      "constructed using" : "dependency parser",
+                      "obtained using" : "term embeddings"
+                    }
+                  },
+                  "from sentence" : "To tackle this task , we propose an approach that combines a path - based technique and distributional technique via concatenating two feature vectors : a feature vector constructed using dependency parser output and a feature vector obtained using term embeddings ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "using" : {
+        "concatenated vector" : {
+          "create" : {
+            "binary supervised classifier model" : {
+              "based on" : "support vector machine ( SVM ) algorithm",
+              "from sentence" : "Then , by using the concatenated vector we create a binary supervised classifier model based on support vector machine ( SVM ) algorithm ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "model" : {
+          "has" : {
+            "predicts" : {
+              "has" : {
+                "term and its candidate hypernym" : {
+                  "has" : "hypernym related or not",
+                  "from sentence" : "The model predicts if a term and its candidate hypernym are hypernym related or not ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

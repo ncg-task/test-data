@@ -1,0 +1,21 @@
+{
+  "has" : {
+    "Results" : {
+      "adopting" : {
+        "deep cascade learning framework" : {
+          "has" : {
+            "proposed model" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : "previous state - of - the - art methods",
+                  "by" : "evident margin"
+                }
+              }
+            }
+          },
+          "from sentence" : "We can see that by adopting the deep cascade learning framework , the proposed model outperforms the previous state - of - the - art methods by an evident margin on both datasets , which validates the effectiveness of the proposed method in addressing the challenging multi-document MRC task ."
+        }
+      }      
+    }
+  }
+}

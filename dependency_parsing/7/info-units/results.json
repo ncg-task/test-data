@@ -1,0 +1,21 @@
+{
+  "has" : {
+    "Results" : {
+      "achieved by" : {
+        "dynamic oracle" : {
+          "for" : "English",
+          "has" : "93.56 UAS",
+          "from sentence" : "Experiments
+The score achieved by the dynamic oracle for English is 93.56 UAS ."
+
+        }
+      },
+      "has" : {
+        "Chinese score" : {
+          "establishes" : "state - of - the - art",
+          "from sentence" : "Moreover , the Chinese score establishes the state - of - the - art , using the same settings as Chen and Manning ( 2014 ) ."
+        }
+      }
+    }
+  }
+}

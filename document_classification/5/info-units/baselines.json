@@ -1,0 +1,19 @@
+{
+  "has" : {
+    "Baselines" : {
+      "compare" : {
+        "three conventional document classification approaches" : {
+          "has" : ["nave Bayes", "two versions of SVM"]
+        },
+        "stacking SVM" : {
+          "with" : {
+            "three deep learning approaches" : {
+              "has" : ["DNN", "RNN", "CNN"]
+            }
+          }
+        },
+        "from sentence" : "The baseline tests compare three conventional document classification approaches ( nave Bayes and two versions of SVM ) and stacking SVM with three deep learning approaches ( DNN , RNN , and CNN ) ."
+      }
+    }
+  }
+}

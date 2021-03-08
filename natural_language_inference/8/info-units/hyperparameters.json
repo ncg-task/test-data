@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "Out - of - vocabulary words" : {
+          "in" : "training set",
+          "has" : {
+            "randomly initialized" : {
+              "by" : {
+                "sampling" : {
+                  "has" : {
+                    "values" : {
+                      "uniformly from" : "( 0.05 , 0.05 )"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Out - of - vocabulary words in the training set are randomly initialized by sampling values uniformly from ( 0.05 , 0.05 ) ."
+        },
+        "dropout layer" : {
+          "applied in" : {
+            "output" : {
+              "of" : "network"
+            }
+          },
+          "with" : {
+            "dropout rate" : {
+              "set to" : "0.25"
+            }
+          },
+          "from sentence" : "A dropout layer was applied in the output of the network with the dropout rate set to 0.25 ."
+        },
+        "batch size" : {
+          "is" : "128",
+          "from sentence" : "The batch size is 128 ."
+        },
+        "training objective" : {
+          "of" : "our model",
+          "is" : "cross - entropy loss"
+        }
+      },
+      "use" : {
+        "minibatch SGD" : {
+          "with" : "Rmsprop ( Tieleman and Hinton , 2012 )",
+          "for" : "optimization",
+          "from sentence" : "The training objective of our model is cross - entropy loss , and we use minibatch SGD with the Rmsprop ( Tieleman and Hinton , 2012 ) for optimization ."
+        }
+      },
+      "used" : {
+        "pretrained 300D Glove 840B vectors" : {
+          "to initialize" : "word embedding",
+          "from sentence" : "In our model , we used pretrained 300D Glove 840B vectors to initialize the word embedding ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Natural Language Inference Results" : {
+              "has" : {
+                "Entailment , Contradiction and Neutral" : {
+                  "considers" : {
+                    "semantic relationship" : {
+                      "has" : "SNLI",
+                      "used as" : {
+                        "benchmark" : {
+                          "for" : {
+                            "evaluating" : {
+                              "has" : {
+                                "performance" : {
+                                  "of" : "sentence encoder"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "Natural Language Inference Results
+Entailment , Contradiction and Neutral .
+As the task considers the semantic relationship , SNLI is used as a benchmark for evaluating the performance of a sentence encoder ."
+
+                    }
+                  }
+                },
+                "our implementation" : {
+                  "of" : {
+                    "baseline" : {
+                      "has" : {
+                        "selfattention" : {
+                          "stacked on" : {
+                            "CNN" : {
+                              "with" : "Dense Connection"
+                            }
+                          },
+                          "shows" : {
+                            "better performance ( + 0.4 % )" : {
+                              "than" : "stacked on BiLSTM"
+                            }
+                          },
+                          "from sentence" : "Note that our implementation of the baseline , selfattention stacked on CNN with Dense Connection , shows better performance ( + 0.4 % ) than the one stacked on BiLSTM ."
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "With" : {
+                "tradeoffs" : {
+                  "in terms of" : {
+                    "parameters and learning time per epoch" : {
+                      "has" : {
+                        "multiple DSA" : {
+                          "has" : {
+                            "outperforms" : {
+                              "has" : "other models",
+                              "by" : "large margin ( + 1.1 % )"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "With tradeoffs in terms of parameters and learning time per epoch , multiple DSA outperforms other models by a large margin ( + 1.1 % ) ."
+                    }
+                  }
+                }
+              },
+              "In comparison to" : {
+                "baseline" : {
+                  "has" : {
+                    "single DSA" : {
+                      "shows" : {
+                        "better performance" : {
+                          "than" : "self - attention ( + 2.2 % )"
+                        }
+                      },
+                      "from sentence" : "In comparison to the baseline , single DSA shows better performance than self - attention ( + 2.2 % ) ."
+                    }
+                  }
+                }
+              }
+            },
+            "Sentiment Analysis Results" : {
+              "has" : {
+                "Single DSA" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : {
+                        "all the baseline models" : {
+                          "in" : "SST - 2 dataset"
+                        }
+                      }
+                    }
+                  },
+                  "achieves" : {
+                    "comparative results" : {
+                      "in" : "SST - 5",
+                      "verifies" : {
+                        "effectiveness" : {
+                          "of" : "dynamic weight vector"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Sentiment Analysis Results
+Single DSA outperforms all the baseline models in SST - 2 dataset , and achieves comparative results in SST - 5 , which again verifies the effectiveness of the dynamic weight vector ."
+
+                }
+              },
+              "in" : {
+                "SST dataset" : {
+                  "has" : {
+                    "only marginal differences" : {
+                      "in" : {
+                        "performance" : {
+                          "between" : "DSA and the previous self - attentive models"
+                        }
+                      },
+                      "has" : "found"
+                    }
+                  },
+                  "from sentence" : "In contrast to the distinguished results in SNLI dataset ( + 2.2 % ) , in SST dataset , only marginal differences in the performance between DSA and the previous self - attentive models are found ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

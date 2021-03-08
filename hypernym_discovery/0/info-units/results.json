@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our official submission" : {
+          "on" : {
+            "medical domain subtask" : {
+              "ranked" : {
+                "eleven" : {
+                  "out of" : "eighteen",
+                  "with" : {
+                    "Mean Average Precision ( MAP )" : {
+                      "of" : "8.13"
+                    }
+                  },
+                  "from sentence" : "Results
+    Our official submission ranked at eleven out of eighteen on the medical domain subtask with a Mean Average Precision ( MAP ) of 8.13 ."
+    
+                },
+                "first place" : {
+                  "among" : "all the unsupervised systems",
+                  "from sentence" : "However , it ranked first place among all the unsupervised systems on this subtask ."
+                }
+              }              
+            }
+          }
+        }
+      },
+      "On" : {
+        "music industry domain subtask" : {
+          "has" : {
+            "our system" : {
+              "ranked" : {
+                "13th" : {
+                  "out of" : "16 places",
+                  "with" : {
+                    "MAP" : {
+                      "of" : {
+                        "1.88" : {
+                          "ranking" : {
+                            "4th" : {
+                              "among" : "unsupervised systems"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "On the music industry domain subtask , our system ranked 13th out of 16 places with a MAP of 1.88 , ranking 4th among the unsupervised systems ."
+        }
+      }
+    }
+  }
+}

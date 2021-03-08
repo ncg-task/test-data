@@ -1,0 +1,82 @@
+{
+  "has" : {
+    "Model" : {
+      "use" : {
+        "semi-supervised solution" : {
+          "to generate" : {
+            "approximate labels" : {
+              "for" : "contextual parts",
+              "related to" : {
+                "faces and a series of anchors" : {
+                  "called" : {
+                    "PyramidAnchors" : {
+                      "invented to be" : {
+                        "easily added" : {
+                          "to" : "general anchor - based architectures"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "In this work , we use a semi-supervised solution to generate approximate labels for contextual parts related to faces and a series of anchors called PyramidAnchors are invented to be easily added to general anchor - based architectures ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "investigate" : {
+        "performance" : {
+          "of" : {
+            "Feature Pyramid Networks ( FPN )" : {
+              "has" : {
+                "modify" : {
+                  "into" : "Low - level Feature Pyramid Network ( LFPN )",
+                  "to join" : "mutually helpful features"
+                }
+              },
+              "from sentence" : "We investigate the performance of Feature Pyramid Networks ( FPN ) and modify it into a Low - level Feature Pyramid Network ( LFPN ) to join mutually helpful features together ."
+            }
+          }
+        }
+      },
+      "introduce" : {
+        "Context - sensitive prediction module ( CPM )" : {
+          "to incorporate" : {
+            "context information" : {
+              "around" : "target face",
+              "with" : "wider and deeper network"
+            }
+          },
+          "from sentence" : "We introduce the Context - sensitive prediction module ( CPM ) to incorporate context information around the target face with a wider and deeper network ."
+        }
+      },
+      "propose" : {
+        "max - in - out layer" : {
+          "for" : {
+            "prediction module" : {
+              "to further improve" : {
+                "capability" : {
+                  "of" : "classification network"
+                }
+              }
+            }
+          },
+          "from sentence" : "Meanwhile , we propose a max - in - out layer for the prediction module to further improve the capability of classification network ."
+        },
+        "training strategy" : {
+          "named" : "Data - anchor - sampling",
+          "to make" : {
+            "adjustment" : {
+              "on" : {
+                "distribution" : {
+                  "of" : "training dataset"
+                }
+              }
+            }
+          },
+          "from sentence" : "In addition , we propose a training strategy named as Data - anchor - sampling to make an adjustment on the distribution of the training dataset ."
+        }
+      }
+    }
+  }
+}

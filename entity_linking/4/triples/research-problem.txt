@@ -1,0 +1,2 @@
+(Contribution||has research problem||Learning Distributed Representations of Texts and Entities from Knowledge Base)
+(Contribution||has research problem||jointly learn distributed representations of texts ( i.e. , sentences and paragraphs ) and KB entities)

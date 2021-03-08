@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "built" : {
+        "ensemble model" : {
+          "using" : {
+            "seq2seq framework" : {
+              "for" : "TensorFlow"
+            }
+          },
+          "from sentence" : "We built our ensemble model using the seq2seq framework for TensorFlow ."
+
+        }
+      },
+      "has" : {
+        "Our individual LSTM models" : {
+          "use" : {
+            "bidirectional LSTM encoder" : {
+              "with" : {
+                "512 cells" : {
+                  "per" : "layer"
+                }
+              }
+            }
+          }
+        },
+        "CNN models" : {
+          "use" : "pooling encoder",
+          "from sentence" : "Our individual LSTM models use a bidirectional LSTM encoder with 512 cells per layer , and the CNN models use a pooling encoder as in ."
+        },
+        "decoder" : {
+          "in" : "all models",
+          "has" : {
+            "4 - layer RNN decoder" : {
+              "with" : ["512 LSTM cells per layer", "attention"]
+            }
+          },
+          "from sentence" : "The decoder in all models was a 4 - layer RNN decoder with 512 LSTM cells per layer and with attention ."
+        }
+      }
+    }
+  }
+}

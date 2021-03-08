@@ -1,0 +1,4 @@
+(Contribution||has||Approach)
+(Approach||update||Seq2seq approach)
+(Seq2seq approach||as||stronger baseline)
+(stronger baseline||of||constituency parsing)

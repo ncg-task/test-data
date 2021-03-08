@@ -1,0 +1,6 @@
+(Contribution||has||Baselines)
+(Baselines||compare||face detector and alignment)
+(face detector and alignment||against||state - of - the - art methods)
+(state - of - the - art methods||in||Face Detection Data Set and Benchmark ( FDDB ))
+(state - of - the - art methods||in||WIDER FACE)
+(state - of - the - art methods||in||Annotated Facial Landmarks in the Wild ( AFLW ) benchmark)

@@ -1,0 +1,19 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our mention - ranking model" : {
+          "surpasses" : ["all previous systems", {"from sentence" : "Our mention - ranking model surpasses all previous systems ."}]
+        },
+        "cluster - ranking model" : {
+          "improves" : {
+            "results further" : {
+              "across" : "both languages and all evaluation metrics"
+            } 
+          },
+          "from sentence" : "The cluster - ranking model improves results further across both languages and all evaluation metrics , demonstrating the utility of incorporating entity - level information ."
+        }
+      }
+    }
+  }
+}

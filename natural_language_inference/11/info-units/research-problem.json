@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["QUESTION ANSWERING", {"from sentence" : "Published as a conference paper at ICLR 2017 DYNAMIC COATTENTION NETWORKS FOR QUESTION ANSWERING"}],
+    ["Question answering ( QA )", {"from sentence" : "Question answering ( QA ) is a crucial task in natural language processing that requires both natural language understanding and world knowledge ."}],
+    ["QA", {"from sentence" : "Previous QA datasets tend to be high in quality due to human annotation , but small in size ."}]
+  ]
+}

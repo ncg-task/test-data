@@ -1,0 +1,82 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "use" : [
+        {"Spacy" : {
+          "to process" : {
+            "each question and passage" : {
+              "to obtain" : ["tokens", "POS tags", "NER tags", "lemmas tags"]
+            },
+            "from sentence" : "We use Spacy to process each question and passage to obtain tokens , POS tags , NER tags and lemmas tags of each text ."
+          }
+        }},
+        {"12 dimensions" : {
+          "to embed" : {
+            "POS tags" : {
+              "for" : "NER tags"
+            }
+          },
+          "from sentence" : "We use 12 dimensions to embed POS tags , 8 for NER tags ."
+        }},
+        {"3 binary features" : {
+          "between" : {
+            "question and passage" : {
+              "has" : ["exact match", "lower - case match", "lemma match"]
+            }
+          },
+          "from sentence" : "We use 3 binary features : exact match , lower - case match and lemma match between the question and passage ."
+        }},
+        "100 - dim Glove pretrained word embeddings",
+        "1024 - dim Elmo embeddings",
+        {"from sentence" : "We use 100 - dim Glove pretrained word embeddings and 1024 - dim Elmo embeddings ."},
+        {
+          "Adam optimizer" : {
+            "with" : {
+              "learning rate" : {
+                "of" : "0.002"
+              }
+            },
+            "from sentence" : "We use Adam optimizer with a learning rate of 0.002 ( Kingma and Ba 2014 ) ."
+          }
+        }
+      ],
+      "has" : {
+        "All the LSTM blocks" : {
+          "are" : {
+            "bi-directional" : {
+              "with" : "one single layer"
+            }
+          },
+          "from sentence" : "All the LSTM blocks are bi-directional with one single layer ."
+        }
+      },
+      "set" : {
+        "hidden layer dimension" : {
+          "as" : "125"
+        },
+        "attention layer dimension" : {
+          "as" : "250"
+        },
+        "from sentence" : "We set the hidden layer dimension as 125 , attention layer dimension as 250 ."
+      },
+      "added" : {
+        "dropout layer" : {
+          "overall" : {
+            "modeling layers" : {
+              "including" : {
+                "embedding layer" : {
+                  "at" : {
+                    "dropout rate" : {
+                      "of" : "0.3"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "We added a dropout layer overall the modeling layers , including the embedding layer , at a dropout rate of 0.3 ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "has" : {
+    "Approach" : {
+      "update" : {
+        "Seq2seq approach" : {
+          "as" : {
+            "stronger baseline" : {
+              "of" : "constituency parsing"
+            }
+          },
+          "from sentence" : "Our aim is to update the Seq2seq approach proposed in as a stronger baseline of constituency parsing ."
+        }
+      }
+    }
+  }
+}  

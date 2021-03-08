@@ -1,0 +1,40 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "For" : {
+        "BERT" : {
+          "used" : {
+            "model" : {
+              "named" : {
+                "bert - largecased" : {
+                  "consists of" : {
+                    "vectors" : {
+                      "of" : "dimension 1024",
+                      "trained on" : "Book s Corpus and English Wikipedia"
+                    }
+                  }
+                }
+              },
+              "of" : "PyTorch implementation",
+              "from sentence" : "For BERT , we used the model named \" bert - largecased \" of the PyTorch implementation 3 , which consists of vectors of dimension 1024 , trained on Book s Corpus and English Wikipedia ."
+            }
+          }
+        },
+        "Transformer encoder layers" : {
+          "has" : {
+            "6 layers" : {
+              "with" : "8 attention heads"
+            },
+            "hidden size" : {
+              "of" : "2048"
+            },
+            "dropout" : {
+              "of" : "0.1"
+            }
+          },
+          "from sentence" : "For the Transformer encoder layers , we used the same parameters as the \" base \" model of , that is 6 layers with 8 attention heads , a hidden size of 2048 , and a dropout of 0.1 ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "training hyper - parameters" : {
+          "similar to" : "Face R - CNN",
+          "from sentence" : "Our training hyper - parameters are similar to Face R - CNN ."
+        },
+        "RPN and R - FCN" : {
+          "has" : {
+            "learned jointly" : {
+              "with" : ["softmax loss", "smooth L1 loss"]
+            }
+          },
+          "from sentence" : "The RPN and R - FCN are both learned jointly with the softmax loss and the smooth L1 loss ."
+        },
+        "Non- maximum suppression ( NMS )" : {
+          "adopted for" : {
+            "regularizing" : {
+              "has" : {
+                "anchors" : {
+                  "with" : "certain IoU scores"
+                }
+              }
+            }
+          },
+          "from sentence" : "Non- maximum suppression ( NMS ) is adopted for regularizing the anchors with certain IoU scores ."
+        }
+      },
+      "initialize" : {
+        "our network" : {
+          "with" : {
+            "pre-trained weights" : {
+              "of" : {
+                "101 - layer ResNet" : {
+                  "trained on" : "Image Net"
+                }
+              }
+            }
+          },
+          "from sentence" : "Different from Face R - CNN , we initialize our network with the pre-trained weights of 101 - layer ResNet trained on Image Net ."
+        }
+      },
+      "freeze" : {
+        "general kernels" : {
+          "of" : "pre-trained model",
+          "throughout" : "entire training process",
+          "to keep" : {
+            "essential feature extractor" : {
+              "trained on" : "ImageNet"
+            }
+          },
+          "from sentence" : "Specifically , we freeze the general kernels ( weights of few layers at the beginning ) of the pre-trained model throughout the entire training process in order to keep the essential feature extractor trained on ImageNet ."
+        }
+      },
+      "In terms of" : {
+        "RPN stage" : {
+          "has" : {
+            "Face R - FCN" : {
+              "enumerates" : {
+                "multiple configurations" : {
+                  "of" : "anchor"
+                }
+              }
+            }
+          },
+          "from sentence" : "In terms of the RPN stage , Face R - FCN enumerates multiple configurations of the anchor in order to accurately search for faces ."
+        }
+      },
+      "combine" : {
+        "range" : {
+          "of" : {
+            "multiple scales and aspect ratios" : {
+              "to construct" : "multi-scale anchors"
+            }
+          },
+          "from sentence" : "We combine a range of multiple scales and aspect ratios together to construct multi-scale anchors ."
+        }
+      },
+      "set" : {
+        "256" : {
+          "for" : {
+            "size" : {
+              "of" : "RPN mini-batch"
+            }
+          }
+        },
+        "128" : {
+          "for" : "R - FCN"
+        },
+        "from sentence" : "We set the 256 for the size of RPN mini-batch and 128 for R - FCN respectively ."
+      },
+      "utilize" : {
+        "multi-scale training" : {
+          "where" : {
+            "input image" : {
+              "has" : {
+                "resized" : {
+                  "with" : {
+                    "bilinear interpolation" : {
+                      "to" : "various scales ( say , 1024 or 1200 )"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "We utilize multi-scale training where the input image is resized with bilinear interpolation to various scales ( say , 1024 or 1200 ) ." 
+        }
+      },
+      "In" : {
+        "testing stage" : {
+          "has" : {
+            "multi-scale testing" : {
+              "scale" : {
+                "image" : {
+                  "into" : "image pyramid",
+                  "for" : {
+                    "better detecting" : {
+                      "on both" : "tiny and general faces"
+                    }
+                  }
+                }
+              } 
+            }
+          },
+          "from sentence" : "In the testing stage , multi-scale testing is performed by scale image into an image pyramid for better detecting on both tiny and general faces ."
+        }
+      }
+    }
+  }
+}

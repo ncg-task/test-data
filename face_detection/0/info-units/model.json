@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Model" : {
+      "modify" : {
+        "popular one - stage RetinaNet method" : {
+          "to perform" : "face detection"
+        },
+        "from sentence" : "In this work , we first modify the popular one - stage RetinaNet method to perform face detection as our baseline model ."
+      },
+      "namely" : ["AInnoFace", {"from sentence" : "Then some recent tricks are applied on this baseline to develop a high performance face detector namely AInnoFace :"}],
+      "Employing" : {
+        "two - step classification and regression" : {
+          "for" : "detection"
+        }
+      },
+      "Applying" : {
+        "Intersection over Union ( IoU ) loss function" : {
+          "for" : "regression"
+        }
+      },
+      "Revisiting" : {
+        "data augmentation" : {
+          "based on" : {
+            "data - anchor - sampling" : {
+              "for" : "training"
+            }
+          }
+        }
+      },
+      "Utilizing" : {
+        "max - out operation" : {
+          "for" : "robuster classification"
+        }
+      },
+      "Using" : {
+        "multi-scale testing strategy" : {
+          "for" : "inference"
+        },
+        "from sentence" : "( 1 ) Employing the two - step classification and regression for detection ; ( 2 ) Applying the Intersection over Union ( IoU ) loss function for regression ; ( 3 ) Revisiting the data augmentation based on data - anchor - sampling for training ; ( 4 ) Utilizing the max - out operation for robuster classification ; ( 5 ) Using the multi-scale testing strategy for inference ."
+      }
+    }
+  }
+}

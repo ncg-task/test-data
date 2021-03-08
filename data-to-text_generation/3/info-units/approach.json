@@ -1,0 +1,36 @@
+{
+  "has" : {
+    "Approach" : {
+      "builds on" : ["learned Rational Speech Acts ( RSA ) models", {"from sentence" : "Our work builds on a line of learned Rational Speech Acts ( RSA ) models , in which generated strings are selected to optimize the behav - Human - written A cheap coffee shop in riverside with a 5 out of 5 customer rating is Fitzbillies ."}],
+      "has" : {
+        "canonical presentation" : {
+          "of" : {
+            "RSA framework" : {
+              "grounded in" : {
+                "reference resolution" : {
+                  "has" : {
+                    "models of speakers" : {
+                      "describe" : {
+                        "referents" : {
+                          "in the presence of" : "distractors"
+                        }
+                      }
+                    },
+                    "models of listeners" : {
+                      "resolve" : {
+                        "descriptors" : {
+                          "to" : "referents"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "The canonical presentation of the RSA framework ( Frank and Goodman , 2012 ) is grounded in reference resolution : models of speakers attempt to describe referents in the presence of distractors , and models of listeners attempt to resolve descriptors to referents ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

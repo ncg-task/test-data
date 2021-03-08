@@ -1,0 +1,76 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "novel neural network architecture" : {
+          "for" : "dependency parsing",
+          "has" : "stackpointer networks ( STACKPTR )",
+          "from sentence" : "In this paper , we propose a novel neural network architecture for dependency parsing , stackpointer networks ( STACKPTR ) ."
+        }
+      },
+      "has" : {
+        "STACKPTR" : {
+          "is" : {
+            "transition - based architecture" : {
+              "with" : "corresponding asymptotic efficiency",
+              "maintains" : {
+                "global view" : {
+                  "of" : "sentence",
+                  "proves" : {
+                    "essential" : {
+                      "for achieving" : "competitive accuracy"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "STACKPTR is a transition - based architecture , with the corresponding asymptotic efficiency , but still maintains a global view of the sentence that proves essential for achieving competitive accuracy ."
+            }
+          }
+        },
+        "Our STACKPTR parser" : {
+          "has" : {
+            "pointer network" : {
+              "as" : "backbone"
+            }
+          },
+          "equipped with" : {
+            "internal stack" : {
+              "to maintain" : {
+                "order" : {
+                  "of" : {
+                    "head words" : {
+                      "in" : "tree structures"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Our STACKPTR parser has a pointer network as its backbone , and is equipped with an internal stack to maintain the order of head words in tree structures ."
+        },
+        "STACKPTR parser" : {
+          "performs" : {
+            "parsing" : {
+              "in" : "incremental , topdown , depth - first fashion"
+            }
+          },
+          "generates" : {
+            "arc" : {
+              "by assigning" : {
+                "child" : {
+                  "for" : "headword",
+                  "at" : {
+                    "top" : {
+                      "of" : "internal stack"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "The STACKPTR parser performs parsing in an incremental , topdown , depth - first fashion ; at each step , it generates an arc by assigning a child for the headword at the top of the internal stack ."
+        }
+      }
+    }
+  }
+}

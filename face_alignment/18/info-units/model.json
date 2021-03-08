@@ -1,0 +1,63 @@
+{
+  "has" : {
+    "Model" : {
+      "proposing" : {
+        "novel face alignment method" : {
+          "dub" : "Deep Alignment Network ( DAN )",
+          "from sentence" : "In this work , we address the above shortcoming by proposing a novel face alignment method which we dub Deep Alignment Network ( DAN ) ."
+        }
+      },
+      "based on" : {
+        "multistage neural network" : {
+          "where" : {
+            "each stage" : {
+              "refines" : {
+                "landmark positions" : {
+                  "estimated at" : "previous stage"
+                }
+              }
+            }
+          },
+          "from sentence" : "It is based on a multistage neural network where each stage refines the landmark positions estimated at the previous stage , iteratively improving the landmark locations ."
+        }
+      },
+      "has" : {
+        "The input" : {
+          "to" : {
+            "each stage" : {
+              "of" : "our algorithm",
+              "has" : {
+                "face image" : {
+                  "normalized to" : "canonical pose"
+                },
+                "image" : {
+                  "learned from" : {
+                    "dense layer" : {
+                      "of" : "previous stage"
+                    }
+                  }
+                },
+                "from sentence" : "The input to each stage of our algorithm ( except the first stage ) area face image normalized to a canonical pose and an image learned from the dense layer of the previous stage ."
+              }
+            }
+          }
+        }
+      },
+      "make use of" : {
+        "entire face image" : {
+          "during" : {
+            "process" : {
+              "of" : "face alignment"
+            }
+          },
+          "additionally input at" : {
+            "each stage" : {
+              "has" : "landmark heatmap"
+            }
+          },
+          "from sentence" : "To make use of the entire face image during the process of face alignment , we additionally input at each stage a landmark heatmap , which is a key element of our system ."
+        }
+      }
+    }
+  }
+}

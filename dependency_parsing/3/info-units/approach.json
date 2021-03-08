@@ -1,0 +1,26 @@
+{
+  "has" : {
+    "Approach" : {
+      "investigate" : {
+        "current stateof - the - art ( SOTA ) approaches" : {
+          "to" : {
+            "dependency parsing" : {
+              "applied to" : "biomedical texts"
+            }
+          },
+          "from sentence" : "In this paper , we therefore investigate current stateof - the - art ( SOTA ) approaches to dependency parsing as applied to biomedical texts ."
+        }
+      },
+      "study" : {
+        "impact" : {
+          "of" : {
+            "parser choice" : {
+              "on" : "biomedical event extraction"
+            }
+          },
+          "from sentence" : "Finally , we study the impact of parser choice on biomedical event extraction , following the structure of the extrinsic parser evaluation shared task ( EPE 2017 ) for biomedical event extraction ."
+        }
+      }
+    }
+  }
+}

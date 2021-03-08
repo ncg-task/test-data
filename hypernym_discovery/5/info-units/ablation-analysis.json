@@ -1,0 +1,48 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "carried out" : {
+        "few simple ablation tests" : {
+          "on" : ["subtask 1 A", {"from sentence" : "To assess the influence of different aspects of the supervised system and its training algorithm , we carried out a few simple ablation tests on subtask 1 A ."}]
+        }
+      },
+      "show that" : {
+        "2" : {
+          "of" : {
+            "techniques" : {
+              "namely" : ["subsampling", "multitask learning"],
+              "has" : {
+                "harmed" : {
+                  "has" : {
+                    "our system 's performance" : {
+                      "on" : "test set 1 A"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "These results show that 2 of the techniques we used , namely subsampling and multitask learning , actually harmed our system 's performance on test set 1 A , although our experiments on the trial set suggested that they would be beneficial ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "fine - tuning" : {
+          "has" : "word embeddings",
+          "during" : "training",
+          "seems to be" : {
+            "keys to the success" : {
+              "of" : "approach"
+            }
+          },
+          "from sentence" : "On the other hand , fine - tuning the word embeddings during training seems to be one of the keys to the success of this approach , as are the use of multiple projection matrices , and the sampling of multiple negative examples for each positive example ."
+        }
+      },
+      "note" : {
+        "supervised model" : {
+          "prone to" : "overfitting",
+          "from sentence" : "We should also note that the supervised model is prone to overfitting , and we found early stopping to be particularly important ."
+        }
+      }
+    }
+  }
+}

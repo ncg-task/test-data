@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "new structured - data encoder" : {
+          "assuming" : {
+            "structures" : {
+              "should be" : "hierarchically captured"
+            },
+            "from sentence" : "To address these shortcomings , we propose a new structured - data encoder assuming that structures should be hierarchically captured ."
+          }
+        }
+      },
+      "focuses on" : {
+        "encoding" : {
+          "of" : "data - structure",
+          "from sentence" : "Our contribution focuses on the encoding of the data - structure , thus the decoder is chosen to be a classical module as used in ."
+        }
+      },
+      "model" : {
+        "general structure" : {
+          "of" : "data",
+          "using" : {
+            "two - level architecture" : {
+              "first encoding" : {
+                "all entities" : {
+                  "on the basis of" : "elements"
+                }
+              },
+              "then encoding" : {
+                "data structure" : {
+                  "on the basis of" : "entities" 
+                }
+              }
+            }
+          }
+        }
+      },
+      "introduce" : {
+        "Transformer encoder" : {
+          "in" : "data - to - text models",
+          "to ensure" : {
+            "robust encoding" : {
+              "of" : {
+                "each element / entities" : {
+                  "comparison to" : "all others"
+                }
+              }
+            }
+          }
+        }
+      },
+      "integrate" : {
+        "hierarchical attention mechanism" : {
+          "to compute" : {
+            "hierarchical context" : {
+              "fed into" : "decoder"
+            }
+          },
+          "from sentence" : "- We model the general structure of the data using a two - level architecture , first encoding all entities on the basis of their elements , then encoding the data structure on the basis of its entities ; - We introduce the Transformer encoder in data - to - text models to ensure robust encoding of each element / entities in comparison to all others , no matter their initial positioning ; - We integrate a hierarchical attention mechanism to compute the hierarchical context fed into the decoder ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "Before" : {
+        "training" : {
+          "has" : {
+            "all images" : {
+              "has" : {
+                "cropped and resized" : {
+                  "to" : "256 256",
+                  "using" : "provided bounding boxes"
+                }
+              },
+              "from sentence" : "Implementation Details Before training , all images are cropped and resized to 256 256 using provided bounding boxes ."     
+            }
+          }
+        }
+      },
+      "use" : {
+        "6 residual encoder blocks" : {
+          "for" : {
+            "downsampling" : {
+              "has" : "input feature maps"
+            }
+          },
+          "has" : {
+            "batch normalization" : {
+              "removed for" : "better synthetic results"
+            }
+          },
+          "from sentence" : "We use 6 residual encoder blocks for downsampling the input feature maps , where batch normalization is removed for better synthetic results ."
+        }
+      },
+      "For" : {
+        "training" : {
+          "of" : {
+            "disentangling step" : {
+              "use" : {
+                "Adam" : {
+                  "with" : {
+                    "initial learning rate" : {
+                      "of" : {
+                        "0.01" : {
+                          "has" : {
+                            "descends linearly" : {
+                              "to" : "0.0001",
+                              "with" : "no augmentation"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "For training of the disentangling step , we use Adam with an initial learning rate of 0.01 , which descends linearly to 0.0001 with no augmentation ."
+                    }
+                  }
+                }
+              }
+            },
+            "detectors" : {
+              "first augment" : {
+                "each landmark map" : {
+                  "with" : {
+                    "k random styles" : {
+                      "sampled from" : "other face images"
+                    }
+                  },
+                  "from sentence" : "For training of detectors , we first augment each landmark map with k random styles sampled from other face images ."
+                }
+              }
+            }
+          }
+        },
+        "detector architecture" : {
+          "has" : {
+            "simple baseline network" : {
+              "based on" : "ResNet - 18",
+              "by changing" : {
+                "output dimension" : {
+                  "of" : {
+                    "last FC layers" : {
+                      "to" : "landmark"
+                    }
+                  },
+                  "from sentence" : "For the detector architecture , a simple baseline network based on ResNet - 18 is chosen by changing the output dimension of the last FC layers to landmark 2 to demonstrate the increase brought by style translation ."
+                }
+              } 
+            }
+          }
+        }
+      }
+    }
+  }
+}

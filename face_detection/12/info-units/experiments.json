@@ -1,0 +1,126 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Rebar Head Detection" : {
+              "has" : {
+                "our proposed method" : {
+                  "with" : "Stack = 2 , Base = 40 , Depth = 5",
+                  "achieved" : {
+                    "best performance" : {
+                      "among" : "all solutions",
+                      "in terms of" : "F1 Score"
+                    }
+                  },
+                  "from sentence" : "Rebar Head Detection
+As shown in , our proposed method with Stack = 2 , Base = 40 , Depth = 5 has achieved the best performance among all solutions in terms of F1 Score ."
+
+                }
+              },
+              "compared to" : {
+                "state - of - the - art baselines" : {
+                  "has" : {
+                    "WSMA - Seg" : {
+                      "has" : ["much simpler", "more effective", "more efficient"]
+                    }
+                  },
+                  "from sentence" : "Therefore , we can conclude that , compared to the state - of - the - art baselines , WSMA - Seg is much simpler , more effective , and more efficient ."
+                }
+              }
+            },
+            "WIDER Face Detection" : {
+              "has" : {
+                "WIDER Face" : {
+                  "results in" : {
+                    "much lower detection accuracy" : {
+                      "compared to" : "other face detection datasets"
+                    }
+                  },
+                  "from sentence" : "WIDER Face Detection
+WIDER Face results in a much lower detection accuracy compared to other face detection datasets ."
+
+                }
+              },
+              "show" : {
+                "our proposed WSMA - Seg" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : {
+                        "state - of - the - art baselines" : {
+                          "in" : "all three categories",
+                          "reaching" : {
+                            "94.70 , 93.41 , and 87.23" : {
+                              "in" : "Easy , Medium , and Hard categories"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "The results show that our proposed WSMA - Seg outperforms the state - of - the - art baselines in all three categories , reaching 94.70 , 93.41 , and 87.23 in Easy , Medium , and Hard categories , respectively ."
+                }
+              }
+            },
+            "MS COCO Detection" : {
+              "has" : {
+                "our WSMA - Seg approach" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : {
+                        "all state - of - the - art baselines" : {
+                          "in terms of" : {
+                            "most metrics" : {
+                              "including" : ["AP", "AP s", "AR", "AR s"]
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "MS COCO Detection
+The results show that our WSMA - Seg approach outperforms all state - of - the - art baselines in terms of most metrics , including the most challenging metrics , AP , AP s , AR 1 , and AR s ."
+
+                    }
+                  }
+                }
+              },
+              "For" : {
+                "other metrics" : {
+                  "has" : {
+                    "performance" : {
+                      "of" : "our proposed approach",
+                      "has" : {
+                        "close" : {
+                          "has" : "best baselines"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "For the other metrics , the performance of our proposed approach is also close to those of the best baselines ."
+                }
+              },
+              "proves" : {
+                "proposed WSMA - Seg approach" : {
+                  "generally achieves" : {
+                    "more accurate and robust" : {
+                      "has" : {
+                        "object detection" : {
+                          "than" : {
+                            "state - of - the - art approaches" : {
+                              "without" : "NMS"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "This proves that the proposed WSMA - Seg approach generally achieves more accurate and robust object detection than the state - of - the - art approaches without NMS ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Semi-supervised Word Sense Disambiguation", {"from sentence" : "Semi-supervised Word Sense Disambiguation with Neural Models"}],
+    ["word sense disambiguation ( WSD )", {"from sentence" : "Determining the intended sense of words in text - word sense disambiguation ( WSD ) - is a longstanding problem in natural language processing ."}],
+    ["WSD", {"from sentence" : "Recently , researchers have shown promising results using word vectors extracted from a neural network language model as features in WSD algorithms ."}]
+  ]
+}

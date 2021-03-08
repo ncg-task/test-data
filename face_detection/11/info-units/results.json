@@ -1,0 +1,52 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "MS - CNN" : {
+          "set" : {
+            "new record" : {
+              "for" : {
+                "detection" : {
+                  "of" : "pedestrians and cyclists"
+                }
+              },
+              "from sentence" : "The MS - CNN set a new record for the detection of pedestrians and cyclists ."
+            }
+          }
+        }
+      },
+      "led" : {
+        "nontrivial margin" : {
+          "over" : {
+            "recent SDP + RPN" : {
+              "used" : "scale depen - dent pooling"
+            }
+          },
+          "from sentence" : "We also led a nontrivial margin over the very recent SDP + RPN , which used scale depen - dent pooling ."
+        }
+      },
+      "on" : {
+        "Caltech pedestrian benchmark" : {
+          "has" : {
+            "MS - CNN" : {
+              "has" : "state - of the - art performance",
+              "performs" : {
+                "very well" : {
+                  "for" : "small and occluded objects",
+                  "has" : {
+                    "outperforming" : {
+                      "has" : "DeepParts"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Pedestrian detection on Caltech The MS - CNN detector was also evaluated on the Caltech pedestrian benchmark .
+As shown in , the MS - CNN has state - of the - art performance . and ( c ) show that it performs very well for small and occluded objects , outperforming DeepParts , which explicitly addresses occlusion ."
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

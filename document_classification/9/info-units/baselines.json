@@ -1,0 +1,12 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "several strong baseline methods" : {
+          "including" : ["LSTM / Bi - LSTM", "tree - structured LSTM ( Tree - LSTM )", "LSTM regularized by linguistic knowledge ( LR - LSTM )", "CNNrand / CNN - static / CNN - non-static ( Kim , 2014 )", "very deep convolutional network ( VD - CNN )", "character - level convolutional network ( CL - CNN )"],
+          "from sentence" : "In the experiments , we evaluate and compare our model with several strong baseline methods including : LSTM / Bi - LSTM , tree - structured LSTM ( Tree - LSTM ) , LSTM regularized by linguistic knowledge ( LR - LSTM ) , CNNrand / CNN - static / CNN - non-static ( Kim , 2014 ) , very deep convolutional network ( VD - CNN ) , and character - level convolutional network ( CL - CNN ) ."
+        }
+      }
+    }
+  }
+}

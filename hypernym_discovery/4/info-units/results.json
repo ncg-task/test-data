@@ -1,0 +1,112 @@
+{
+  "has" : {
+    "Results" : {
+      "Based on" : {
+        "Projection Learning" : {
+          "has" : {
+            "our best F - value" : {
+              "on" : "validation set",
+              "is" : "0.68"
+            },
+            "projection learning method" : {
+              "performs" : {
+                "not very well" : {
+                  "on" : "task9"
+                }
+              },
+              "from sentence" : "This projection learning method performs not very well on task9 , we think the most probable reason is that in , the problem is formalized as a classification problem , in which the ( hyponym , hypernym ) pairs are given ."
+            }
+          },
+          "when" : {
+            "best cluster number" : {
+              "has" : ["2", {"threshold" : {"has" : "( 17.7 , 17.3 )"}}],
+              "from sentence" : "Results Based on Projection Learning
+By using the same evaluating metrics as PRF in the cited paper , our best F - value on the validation set is 0.68 ( the paper result is 0.73 ) when the best cluster number is 2 and the threshold is ( 17.7 , 17.3 ) ."
+
+            }
+          }
+        },
+        "NN" : {
+          "has" : {
+            "performance" : {
+              "evaluated using" : "either cross validation or the test data",
+              "has" : {
+                "much worse" : {
+                  "than that of" : "typical hypernym prediction task"
+                }
+              },
+              "from sentence" : "Results Based on NN
+The performance evaluated using either cross validation or the test data is much worse than that of a typical hypernym prediction task reported by ."
+
+            },
+            "submissions" : {
+              "has" : {
+                "1st" : {
+                  "on" : "Spanish"
+                },
+                "2nd" : {
+                  "on" : "Italian"
+                },
+                "6th" : {
+                  "on" : "English"
+                }
+              },
+              "ranked by" : "metric of MAP",
+              "from sentence" : "Although the method proposed by us is quite simple , our submissions are the 1st on Spanish , the 2nd on Italian , the 6th on English , ranked by the metric of MAP ."
+            }
+          },
+          "Compared with" : {
+            "results" : {
+              "got by" : "cross validation",
+              "has" : {
+                "performance" : {
+                  "evaluated on" : "test data",
+                  "has" : {
+                    "dropped" : {
+                      "has" : {
+                        "significantly" : {
+                          "on" : {
+                            "English" : {
+                              "has" : {
+                                "MAP" : {
+                                  "dropped by" : "4 %"
+                                }
+                              }                           
+                            },
+                            "Italian" : {
+                              "has" : {
+                                "MAP" : {
+                                  "dropped by" : "8 %"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "increased" : {
+                      "by" : {
+                        "margin" : {
+                          "on" : {
+                            "Spanish" : {
+                              "has" : {
+                                "MAP" : {
+                                  "increased by" : "3.6 %"
+                                }
+                              }
+                            }
+                          },
+                          "from sentence" : "Compared with the results got by cross validation , the performance evaluated on the test data ) dropped significantly on English ( MAP dropped by 4 % ) and Italian ( MAP dropped by 8 % ) , but increased by a margin on Spanish ( MAP increased by 3.6 % ) ."
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

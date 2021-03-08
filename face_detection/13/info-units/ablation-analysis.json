@@ -1,0 +1,52 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "Adding" : {
+        "branch of five facial landmark regression" : {
+          "has" : {
+            "significantly improves" : {
+              "on" : {
+                "Hard subset" : {
+                  "has" : [{"face box AP" : {"has" : "0.408 %"}}, {"mAP" : {"has" : "0.775 %"}}]
+                }
+              },
+              "from sentence" : "Adding the branch of five facial landmark regression significantly improves the face box AP ( 0.408 % ) and mAP ( 0.775 % ) on the Hard subset , suggesting that landmark localisation is crucial for improving the accuracy of face detection ."
+            }
+          }
+        }
+      },
+      "adding" : {
+        "dense regression branch" : {
+          "has" : {
+            "increases" : {
+              "has" : {
+                "face box AP" : {
+                  "on" : "Easy and Medium subsets"
+                }
+              }
+            },
+            "slightly deteriorates" : {
+              "has" : {
+                "results" : {
+                  "on" : "Hard subset"
+                }
+              }
+            }
+          },
+          "from sentence" : "By contrast , adding the dense regression branch increases the face box AP on Easy and Medium subsets but slightly deteriorates the results on the Hard subset , indicating the difficulty of dense regression under challenging scenarios ."
+        }
+      },
+      "learning" : {
+        "landmark and dense regression" : {
+          "has" : "jointly",
+          "enables" : {
+            "further improvement" : {
+              "compared to adding" : "regression only"
+            }
+          },
+          "from sentence" : "Nevertheless , learning landmark and dense regression jointly enables a further improvement compared to adding landmark regression only ."
+        }
+      }
+    }
+  }
+}

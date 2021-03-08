@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Entity Linking", {"from sentence" : "Mixing Context Granularities for Improved Entity Linking on Question Answering Data across Entity Categories"}],
+    ["entity linking ( EL )", {"from sentence" : "The first stage for every QA approach is entity linking ( EL ) , that is the identification of entity mentions in the question and linking them to entities in KB ."}],
+    ["EL", {"from sentence" : "The state - of - the - art QA systems usually rely on off - the - shelf EL systems to extract entities from the question ."}]
+  ]
+}

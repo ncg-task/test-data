@@ -1,0 +1,5 @@
+(Contribution||has||Model)
+(Model||maintains||state)
+(Model||explore||multi-step inference strategies)
+(multi-step inference strategies||on||NLI)
+(Model||iteratively refines||predictions)

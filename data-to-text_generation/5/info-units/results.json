@@ -1,0 +1,19 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "StrongNeural and BestPlan systems" : {
+          "has" : {
+            "outperform" : {
+              "has" : "all the WebNLG participating systems",
+              "on" : "all automatic metrics"
+            }
+          },
+          "from sentence" : "6 Experiments and Results
+Both the StrongNeural and BestPlan systems outperform all the WebNLG participating systems on all automatic metrics"
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "neural coreference resolution model" : {
+          "learned" : "end - toend",
+          "given" : "only gold mention clusters",
+          "from sentence" : "We present the first state - of - the - art neural coreference resolution model that is learned end - toend given only gold mention clusters ."
+        }
+      },
+      "training" : {
+        "end - to - end neural model" : {
+          "has" : {
+            "jointly learns" : {
+              "has" : {
+                "spans" : {
+                  "has" : "entity mentions",
+                  "how to" : "cluster"
+                }
+              },
+              "from sentence" : "We demonstrate for the first time that these resources are not required , and in fact performance can be improved significantly without them , by training an end - to - end neural model that jointly learns which spans are entity mentions and how to best cluster them ."
+            }
+          }
+        }
+      },
+      "reasons over" : {
+        "space" : {
+          "of" : "all spans",
+          "up to" : "maximum length"
+        }
+      },
+      "directly optimizes" : {
+        "marginal likelihood" : {
+          "of" : {
+            "antecedent spans" : {
+              "from" : "gold coreference clusters"
+            }
+          }
+        },
+        "from sentence" : "Our model reasons over the space of all spans up to a maximum length and directly optimizes the marginal likelihood of antecedent spans from gold coreference clusters ."
+      },
+      "includes" : {
+        "span - ranking model" : {
+          "decides" : {
+            "which of the previous spans" : {
+              "has" : "good antecedent",
+              "from sentence" : "It includes a span - ranking model that decides , for each span , which of the previous spans ( if any ) is a good antecedent ."
+            }
+          }
+        }
+      },
+      "At the core" : {
+        "vector embeddings" : {
+          "representing" : {
+            "spans" : {
+              "of" : {
+                "text" : {
+                  "in" : "document",
+                  "combine" : {
+                    "context - dependent boundary representations" : {
+                      "with" : {
+                        "head - finding attention mechanism" : {
+                          "over" : "span"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "At the core of our model are vector embeddings representing spans of text in the document , which combine context - dependent boundary representations with a head - finding attention mechanism over the span ."
+          }
+        }
+      },
+      "has" : {
+        "attention component" : {
+          "inspired by" : {
+            "parser - derived head - word matching features" : {
+              "from" : "previous systems",
+              "has" : {
+                "less susceptible" : {
+                  "has" : "cascading errors"
+                }
+              }
+            }
+          },
+          "from sentence" : "The attention component is inspired by parser - derived head - word matching features from previous systems , but is less susceptible to cascading errors ."
+        }
+      }
+    }
+  }
+}

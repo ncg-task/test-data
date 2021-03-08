@@ -1,0 +1,55 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "performance" : {
+          "of" : {
+            "our model" : {
+              "has" : {
+                "gradually dropped" : {
+                  "from" : "sample size 7 onwards",
+                  "from sentence" : "The performance of our model gradually dropped from sample size 7 onwards ."
+                }
+              }              
+            },
+            "the model" : {
+              "has" : {
+                "improved dramatically" : {
+                  "with" : {
+                    "sample sizes 3 and 5" : {
+                      "compared to" : "sample size of 1"
+                    }
+                  },
+                  "from sentence" : "The performance of the model improved dramatically with sample sizes 3 and 5 compared to the sample size of 1 ."
+                }
+              }
+            }
+          }
+        },
+        "self - attention mechanism" : {
+          "in" : "Context zoom layer",
+          "has" : {
+            "important component" : {
+              "to identify" : "related relevant sentences"
+            }
+          },
+          "from sentence" : "This result points out that the self - attention mechanism in the Context zoom layer is an important component to identify related relevant sentences ."
+        }
+      },
+      "shows" : {
+        "evidence" : {
+          "has" : {
+            "only a few relevant sentences" : {
+              "sufficient to" : {
+                "answer" : {
+                  "has" : "question"
+                }
+              }
+            }
+          },
+          "from sentence" : "This result shows evidence that only a few relevant sentences are sufficient to answer a question ."
+        }
+      }
+    }
+  }
+}

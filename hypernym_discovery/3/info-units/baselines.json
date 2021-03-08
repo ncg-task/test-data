@@ -1,0 +1,26 @@
+{
+  "has" : {
+    "Baselines" : {
+      "compare against" : {
+        "number of taxonomy learning and Information Extraction systems" : {
+          "namely" : "WiBi and DefIE",
+          "from sentence" : "We compare against a number of taxonomy learning and Information Extraction systems , namely , WiBi and DefIE ."
+        }
+      },
+      "has" : {
+        "DefIE" : {
+          "is" : {
+            "automaic OIE system" : {
+              "relying on" : {
+                "syntactic structure" : {
+                  "of" : "pre-dis ambiguated definitions"
+                }
+              },
+              "from sentence" : "Finally , DefIE is an automaic OIE system relying on the syntactic structure of pre-dis ambiguated definitions 13 ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "has" : {
+    "Model" : {
+      "construct" : {
+        "single soft - cascade AdaBoost classifier" : {
+          "to handle" : ["complex face manifolds", "arbitrary pose and occlusion conditions"]
+        }
+      },      
+      "propose" : [
+        ["deep quadratic tree learning method", {"from sentence" : "Secondly , we propose a deep quadratic tree learning method and construct a single soft - cascade AdaBoost classifier to handle complex face manifolds and arbitrary pose and occlusion conditions ."}],        
+        {"simple pixel - level feature" : {
+          "called" : "Normalized Pixel Difference ( NPD )",
+          "from sentence" : "First , we propose a simple pixel - level feature , called the Normalized Pixel Difference ( NPD ) ."
+        }}
+      ],
+      "has" : {
+        "NPD" : {
+          "computed as" : {
+            "ratio" : {
+              "of" : {
+                "difference" : {
+                  "between" : {
+                    "any two pixel intensity values" : {
+                      "to" : "sum of their values"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "An NPD is computed as the ratio of the difference between any two pixel intensity values to the sum of their values , in the same form as the Weber Fraction in experimental psychology ."
+          }
+        },
+        "NPD feature" : {
+          "has" : {
+            "several desirable properties" : {
+              "such as" : ["scale invariance", "boundedness", "ability to reconstruct the original image"]
+            }
+          },
+          "from sentence" : "The NPD feature has several desirable properties , such as scale invariance , boundedness , and ability to reconstruct the original image ."
+        },
+        "different types of faces" : {
+          "automatically divided into" : {
+            "different leaves" : {
+              "of" : "tree classifier"
+            }
+          }
+        },
+        "complex face manifold" : {
+          "in" : "high dimensional space",
+          "partitioned in" : "learning process",
+          "from sentence" : "In this way , different types of faces can be automatically divided into different leaves of a tree classifier , and the complex face manifold in a high dimensional space can be partitioned in the learning process ."          
+        },
+        "resulting face detection template" : {
+          "scaled for" : "multiscale face detection"
+        },
+        "\" divide and conquer \" strategy" : {
+          "tackle" : {
+            "unconstrained face detection" : {
+              "in" : "single classifier",
+              "without" : {
+                "pre-labeling" : {
+                  "of" : {
+                    "views" : {
+                      "in" : {
+                        "training set" : {
+                          "of" : "face images"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "This is the \" divide and conquer \" strategy to tackle unconstrained face detection in a single classifier , without pre-labeling of views in the training set of face images ."
+        },
+        "resulting face detector" : {
+          "robust to" : {
+            "variations" : {
+              "in" : ["pose , occlusion , and illumination", "blur and low image resolution"]
+            }
+          },
+          "from sentence" : "The resulting face detector is robust to variations in pose , occlusion , and illumination , as well as to blur and low image resolution ."
+        }
+      },
+      "show" : {
+        "NPD features" : {
+          "obtained from" : "lookup table",
+          "from sentence" : "we further show that NPD features can be obtained from a lookup table , and the resulting face detection template can be easily scaled for multiscale face detection ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "Our CMS - RCNN" : {
+          "implemented in" : "Caffe deep learning framework",
+          "from sentence" : "Our CMS - RCNN is implemented in the Caffe deep learning framework ."
+        },
+        "first 5 sets of convolution layers" : {
+          "have" : {
+            "same architecture" : {
+              "as" : "deep VGG - 16 model"
+            }
+          },
+          "during" : {
+            "training" : {
+              "has" : {
+                "parameters" : {
+                  "initialized from" : "pre-trained VGG - 16"
+                }
+              }
+            }
+          },
+          "from sentence" : "The first 5 sets of convolution layers have the same architecture as the deep VGG - 16 model , and during training their parameters are initialized from the pre-trained VGG - 16 ."
+        },
+        "' conv3 '" : {
+          "followed by" : {
+            "pooling layer" : {
+              "to perform" : "down - sampling"
+            }
+          },
+          "from sentence" : "So ' conv3 ' is followed by pooling layer to perform down - sampling ."
+        },
+        "' conv3 ' , ' conv4 ' , and ' conv5 '" : {
+          "has" : [{
+            "normalized" : {
+              "along" : "channel axis",
+              "to" : "learnable re-weighting scale"
+            }
+          },
+          "concatenated",
+          {"from sentence" : "Then ' conv3 ' , ' conv4 ' , and ' conv5 ' are normalized along the channel axis to a learnable re-weighting scale and concatenated together ."}]
+        },
+        "features" : {
+          "pooled from" : {
+            "' conv3 ' , ' conv4 ' , and ' conv5 '" : {
+              "initialized with" : "scale",
+              "to be" : {
+                "57.75 , 81.67 , and 81.67" : {
+                  "for" : "both face and body pipelines"
+                }
+              }
+            },
+            "from sentence" : "Specifically , features pooled from ' conv3 ' , ' conv4 ' , and ' conv5 ' are initialized with scale to be 57.75 , 81.67 , and 81.67 respectively , for both face and body pipelines ."
+          }
+        },
+        "MS - RPN and the CMS - CNN" : {
+          "share" : {
+            "same parameters" : {
+              "for" : "all convolution layers",
+              "so that" : {
+                "computation" : {
+                  "done" : "once"
+                }
+              },
+              "resulting in" : "higher efficiency"
+            }
+          },
+          "from sentence" : "The MS - RPN and the CMS - CNN share the same parameters for all convolution layers so that computation can be done once , resulting in higher efficiency ."
+        }
+      },
+      "In" : {
+        "MS - RPN" : {
+          "has" : {
+            "' conv3 ' , ' conv4 ' , and ' conv5 '" : {
+              "synchronized to" : {
+                "same size" : {
+                  "so" : {
+                    "concatenation" : {
+                      "be" : "applied"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "In the MS - RPN , we want ' conv3 ' , ' conv4 ' , and ' conv5 ' to be synchronized to the same size so that concatenation can be applied ."
+        },
+        "CMS - CNN" : {
+          "has" : {
+            "RoI pooling layer" : {
+              "ensure" : {
+                "pooled feature maps" : {
+                  "have" : "same size"
+                }
+              }
+            }
+          },
+          "from sentence" : "In the CMS - CNN , the RoI pooling layer already ensure that the pooled feature maps have the same size ."
+        }
+      },
+      "To ensure" : {
+        "training convergence" : {
+          "has" : {
+            "initial re-weighting scale" : {
+              "needs to be" : "carefully set"
+            }
+          },
+          "from sentence" : "To ensure training convergence , the initial re-weighting scale needs to be carefully set ."
+        }
+      },
+      "set" : {
+        "initial scale" : {
+          "of" : {
+            "' conv3 ' , ' conv4 ' , and ' conv5 '" : {
+              "to be" : "66.84 , 94.52 , and 94.52"
+            }
+          },
+          "from sentence" : "Here we set the initial scale of ' conv3 ' , ' conv4 ' , and ' conv5 ' to be 66.84 , 94.52 , and 94.52 respectively ."
+        }
+      },
+      "to shrink" : {
+        "channel size" : {
+          "of" : "concatenated feature map",
+          "employed" : "11 convolution layer",
+          "from sentence" : "Additionally , in order to shrink the channel size of the concatenated feature map , a 11 convolution layer is then employed ."
+        }
+      }
+    }
+  }
+}

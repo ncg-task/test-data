@@ -1,0 +1,47 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "When combined with" : {
+        "cascaded ERT" : {
+          "has" : {
+            "3D initialization" : {
+              "key to achieve" : "top overall performance"
+            }
+          },
+          "from sentence" : "When combined with the cascaded ERT , the 3D initialization is key to achieve top overall performance , see CNN + MS + DE vs CNN + 3D + DE in the full subset ."
+        }
+      },
+      "has" : {
+        "3D initialization" : {
+          "achieve" : {
+            "good performance" : {
+              "in presence of" : "large face rotations"
+            }
+          },
+          "from sentence" : "Of course , the 3D initialization is fundamental to achieve good performance in presence of large face rotations ."
+        },
+        "large receptive fields of CNNs" : {
+          "has" : {
+            "specially helpful" : {
+              "in" : {
+                "challenging situations" : {
+                  "has" : "pose and occlusion subsets"
+                }
+              }
+            },
+            "from sentence" : "The large receptive fields of CNNs are specially helpful in challenging situations , specifically those in the pose and occlusion subsets ."
+          }
+        },
+        "coarse - to - fine strategy" : {
+          "in" : "our cascaded ERT",
+          "provides" : {
+            "significative local improvements" : {
+              "in" : "difficult cases"
+            }
+          },
+          "from sentence" : "The coarse - to - fine strategy in our cascaded ERT provides significative local improvements in difficult cases , with rare facial part combinations ( see ) ."
+        }
+      }
+    }
+  }
+}

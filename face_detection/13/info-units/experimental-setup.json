@@ -1,0 +1,85 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "Training Details" : {
+          "train" : {
+            "RetinaFace" : {
+              "using" : {
+                "SGD optimiser" : {
+                  "has" : {
+                    "momentum" : {
+                      "at" : "0.9"
+                    },
+                    "weight decay" : {
+                      "at" : "0.0005"
+                    },
+                    "batch size" : {
+                      "of" : "8"
+                    }
+                  },
+                  "on" : "four NVIDIA Tesla P40 ( 24GB ) GPUs",
+                  "from sentence" : "Training Details .
+We train the RetinaFace using SGD optimiser ( momentum at 0.9 , weight decay at 0.0005 , batch size of 8 4 ) on four NVIDIA Tesla P40 ( 24GB ) GPUs ."
+
+                }
+              }
+            }
+          },
+          "has" : {
+            "learning rate" : {
+              "starts from" : "10 ? 3",
+              "rising to" : {
+                "10 ? 2" : {
+                  "after" : "5 epochs"
+                }
+              }
+            },
+            "training process" : {
+              "has" : {
+                "terminates" : {
+                  "at" : "80 epochs"
+                }
+              }
+            },
+            "from sentence" : "The learning rate starts from 10 ? 3 , rising to 10 ? 2 after 5 epochs , then divided by 10 at 55 and 68 epochs .
+The training process terminates at 80 epochs ."
+
+          }
+        },
+        "Testing Details" : {
+          "For testing on" : {
+            "WIDER FACE" : {
+              "employ" : {
+                "flip" : {
+                  "as well as" : "multi-scale"
+                }
+              }
+            }
+          },
+          "has" : {
+            "Box voting" : {
+              "applied on" : {
+                "union set" : {
+                  "of" : {
+                    "predicted face boxes" : {
+                      "using" : {
+                        "IoU threshold" : {
+                          "at" : "0.4"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Testing Details .
+For testing on WIDER FACE , we follow the standard practices of and employ flip as well as multi-scale ( the short edge of image at [ 500 , 800 , 1100 , 1400 , 1700 ] ) strategies .
+Box voting [ 15 ] is applied on the union set of predicted face boxes using an IoU threshold at 0.4 ."
+
+        }
+      }
+    }
+  }
+}

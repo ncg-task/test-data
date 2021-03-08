@@ -1,0 +1,36 @@
+{
+  "has" : {
+    "Results" : {
+      "compared to" : {
+        "state - of - the - art methods" : {
+          "has" : ["QANTA", 
+          "FTS - BRNN", 
+          {"clearly outperformed" : {
+            "has" : "our method"
+          }, 
+          "from sentence" : "In particular , despite the simplicity of the neural network architecture of our method compared to the state - of - the - art methods ( i.e. , QANTA and FTS - BRNN ) , our method clearly outperformed these methods ."}
+          ]
+        }
+      },
+      "has" : {
+        "our method" : {
+          "has" : {
+            "mostly performed perfect" : {
+              "in terms of" : {
+                "predicting" : {
+                  "has" : {
+                    "types" : {
+                      "of" : "target answers",
+                      "has" : ["locations", "events", "people"]
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Our observations indicated that our method mostly performed perfect in terms of predicting the types of target answers ( e.g. , locations , events , and people ) ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

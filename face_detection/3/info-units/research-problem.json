@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+  ["face detection", {"from sentence" : "We propose a method to address challenges in unconstrained face detection , such as arbitrary pose variations and occlusions ."}],
+  ["automatic face recognition", {"from sentence" : "It is the first step in automatic face recognition applications ."}],
+  ["unconstrained face detection problem", {"from sentence" : "In this paper , we refer to face detection with arbitrary facial variations as the unconstrained face detection problem ."}]
+  ]
+}

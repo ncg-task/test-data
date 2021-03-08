@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Dynamic Self - Attention", {"from sentence" : "Dynamic Self - Attention : Computing Attention over Words Dynamically for Sentence Embedding"}],
+    ["Dynamic Self - Attention ( DSA )", {"from sentence" : "In this paper , we propose Dynamic Self - Attention ( DSA ) , a new self - attention mechanism for sentence embedding ."}],
+    ["DSA", {"from sentence" : "We design DSA by modifying dynamic routing in capsule network ( Sabour et al. , 2017 ) for natural language processing ."}]
+  ]
+}

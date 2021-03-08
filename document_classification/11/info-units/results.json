@@ -1,0 +1,46 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our method" : {
+          "performs" : {
+            "better" : {
+              "than" : "other methods"
+            }
+          },
+          "has" : {
+            "ToWE - SG method" : {
+              "has" : {
+                "significantly outperforms" : {
+                  "has" : "other baselines",
+                  "on" : ["20 New s Group", "5 Abstract s Group", "MR"]
+                }
+              },
+              "from sentence" : "( 1 ) Our method performs better than the other methods , and are proved to be highly reliable for the text classification task .
+In particular , the ToWE - SG method significantly outperforms the other baselines on the 20 New s Group , 5 Abstract s Group , and MR ."              
+            },
+            "outperforms" : {
+              "has" : "TWE method",
+              "on" : "document - level and sentence - level tasks",
+              "from sentence" : "Our method outperforms the TWE method on both the document - level and sentence - level tasks , which shows the stability and reliability of modeling taskspecific features in real - world applications ."
+            }
+          },
+          "achieves" : {
+            "better performance" : {
+              "over" : "Retrofit method",
+              "from sentence" : "Our method achieves better performance over Retrofit method , indicating that the task - specific features could be more effective compared with general semantic relations constructed by humans in the knowledge bases ."
+            }
+          }      
+        },
+        "word embedding methods" : {
+          "has" : {
+            "outperform" : {
+              "has" : "basic bag - of - words methods"
+            }
+          },
+          "from sentence" : "( 2 ) The word embedding methods outperform the basic bag - of - words methods in most cases , indicating the superiority of distributed word representation over the one - hot representation ."
+        }
+      }      
+    }
+  }
+}

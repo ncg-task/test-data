@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Answer Open-Domain Questions", {"from sentence" : "Reading Wikipedia to Answer Open-Domain Questions"}],
+    ["answering factoid questions in an open - domain setting", {"from sentence" : "This paper considers the problem of answering factoid questions in an open - domain setting using Wikipedia as the unique knowledge source , such as one does when looking for answers in an encyclopedia ."}],
+    ["open - domain question answering", {"from sentence" : "Unlike knowledge bases ( KBs ) such as Freebase or DB - Pedia , which are easier for computers to process but too sparsely populated for open - domain question answering , Wikipedia contains up - to - date knowledge that humans are interested in ."}]
+  ]
+}

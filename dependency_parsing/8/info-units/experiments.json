@@ -1,0 +1,101 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Part of Speech Tagging" : {
+              "has" : {
+                "Results" : {
+                  "has" : {
+                    "Our globally normalized model" : {
+                      "has" : {
+                        "significantly outperforms" : {
+                          "has" : "local model",
+                          "from sentence" : "Experiments
+Part of Speech Tagging
+Results .
+Our globally normalized model again significantly outperforms the local model ."
+
+                        }
+                      }
+                    },
+                    "Beam search" : {
+                      "with" : {
+                        "locally normalized model" : {
+                          "suffers from" : "severe label bias issues",
+                          "from sentence" : "Beam search with a locally normalized model suffers from severe label bias issues that we discuss on a concrete example in Section 5 ."
+                        }
+                      }
+                    },
+                    "set" : {
+                      "of" : {
+                        "character ngrams feature" : {
+                          "is" : "very important",
+                          "has" : {
+                            "increasing" : {
+                              "has" : {
+                                "average accuracy" : {
+                                  "on" : "CoNLL '09 datasets",
+                                  "by" : "about 0.5 % absolute"
+                                }
+                              }
+                            }
+                          },
+                          "from sentence" : "The set of character ngrams feature is very important , increasing average accuracy on the CoNLL '09 datasets by about 0.5 % absolute ."
+                        }
+                      }
+                    }
+                  },
+                  "Using" : {
+                    "beam search" : {
+                      "with" : "locally normalized model",
+                      "has" : "does not help"
+                    }
+                  },
+                  "with" : {
+                    "global normalization" : {
+                      "leads to" : {
+                        "7 % reduction" : {
+                          "in" : "relative error"
+                        }
+                      },
+                      "from sentence" : "Using beam search with a locally normalized model does not help , but with global normalization it leads to a 7 % reduction in relative error , empirically demonstrating the effect of label bias ."
+                    }
+                  }
+                }
+              }
+            },
+            "Dependency Parsing" : {
+              "has" : {
+                "Results" : {
+                  "has" : {
+                    "our model" : {
+                      "compares" : {
+                        "favorably" : {
+                          "to" : ["94.26 % LAS ", "92.41 % UAS"],
+                          "from sentence" : "Dependency Parsing
+Results .
+Even though we do not use tri-training , our model compares favorably to the 94.26 % LAS and 92.41 % UAS reported by with tri-training ."
+
+                        }
+                      }
+                    },
+                    "Our results" : {
+                      "has" : {
+                        "significantly outperform" : {
+                          "has" : "LSTM - based approaches",
+                          "from sentence" : "Our results also significantly outperform the LSTM - based approaches of ."
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

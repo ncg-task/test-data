@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "Network" : {
+          "has" : {
+            "trained" : {
+              "without using" : "weight mask",
+              "has" : {
+                "worst performance" : {
+                  "compared with" : "other two settings"
+                }
+              },
+              "from sentence" : "Network trained without using weight mask has worst performance compared with other two settings ."
+            }
+          }
+        }
+      },
+      "adding" : {
+        "weights" : {
+          "to" : {
+            "specific regions" : {
+              "such as" : "68 facial landmarks or central face region",
+              "has" : {
+                "weight ratio" : {
+                  "shows" : {
+                    "considerable improvement" : {
+                      "on" : "68 points datasets",
+                      "over" : "weight ratio"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "By adding weights to specific regions such as 68 facial landmarks or central face region , weight ratio 3 shows considerable improvement on 68 points datasets over weight ratio 2 ."
+          }
+        }
+      }
+    }
+  }  
+}

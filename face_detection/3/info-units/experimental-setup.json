@@ -1,0 +1,85 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "used" : {
+        "detection template" : {
+          "of" : "24 24 pixels",
+          "from sentence" : "We used a detection template of 24 24 pixels ."
+        }
+      },
+      "set" : {
+        "maximum depth" : {
+          "of" : "tree classifiers",
+          "learned as" : {
+            "eight" : {
+              "has" : {
+                "at most eight NPD features" : {
+                  "evaluated for" : "each tree classifier"
+                }
+              }
+            }
+          },
+          "from sentence" : "We set the maximum depth of the tree classifiers to be learned as eight , so that at most eight NPD features need to be evaluated for each tree classifier ."
+        }
+      },
+      "In" : {
+        "soft cascade training" : {
+          "set" : {
+            "threshold" : {
+              "of" : "each exit",
+              "as" : {
+                "minimal score" : {
+                  "of" : "positive samples"
+                }
+              }              
+            }
+          },
+          "from sentence" : "In the soft cascade training , we set the threshold of each exit as the minimal score of positive samples , i.e. we did not reject positive samples during training ."
+        }
+      },
+      "has" : {
+        "Our final detector" : {
+          "contains" : ["1,226 deep quadratic trees", "46,401 NPD features"],
+          "from sentence" : "Our final detector contains 1,226 deep quadratic trees , and 46,401 NPD features ."
+        },
+        "subset of the training data" : {
+          "including" : ["12,102 face images", "12,315 nonface images"],
+          "from sentence" : "A subset of the training data 2 in was used , including 12,102 face images and 12,315 nonface images ."
+        },
+        "detection template" : {
+          "is" : "20 20 pixels",
+          "from sentence" : "The detection template is 20 20 pixels ."
+        },
+        "detector cascade" : {
+          "contains" : "15 stages",
+          "for" : {
+            "each stage" : {
+              "has" : {
+                "target false accept rate" : {
+                  "was" : "0.5",
+                  "with" : {
+                    "detection rate" : {
+                      "of" : "0.999"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "The detector cascade contains 15 stages , and for each stage , the target false accept rate was 0.5 , with a detection rate of 0.999 ."
+        }
+      },
+      "trained" : {
+        "near frontal face detector" : {
+          "with" : {
+            "depth" : {
+              "of" : "four"
+            }
+          },
+          "using" : ["proposed NPD features", "classic cascade of regression trees ( CART )"],
+          "from sentence" : "For an analysis , we also trained a near frontal face detector using the proposed NPD features and the classic cascade of regression trees ( CART ) with depth of four ."
+        }
+      }
+    }
+  }
+}

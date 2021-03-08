@@ -1,0 +1,60 @@
+{
+  "has" : {
+    "Approach" : {
+      "describe" : {
+        "BERT - based model" : {
+          "for" : "Natural Questions",
+          "from sentence" : "In this technical note we describe a BERT - based model for the Natural Questions ."
+        }
+      },
+      "jointly predict" : {
+        "short and long answers" : {
+          "in" : {
+            "single model" : {
+              "than using" : "pipeline approach"
+            }
+          }
+        }
+      },
+      "split" : {
+        "each document" : {
+          "into" : {
+            "multiple training instances" : {
+              "by using" : {
+                "overlapping windows" : {
+                  "of" : "tokens"
+                }
+              }
+            }
+          }
+        }
+      },
+      "aggressively downsample" : {
+        "null instances" : {
+          "at" : "training time",
+          "to create" : "balanced training set"
+        }
+      },
+      "use" : {
+        "\" [ CLS ] \" token" : {
+          "at" : "training time",
+          "to predict" : "null instances",
+          "rank" : {
+            "spans" : {
+              "at" : {
+                "inference time" : {
+                  "by" : {
+                    "difference" : {
+                      "between" : "span score and the \" [ CLS ] \" score"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "The key insights in our approach are 1 . to jointly predict short and long answers in a single model rather than using a pipeline approach , 2 . to split each document into multiple training instances by using overlapping windows of tokens , like in the original BERT model for the SQuAD task , 3 . to aggressively downsample null instances ( i.e. instances without an answer ) at training time to create a balanced training set , 4 . to use the \" [ CLS ] \" token at training time to predict null instances and rank spans at inference time by the difference between the span score and the \" [ CLS ] \" score ."
+      }
+    }
+  }
+}

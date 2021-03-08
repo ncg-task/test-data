@@ -1,0 +1,51 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Sentiment Classification" : {
+              "achieve" : {
+                "fourth best published result" : {
+                  "for" : "5 - class classification task",
+                  "from sentence" : "Results and Model Analysis
+Sentiment Classification
+To the best of our knowledge , we achieve the fourth best published result for the 5 - class classification task on this dataset ."
+
+                }
+              },
+              "For" : {
+                "binary classification task" : {
+                  "achieve" : {
+                    "comparable results" : {
+                      "with respect to" : "state - of - the - art ones",
+                      "from sentence" : "For the binary classification task , we achieve comparable results with respect to the state - of - the - art ones ."
+                    }
+                  }
+                }
+              }
+            },
+            "Question Type Classification" : {
+              "has" : {
+                "Our result" : {
+                  "has" : {
+                    "consistently outperforms" : {
+                      "has" : "all published neural baseline models",
+                      "from sentence" : "Question Type Classification
+( 1 ) Our result consistently outperforms all published neural baseline models , which means that C - LSTM captures intentions of TREC questions well ."
+
+                    },
+                    "close" : {
+                      "to" : "state - of - the - art SVM",
+                      "from sentence" : "( 2 ) Our result is close to that of the state - of - the - art SVM that depends on highly engineered features ."
+                    }
+                  }
+                }
+              }  
+            }
+          }
+        }
+      }
+    }
+  }
+}

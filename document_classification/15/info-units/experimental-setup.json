@@ -1,0 +1,52 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "used" : {
+        "TensorFlow" : {
+          "on" : "GPUs",
+          "from sentence" : "All experiments used TensorFlow on GPUs ."
+
+        }
+      },
+      "trained for" : ["100,000 steps", {"from sentence" : "We trained for 100,000 steps ."}],
+      "applied" : {
+        "gradient clipping" : {
+          "with" : "norm",
+          "set to" : {
+            "1.0" : {
+              "on" : {
+                "all the parameters" : {
+                  "except" : "word embeddings"
+                }
+              }
+            }
+          },
+          "from sentence" : "We applied gradient clipping with norm set to 1.0 on all the parameters except word embeddings ."
+        }
+      },
+      "For" : {
+        "regularization" : {
+          "of" : "recurrent language model",
+          "applied" : {
+            "dropout" : {
+              "on" : "word embedding layer",
+              "with" : "0.5 dropout rate",
+              "from sentence" : "For regularization of the recurrent language model , we applied dropout on the word embedding layer with 0.5 dropout rate ."
+            }
+          }
+        },
+        "bidirectional LSTM model" : {
+          "used" : {
+            "512 hidden units LSTM" : {
+              "for" : "standard order and reversed order sequences"
+            },
+            "256 dimensional word embeddings" : {
+              "shared with" : "both of the LSTMs"
+            }
+          },
+          "from sentence" : "For the bidirectional LSTM model , we used 512 hidden units LSTM for both the standard order and reversed order sequences , and we used 256 dimensional word embeddings which are shared with both of the LSTMs ."
+        }
+      }
+    }
+  }
+}

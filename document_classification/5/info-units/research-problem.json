@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Text Classification", {"from sentence" : "HDLTex : Hierarchical Deep Learning for Text Classification"}],
+    ["document classification", {"from sentence" : "Central to these information processing methods is document classification , which has become an important application for supervised learning ."}],
+    ["hierarchical classification", {"from sentence" : "Instead we perform hierarchical classification using an approach we call Hierarchical Deep Learning for Text classification ( HDLTex ) ."}]
+  ]
+}

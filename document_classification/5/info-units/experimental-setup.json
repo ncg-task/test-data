@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "using" : ["central processing units ( CPUs )", "graphical processing units ( GPUs )", {"from sentence" : "The following results were obtained using a combination of central processing units ( CPUs ) and graphical processing units ( GPUs ) ."}],
+      "done on" : {
+        "Xeon E5 ? 2640 ( 2.6 GHz )" : {
+          "with" : ["32 cores", "64GB memory"]
+        }
+      },
+      "has" : {
+        "GPU cards" : {
+          "were" : ["N vidia Quadro K620", "N vidia Tesla K20c"],
+          "from sentence" : "The processing was done on a Xeon E5 ? 2640 ( 2.6 GHz ) with 32 cores and 64GB memory , and the GPU cards were N vidia Quadro K620 and N vidia Tesla K20c ."
+        }
+      },
+      "implemented" : {
+        "our approaches" : {
+          "in" : "Python",
+          "using" : {
+            "Compute Unified Device Architecture ( CUDA )" : {
+              "is" : {
+                "parallel computing platform and Application Programming Interface ( API ) model" : {
+                  "created by" : "N vidia"
+                }
+              },
+              "from sentence" : "We implemented our approaches in Python using the Compute Unified Device Architecture ( CUDA ) , which is a parallel computing platform and Application Programming Interface ( API ) model created by N vidia ."
+            }
+          }
+        }
+      },
+      "used" : {
+        "Keras and Tensor Flow libraries" : {
+          "for creating" : "neural networks",
+          "from sentence" : "We also used Keras and Tensor Flow libraries for creating the neural networks , ."
+        }
+      }
+    }
+  }
+}

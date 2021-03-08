@@ -1,0 +1,12 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "choose" : {
+        "optimize" : {
+          "with" : "Adam",
+          "from sentence" : "We choose to optimize with Adam , which ( among other things ) keeps a moving average of the L 2 norm of the gradient for each parameter throughout training and divides the gradient for each parameter by this moving average , ensuring that the magnitude of the gradients will on average be close to one ."
+        }
+      }
+    }
+  }
+}

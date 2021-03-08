@@ -1,0 +1,7 @@
+(Contribution||has||Results)
+(Results||has||Our submission)
+(Our submission||with||attribute pairs)
+(Our submission||achieved||first place)
+(first place||in categories||( 1B ) Italian ( all and entities ))
+(first place||in categories||( 1C ) Spanish entities)
+(first place||in categories||( 2B ) music entities)

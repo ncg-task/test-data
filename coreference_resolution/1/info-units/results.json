@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "our base reinforced model" : {
+          "has" : {
+            "improves" : {
+              "has" : {
+                "average F 1 score" : {
+                  "around" : "2 points",
+                  "has" : {
+                    "statistical significant t- test" : {
+                      "with" : "p < 0.05"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Results
+Built on top of the model in but excluding ELMo , our base reinforced model improves the average F 1 score around 2 points ( statistical significant t- test with p < 0.05 ) compared with ."
+
+        },
+        "our full model" : {
+          "achieves" : {
+            "state - of the - art performance" : {
+              "of" : "73.8 % F1 - score",
+              "using" : "ELMo and entropy regularization",
+              "from sentence" : "Overall , our full model achieves the state - of the - art performance of 73.8 % F1 - score when using ELMo and entropy regularization ( compared to models marked with * in , and our approach simultaneously obtains the best F1 -score of 70.5 % when using fixed word embedding only ."
+            }
+          }
+        }
+      },
+      "using" : {
+        "entropy regularization" : {
+          "to encourage" : {
+            "exploration" : {
+              "has" : {
+                "improve" : {
+                  "has" : "result",
+                  "by" : "1 point"
+                }
+              }
+            }
+          },
+          "from sentence" : "Regarding our model , using entropy regularization to encourage exploration can improve the result by 1 point ."
+        }
+      },
+      "introducing" : {
+        "context - dependent ELMo embedding" : {
+          "to" : "our base model",
+          "boosts" : "performance",
+          "from sentence" : "Moreover , introducing the context - dependent ELMo embedding to our base model can further boosts the performance , which is consistent with the results in ."
+        }
+      }
+    }
+  }
+}

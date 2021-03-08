@@ -1,0 +1,117 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Sentiment analysis" : {
+              "has" : {
+                "Hyperparameters" : {
+                  "use" : "10 hidden units",
+                  "run" : {
+                    "fastText" : {
+                      "for" : "5 epochs",
+                      "with" : {
+                        "learning rate" : {
+                          "selected on" : {
+                            "validation set" : {
+                              "from" : "0.05 , 0.1 , 0.25 , 0.5"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Sentiment analysis
+We use 10 hidden units and run fastText for 5 epochs with a learning rate selected on a validation set from { 0.05 , 0.1 , 0.25 , 0.5 } ."
+
+                },
+                "Results" : {
+                  "adding" : {
+                    "bigram information" : {
+                      "has" : {
+                        "improves" : {
+                          "has" : "performance",
+                          "by" : "1 - 4 %"
+                        }
+                      },
+                      "from sentence" : "On this task , adding bigram information improves the performance by 1 - 4 % ."
+                    }
+                  },
+                  "has" : {
+                    "our accuracy" : {
+                      "has" : {
+                        "slightly better" : {
+                          "than" : ["char - CNN", "char - CRNN"]
+                        },
+                        "bit worse" : {
+                          "than" : "VDCNN"
+                        }
+                      },
+                      "from sentence" : "Overall our accuracy is slightly better than char - CNN and char - CRNN and , a bit worse than VDCNN ."
+                    }
+                  },
+                  "with" : {
+                    "trigrams" : {
+                      "has" : {
+                        "performance" : {
+                          "on" : "Sogou",
+                          "goes" : "up to 97.1 %"
+                        }
+                      },
+                      "from sentence" : "Note that we can increase the accuracy slightly by using more n-grams , for example with trigrams , the performance on Sogou goes up to 97.1 % ."
+                    }
+                  },
+                  "using" : {
+                    "n-grams" : {
+                      "up to" : {
+                        "5" : {
+                          "leads to" : "best performance"
+                        }
+                      },
+                      "from sentence" : "We tune the hyperparameters on the validation set and observe that using n-grams up to 5 leads to the best performance ."
+                    }
+                  }
+                }
+              }
+            },
+            "Tag prediction" : {
+              "has" : {
+                "Baselines" : {
+                  "consider" : {
+                    "frequency - based baseline" : {
+                      "predicts" : "most frequent tag",
+                      "from sentence" : "Tag prediction
+We consider a frequency - based baseline which predicts the most frequent tag ."
+
+                    }
+                  },
+                  "compare with" : {
+                    "Tagspace ( Weston et al. , 2014 )" : {
+                      "has" : "tag prediction model",
+                      "from sentence" : "We also compare with Tagspace ( Weston et al. , 2014 ) , which is a tag prediction model similar to ours , but based on the Wsabie model of ."
+                    }
+                  }
+                },
+                "Results" : {
+                  "adding" : {
+                    "bigrams" : {
+                      "gives" : {
+                        "significant boost" : {
+                          "in" : "accuracy"
+                        }
+                      },
+                      "from sentence" : "Results and training time . and 200 .
+Both models achieve a similar performance with a small hidden layer , but adding bigrams gives us a significant boost in accuracy ."
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "has" : {
+    "Approach" : {
+      "train" : {
+        "separate detectors" : {
+          "tuned for" : "different scales ( and aspect ratios )",
+          "from sentence" : "Instead of a \" one-size - fitsall \" approach , we train separate detectors tuned for different scales ( and aspect ratios ) ."
+        }
+      },
+      "train and run" : {
+        "scale - specific detectors" : {
+          "in" : "multitask fashion",
+          "make use of" : {
+            "features" : {
+              "defined over" : {
+                "multiple layers" : {
+                  "of" : "single ( deep ) feature hierarchy"
+                }
+              }
+            }
+          },
+          "from sentence" : "To address both concerns , we train and run scale - specific detectors in a multitask fashion : they make use of features defined over multiple layers of single ( deep ) feature hierarchy ."
+        }
+      },
+      "To extend" : {
+        "features" : {
+          "has" : {
+            "fine - tuned" : {
+              "from" : "these networks"
+            }
+          },
+          "to" : {
+            "objects" : {
+              "of" : "novel sizes"
+            }
+          },
+          "employ" : {
+            "simply strategy" : {
+              "has" : {
+                "resize" : {
+                  "has" : {
+                    "images" : {
+                      "at" : "test - time",
+                      "by" : "interpolation and decimation"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "from sentence" : "To extend features fine - tuned from these networks to objects of novel sizes , we employ a simply strategy : resize images at test - time by interpolation and decimation ."
+      },
+      "find that" : {
+        "interpolating" : {
+          "has" : {
+            "lowest layer" : {
+              "of" : "pyramid",
+              "has" : {
+                "particularly crucial" : {
+                  "for finding" : "small objects"
+                }
+              }
+            }
+          },
+          "from sentence" : "While many recognition systems are applied in a \" multi-resolution \" fashion by processing an image pyramid , we find that interpolating the lowest layer of the pyramid is particularly crucial for finding small objects ."
+        }
+      },
+      "has" : {
+        "our final approach" : {
+          "is" : {
+            "delicate mixture" : {
+              "of" : {
+                "scale - specific detectors" : {
+                  "used in" : "scale - invariant fashion"
+                }
+              }
+            }
+          },
+          "from sentence" : "Hence our final approach is a delicate mixture of scale - specific detectors that are used in a scale - invariant fashion ( by processing an image pyramid to capture large scale variations ) ."
+        }
+      },
+      "demonstrate" : {
+        "convolutional deep features" : {
+          "extracted from" : "multiple layers",
+          "has" : {
+            "effective \" foveal \" descriptors" : {
+              "across" : {
+                "large receptive field" : {
+                  "capture both" : ["high - resolution detail", "coarse low - resolution cues"]
+                }
+              } 
+            }
+          },
+          "from sentence" : "We demonstrate that convolutional deep features extracted from multiple layers ( also known as \" hypercolumn \" features ) are effective \" foveal \" descriptors that capture both high - resolution detail and coarse low - resolution cues across large receptive field ( ) ."
+        }
+      },
+      "show" : {
+        "highresolution components" : {
+          "of" : "our foveal descriptors",
+          "extracted from" : "lower convolutional layers",
+          "has" : {
+            "crucial" : {
+              "for" : "accurate localization"
+            }
+          },
+          "from sentence" : "We show that highresolution components of our foveal descriptors ( extracted from lower convolutional layers ) are crucial for such accurate localization in ."
+        }
+      }
+    }
+  }
+}

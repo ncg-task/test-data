@@ -1,0 +1,54 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "For" : {
+        "SVDCNN and Char - CNN" : {
+          "has" : {
+            "network architecture" : {
+              "implemented in" : "PyTorch"
+            }
+          },
+          "from sentence" : "For SVDCNN and Char - CNN , we calculated the abovementioned number from the network architecture implemented in PyTorch ."
+
+        }
+      },
+      "has" : {
+        "SVDCNN experimental settings" : {
+          "similar to" : "original VDCNN paper",
+          "using" : ["same dictionary", {"same embedding size" : {"of" : "16"}}],
+          "from sentence" : "The SVDCNN experimental settings are similar to the original VDCNN paper , using the same dictionary and the same embedding size of 16 ."
+        },
+        "training" : {
+          "performed with" : {
+            "SGD" : {
+              "utilizing" : {
+                "size batch" : {
+                  "of" : "64",
+                  "with" : {
+                    "maximum" : {
+                      "of" : "100 epochs"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "The training is also performed with SGD , utilizing size batch of 64 , with a maximum of 100 epochs ."
+          }
+        }
+      },
+      "use" : {
+        "initial learning rate" : {
+          "of" : "0.01"
+        },
+        "momentum" : {
+          "of" : "0.9"
+        },
+        "weight decay" : {
+          "of" : "0.001"
+        },
+        "from sentence" : "We use an initial learning rate of 0.01 , a momentum of 0.9 and a weight decay of 0.001 ."
+      },
+      "performed on" : ["NVIDIA GTX 1060 GPU + Intel Core i 7 4770s CPU", {"from sentence" : "All the experiments were performed on an NVIDIA GTX 1060 GPU + Intel Core i 7 4770s CPU ."}]
+    }
+  }
+}

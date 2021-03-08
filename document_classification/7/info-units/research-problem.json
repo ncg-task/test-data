@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Multilingual Document Classification", {"from sentence" : "A Corpus for Multilingual Document Classification in Eight Languages"}],
+    ["Cross - lingual document classification", {"from sentence" : "Cross - lingual document classification aims at training a document classifier on resources in one language and transferring it to a different language without any additional resources ."}]
+  ]
+}

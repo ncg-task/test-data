@@ -1,0 +1,29 @@
+{
+  "has" : {
+    "Results" : {
+      "obtain" : {
+        "state of the art accuracy" : {
+          "on" : "AIDA",
+          "from sentence" : "We obtain state of the art accuracy on AIDA which is the largest and hardest ( by the accuracy of thep ( e |m ) baseline ) manually created ED dataset ."
+        }
+      },
+      "analyzed" : {
+        "accuracy" : {
+          "on" : "AIDA - B dataset",
+          "shows that" : {
+            "our method" : {
+              "performs" : {
+                "well" : {
+                  "in" : "these harder cases"
+                }
+              }
+            }
+          },
+          "from sentence" : "To gain further insight , we analyzed the accuracy on the AIDA - B dataset for situations where gold entities have low frequency or mention prior .
+shows that our method performs well in these harder cases . :"
+
+        }
+      }
+    }
+  }
+}

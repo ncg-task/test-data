@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Face Localisation in the Wild", {"from sentence" : "RetinaFace : Single - stage Dense Face Localisation in the Wild"}],
+    ["face localisation", {"from sentence" : "Though tremendous strides have been made in uncontrolled face detection , accurate and efficient face localisation in the wild remains an open challenge ."}]
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "LEAM" : {
+          "provides" : ["best AUC score", {"better F1 and P@5 values" : {"than" : {"all methods" : {"except" : "CNN"}}}}],
+          "from sentence" : "LEAM provides the best AUC score , and better F1 and P@5 values than all methods except CNN ."
+        },
+        "CNN" : {
+          "has" : {
+            "consistently outperforms" : {
+              "has" : "basic Bi - GRU architecture"
+            }
+          }
+        },
+        "logistic regression baseline" : {
+          "performs" : {
+            "worse" : {
+              "than" : "all deep learning architectures"
+            }
+          },
+          "from sentence" : "CNN consistently outperforms the basic Bi - GRU architecture , and the logistic regression baseline performs worse than all deep learning architectures ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+(Contribution||has||Approach)
+(Approach||fine - tune||BERT)
+(BERT||to||coreference resolution)
+(Approach||present||two ways)
+(two ways||of||extending)
+(extending||has||c 2f - coref model)

@@ -1,0 +1,125 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : ["recurrent scale approximation ( RSA , see ) unit", {"from sentence" : "In this work , we propose a recurrent scale approximation ( RSA , see ) unit to achieve the goal aforementioned ."}],
+      "has" : {
+        "RSA unit" : {
+          "to be" : {
+            "plugged" : {
+              "at" : {
+                "some specific depths" : {
+                  "in" : "network"
+                }
+              }
+            },
+            "fed" : {
+              "with" : {
+                "initial feature map" : {
+                  "at" : "largest scale"
+                }
+              }
+            }
+          },
+          "from sentence" : "The RSA unit is designed to be plugged at some specific depths in a network and to be fed with an initial feature map at the largest scale ."
+        },
+        "unit" : {
+          "convolves" : {
+            "input" : {
+              "in" : "recurrent manner",
+              "to generate" : {
+                "prediction" : {
+                  "of" : "feature map",
+                  "that is" : {
+                    "half" : {
+                      "has" : "size of the input"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The unit convolves the input in a recurrent manner to generate the prediction of the feature map that is half the size of the input ."
+            }
+          }
+        },
+        "first" : {
+          "is" : {
+            "scale - forecast network" : {
+              "to globally predict" : {
+                "scales" : {
+                  "for" : "novel image"
+                }
+              },
+              "compute" : {
+                "feature pyramids" : {
+                  "for" : {
+                    "certain set of scales" : {
+                      "based on" : "prediction"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "The first is a scale - forecast network to globally predict potential scales for a novel image and we compute feature pyramids for just a certain set of scales based on the prediction ."
+        },
+        "second" : {
+          "is" : {
+            "landmark retracing network" : {
+              "retraces" : {
+                "location" : {
+                  "of" : {
+                    "regressed landmarks" : {
+                      "in" : "preceding layers"
+                    }
+                  }
+                }
+              },
+              "generates" : {
+                "confidence score" : {
+                  "for" : {
+                    "each landmark" : {
+                      "based on" : "landmark feature set"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The second is a landmark retracing network that retraces the location of the regressed landmarks in the preceding layers and generates a confidence score for each landmark based on the landmark feature set ."              
+            } 
+          }
+        },
+        "final score" : {
+          "of identifying" : {
+            "face" : {
+              "within" : "an anchor"
+            }
+          },
+          "revised by" : "LRN network",
+          "from sentence" : "The final score of identifying a face within an anchor is thereby revised by the LRN network ."
+        },
+        "three components" : {
+          "be incorporated into" : {
+            "unified CNN framework" : {
+              "trained" : "end - to - end"
+            }
+          },
+          "from sentence" : "The three components can be incorporated into a unified CNN framework and trained end - to - end ."
+        }
+      },
+      "feed" : {
+        "network" : {
+          "with" : "input",
+          "at" : "one scale only"
+        }
+      },
+      "approximate" : {
+        "rest features" : {
+          "at" : {
+            "smaller scales" : {
+              "through" : "learnable RSA unit"
+            }
+          }
+        },
+        "from sentence" : "Such a scheme could feed the network with input at one scale only and approximate the rest features at smaller scales through a learnable RSA unit - a balance considering both efficiency and accuracy ."
+      }
+    }
+  }
+}

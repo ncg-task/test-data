@@ -1,0 +1,73 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Quora dataset" : {
+              "has" : {
+                "BiMPM and ESIM models" : {
+                  "without" : "any sentence interaction information",
+                  "has" : {
+                    "very close" : {
+                      "has" : {
+                        "DIIN" : {
+                          "has" : "state - of - the - art interaction - based model"
+                        }
+                      }
+                    } 
+                  },
+                  "from sentence" : "Quora dataset : BiMPM and ESIM models without any sentence interaction information , and is very close to DIIN , the state - of - the - art interaction - based model , but we do n't any external knowledge in our method ."
+                }
+              }
+            },
+            "LCQMC dataset" : {
+              "show" : {
+                "our model" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "state - of the - art models"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "LCQMC dataset : Experimental results of LCQMC dataset compared with the existing models are shown in .
+    The experimental results show that our model outperforms state - of the - art models ."
+    
+            },
+            "BQ dataset" : {
+              "has" : {
+                "our model" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "state - of - the - art models",
+                      "by" : {
+                        "large margin" : {
+                          "reaching" : "83 . 62 %",
+                          "recording" : "state - of - the - art performance"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "BQ dataset : BQ dataset is a specific - domain dataset with a low average overlap rate .
+    As shown in , our model outperforms state - of - the - art models by a large margin , reaching 83 . 62 % , recording the state - of - the - art performance ."
+    
+                }
+              }
+            },
+            "TCS dataset" : {
+              "has" : {
+                "our MSEM model" : {
+                  "achieves" : "best performance",
+                  "from sentence" : "TCS dataset :
+    As shown in show that our MSEM model achieves the best performance ."
+    
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

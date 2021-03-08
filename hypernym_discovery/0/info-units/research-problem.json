@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Unsupervised Hypernym Discovery", {"from sentence" : "ADAPT at SemEval- 2018 Task 9 : Skip - Gram Word Embeddings for Unsupervised Hypernym Discovery in Specialised Corpora"}],
+    ["hypernym discovery", {"from sentence" : "This paper describes a simple but competitive unsupervised system for hypernym discovery ."}]
+  ]
+}

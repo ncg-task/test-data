@@ -1,0 +1,57 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "TBCNN - pair neural model" : {
+          "to recognize" : {
+            "entailment and contradiction" : {
+              "between" : "two sentences"
+            }
+          },
+          "from sentence" : "In this paper , we propose the TBCNN - pair neural model to recognize entailment and contradiction between two sentences ."
+        }
+      },
+      "lever- age" : {
+        "our newly proposed TBCNN model" : {
+          "to capture" : {
+            "structural information" : {
+              "in" : "sentences"
+            }
+          },
+          "from sentence" : "We lever- age our newly proposed TBCNN model to capture structural information in sentences , which is important to NLI ."
+        }
+      },
+      "has" : {
+        "TBCNN" : {
+          "has" : {
+            "more robust" : {
+              "than" : {
+                "sequential convolution" : {
+                  "in terms of" : "word order distortion"
+                }
+              }
+            }
+          },
+          "from sentence" : "As we can see , TBCNN is more robust than sequential convolution in terms of word order distortion , which maybe introduced by determinators , modifiers , etc ."
+        },
+        "pooling layer" : {
+          "aggregates" : {
+            "information" : {
+              "along" : "tree",
+              "serving" : "semantic compositonality"
+            },
+            "from sentence" : "A pooling layer then aggregates information along the tree , serving as away of semantic compositonality ."
+          }
+        },
+        "two sentences ' information" : {
+          "combined by" : {
+            "several heuristic matching layers" : {
+              "including" : ["concatenation", "element - wise product and difference"],
+              "from sentence" : "Finally , two sentences ' information is combined by several heuristic matching layers , including concatenation , element - wise product and difference ; they are effective in capturing relationships between two sentences , but remain low complexity ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

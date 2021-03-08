@@ -1,0 +1,48 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "baseline" : {
+          "has" : {
+            "span - ranking model" : {
+              "augmented with" : "both ELMo and hyperparameter tuning",
+              "achieves" : "72.3 F1"
+            }
+          },
+          "from sentence" : "Results
+The baseline relative to our contributions is the span - ranking model from augmented with both ELMo and hyperparameter tuning , which achieves 72.3 F1 ."
+
+        },
+        "Our full approach" : {
+          "achieves" : "73.0 F1",
+          "setting" : {
+            "new state of the art" : {
+              "for" : "coreference resolution"
+            }
+          },
+          "from sentence" : "Our full approach achieves 73.0 F1 , setting a new state of the art for coreference resolution ."
+        }
+      },
+      "Despite using" : {
+        "far less computation" : {
+          "has" : {
+            "outperforms" : {
+              "has" : "baseline"
+            }
+          },
+          "from sentence" : "Despite using far less computation , it outperforms the baseline because the coarse scores s c ( i , j ) can be computed for all antecedents , enabling the model to potentially predict a coreference link between any two spans in the document ."
+        }
+      },
+      "observe" : {
+        "much higher recall" : {
+          "when adopting" : "coarse - to - fine approach",
+          "from sentence" : "As a result , we observe a much higher recall when adopting the coarse - to - fine approach ."
+        },
+        "further improvement" : {
+          "by including" : "second - order inference",
+          "from sentence" : "We also observe further improvement by including the second - order inference ( Section 3 ) ."
+        }
+      }
+    }
+  }
+}

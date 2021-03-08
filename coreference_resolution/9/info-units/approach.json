@@ -1,0 +1,22 @@
+{
+  "has" : {
+    "Approach" : {
+      "fine - tune" : {
+        "BERT" : {
+          "to" : "coreference resolution",
+          "from sentence" : "We fine - tune BERT to coreference resolution , achieving strong improvements on the GAP and benchmarks ."
+        }
+      },
+      "present" : {
+        "two ways" : {
+          "of" : {
+            "extending" : {
+              "has" : "c 2f - coref model"
+            }
+          },
+          "from sentence" : "We present two ways of extending the c 2f - coref model in ."
+        }
+      }
+    }
+  }
+}

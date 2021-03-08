@@ -1,0 +1,83 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "GLUE" : {
+              "has" : {
+                "All our models" : {
+                  "has" : {
+                    "outperform" : {
+                      "has" : "uni-directional transformer"
+                    }
+                  },
+                  "from sentence" : "Results
+GLUE
+All our models outperform the uni-directional transformer ( OpenAI GPT ) of , however , our model is about 50 % larger than their model ."
+
+                },
+                "Our CNN base model" : {
+                  "performs" : {
+                    "well" : {
+                      "as" : "STILTs",
+                      "in" : "aggregate"
+                    },
+                    "from sentence" : "Our CNN base model performs as well as STILTs in aggregate , however , on some tasks involving sentence - pairs , STILTs performs much better ( MRPC , RTE ) ; there is a similar trend for BERT ."
+                  }
+                }                
+              }
+            },
+            "Named Entity Recognition" : {
+              "has" : {
+                "fine tuning" : {
+                  "gives" : "biggest gain"
+                }
+              },
+              "from sentence" : "Named Entity Recognition
+shows the results , with comparison to previous published ELMo BASE results the art , but fine tuning gives the biggest gain ."
+
+            },
+            "Constituency Parsing" : {
+              "found that" : {
+                "scaling" : {
+                  "has" : "bilm term",
+                  "by" : {
+                    "factor" : {
+                      "of" : "0.15"
+                    }
+                  },
+                  "results in" : "better performance",
+                  "from sentence" : "Constituency Parsing
+This results in the bilm loss dominating the triplet loss and we found that scaling the bilm term by a factor of 0.15 results in better performance ."
+
+                }
+              },
+              "shows that" : {
+                "cloze loss" : {
+                  "performs" : {
+                    "significantly better" : {
+                      "than" : "bilm loss"
+                    }
+                  }
+                },
+                "combining" : {
+                  "has" : {
+                    "two loss types" : {
+                      "has" : {
+                        "does not improve" : {
+                          "over" : "cloze loss"
+                        }
+                      }
+                    },
+                    "from sentence" : "shows that the cloze loss performs significantly better than the bilm loss and that combining the two loss types does not improve over the cloze loss by itself ."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

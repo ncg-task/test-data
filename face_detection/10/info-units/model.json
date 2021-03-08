@@ -1,0 +1,77 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "three novel techniques" : {
+          "introduce" : {
+            "Feature Enhance Module ( FEM )" : {
+              "to enhance" : {
+                "discriminability and robustness" : {
+                  "of" : "features"
+                }
+              },
+              "combines" : {
+                "advantages" : {
+                  "of" : {
+                    "FPN" : {
+                      "in" : "PyramidBox"
+                    },
+                    "Receptive Field Block ( RFB )" : {
+                      "in" : "RFBNet"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "In this paper , we propose three novel techniques to address the above three issues , respectively .
+First , we introduce a Feature Enhance Module ( FEM ) to enhance the discriminability and robustness of the features , which combines the advantages of the FPN in PyramidBox and Receptive Field Block ( RFB ) in RFBNet ."
+
+          },
+          "design" : {
+            "Progressive Anchor Loss ( PAL )" : {
+              "uses" : {
+                "progressive anchor sizes" : {
+                  "for" : ["different levels", "different shots"],
+                  "assign" : {
+                    "smaller anchor sizes" : {
+                      "in" : "first shot"
+                    }
+                  },
+                  "use" : {
+                    "larger sizes" : {
+                      "in" : "second shot"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Second , motivated by the hierarchical loss and pyramid anchor in PyramidBox , we design Progressive Anchor Loss ( PAL ) that uses progressive anchor sizes for not only different levels , but also different shots .
+Specifically , we assign smaller anchor sizes in the first shot , and use larger sizes in the second shot ."
+
+            }
+          },
+          "propose" : {
+            "Improved Anchor Matching ( IAM )" : {
+              "integrates" : {
+                "anchor partition strategy and anchor-based data augmentation" : {
+                  "to better match" : "anchors and ground truth faces",
+                  "provides" : {
+                    "better initialization" : {
+                      "for" : "regressor"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Third , we propose Improved Anchor Matching ( IAM ) , which integrates anchor partition strategy and anchor-based data augmentation to better match anchors and ground truth faces , and thus provides better initialization for the regressor ."
+            }
+          }
+        }
+      },
+      "name" : {
+        "proposed network" : {
+          "as" : "Dual Shot Face Detector ( DSFD )",
+          "from sentence" : "Besides , since these techniques are all related to two - stream design , we name the proposed network as Dual Shot Face Detector ( DSFD ) ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "300W" : {
+          "has" : {
+            "Our method" : {
+              "achieve" : "state - of - the - art performance"
+            },
+            "from sentence" : "Evaluation on 300W
+Our method is able to achieve the state - of - the - art performance on the 300W testing dataset , see ."
+
+          },
+          "For" : {
+            "challenge subset ( iBug dataset )" : {
+              "able to" : {
+                "outperform" : {
+                  "has" : "Wing",
+                  "by" : "significant margin"
+                }
+              },
+              "from sentence" : "For the challenge subset ( iBug dataset ) , we are able to outperform
+Wing by a significant margin , which also proves the robustness of our approach against occlusion and large pose variation ."
+
+            }
+          },
+          "on" : {
+            "300 W private test dataset" : {
+              "has" : {
+                "outperform" : {
+                  "has" : "previous state - of - theart",
+                  "on" : {
+                    "variant metrics" : {
+                      "including" : {
+                        "NME , AUC and FR" : {
+                          "measured with" : "8 % NME and 10 % NME"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Furthermore , on the 300 W private test dataset ) , we again outperform the previous state - of - theart on variant metrics including NME , AUC and FR measured with either 8 % NME and 10 % NME ."
+            }
+          }
+        },
+        "WFLW" : {
+          "has" : {
+            "Our method" : {
+              "achieves" : "best results",
+              "from sentence" : "Evaluation on WFLW
+Our method again achieves the best results on the WFLW dataset in , which is significantly more difficult than COFW and 300W ( see for visualizations ) ."
+
+            },
+            "our approach" : {
+              "has" : {
+                "fails" : {
+                  "on" : {
+                    "only 2.84 %" : {
+                      "of" : "all images"
+                    }
+                  },
+                  "from sentence" : "All in all , our approach fails on only 2.84 % of all images , more than a two times improvement compared with 7.6 ."
+                }
+              }
+            }
+          },
+          "On" : {
+            "every subset" : {
+              "has" : {
+                "outperform" : {
+                  "has" : "previous state - of - the - art ap -"
+                }
+              },
+              "from sentence" : "On every subset we outperform the previous state - of - the - art ap - :"
+            }
+          }
+        }
+      }
+    }
+  }
+}

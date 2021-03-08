@@ -1,0 +1,85 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Comparing Unsupervised Measures" : {
+              "has" : {
+                "Results" : {
+                  "show" : {
+                    "preference" : {
+                      "to" : "syntactic context - types ( dep and joint )",
+                      "from sentence" : "Experiments
+    Comparing Unsupervised Measures
+    The results show preference to the syntactic context - types ( dep and joint ) , which might be explained by the fact that these contexts are richer ( as they contain both proximity and syntactic information ) and therefore more discriminative ."
+    
+                    }
+                  },
+                  "In" : {
+                    "feature weighting" : {
+                      "has" : ["no consistency", {"raw frequency" : {"appears to be" : {"successful" : {"in" : "hypernymy detection"}}}}],
+                      "from sentence" : "In feature weighting there is no consistency , but interestingly , raw frequency appears to be successful in hypernymy detection , contrary to previously reported results for word similarity tasks , where PPMI was shown to outperform it ."
+                    }
+                  },
+                  "has" : {
+                    "new SLQS variants" : {
+                      "on top" : ["list", {"from sentence" : "The new SLQS variants are on top of the list in many settings ."}],
+                      "perform" : {
+                        "well" : {
+                          "in discriminating" : {
+                            "hypernyms" : {
+                              "from" : {
+                                "symmetric relations" : {
+                                  "has" : ["antonymy", "synonymy", "coordination"]
+                                }
+                              }
+                            },
+                            "from sentence" : "In particular they perform well in discriminating hypernyms from symmetric relations ( antonymy , synonymy , coordination ) ." 
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Comparison to State - of - the - art Supervised Methods" : {
+              "has" : {
+                "Results" : {
+                  "has" : {
+                    "over all performance" : {
+                      "of" : {
+                        "embeddingbased classifiers" : {
+                          "has" : "almost perfect"
+                        }
+                      }
+                    },
+                    "best performance" : {
+                      "achieved using" : {
+                        "concatenation method" : {
+                          "with" : "either GloVe or the dependency - based embeddings"
+                        },
+                        "from sentence" : "Comparison to State - of - the - art Supervised Methods
+    The over all performance of the embeddingbased classifiers is almost perfect , and in particular the best performance is achieved using the concatenation method with either GloVe or the dependency - based embeddings ."
+    
+                      }
+                    },
+                    "unsupervised measures" : {
+                      "perform" : {
+                        "worse" : {
+                          "than" : "embedding - based classifiers",
+                          "from sentence" : "As expected , the unsupervised measures perform worse than the embedding - based classifiers , though generally not bad on their own ."
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

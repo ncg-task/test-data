@@ -1,0 +1,86 @@
+{
+  "has" : {
+    "Results" : {
+      "on" : {
+        "300W" : {
+          "has" : {
+            "Our method" : {
+              "performs" : {
+                "best" : {
+                  "among" : "all of the state - of - the - art methods"
+                },
+                "from sentence" : "Comparison with existing approaches 4.1.1 Evaluation on 300W
+Our method performs best among all of the state - of - the - art methods ."
+
+              }
+            }
+          }
+        },
+        "WFLW" : {
+          "obtained" : "reasonable performance",
+          "from sentence" : "Evaluation on WFLW
+Though reasonable performance is obtained , there is illustrated to be still a lot of room for improvement for the extreme diversity of samples on WFLW , e.g. , large pose , exaggerated expressions and heavy occlusion ."
+
+        }
+      },
+      "has" : {
+        "Cross - dataset evaluation" : {
+          "on" : {
+            "COFW and AFLW" : {
+              "has" : {
+                "Our model" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "previous results",
+                      "with" : "large margin"
+                    }
+                  },
+                "from sentence" : "Cross - dataset evaluation on COFW and AFLW
+Our model outperforms previous results with a large margin ."                  
+                  
+                },
+                "failure rate" : {
+                  "has" : {
+                    "significantly reduced" : {
+                      "by" : "3.75 %",
+                      "indicates" : {
+                        "robustness" : {
+                          "of" : "our method",
+                          "to handle" : "occlusions"
+                        }
+                      },
+                      "from sentence" : "The failure rate is significantly reduced by 3.75 % , which indicates the robustness of our method to handle occlusions ."
+                    }
+                  }
+                },
+                "our method" : {
+                  "uses" : {
+                    "boundary information" : {
+                      "achieves" : {
+                        "29 % , 32 % and 29 %" : {
+                          "has" : {
+                            "relative performance improve- ment" : {
+                              "over" : "baseline method ( \" LAB without boundary \" )",
+                              "on" : ["COFW - 29", "AFLW - Full", "AFLW - Frontal"]
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "Moreover , our method uses boundary information achieves 29 % , 32 % and 29 % relative performance improve- ment over the baseline method ( \" LAB without boundary \" ) on COFW - 29 , AFLW - Full and AFLW - Frontal respectively ."
+                    }
+                  }
+                }
+              },
+              "achieve" : {
+                "4.62 % mean error" : {
+                  "with" : "2.17 % failure rate",
+                  "from sentence" : "We achieve 4.62 % mean error with 2.17 % failure rate ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "extend" : {
+        "original Tensorflow implementations" : {
+          "of" : "c 2f - coref 3 and BERT",
+          "from sentence" : "We extend the original Tensorflow implementations of c 2f - coref 3 and BERT ."
+        }
+      },
+      "has" : {
+        "fine tune" : {
+          "has" : {
+            "all models" : {
+              "on" : "OntoNotes English data",
+              "for" : "20 epochs",
+              "using" : {
+                "dropout" : {
+                  "of" : "0.3"
+                },
+                "learning rates" : {
+                  "of" : {
+                    "1 10 ?5 and 2 10 ? 4" : {
+                      "with" : {
+                        "linear decay" : {
+                          "for" : ["BERT parameters", "task parameters"]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "We fine tune all models on the OntoNotes English data for 20 epochs using a dropout of 0.3 , and learning rates of 1 10 ?5 and 2 10 ? 4 with linear decay for the BERT parameters and the task parameters respectively ."
+            }
+          }
+        }
+      },
+      "trained" : {
+        "separate models" : {
+          "with" : {
+            "max segment len" : {
+              "of" : ["128", "256", "384", "512"]
+            }
+          },
+          "from sentence" : "We trained separate models with max segment len of 128 , 256 , 384 , and 512 ; the models trained on 128 and 384 word pieces performed the best for BERT - base and BERT - large respectively ."
+        }
+      }
+    }
+  }
+}

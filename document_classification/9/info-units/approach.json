@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Approach" : {
+      "has" : {
+        "A recent method" : {
+          "called" : {
+            "capsule network" : {
+              "introduce" : {
+                "an iterative routing process" : {
+                  "to decide" : {
+                    "credit attribution" : {
+                      "between" : {
+                        "nodes" : {
+                          "from" : "lower and higher layers"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "A recent method called capsule network introduced by possesses this attractive potential to address the aforementioned issue .
+They introduce an iterative routing process to decide the credit attribution between nodes from lower and higher layers ."
+
+            }
+          }
+        },
+        "Three strategies" : {
+          "to stabilize" : {
+            "dynamic routing process" : {
+              "to alleviate" : {
+                "disturbance" : {
+                  "of" : {
+                    "some noise capsules" : {
+                      "may contain" : {
+                        "\" background \" information" : {
+                          "such as" : {
+                            "stop words" : {
+                              "has" : {
+                                "words" : {
+                                  "unrelated to" : "specific categories"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Three strategies are proposed to stabilize the dynamic routing process to alleviate the disturbance of some noise capsules which may contain \" background \" information such as stop words and the words thatare unrelated to specific categories ."
+        }
+      }
+    }
+  }
+}

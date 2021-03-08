@@ -1,0 +1,13 @@
+{
+  "has" : {
+    "Baselines" : {
+      "compare against" : [{"logistic regression model" : {"with" : "bag - ofwords"}}, "bidirectional gated recurrent unit ( Bi - GRU )", "single - layer 1 D convolutional network", {"from sentence" : "We compare against the three baselines : a logistic regression model with bag - ofwords , a bidirectional gated recurrent unit ( Bi - GRU ) and a single - layer 1 D convolutional network ."}],
+      "for" : {
+        "multi-label classification of clinical text" : {
+          "compare with" : ["Condensed Memory Networks ( C - MemNN )", "Attentive LSTM", "Convolutional Attention ( CAML )"],
+          "from sentence" : "We also compare with three recent methods for multi-label classification of clinical text , including Condensed Memory Networks ( C - MemNN ) , Attentive LSTM and Convolutional Attention ( CAML ) ."
+        }
+      }
+    }
+  }
+}

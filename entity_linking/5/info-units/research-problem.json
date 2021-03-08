@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Neural Word Sense Disambiguation", {"from sentence" : "Improving the Coverage and the Generalization Ability of Neural Word Sense Disambiguation through Hypernymy and Hyponymy Relationships"}],
+    ["Word Sense Disambiguation ( WSD )", {"from sentence" : "In Word Sense Disambiguation ( WSD ) , the predominant approach generally involves a supervised system trained on sense annotated corpora ."}],
+    ["WSD", {"from sentence" : "Our method leads to state of the art results on most WSD evaluation tasks , while improving the coverage of supervised systems , reducing the training time and the size of the models , without additional training data ."}]
+  ]
+}

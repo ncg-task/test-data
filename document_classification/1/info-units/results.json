@@ -1,0 +1,116 @@
+{
+  "has" : {
+    "Results" : {
+      "Looking at" : {
+        "Ft ( XLM ) results" : {
+          "has" : {
+            "substantial gap" : {
+              "between" : {
+                "model performance" : {
+                  "of" : "the cross -lingual settings and the monolingual baselines"
+                },
+                "from sentence" : "Looking at Ft ( XLM ) results , it is clear that without the help of unlabeled data from the target domain , there still exists a substantial gap between the model performance of the cross -lingual settings and the monolingual baselines , even when using state - of - the - art pre-trained cross -lingual representations ."
+
+              }
+            }
+          }
+        }
+      },
+      "has" : {
+        "UDA algorithm and MLM pre-training" : {
+          "offer" : "significant improvements",
+          "by utilizing" : "unlabeled data",
+          "from sentence" : "Both the UDA algorithm and MLM pre-training can offer significant improvements by utilizing the unlabeled data ."
+        },
+        "our framework" : {
+          "reaches" : {
+            "new state - of - the - art results" : {
+              "improving over" : {
+                "vanilla XLM baselines" : {
+                  "by" : "44 % on average"
+                }
+              }
+            }
+          },
+          "from sentence" : "Furthermore , our framework reaches new state - of - the - art results , improving over vanilla XLM baselines by 44 % on average ."
+        }
+      },
+      "In" : {
+        "sentiment classification task" : {
+          "has" : {
+            "Ft ( XLM ft ) model" : {
+              "usnig" : "MLM pre-training",
+              "provides" : {
+                "larger improvements" : {
+                  "compared with" : "UDA method"
+                }
+              },
+              "from sentence" : "In the sentiment classification task , where the unlabeled data size is larger , Ft ( XLM ft ) model usnig MLM pre-training consistently provides larger improvements compared with the UDA method ."
+            },
+            "MLM method" : {
+              "is" : "relatively more resource intensive",
+              "takes" : {
+                "longer" : {
+                  "to" : "converge"
+                }
+              },
+              "from sentence" : "On the other hand , the MLM method is relatively more resource intensive and takes longer to converge ( see Appendix A.5 ) ."
+            }
+          },
+          "observe" : {
+            "self - training technique" : {
+              "has" : {
+                "consistently improves" : {
+                  "over" : "teacher model"
+                },
+                "from sentence" : "In the sentiment classification task , we observe the self - training technique consistently improves over its teacher model ."                
+              },
+              "offers" : {
+                "best results" : {
+                  "in" : "both XLM and XLM ft based classifiers",
+                  "from sentence" : "It offers best results in both XLM and XLM ft based classifiers ."
+                }
+              }
+            }
+          }
+        },
+        "MLdoc dataset" : {
+          "has" : {
+            "self - training" : {
+              "achieves" : "best results over all",
+              "from sentence" : "In the MLdoc dataset , self - training also achieves the best results over all , however the gains are less clear ."
+            }
+          }
+        }
+      },
+      "in" : {
+        "MLdoc dataset" : {
+          "has" : {
+            "size" : {
+              "of" : {
+                "unlabeled samples" : {
+                  "is" : "limited"
+                }
+              }
+            },
+            "UDA method" : {
+              "has" : "more helpful"
+            }
+          },
+          "from sentence" : "In contrast , in the MLdoc dataset , when the size of the unlabeled samples is limited , the UDA method is more helpful ."
+        }
+      },
+      "by utilizing" : {
+        "unlabeled data" : {
+          "in" : "target language",
+          "completely close" : {
+            "performance gap" : {
+              "comparing with" : "best cross - lingual results and monolingual fine - tune baseline"
+            }
+          },
+          "from sentence" : "Finally , comparing with the best cross - lingual results and monolingual fine - tune baseline , we are able to completely close the performance gap by utilizing unlabeled data in the target language ."
+        }
+      }
+    }
+  }
+}

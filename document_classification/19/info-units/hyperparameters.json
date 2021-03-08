@@ -1,0 +1,76 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "dimension" : {
+          "of" : "word embeddings",
+          "is" : "300"
+        },
+        "hidden units" : {
+          "of" : "LSTM",
+          "is" : "300",
+          "from sentence" : "The dimension of word embeddings is 300 , the hidden units of LSTM is 300 ."
+        }
+      },
+      "use" : {
+        "100 convolutional filters each" : {
+          "for" : {
+            "window sizes" : {
+              "of" : "( 3 , 3 )"
+            },
+            "2D pooling size" : {
+              "of" : "( 2 , 2 )"
+            }
+          },
+          "from sentence" : "We use 100 convolutional filters each for window sizes of ( 3 , 3 ) , 2D pooling size of ( 2 , 2 ) ."
+        }
+      },
+      "set" : {
+        "mini-batch size" : {
+          "as" : "10"
+        },
+        "learning rate" : {
+          "of" : {
+            "AdaDelta" : {
+              "as" : "default value 1.0"
+            }
+          }
+        },
+        "from sentence" : "We set the mini-batch size as 10 and the learning rate of AdaDelta as the default value 1.0 ."
+      },
+      "For" : {
+        "regularization" : {
+          "employ" : {
+            "Dropout operation" : {
+              "with" : {
+                "dropout rate" : {
+                  "of" : {
+                    "0.5" : {
+                      "for" : "word embeddings"
+                    },
+                    "0.2" : {
+                      "for" : "BLSTM layer"
+                    },
+                    "0.4" : {
+                      "for" : "penultimate layer"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "use" : {
+            "l 2 penalty" : {
+              "with" : {
+                "coefficient 10 ? 5" : {
+                  "over" : "parameters"
+                }
+              }
+            }
+          },
+          "from sentence" : "For regularization , we employ Dropout operation with dropout rate of 0.5 for the word embeddings , 0.2 for the BLSTM layer and 0.4 for the penultimate layer , we also use l 2 penalty with coefficient 10 ? 5 over the parameters ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our model" : {
+          "achieves" : [{"68.73 %" : {"has" : "EM score"}}, {"77.39 %" : {"has" : "F1 score"}}],
+          "ranked among" : "state of the art single models",
+          "from sentence" : "Our model achieves a 68.73 % EM score and 77.39 % F1 score , which is ranked among the state of the art single models ( without model ensembling shows the ablation performances of various Q- code on the development set ."
+        },
+        "Our baseline model" : {
+          "using" : "no Q- code",
+          "achieved" : {
+            "68.00 % and 77.36 %" : {
+              "has" : "EM and F 1 scores"
+            }
+          },
+          "from sentence" : "Our baseline model using no Q- code achieved a 68.00 % and 77.36 % EM and F 1 scores , respectively ."
+        }
+      },
+      "added" : {
+        "explicit question type T - code" : {
+          "into" : "baseline model",
+          "has" : {
+            "performance" : {
+              "has" : {
+                "improved slightly" : {
+                  "to" : "68.16 % ( EM ) and 77.58 % ( F1 )"
+                }
+              }
+            }
+          },
+          "from sentence" : "When we added the explicit question type T - code into the baseline model , the performance was improved slightly to 68.16 % ( EM ) and 77.58 % ( F1 ) ."
+        }
+      },
+      "used" : {
+        "TreeLSTM" : {
+          "introduce" : {
+            "syntactic parses" :{
+              "for" : "question representation and understanding"
+            }
+          },
+          "shows" : "further improvement",
+          "from sentence" : "We then used TreeLSTM introduce syntactic parses for question representation and understanding ( replacing simple question type as question understanding Q-code ) , which consistently shows further improvement ."
+        }
+      },
+      "observed" : {
+        "78.38 % F1 score" : {
+          "on" : "whole development set",
+          "from sentence" : "Take our best model as an example , we observed a 78.38 % F1 score on the whole development set , which can be separated into two parts : one is where F1 score equals to 100 % , which means an exact match ."
+        }
+      }
+    }
+  }
+}

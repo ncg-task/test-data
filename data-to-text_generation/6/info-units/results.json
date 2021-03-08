@@ -1,0 +1,78 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "first interesting result" : {
+          "has" : {
+            "EDA_CS" : {
+              "always obtains" : {
+                "higher metric values" : {
+                  "with respect to" : {
+                    "TGen" : {
+                      "on" : "Hotel and Restaurant datasets"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Results and Discussion
+A first interesting result is that our model EDA_CS always obtains higher metric values with respect to TGen on the Hotel and Restaurant datasets , and three out of five higher metrics values on the E2E dataset ."
+
+            }
+          }
+        },
+        "E2E +" : {
+          "has" : {
+            "TGen" : {
+              "achieves" : {
+                "metrics values" : {
+                  "has" : {
+                    "three" : {
+                      "out of" : "five"
+                    }                      
+                  }
+                }
+              },
+              "from sentence" : "However , in the case of E2E + , TGen achieves three out of five higher metrics values ."
+            }
+          }
+        },
+        "approach EDA_CS TL" : {
+          "obtain" : {
+            "better performance" : {
+              "with respect to" : {
+                "training" : {
+                  "has" : "EDA_CS",
+                  "in" : "standard way",
+                  "on" : "Hotel and Restaurant datasets"
+                }
+              },
+              "from sentence" : "A more surprising result is that the approach EDA_CS TL allows to obtain better performance with respect to training EDA_CS in the standard way on the Hotel and Restaurant datasets ( for the majority of metrics ) ; on E2E , EDA_CS TL outperforms EDA_CS only in one case ( i.e. meteor metric ) ."
+            }
+          } 
+        },
+        "EDA_CS TL" : {
+          "shows" : {
+            "bleu increment" : {
+              "of" : "at least 14 %",
+              "with respect to" : "TGen 's score",
+              "compared to" : "both Hotel and Restaurant datasets"
+            }
+          },
+          "from sentence" : "Moreover , EDA_CS TL shows a bleu increment of at least 14 % with respect to TGen 's score when compared to both Hotel and Restaurant datasets ."
+        },
+        "baseline model" : {
+          "has" : {
+            "EDA" : {
+              "has" : {
+                "largely outperformed" : {
+                  "by" : "all other examined methods"
+                }
+              }
+            }
+          },
+          "from sentence" : "Finally , the baseline model , EDA , is largely outperformed by all other examined methods ."
+        }
+      }
+    }
+  }
+}

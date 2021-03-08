@@ -1,0 +1,30 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "found that" : {
+        "NE and CN category" : {
+          "has" : {
+            "benefit a lot" : {
+              "from" : "re-ranking features"
+            }
+          },
+          "from sentence" : "From the results in , we found that the NE and CN category both benefit a lot from the re-ranking features , but the proportions are quite different ."
+        }
+      },
+      "has" : {
+        "NE category" : {
+          "has" : {
+            "performance" : {
+              "has" : {
+                "mainly boosted" : {
+                  "by" : "LM local feature"
+                }
+              },
+              "from sentence" : "Generally speaking , in NE category , the performance is mainly boosted by the LM local feature ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

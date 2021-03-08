@@ -1,0 +1,77 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "3D Shape Recovery" : {
+              "has" : {
+                "Classic model" : {
+                  "has" : {
+                    "struggles" : {
+                      "to fit" : {
+                        "\" in - the -wild \" conditions" : {
+                          "present in" : "test set"
+                        }
+                      }
+                    }
+                  },
+                  "performs" : "worst",
+                  "from sentence" : "3D Shape Recovery
+The Classic model struggles to fit to the \" in - the -wild \" conditions present in the test set , and performs the worst ."
+
+                },
+                "texture - free Linear model" : {
+                  "has" : "does better"
+                },
+                "ITW model" : {
+                  "able to" : {
+                    "recover" : {
+                      "has" : "facial shapes",
+                      "due to" : {
+                        "ideal feature basis" : {
+                          "for" : "\" in - the -wild \" conditions"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "The texture - free Linear model does better , but the ITW model is most able to recover the facial shapes due to its ideal feature basis for the \" in - the -wild \" conditions ."
+                }
+              },
+              "in" : {
+                "wide variety" : {
+                  "of" : "expression , identity , lighting and occlusion conditions",
+                  "has" : {
+                    "our model" : {
+                      "able to" : {
+                        "robustly reconstruct" : {
+                          "has" : "realistic 3 D facial shape",
+                          "stands up to" : "scrutiny"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "We note that in a wide variety of expression , identity , lighting and occlusion conditions our model is able to robustly reconstruct a realistic 3 D facial shape that stands up to scrutiny ."
+                }
+              }
+            },
+            "Quantitative Normal Recovery" : {
+              "has" : {
+                "ITW" : {
+                  "has" : {
+                    "slightly outperforms" : {
+                      "has" : "IMM"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Quantitative Normal Recovery
+ITW slightly outperforms IMM even though both IMM and PS - NL use all four available images of each subject ."
+
+            }
+          }          
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Face Alignment In The Wild", {"from sentence": "DeCaFA : Deep Convolutional Cascade for Face Alignment In The Wild"}],
+    ["Face Alignment", {"from sentence" : "Face Alignment is an active computer vision domain , that consists in localizing a number of facial landmarks that vary across datasets ."}]
+  ]
+}

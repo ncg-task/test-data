@@ -1,0 +1,55 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "new framework" : {
+          "integrate" : "two tasks",
+          "using" : {
+            "unified cascaded CNNs" : {
+              "by" : "multi-task learning"
+            }
+          },
+          "from sentence" : "In this paper , we propose a new framework to integrate these two tasks using unified cascaded CNNs by multi-task learning ."
+        }
+      },
+      "has" : {
+        "proposed CNNs" : {
+          "consist of" : {
+            "three stages" : {
+              "In" : {
+                "first stage" : {
+                  "produces" : {
+                    "candidate windows" : {
+                      "through" : "shallow CNN"
+                    }
+                  },
+                  "from sentence" : "The proposed CNNs consist of three stages .
+In the first stage , it produces candidate windows quickly through a shallow CNN ."
+
+                }
+              },
+              "refines" : {
+                "windows" : {
+                  "to reject" : {
+                    "non-faces windows" : {
+                      "has" : "large number",
+                      "through" : "more complex CNN"
+                    }
+                  },
+                  "from sentence" : "Then , it refines the windows to reject a large number of non-faces windows through a more complex CNN ."
+                }
+              },
+              "uses" : {
+                "more powerful CNN" : {
+                  "to refine" : "result",
+                  "output" : "facial landmarks positions",
+                  "from sentence" : "Finally , it uses a more powerful CNN to refine the result and output facial landmarks positions ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

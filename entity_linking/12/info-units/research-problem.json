@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Neural Word Sense Disambiguation", {"from sentence" : "Incorporating Glosses into Neural Word Sense Disambiguation"}],
+    ["Word Sense Disambiguation ( WSD )", {"from sentence" : "Word Sense Disambiguation ( WSD ) aims to identify the correct meaning of polysemous words in the particular context ."}],
+    ["WSD", {"from sentence" : "Lexical resources like WordNet which are proved to be of great help for WSD in the knowledge - based methods ."}]
+  ]
+}

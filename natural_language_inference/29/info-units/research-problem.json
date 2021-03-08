@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["MACHINE COMPREHENSION", {"from sentence" : "PHASE CONDUCTOR ON MULTI - LAYERED ATTEN - TIONS FOR MACHINE COMPREHENSION"}],
+    ["question answering", {"from sentence" : "Benefiting from the availability of large - scale benchmark datasets such as SQuAD , the attention - based neural networks has spread to machine comprehension and question answering tasks to allow the model to attend over past output vectors ."}]
+  ]
+}

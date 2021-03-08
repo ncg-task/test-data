@@ -1,0 +1,88 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "WebNLG task" : {
+              "has" : {
+                "the model" : {
+                  "with" : "GCN encoder",
+                  "has" : {
+                    "outperforms" : {
+                      "has" : {
+                        "strong baseline" : {
+                          "employs" : "LSTM encoder"
+                        }
+                      },
+                      "with" : ".009 BLEU points"
+                    }
+                  },
+                  "from sentence" : "Results
+WebNLG task
+In this setting , the model with GCN encoder outperforms a strong baseline that employs the LSTM encoder , with .009 BLEU points ."
+
+                },
+                "GCN model" : {
+                  "has" : {
+                    "more stable" : {
+                      "than" : "baseline",
+                      "with" : {
+                        "standard deviation" : {
+                          "of" : ".004 vs . 010"
+                        }
+                      },
+                      "from sentence" : "The GCN model is also more stable than the baseline with a standard deviation of .004 vs . 010 ."
+                    }
+                  }
+                },
+                "GCN EC model" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : {
+                        "PKUWRITER" : {
+                          "by" : ".047 BLEU points"
+                        },
+                        "MELBOURNE" : {
+                          "by" : ".014 BLEU points"
+                        }
+                      },
+                      "from sentence" : "The GCN EC model outperforms PKUWRITER that uses an ensemble of 7 models and a further reinforcement learning step by .047 BLEU points ; and MELBOURNE by .014 BLEU points ."
+                    }
+                  }
+                }
+              }
+            },
+            "SR11 Deep task" : {
+              "compare" : {
+                "neural models" : {
+                  "with" : {
+                    "upper bound results" : {
+                      "by" : {
+                        "pipeline model" : {
+                          "of" : {
+                            "The STUMBA - D and TBDIL model" : {
+                              "obtains" : ".794 and . 805 BLUE",
+                              "has" : {
+                                "outperforming" : {
+                                  "has" : "GCN - based model"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "SR11 Deep task
+We also compare the neural models with upper bound results on the same dataset by the pipeline model of The STUMBA - D and TBDIL model obtains respectively .794 and . 805 BLUE , outperforming the GCN - based model ."
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

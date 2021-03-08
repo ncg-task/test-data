@@ -1,0 +1,174 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Error Reduction in Cascade" : {
+              "has" : {
+            "testing error" : {
+              "has" : {
+                "reduced" : {
+                  "due to" : "initialization regeneration"
+                }
+              },
+              "from sentence" : "Error Reduction in Cascade :
+As observed , the testing error is reduced due to initialization regeneration ."
+
+            }
+          },
+              "In" : {
+            "generic cascade process" : {
+              "has" : {
+                "training and testing errors" : {
+                  "has" : {
+                    "converge fast" : {
+                      "after" : "2 iterations"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "In the generic cascade process the training and testing errors converge fast after 2 iterations ."
+            }
+          },
+              "with" : {
+            "initialization regeneration" : {
+              "has" : {
+                "training error" : {
+                  "has" : {
+                    "updated" : {
+                      "at" : {
+                        "beginning" : {
+                          "of" : "each iteration"
+                        }
+                      }
+                    }
+                  }
+                },
+                "testing error" : {
+                  "has" : "continues to descend"
+                }
+              },
+              "from sentence" : "While with initialization regeneration , the training error is updated at the beginning of each iteration and the testing error continues to descend ."
+            }
+          }
+            },
+            "Performance with Different Costs" : {
+              "has" : {
+                "PDC" : {
+                  "has" : {
+                    "can not well model" : {
+                      "has" : "fitting error"
+                    },
+                    "converges" : {
+                      "to" : "unsatisfied result"
+                    }
+                  },
+                  "from sentence" : "Performance with Different Costs :
+It is shown that PDC can not well model the fitting error and converges to an unsatisfied result ." 
+
+                },
+                "WPDC" : {
+                  "explicitly models" : {
+                    "priority" : {
+                      "of" : "each parameter"
+                    }
+                  },
+                  "has" : {
+                    "adaptively optimizes" : {
+                      "with" : "parameter weights",
+                      "leading to" : "best result"
+                    },
+                    "from sentence" : "WPDC explicitly models the priority of each parameter and adaptively optimizes them with the parameter weights , leading to the best result ."
+                  }
+                }
+              }
+            },
+            "Large Pose Face Alignment in AFLW Protocol" : {
+              "has" : {
+                "all the methods" : {
+                  "has" : {
+                    "benefits substantially" : {
+                      "from" : "face profiling",
+                      "dealing with" : "large poses"
+                    }
+                  },
+                  "from sentence" : "Large Pose Face Alignment in AFLW Protocol :
+Firstly , the results indicate that all the methods benefits substantially from face profiling when dealing with large poses ."
+
+                },
+                "3DDFA" : {
+                  "reaches" : {
+                    "state of the art" : {
+                      "has" : "above all the 2D methods",
+                      "beyond" : "medium poses"
+                    },
+                    "from sentence" : "Secondly , 3DDFA reaches the state of the art above all the 2D methods especially beyond medium poses ."
+                  }
+                },
+                "minimum standard deviation" : {
+                  "of" : "3DDFA",
+                  "demonstrates" : {
+                    "robustness" : {
+                      "to" : "pose variations"
+                    }
+                  },
+                  "from sentence" : "The minimum standard deviation of 3DDFA also demonstrates its robustness to pose variations ."
+                },
+                "performance" : {
+                  "of" : {
+                    "3DDFA" : {
+                      "has" : {
+                        "further improved" : {
+                          "with" : "SDM landmark refinement"
+                        }
+                      },
+                      "from sentence" : "Finally , the performance of 3DDFA can be further improved with the SDM landmark refinement in Section 5.2 ."
+                    }
+                  }
+                }
+              }
+            },
+            "3D Face Alignment in AFLW2000-3D" : {
+              "has" : {
+                "all the methods" : {
+                  "despite with" : {
+                    "ground truth bounding boxes" : {
+                      "has" : {
+                        "obviously reduced" : {
+                          "has" : ["performance", "standard deviation"],
+                          "considering" : "all the landmarks"
+                        }
+                      },
+                      "from sentence" : "3D Face Alignment in AFLW2000-3D
+For all the methods , despite with ground truth bounding boxes the performance in [ 60 , 90 ] and the standard deviation are obviously reduced when considering all the landmarks ."
+
+                    }
+                  }  
+                }
+              }
+            },
+            "Common Challenging Full TSPM" : {
+              "has" : {
+                "DDFA" : {
+                  "demonstrates" : {
+                    "competitive performance" : {
+                      "on" : {
+                        "common set and state - of - the - art performance" : {
+                          "on" : "challenging set"
+                        }
+                      }
+                    },
+                    "from sentence" : "Common Challenging Full TSPM
+8 that even as a generic face alignment algorithm , 3 DDFA still demonstrates competitive performance on the common set and state - of - the - art performance on the challenging set ."
+
+                  }
+                }
+              }
+            }
+          }          
+        }
+      }
+    }
+  }
+}

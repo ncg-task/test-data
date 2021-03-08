@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["Natural Language Comprehension", {"from sentence" : "Natural Language Comprehension with the EpiReader"}],
+    ["machine comprehension of text", {"from sentence" : "We present the EpiReader , a novel model for machine comprehension of text ."}],
+    ["Machine comprehension of unstructured , real - world text", {"from sentence" : "Machine comprehension of unstructured , real - world text is a major research goal for natural language processing ."}],
+    ["machine comprehension", {"from sentence" : "Current tests of machine comprehension pose questions whose answers can be inferred from some supporting text , and evaluate a model 's response to the questions ."}]
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "has" : {
+    "Dataset" : {
+      "introduce" : {
+        "large - scale face detection dataset" : {
+          "called" : "WIDER FACE",
+          "consists of" : {
+            "32 , 203 images" : {
+              "with" : {
+                "393 , 703 labeled faces" : {
+                  "has" : {
+                    "vary largely" : {
+                      "in" : ["appearance", "pose", "scale"]
+                    }
+                  }
+                }
+              },
+              "has" : {
+                "10 times larger" : {
+                  "than" : "current largest face detection dataset"
+                }
+              }
+            }
+          },
+          "from sentence" : "We introduce a large - scale face detection dataset called WIDER FACE .
+It consists of 32 , 203 images with 393 , 703 labeled faces , which is 10 times larger than the current largest face detection dataset .
+The faces vary largely in appearance , pose , and scale , as shown in ."
+
+        }
+      },
+      "to quantify" : {
+        "different types of errors" : {
+          "has" : {
+            "annotate" : {
+              "has" : {
+                "multiple attributes" : {
+                  "has" : ["occlusion", "pose", "event categories"],
+                  "allows" : {
+                    "in depth analysis" : {
+                      "of" : "existing algorithms"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "In order to quantify different types of errors , we annotate multiple attributes : occlusion , pose , and event categories , which allows in depth analysis of existing algorithms ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Multi - Class Classification" : {
+              "has" : {
+                "Experimental setup" : {
+                  "chose" : {
+                    "region embedding" : {
+                      "as" : {
+                        "Encoder" : {
+                          "in" : "EXAM"
+                        }
+                      },
+                      "from sentence" : "Experiments
+Multi - Class Classification
+For the multi -class task , we chose region embedding as the Encoder in EXAM ."
+
+                    }
+                  },
+                  "has" : {
+                    "region size" : {
+                      "is" : "7"
+                    },
+                    "embedding size" : {
+                      "is" : "128",
+                      "from sentence" : "The region size is 7 and embedding size is 128 ."
+                    },
+                    "Our models" : {
+                      "implemented and trained by" : {
+                        "MXNet" : {
+                          "with" : "single NVIDIA TITAN Xp"
+                        },
+                        "from sentence" : "Our models are implemented and trained by MXNet ( Chen et al. ) with a single NVIDIA TITAN Xp ."
+                      }
+                    }
+                  },
+                  "used" : {
+                    "adam ( Kingma and Ba 2014 )" : {
+                      "as" : {
+                        "optimizer" : {
+                          "with" : {
+                            "initial learning rate" : {
+                              "has" : "0.0001"
+                            },
+                            "batch size" : {
+                              "set to" : "16"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "We used adam ( Kingma and Ba 2014 ) as the optimizer with the initial learning rate 0.0001 and the batch size is set to 16 ."
+                    }
+                  },
+                  "for" : {
+                    "aggregation MLP" : {
+                      "set" : {
+                        "size" : {
+                          "of" : {
+                            "hidden layer" : {
+                              "as" : {
+                                "2" : {
+                                  "times" : "interaction feature length"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "from sentence" : "As for the aggregation MLP , we set the size of the hidden layer as 2 times interaction feature length ."
+                      }
+                    }
+                  }
+                },
+                "Baselines" : {
+                  "mainly in" : {
+                    "three variants" : {
+                      "has" : [{"models" : {"based on" : "feature engineering"}}, "Char - based deep models", "Word - based deep models"]
+                    },
+                    "from sentence" : "Baselines
+The baselines are mainly in three variants :
+1 ) models based on feature engineering ;
+2 ) Char - based deep models , and 3 ) Word - based deep models ."
+
+                  }
+                },
+                "Results" : {
+                  "has" : {
+                    "Models" : {
+                      "based on" : {
+                        "feature engineering" : {
+                          "get" : {
+                            "worst results" : {
+                              "on" : "all the five datasets"
+                            }
+                          },
+                          "from sentence" : "Models based on feature engineering get the worst results on all the five datasets compared to the other methods ."
+                        }
+                      }
+                    },
+                    "Char - based models" : {
+                      "get" : {
+                        "highest over all scores" : {
+                          "on" : "two Amazon datasets"
+                        }
+                      },
+                      "from sentence" : "Char - based models get the highest over all scores on the two Amazon datasets ."
+                    },
+                    "Word - based baselines" : {
+                      "exceed" : {
+                        "other variants" :{
+                          "on" : "three datasets"
+                        }
+                      },
+                      "lose on" : "two Amazon datasets",
+                      "from sentence" : "Word - based baselines exceed the other variants on three datasets and lose on the two Amazon datasets ."
+                    }
+                  },
+                  "For" : {
+                    "five baselines" : {
+                      "has" : {
+                        "W.C Region Emb" : {
+                          "performs" : "best",
+                          "from sentence" : "For the five baselines , W.C Region Emb performs the best , because it learns the region embedding to utilize the N- grams feature from the text ."
+                        }
+                      }
+                    },
+                    "Yah.A." : {
+                      "has" : {
+                        "EXAM" : {
+                          "has" : {
+                            "improves" : {
+                              "has" : {
+                                "best performance" : {
+                                  "by" : "1.1 %"
+                                }
+                              }
+                            }
+                          },
+                          "from sentence" : "For the Yah.A. , EXAM improves the best performance by 1.1 % ."
+                        }
+                      }
+                    }
+                  },
+                  "see that" : {
+                    "EXAM" : {
+                      "achieves" : {
+                        "best performance" : {
+                          "over" : {
+                            "three datasets" : {
+                              "has" : ["AG", "Yah. A.", "DBP"]
+                            }
+                          }
+                        },
+                        "from sentence" : "It is clear to see that EXAM achieves the best performance over the three datasets : AG , Yah. A. and DBP ."
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Multi - Label Classification" : {
+              "has" : {
+                "Experimental setup" : {
+                  "implemented" : {
+                    "baseline models and EXAM" : {
+                      "by" : "MXNet",
+                      "from sentence" : "Multi - Label Classification
+We implemented the baseline models and EXAM by MXNet ."
+
+                    }
+                  },
+                  "used" : {
+                    "matrix" : {
+                      "trained by" : "word2vec",
+                      "to initialize" : {
+                        "embedding layer" : {
+                          "has" : {
+                            "embedding size" : {
+                              "is" : "256"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "We used the matrix trained by word2vec to initialize the embedding layer , and the embedding size is 256 ."
+                    }
+                  },
+                  "adopted" : {
+                    "GRU" : {
+                      "as" : "Encoder",
+                      "has" : {
+                        "each GRU Cell" : {
+                          "has" : "1,024 hidden states"
+                        }
+                      }
+                    },
+                    "from sentence" : "We adopted GRU as the Encoder , and each GRU Cell has 1,024 hidden states ."
+                  },
+                  "has" : {
+                    "accumulated MLP" : {
+                      "has" : "60 hidden units",
+                      "from sentence" : "The accumulated MLP has 60 hidden units ."
+                    },
+                    "validation set" : {
+                      "applied for" : {
+                        "early - stopping" : {
+                          "to avoid" : "overfitting"
+                        }
+                      },
+                      "from sentence" : "The validation set is applied for early - stopping to avoid overfitting ."
+                    }
+                  },
+                  "applied" : {
+                    "Adam" : {
+                      "to optimize" : {
+                        "models" : {
+                          "on" : "NVIDIA TITAN Xp"
+                        }
+                      },
+                      "with" : {
+                        "batch size" : {
+                          "of" : "1000"
+                        },
+                        "initial learning rate" : {
+                          "is" : "0.001"
+                        }
+                      },
+                      "from sentence" : "We applied Adam to optimize models on one NVIDIA TITAN Xp with the batch size of 1000 and the initial learning rate is 0.001 ."
+                    }
+                  }
+                },
+                "Results" : {
+                  "has" : {
+                    "Word - based models" : {
+                      "better than" : "char - based models",
+                      "in" : "Kanshan - Cup dataset",
+                      "from sentence" : "Word - based models are better than char - based models in Kanshan - Cup dataset ."
+                    },
+                    "Our models" : {
+                      "achieve" : {
+                        "state - of - the - art performance" : {
+                          "over" : "two different datasets"
+                        },
+                        "from sentence" : "Our models achieve the state - of - the - art performance over two different datasets though we only slightly modified Text RNN to build EXAM ."
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

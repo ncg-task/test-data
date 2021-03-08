@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "cross - sentence encoder" : {
+          "for" : "end - to - end co-reference ( E2E - CR )",
+          "from sentence" : "To solve the problem that traditional LSTM encoders , which treat the input sentences as a batch , lack an ability to capture cross - sentence dependency , and to avoid the time complexity and difficulties of training the model concatenating all input sentences , we propose a cross - sentence encoder for end - to - end co-reference ( E2E - CR ) ."
+        }
+      },
+      "has" : {
+        "external memory block" : {
+          "containing" : {
+            "syntactic and semantic information" : {
+              "from" : "context sentences",
+              "added to" : "standard LSTM model"
+            }
+          },
+          "from sentence" : "Borrowing the idea of an external memory module from , an external memory block containing syntactic and semantic information from context sentences is added to the standard LSTM model ."
+        }
+      },
+      "With" : {
+        "context memory block" : {
+          "has" : {
+            "proposed model" : {
+              "encode" : {
+                "input sentences" : {
+                  "as" : "batch"
+                }
+              },
+              "calculate" : {
+                "representations" : {
+                  "of" : "input words",
+                  "by taking" : "target sentences and context sentences"
+                }
+              }
+            }
+          },
+          "from sentence" : "With this context memory block , the proposed model is able to encode input sentences as a batch , and also calculate the representations of input words by taking both target sentences and context sentences into consideration ."
+        }
+      }
+    }
+  }
+}

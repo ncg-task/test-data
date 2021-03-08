@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["High Performance Face Detection", {"from sentence" : "Selective Refinement Network for High Performance Face Detection"}],
+    ["face detection", {"from sentence" : "High performance face detection remains a very challenging problem , especially when there exists many tiny faces ."}]
+  ]
+}

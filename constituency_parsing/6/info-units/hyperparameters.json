@@ -1,0 +1,68 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "forget gate bias" : {
+          "initialized to be" : {
+            "one and the rest of model parameters" : {
+              "sampled from" : "U ( ? 0.05 , 0.05 )"
+            }
+          },
+          "from sentence" : "The forget gate bias is initialized to be one and the rest of model parameters are sampled from U ( ? 0.05 , 0.05 ) ."
+        },
+        "Dropout" : {
+          "applied to" : "non-recurrent connections"
+        },
+        "gradients" : {
+          "has" : {
+            "clipped" : {
+              "when" : {
+                "norm" : {
+                  "has" : "bigger than 20"
+                }
+              }
+            },
+            "from sentence" : "Dropout is applied to non-recurrent connections and gradients are clipped when their norm is bigger than 20 ."
+          }
+        },
+        "three LSTM layers" : {
+          "with" : "1,500 units"
+        },
+        "learning rate" : {
+          "is" : {
+            "0.25 0.85 max" : {
+              "has" : "epoch number",
+              "from sentence" : "The learning rate is 0.25 0.85 max where is an epoch number ."
+            }
+          }
+        }
+      },
+      "trained with" : {
+        "truncated backpropagation" : {
+          "through" : "time",
+          "with" : {
+            "mini-batch size": {
+              "has" : "20"
+            },
+            "step size" : {
+              "has" : "50"
+            }
+          },
+          "from sentence" : "The model has three LSTM layers with 1,500 units and gets trained with truncated backpropagation through time with mini-batch size 20 and step size 50 ."
+        }
+      },
+      "initialize" : {
+        "starting states" : {
+          "with" : "previous minibatch 's last hidden states",
+          "from sentence" : "We initialize starting states with previous minibatch 's last hidden states ."
+        }
+      },
+      "use" : {
+        "vanilla softmax" : {
+          "over" : "entire vocabulary",
+          "from sentence" : "For simplicity , we use vanilla softmax over an entire vocabulary as opposed to hierarchical softmax or noise contrastive estimation ( Gutmann and Hyvrinen , 2012 ) ."
+        }
+      }
+    }
+  }
+}

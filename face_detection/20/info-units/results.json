@@ -1,0 +1,105 @@
+{
+  "has" : {
+    "Results" : {
+      "in" : {
+        "AFW" : {
+          "has" : {
+            "our multi-scale detector" : {
+              "achieves" : {
+                "ap value" : {
+                  "of" : "96.8 %"
+                }
+              },
+              "has" : {
+                "outperforming" : {
+                  "has" : "other academic methods",
+                  "by" : "large margin"
+                }
+              },
+              "from sentence" : "As shown in , in AFW , our multi-scale detector achieves an ap value of 96.8 % , outperforming other academic methods by a large margin ."
+            }
+          }
+        }
+      },
+      "comes to" : {
+        "commercial systems" : {
+          "has" : {
+            "ours" : {
+              "better than" : "Face.com",
+              "almost equal to" : ["Face ++", "Google Picasa"]
+            }
+          },
+          "from sentence" : "When it comes to commercial systems , ours is better than Face.com and almost equal to Face ++ and Google Picasa ."
+        }
+      },
+      "In" : {
+        "discrete score" : {
+          "where" : {
+            "evaluation metric" : {
+              "same as" : "AFW"
+            }
+          },
+          "has" : {
+            "our detector" : {
+              "achieves" : {
+                "83.7 %" : {
+                  "has" : {
+                    "little better" : {
+                      "than" : "Yan et al"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "In discrete score where evaluation metric is the same as in AFW , our detector achieves 83.7 % , which is a little better than Yan et al .."
+        }
+      },
+      "When using" : {
+        "continuous score" : {
+          "takes" : {
+            "overlap ratio" : {
+              "as" : "score"
+            }
+          },
+          "has" : {
+            "our method" : {
+              "gets" : {
+                "61.9 % true positive rate" : {
+                  "at" : "1 FPPI",
+                  "for" : "multiscale version",
+                  "has" : {
+                    "surpassing" : {
+                      "has" : {
+                        "other methods" : {
+                          "output" : "rectangular detections"
+                        }
+                      },
+                      "by" : "notable margin"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "When using continuous score which takes the overlap ratio as the score , our method gets 61.9 % true positive rate at 1 FPPI for multiscale version , surpassing other methods which output rectangular detections by a notable margin ( the Yan et al . detector outputs the same elliptical detections as the groundtruth , therefore having advantages with this metric ) ."
+        }
+      },
+      "has" : {
+        "Our detector" : {
+          "using" : "single - scale features",
+          "performs" : {
+            "little worse" : {
+              "with" : {
+                "benefit" : {
+                  "of" : "faster detection speed"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our detector using single - scale features performs a little worse with the benefit of faster detection speed ."
+        }
+      }
+    }
+  }
+}

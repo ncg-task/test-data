@@ -1,0 +1,48 @@
+{
+  "has" : {
+    "Results" : {
+      "Relative to" : {
+        "baselines" : {
+          "has" : {
+            "our models" : {
+              "yielded" : {
+                "enhanced over all performance" : {
+                  "on" : "both datasets"
+                }
+              }
+            }
+          },
+          "from sentence" : "Results
+Relative to the baselines , our models yielded enhanced over all performance on both datasets ."
+
+        }
+      },
+      "has" : {
+        "NABoE - full model" : {
+          "has" : {
+            "outperformed" : {
+              "has" : "all baseline models"
+            }
+          },
+          "from sentence" : "The NABoE - full model outperformed all baseline models in terms of both measures on both datasets ."
+        },
+        "NABoE-entity model" : {
+          "has" : {
+            "outperformed" : {
+              "has" : "all the baseline models",
+              "in terms of" : {
+                "both measures" : {
+                  "on" : "20NG dataset"
+                },
+                "F 1 score" : {
+                  "on" : "R8 dataset"
+                }
+              },
+              "from sentence" : "Furthermore , the NABoE-entity model outperformed all the baseline models in terms of both measures on the 20NG dataset , and the F 1 score on the R8 dataset ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

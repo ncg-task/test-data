@@ -1,0 +1,10 @@
+{
+  "has research problem" : [
+    ["Neural Natural Language Inference", {"from sentence" : "Neural Natural Language Inference Models Enhanced with External Knowledge"}],
+    ["natural language inference", {"from sentence" : "Modeling natural language inference is a very challenging task ."}],
+    ["neural - network - based inference", {"from sentence" : "With the availability of large annotated data , it has recently become feasible to train complex models such as neural - network - based inference models , which have shown to achieve the state - of - the - art performance ."}],
+    ["natural language inference ( NLI )", {"from sentence" : "Although there exist relatively large annotated data , can machines learn all knowledge needed to perform natural language inference ( NLI ) from these data ?"}],
+    ["NLI", {"from sentence" : "If not , how can neural - network - based NLI models benefit from external knowledge and how to build NLI models to leverage it ?"}],
+    ["recognizing textual entailment ( RTE )", {"from sentence" : "Natural language inference ( NLI ) , also known as recognizing textual entailment ( RTE ) , is an important NLP problem concerned with determining inferential relationship ( e.g. , entailment , contradiction , or neutral ) between a premise p and a hypothesis h."}]
+  ]
+}

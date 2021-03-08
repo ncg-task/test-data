@@ -1,0 +1,62 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "loss function" : {
+          "for" : "SRN",
+          "is" : {
+            "sum" : {
+              "of" : "STC loss and the STR loss"
+            }
+          },
+          "from sentence" : "The loss function for SRN is just the sum of the STC loss and the STR loss , i.e. , L = L STC + L STR ."
+        },
+        "backbone network" : {
+          "initialized by" : {
+            "pretrained ResNet - 50 model and all the parameters" : {
+              "in" : {
+                "newly added convolution layers" : {
+                  "initialized by" : "\" xavier \" method"
+                }
+              }
+            },
+            "from sentence" : "The backbone network is initialized by the pretrained ResNet - 50 model and all the parameters in the newly added convolution layers are initialized by the \" xavier \" method ."
+          }
+        }
+      },
+      "fine - tune" : {
+        "SRN model" : {
+          "using" : {
+            "SGD" : {
+              "with" : ["0.9 momentum", "0.0001 weight decay", "batch size 32"]
+            }
+          },
+          "from sentence" : "We fine - tune the SRN model using SGD with 0.9 momentum , 0.0001 weight decay , and batch size 32 ."
+        }
+      },
+      "set" : {
+        "learning rate" : {
+          "to" : {
+            "10 ?2" : {
+              "for" : "first 100 epochs"
+            }
+          }
+        },
+        "decay" : {
+          "to" : {
+            "10 ? 3 and 10 ? 4" : {
+              "for" : "another 20 and 10 epochs"
+            }
+          }
+        },
+        "from sentence" : "We set the learning rate to 10 ?2 for the first 100 epochs , and decay it to 10 ? 3 and 10 ? 4 for another 20 and 10 epochs , respectively ."        
+      },
+      "implement" : {
+        "SRN" : {
+          "using" : "Py - Torch library",
+          "from sentence" : "We implement SRN using the Py - Torch library ."
+        }
+      }
+    }
+  }
+}

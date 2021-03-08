@@ -1,0 +1,17 @@
+{
+  "has" : {
+    "Model" : {
+      "developed by" : "CRIM team",
+      "exploits" : {
+        "combination" : {
+          "of" : {
+            "two approaches" : {
+              "has" : ["unsupervised , pattern - based approach", "supervised , projection learning approach"],
+              "from sentence" : "The system developed by the CRIM team for the task of hypernym discovery exploits a combination of two approaches : an unsupervised , pattern - based approach and a supervised , projection learning approach ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

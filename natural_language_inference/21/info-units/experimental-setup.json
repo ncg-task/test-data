@@ -1,0 +1,93 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "Embedding Layer" : {
+          "has" : {
+            "embedding weights" : {
+              "has" : {
+                "randomly initialized" : {
+                  "with" : {
+                    "uniformed distribution" : {
+                      "in" : "interval [ ? 0.05 , 0.05 ]"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "Embedding Layer :
+The embedding weights are randomly initialized with the uniformed distribution in the interval [ ? 0.05 , 0.05 ]."
+
+          }
+        },
+        "Hidden Layer" : {
+          "has" : {
+            "Internal weights" : {
+              "of" : {
+                "GRUs" : {
+                  "has" : {
+                    "initialized" : {
+                      "with" : "random orthogonal matrices"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Hidden Layer : Internal weights of GRUs are initialized with random orthogonal matrices ."
+            }
+          }
+        },
+        "All language model features" : {
+          "trained on" : {
+            "training proportion" : {
+              "of" : "each dataset",
+              "with" : ["8 - gram wordbased setting", {"Kneser - Ney smoothing" : {"trained by" : "SRILM toolkit"}}],
+              "from sentence" : "All language model features are trained on the training proportion of each dataset , with 8 - gram wordbased setting and Kneser - Ney smoothing trained by SRILM toolkit ."
+            }
+          }
+        },
+        "Implementation" : {
+          "done with" : ["Theano ( Theano Development Team , 2016 )", "Keras"],
+          "has" : {
+            "all models" : {
+              "trained on" : "Tesla K40 GPU",
+              "from sentence" : "Implementation is done with Theano ( Theano Development Team , 2016 ) and Keras , and all models are trained on Tesla K40 GPU . :"
+            }
+          }
+        }
+      },
+      "adopted" : {
+        "ADAM optimizer" : {
+          "for" : "weight updating",
+          "with" : {
+            "initial learning rate" : {
+              "of" : "0.001"
+            }
+          },
+          "from sentence" : "We adopted ADAM optimizer for weight updating , with an initial learning rate of 0.001 ."
+        }        
+      },
+      "set" : {
+        "gradient clipping threshold" : {
+          "to" : "5",
+          "from sentence" : "As the GRU units still suffer from the gradient exploding issues , we set the gradient clipping threshold to 5 ."
+        }
+      },
+      "used" : {
+        "batched training strategy" : {
+          "of" : "32 samples",
+          "from sentence" : "We used batched training strategy of 32 samples ."
+        }
+      },
+      "In" : {
+        "re-ranking step" : {
+          "generate" : {
+            "5 - best list" : {
+              "from" : "baseline neural network model"
+            }
+          },
+          "from sentence" : "In re-ranking step , we generate 5 - best list from the baseline neural network model , as we did not observe a significant variance when changing the N - best list size ."
+        }
+      }
+    }
+  }
+}

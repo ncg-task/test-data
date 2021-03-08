@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "to capture" : {
+        "better locations" : {
+          "of" : "faces",
+          "in" : "RPN stage",
+          "carefully designed" : {
+            "Aspect ratios" : {
+              "has" : ["1", "1.5", "2"]
+            },
+            "scales" : {
+              "has" : ["16 2", "32 2", "64 2", "128 2", "256 2", "512 2"]
+            }
+          }          
+        }
+      },      
+      "has" : {
+        "number of filters" : {
+          "for" : "RPN layer",
+          "set as" : "512",
+          "from sentence" : "Aspect ratios ( 1 , 1.5 , 2 ) and scales ( 16 2 , 32 2 , 64 2 , 128 2 , 256 2 , 512 2 ) are carefully designed to capture better locations of faces in the RPN stage , and the number of filters for the RPN layer is set as 512 ."
+        },        
+        "Single NVIDIA Tesla K80" : {
+          "used for" : "training and testing",
+          "from sentence" : "Single NVIDIA Tesla K80 is used for training and testing ."
+        },
+        "Mini batch size" : {
+          "set to" : "1",
+          "considering" : "memory consumption",
+          "from sentence" : "Mini batch size is set to 1 considering memory consumption ."
+        },
+        "ResNet_v1_101" : {
+          "trained on" : "ImageNet - 128w",
+          "used for" : "Faster RCNN feature extraction",
+          "from sentence" : "Specifically , ResNet_v1_101 trained on ImageNet - 128w is used for Faster RCNN feature extraction ."
+        },
+        "batch size" : {
+          "of" : "RPN and R - CNN",
+          "assigned as" : "256 and 128",
+          "from sentence" : "By the way , the batch size of RPN and R - CNN is respectively assigned as 256 and 128 ."
+        },
+        "initial learning rate" : {
+          "set to" : "1e - 3",
+          "decrease to" : {
+            "1e - 4" : {
+              "after" : "20w iterations"
+            }
+          },
+          "from sentence" : "The initial learning rate is set to 1e - 3 , and decrease to 1e - 4 after 20w iterations ."
+        },
+        "Weight decay is and momentum" : {
+          "set to" : "1e - 4 and 0.9",
+          "from sentence" : "Weight decay is and momentum is set to 1e - 4 and 0.9 respectively ."
+        }
+      }
+    }
+  }
+}

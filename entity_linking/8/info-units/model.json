@@ -1,0 +1,41 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "RELIC ( Representations of Entities Learned in Context )" : {
+          "has" : {
+            "table" : {
+              "of" : {
+                "independent entity embeddings" : {
+                  "has" : {
+                    "trained" : {
+                      "to match" : {
+                        "fixed length vector representations" : {
+                          "of" : {
+                            "textual context" : {
+                              "in which" : {
+                                "entities" : {
+                                  "have" : "been seen"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "We present RELIC ( Representations of Entities Learned in Context ) , a table of independent entity embeddings that have been trained to match fixed length vector representations of the textual context in which those entities have been seen ."
+        }
+      },
+      "apply" : {
+        "RELIC" : {
+          "to" : ["entity typing", "entity linking", "trivia question answering", {"from sentence" : "We apply RELIC to entity typing ( mapping each entity to its properties in an external , curated , ontology ) ; entity linking ( identifying which entity is referred to by a textual context ) , and trivia question answering ( retrieving the entity that best answers a question ) ."}]
+        }
+      }
+    }
+  }
+}

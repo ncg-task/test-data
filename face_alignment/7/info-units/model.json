@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "end - to - end method" : {
+          "called" : {
+            "Position map Regression Network ( PRN )" : {
+              "to jointly predict" : "dense alignment",
+              "reconstruct" : "3 D face shape",
+              "from sentence" : "In this paper , we propose an end - to - end method called Position map Regression Network ( PRN ) to jointly predict dense alignment and reconstruct 3 D face shape ."
+            }
+          }
+        }
+      },
+      "design" : {
+        "UV position map" : {
+          "which is" : {
+            "2D image" : {
+              "recording" : {
+                "3D coordinates" : {
+                  "of" : "complete facial point cloud"
+                }
+              },
+              "keeping" : {
+                "semantic meaning" : {
+                  "at" : "each UV place"
+                }
+              }
+            }
+          },
+          "from sentence" : "Specifically , we design a UV position map , which is a 2D image recording the 3D coordinates of a complete facial point cloud , and at the same time keeping the semantic meaning at each UV place ."
+        }
+      },
+      "train" : {
+        "simple encoder - decoder network" : {
+          "with" : {
+            "weighted loss" : {
+              "focuses" : {
+                "more" : {
+                  "on" : "discriminative region"
+                }
+              }
+            }
+          },
+          "to" : {
+            "regress" : {
+              "has" : {
+                "UV position map" : {
+                  "from" : "single 2 D facial image"
+                }
+              }
+            }
+          },
+          "from sentence" : "We then train a simple encoder - decoder network with a weighted loss that focuses more on discriminative region to regress the UV position map from a single 2 D facial image ."
+        }
+      }
+    }
+  }
+}

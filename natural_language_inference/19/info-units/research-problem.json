@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["Natural Language Inference", {"from sentence" : "Natural Language Inference by Tree - Based Convolution and Heuristic Matching"}],
+    ["recognize entailment and contradiction", {"from sentence" : "In this paper , we propose the TBCNNpair model to recognize entailment and contradiction between two sentences ."}],
+    ["Recognizing entailment and contradiction", "natural language inference ( NLI )", {"from sentence" : "Recognizing entailment and contradiction between two sentences ( called a premise and a hypothesis ) is known as natural language inference ( NLI ) in ."}],
+    ["NLI", {"from sentence" : "Several examples are illustrated in NLI is in the core of natural language understanding and has wide applications in NLP , e.g. , question answering and automatic summarization ."}]
+  ]
+}

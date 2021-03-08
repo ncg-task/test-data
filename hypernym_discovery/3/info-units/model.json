@@ -1,0 +1,63 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "TAXOEMBED" : {
+          "has" : {
+            "hypernym detection algorithm" : {
+              "based on" : "sense embeddings",
+              "applied to" : {
+                "construction" : {
+                  "of" : "lexical taxonomies"
+                }
+              },
+              "from sentence" : "In this paper we propose TAXOEMBED 2 , a hypernym detection algorithm based on sense embeddings , which can be easily applied to the construction of lexical taxonomies ."
+            },
+            "best configuration" : {
+              "considers" : {
+                "Manually curated pairs" : {
+                  "from" : "Wikidata"
+                },
+                "Hypernymy relations" : {
+                  "from" : {
+                    "KB" : {
+                      "integrates" : "several Open Information Extraction ( OIE ) systems"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Our best configuration ( ranking first in two thirds of the experiments conducted ) considers two training sources :
+( 1 ) Manually curated pairs from Wikidata ; and ( 2 ) Hypernymy relations from a KB which integrates several Open Information Extraction ( OIE ) systems ."
+
+            }
+          },
+          "designed to" : {
+            "discover" : {
+              "has" : {
+                "hypernymic relations" : {
+                  "by exploiting" : {
+                    "linear transformations" : {
+                      "in" : "embedding spaces"
+                    }
+                  },
+                  "from sentence" : "It is designed to discover hypernymic relations by exploiting linear transformations in embedding spaces and , unlike previous approaches , leverages this intuition to learn a specific semanticallyaware transformation matrix for each domain of knowledge ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "has" : {
+        "our method" : {
+          "uses" : {
+            "very large semantic network" : {
+              "as" : "reference sense inventory"
+            }
+          },
+          "perform" : "jointly hypernym extraction and dis ambiguation",
+          "from sentence" : "Since our method uses a very large semantic network as reference sense inventory , we are able to perform jointly hypernym extraction and dis ambiguation , from which 1 The terminology is not entirely unified in this respect ."
+        }
+      }
+    }
+  }
+}

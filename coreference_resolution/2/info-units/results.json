@@ -1,0 +1,32 @@
+{
+  "has" : {
+    "Results" : {
+      "find that" : {
+        "REINFORCE" : {
+          "does" : {
+            "slightly better" : {
+              "than" : "heuristic loss"
+            }
+          }
+        }
+      },
+      "has" : {
+        "reward rescaling" : {
+          "performs" : {
+            "significantly better" : {
+              "on" : "both languages"
+            }
+          },
+          "from sentence" : "Results
+We find that REINFORCE does slightly better than the heuristic loss , but reward rescaling performs significantly better than both on both languages ."
+
+        },
+        "reward - rescaled max - margin loss" : {
+          "combines" : "best of both worlds",
+          "resulting in" : "superior performance",
+          "from sentence" : "The reward - rescaled max - margin loss combines the best of both worlds , resulting in superior performance ."
+        }
+      }
+    }
+  }
+}

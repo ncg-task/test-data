@@ -1,0 +1,73 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "new architecture" : {
+          "short for" : "C - LSTM",
+          "by combining" : "CNN and LSTM",
+          "to model" : "sentences",
+          "from sentence" : "In this paper , we introduce a new architecture short for C - LSTM by combining CNN and LSTM to model sentences ."
+        }
+      },
+      "design" : {
+        "simple end - to - end , unified architecture" : {
+          "by feeding" : {
+            "output" : {
+              "of" : {
+                "one - layer CNN" : {
+                  "into" : "LSTM"
+                }
+              }
+            }
+          },
+          "from sentence" : "To benefit from the advantages of both CNN and RNN , we design a simple end - to - end , unified architecture by feeding the output of a one - layer CNN into LSTM ."
+        }
+      },
+      "has" : {
+        "CNN" : {
+          "constructed on top of" : {
+            "pre-trained word vectors" : {
+              "from" : "massive unlabeled text data",
+              "to learn" : {
+                "higher - level representions" : {
+                  "of" : "n-grams"
+                }
+              }
+            },
+            "from sentence" : "The CNN is constructed on top of the pre-trained word vectors from massive unlabeled text data to learn higher - level representions of n-grams ."
+          },
+          "to learn" : {
+            "sequential correlations" : {
+              "from" : "higher - level suqence representations",
+              "has" : {
+                "feature maps" : {
+                  "of" : "CNN",
+                  "organized as" : {
+                    "sequential window features" : {
+                      "to serve" : {
+                        "input" : {
+                          "of" : "LSTM"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Then to learn sequential correlations from higher - level suqence representations , the feature maps of CNN are organized as sequential window features to serve as the input of LSTM ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "choose" : {
+        "sequence - based input" : {
+          "before" : {
+            "feeding" : {
+              "in" : "neural network"
+            }
+          },
+          "from sentence" : "We choose sequence - based input other than relying on the syntactic parse trees before feeding in the neural network , thus our model does n't rely on any external language knowledge and complicated pre-processing ."
+        }
+      }
+    }
+  }
+}

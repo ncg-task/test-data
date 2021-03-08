@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Robust Face Alignment", {"from sentence" : "Adaptive Wing Loss for Robust Face Alignment via Heatmap Regression"}],
+    ["Face alignment", "facial landmark localization", {"from sentence" : "Face alignment , also known as facial landmark localization , seeks to localize pre-defined landmarks on human faces ."}]
+  ]
+}

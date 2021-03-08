@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "All our neural layers" : {
+          "including" : "embeddings",
+          "set to" : "300 dimensions",
+          "from sentence" : "All our neural layers , including embeddings , were set to 300 dimensions ."
+        },
+        "Word embeddings" : {
+          "has" : {
+            "pretrained" : {
+              "by" : "word2vec",
+              "on" : "English Wikipedia corpus"
+            },
+            "fined tuned" : {
+              "during" : "training",
+              "as apart of" : "model parameters"
+            }
+          },
+          "from sentence" : "Word embeddings were pretrained ourselves by word2vec on the English Wikipedia corpus and fined tuned during training as apart of model parameters ."
+        },
+        "Initial learning rate" : {
+          "set to" : "1"
+        }
+      },
+      "applied" : [
+        "power decay",
+        {"from sentence" : "Initial learning rate was set to 1 , and a power decay was applied ."},
+        {"penalty" : {
+          "of" : "310 ? 4"
+        }},
+        {"dropout" : {
+          "chosen by" : {
+            "validation" : {
+              "with" : {
+                "granularity" : {
+                  "of" : "0.1"
+                }
+              }
+            }
+          }
+        }},
+        {"from sentence" : "We applied 2 penalty of 310 ? 4 ; dropout was chosen by validation with a granularity of 0.1 ."}
+      ],
+      "used" : {
+        "stochastic gradient descent" : {
+          "with" : {
+            "batch size" : {
+              "of" : "50"
+            }
+          },
+          "from sentence" : "We used stochastic gradient descent with a batch size of 50 ."
+        }
+      }
+    }
+  }
+}

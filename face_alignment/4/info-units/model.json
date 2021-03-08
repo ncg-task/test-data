@@ -1,0 +1,54 @@
+{
+  "has" : {
+    "Model" : {
+      "develop" : ["Self - Iterative Regression ( SIR ) framework", {"from sentence" : "In this paper , we develop a Self - Iterative Regression ( SIR ) framework to solve the above issues ."}],
+      "By means of" : {
+        "powerful representation" : {
+          "of" : "Convolutional Neural Network ( CNN )",
+          "train" : {
+            "one regressor" : {
+              "to learn" : {
+                "descent directions" : {
+                  "in" : "coarse and fine stages"
+                }
+              }
+            }
+          },
+          "from sentence" : "By means of the powerful representation of Convolutional Neural Network ( CNN ) , we only train one regressor to learn the descent directions in coarse and fine stages together ."
+        }
+      },
+      "to obtain" : {
+        "discriminative landmarks features" : {
+          "proposed" : {
+            "Landmarks - Attention Network ( LAN )" : {
+              "focuses on" : {
+                "appearance" : {
+                  "around" : "landmarks"
+                }
+              }
+            }
+          },
+          "from sentence" : "Moreover , to obtain discriminative landmarks features , we proposed a Landmarks - Attention Network ( LAN ) , which focuses on the appearance around landmarks ."
+        }
+      },
+      "first concurrently extracts" : ["local landmarks ' features"],
+      "obtains" : {
+        "holistic increment" : {
+          "has" : {
+            "significantly reduces" : {
+              "has" : {
+                "dimension" : {
+                  "of" : "final feature layer"
+                },
+                "number" : {
+                  "of" : "model parameters"
+                }
+              }
+            }
+          },
+          "from sentence" : "It first concurrently extracts local landmarks ' features and then obtains the holistic increment , which significantly reduces the dimension of the final feature layer and the number of model parameters ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "use" : {
+        "300 - dimensional Glo Ve word embeddings" : {
+          "for" : "word embeddings and label embeddings",
+          "from sentence" : "Setup We use 300 - dimensional Glo Ve word embeddings as initialization for word embeddings and label embeddings in our model ."
+        }
+      },
+      "has" : {
+        "Out - Of - Vocabulary ( OOV ) words" : {
+          "initialized from" : {
+            "uniform distribution" : {
+              "with" : "range [ ? 0.01 , 0.01 ]"
+            }
+          },
+          "from sentence" : "Out - Of - Vocabulary ( OOV ) words are initialized from a uniform distribution with range [ ? 0.01 , 0.01 ] ."
+        },
+        "final classifier" : {
+          "implemented as" : {
+            "MLP layer" : {
+              "followed by" : "sigmoid or softmax function"
+            }
+          },
+          "from sentence" : "The final classifier is implemented as an MLP layer followed by a sigmoid or softmax function depending on specific task ."
+        },
+        "Dropout regularization" : {
+          "employed on" : "final MLP layer",
+          "with" : {
+            "dropout rate" : {
+              "has" : "0.5"
+            }
+          },
+          "from sentence" : "Dropout regularization is employed on the final MLP layer , with dropout rate 0.5 ."
+        },
+        "model" : {
+          "implemented using" : "Tensorflow",
+          "trained on" : "GPU Titan X",
+          "from sentence" : "The model is implemented using Tensorflow and is trained on GPU Titan X."
+        }
+      },
+      "train" : {
+        "our model 's parameters" : {
+          "with" : {
+            "Adam Optimizer ( Kingma and Ba , 2014 )" : {
+              "with" : {
+                "initial learning rate" : {
+                  "of" : "0.001"
+                },
+                "minibatch size" : {
+                  "of" : "100"
+                }
+              },
+              "from sentence" : "We train our model 's parameters with the Adam Optimizer ( Kingma and Ba , 2014 ) , with an initial learning rate of 0.001 , and a minibatch size of 100 ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

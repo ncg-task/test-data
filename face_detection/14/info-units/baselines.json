@@ -1,0 +1,8 @@
+{
+  "has" : {
+    "Baselines" : {
+      "select" : ["VJ", "ACF", "DPM", "Faceness"],
+      "from sentence" : "We select VJ , ACF , DPM , and Faceness as baselines ."
+    }
+  }
+}

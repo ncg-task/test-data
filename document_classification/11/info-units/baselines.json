@@ -1,0 +1,36 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "BOW method" : {
+          "represents" : {
+            "each document" : {
+              "as" : "bag of words"
+            }
+          },
+          "has" : {
+            "weighting scheme" : {
+              "has" : "TFIDF"
+            }
+          },
+          "from sentence" : "To evaluate our method , we consider the following baselines : ( 1 ) the BOW method is employed as a basic baseline .
+It represents each document as a bag of words and the weighting scheme is TFIDF ."
+
+        },
+        "Word2 Vec method" : {
+          "has" : {
+            "neural network language method" : {
+              "learns" : {
+                "word embeddings" : {
+                  "by maximizing" : "conditional probability",
+                  "leveraging" : "contextual information"
+                }
+              },
+              "from sentence" : "( 2 ) the Word2 Vec method is a neural network language method which learns word embeddings by maximizing the conditional probability leveraging contextual information ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

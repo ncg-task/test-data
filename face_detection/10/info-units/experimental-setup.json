@@ -1,0 +1,89 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "backbone networks" : {
+          "initialized by" : {
+            "pretrained VGG / ResNet" : {
+              "on" : "Image Net"
+            },
+            "from sentence" : "The backbone networks are initialized by the pretrained VGG / ResNet on Image Net ."
+          }
+        },
+        "All newly added convolution layers ' parameters" : {
+          "initialized by" : "' xavier ' method",
+          "from sentence" : "All newly added convolution layers ' parameters are initialized by the ' xavier ' method ."
+        },
+        "batch size" : {
+          "set to" : "16",
+          "from sentence" : "The batch size is set to 16 ."
+        },
+        "learning rate" : {
+          "set to" : {
+            "10 ?3" : {
+              "for" : "first 40 k steps"
+            }
+          },
+          "has" : {
+            "decay" : {
+              "to" : "10 ? 4 and 10 ? 5",
+              "for" : "two 10 k steps"
+            }
+          },
+          "from sentence" : "The learning rate is set to 10 ?3 for the first 40 k steps , and we decay it to 10 ? 4 and 10 ? 5 for two 10 k steps ."
+        },
+        "Non-maximum suppression" : {
+          "applied with" : {
+            "jaccard overlap" : {
+              "of" : "0.3",
+              "to produce" : {
+                "top 750 high confident bounding boxes" : {
+                  "per" : "image"
+                }
+              }
+            },
+            "from sentence" : "Non-maximum suppression is applied with jaccard overlap of 0.3 to produce top 750 high confident bounding boxes per image ."
+          }
+        }
+      },
+      "use" : {
+        "SGD" : {
+          "with" : {
+            "0.9" : {
+              "has" : "momentum"
+            },
+            "0.0005" : {
+              "has" : "weight decay"
+            }
+          },          
+          "to fine - tune" : "our DSFD model",
+          "from sentence" : "We use SGD with 0.9 momentum , 0.0005 weight decay to fine - tune our DSFD model ."
+        }
+      },
+      "During" : {
+        "inference" : {
+          "has" : {
+            "first shot 's outputs" : {
+              "are" : "ignored"
+            },
+            "second shot" : {
+              "predicts" : "top 5 k high confident detections"
+            }
+          },
+          "from sentence" : "During inference , the first shot 's outputs are ignored and the second shot predicts top 5 k high confident detections ."
+        }
+      },
+      "For" : {
+        "bounding box coordinates" : {
+          "round down" : "top left coordinates",
+          "roundup" : {
+            "width and height" : {
+              "to expand" : "detection bounding box"
+            }
+          },
+          "from sentence" : "For 4 bounding box coordinates , we round down top left coordinates and roundup width and height to expand the detection bounding box ."
+        }
+      }
+    }
+  }
+}

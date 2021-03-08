@@ -1,0 +1,8 @@
+(Contribution||has||Baselines)
+(Baselines||has||several strong baseline methods)
+(several strong baseline methods||including||LSTM / Bi - LSTM)
+(several strong baseline methods||including||tree - structured LSTM ( Tree - LSTM ))
+(several strong baseline methods||including||LSTM regularized by linguistic knowledge ( LR - LSTM ))
+(several strong baseline methods||including||CNNrand / CNN - static / CNN - non-static ( Kim , 2014 ))
+(several strong baseline methods||including||very deep convolutional network ( VD - CNN ))
+(several strong baseline methods||including||character - level convolutional network ( CL - CNN ))

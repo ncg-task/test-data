@@ -1,0 +1,71 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "model" : {
+          "implemented using" : ["Python", "Tensorflow"],
+          "from sentence" : "The model is implemented using Python and Tensorflow ."
+        },
+        "weights" : {
+          "of" : "model",
+          "initialized by" : "Glorot Initialization"
+        },
+        "biases" : {
+          "initialized with" : "zeros",
+          "from sentence" : "All the weights of the model are initialized by Glorot Initialization and biases are initialized with zeros ."
+        },
+        "All the words" : {
+          "not appear in" : "Glove",
+          "initialized by" : {
+            "sampling" : {
+              "from" : "uniform random distribution"
+            }
+          },
+          "from sentence" : "All the words that do not appear in Glove are initialized by sampling from a uniform random distribution between ."
+        },
+        "number of hidden units" : {
+          "set to" : "100",
+          "from sentence" : "The number of hidden units are set to 100 ."
+        }
+      },
+      "use" : {
+        "300 dimensional word vectors" : {
+          "from" : {
+            "GloVe" : {
+              "with" : "840 billion pre-trained vectors"
+            }
+          },
+          "to initialize" : "word embeddings",
+          "from sentence" : "We use a 300 dimensional word vectors from GloVe ( with 840 billion pre-trained vectors ) to initialize the word embeddings , which we kept constant during training ."
+        }
+      },
+      "apply" : {
+        "dropout" : {
+          "between" : "layers",
+          "with" : {
+            "keep probability" : {
+              "of" : "0.8" 
+            }
+          },
+          "from sentence" : "We apply dropout between the layers with keep probability of 0.8 ( i.e dropout = 0.2 ) ."
+        }
+      },
+      "trained" : {
+        "our model" : {
+          "with" : {
+            "AdaDelta ( Zeiler , 2012 ) optimizer" : {
+              "for" : "50 epochs"
+            },
+            "initial learning rate" : {
+              "of" : "0.1"
+            },
+            "minibatch size" : {
+              "of" : "32"
+            }
+          },
+          "from sentence" : "We trained our model with the AdaDelta ( Zeiler , 2012 ) optimizer for 50 epochs , an initial learning rate of 0.1 , and a minibatch size of 32 ."
+        }
+      }
+    }
+  }
+}

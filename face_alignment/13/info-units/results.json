@@ -1,0 +1,74 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Representation Power" : {
+          "has" : {
+            "minimize" : {
+              "has" : {
+                "reconstruction error" : {
+                  "in" : "image space",
+                  "through" : {
+                    "rendering layer" : {
+                      "with" : "groundtruth S and m"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Representation Power
+Alternatively , we can minimize the reconstruction error in the image space , through the rendering layer with the groundtruth S and m ."
+
+            },
+            "our nonlinear texture" : {
+              "closer to" : {
+                "groundtruth" : {
+                  "than" : "linear model",
+                  "especially for" : "in - the - wild images"
+                }
+              },
+              "from sentence" : "As in , our nonlinear texture is closer to the groundtruth than the linear model , especially for in - the - wild images ( the first two rows ) ."
+            },
+            "our nonlinear model" : {
+              "has" : {
+                "significantly lower" : {
+                  "has" : "L 1 reconstruction error",
+                  "than" : "lin",
+                  "from sentence" : "Quantitatively , our nonlinear model has significantly lower L 1 reconstruction error than the lin - We also compare the power of nonlinear and linear 3 DMM in representing real - world 3D scans ."
+                },
+                "significantly smaller reconstruction error" : {
+                  "than" : {
+                    "linear model" : {
+                      "has" : "0.0196 vs. 0.0241"
+                    }
+                  },
+                  "from sentence" : "Our nonlinear model has a significantly smaller reconstruction error than the linear model , 0.0196 vs. 0.0241 ( Tab. 3 ) ."
+                }
+              }
+            }
+          }
+        },
+        "3D reconstruction" : {
+          "obtain" : {
+            "low error" : {
+              "comparable to" : "optimization - based methods",
+              "from sentence" : "Quantitative evaluation of 3D reconstruction .
+We obtain a low error that is comparable to optimization - based methods ."
+
+            }
+          }
+        },
+        "3D Face Reconstruction" : {
+          "achieve" : {
+            "on - par results" : {
+              "with" : "Garrido et al."
+            }
+          },
+          "surpassing" : ["other regression methods"],
+          "from sentence" : "3D Face Reconstruction .
+We achieve on - par results with Garrido et al. , an offline optimization method , while surpassing all other regression methods ] ."
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "Global Average Pooling vs. Full Connection" : {
+          "seen that" : {
+            "BM" : {
+              "performs" : {
+                "better" : {
+                  "on" : "IBUG and COFW"
+                },
+                "worse" : {
+                  "on" : "AFLW",
+                  "than" : "pre-BM"
+                }
+              },
+              "from sentence" : "1 ) Global Average Pooling vs. Full Connection :
+It can be seen that BM performs better on IBUG and COFW but worse on AFLW than pre-BM ."
+
+            } 
+          },
+          "demonstrates" : {
+            "Global Average Pooling" : {
+              "has" : {
+                "more advantageous" : {
+                  "for" : {
+                    "more complex problems" : {
+                      "with" : "more facial landmarks"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "It demonstrates that Global Average Pooling is more advantageous for more complex problems with more facial landmarks ."
+            }
+          }
+        },
+        "Robustness of Weighting" : {
+          "has" : {
+            "0.4" : {
+              "achieves" : "good performance",
+              "from sentence" : "2 ) Robustness of Weighting :
+When ? is 0.4 , WM can still achieves good performance ."
+
+            }
+          }
+        },
+        "Analysis of Shape Prediction Layers" : {
+          "has" : {
+            "left eye model and the right eye model" : {
+              "reduce" : {
+                "alignment errors" : {
+                  "of" : "corresponding clusters",
+                  "Compared to" : "WM"
+                }
+              },
+              "from sentence" : "3 ) Analysis of Shape Prediction Layers :
+Compared to WM , the left eye model and the right eye model both reduce the alignment errors of their corresponding clusters ."
+
+            }
+          }
+        },
+        "assembled AM" : {
+          "improve" : {
+            "detection accuracy" : {
+              "of" : {
+                "landmarks" : {
+                  "of" : {
+                    "left eye and the right eye" : {
+                      "on" : "basis of WM",
+                      "improve" : {
+                        "localization precision" : {
+                          "of" : "other clusters"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "As a result , the assembled AM can improve the detection accuracy of landmarks of the left eye and the right eye on the basis of WM .
+Note that the two models also improve the localization precision of other clusters ."
+
+            }
+          }
+        },
+        "Integration of Weighting Fine - Tuning and Multi - Center Fine - Tuning" : {
+          "has" : {
+            "accuracy" : {
+              "of" : "AM",
+              "has" : {
+                "superior" : {
+                  "to" : "Simplified AM",
+                  "especially on" : "challenging IBUG"
+                }
+              },
+              "from sentence" : "4 ) Integration of Weighting Fine - Tuning and Multi - Center Fine - Tuning :
+The accuracy of AM is superior to that of Simplified AM especially on challenging IBUG , which is attributed to the integration of two stages ."
+
+            },
+            "localization accuracy" : {
+              "of" : {
+                "facial landmarks" : {
+                  "from" : "each cluster"
+                }
+              },
+              "has" : "improved",
+              "from sentence" : "The localization accuracy of facial landmarks from each cluster is improved in the details ."
+            }
+          },
+          "seen that" : {
+            "Weighting Simplified AM" : {
+              "has" : {
+                "improves slightly" : {
+                  "on" : "COFW"
+                },
+                "fails" : {
+                  "to search" : {
+                    "better solution" : {
+                      "on" : "IBUG"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "It can be seen that Weighting Simplified AM improves slightly on COFW but fails to search a better solution on IBUG ."
+            }
+          },
+          "observed" : {
+            "AM" : {
+              "has" : {
+                "higher accuracy and stronger robustness" : {
+                  "than" : "BM and WM"
+                }
+              },
+              "from sentence" : "It can be observed that AM has higher accuracy and stronger robustness than BM and WM ."
+            }
+          }
+        },
+        "D. MCL for Partially Occluded Faces" : {
+          "has" : {
+            "correlations" :{
+              "among" : {
+                "different facial parts" : {
+                  "has" : "very useful",
+                  "for" : {
+                    "face alignment" : {
+                      "for" : "partially occluded faces"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "D. MCL for Partially Occluded Faces
+The correlations among different facial parts are very useful for face alignment especially for partially occluded faces ."
+
+            },
+            "WM and AM" : {
+              "has" : {
+                "perform well" : {
+                  "on" : "occluded left eyes",
+                  "with" : {
+                    "mean error" : {
+                      "of" : "6.60 and 6.50"
+                    }
+                  }
+                },
+                "from sentence" : "Note that WM and AM still perform well on occluded left eyes with the mean error of 6.60 and 6.50 respectively , due to the following reasons ."
+              }
+            }
+          },
+          "processing" : {
+            "testing faces" : {
+              "with" : "occlusions",
+              "has" : {
+                "mean error results" : {
+                  "of" : "both WM and AM",
+                  "has" : "increase"
+                },
+                "results" : {
+                  "become" : {
+                    "worse slightly" : {
+                      "of" : {
+                        "landmarks" : {
+                          "from" : "left eye cluster"
+                        },
+                        "remaining landmarks" : {
+                          "from" : "other clusters"
+                        }
+                      }                      
+                    }
+                  }
+                }
+              },
+              "from sentence" : "After processing testing faces with occlusions , the mean error results of both WM and AM increase .
+Besides the results of landmarks from the left eye cluster , the results of remaining landmarks from other clusters become worse slightly ."
+
+            }
+          }
+        },
+        "E. Weighting Fine - Tuning for State - of - the - Art Frameworks" : {
+          "seen that" : {
+            "mean error" : {
+              "of" : {
+                "re -DAN" : {
+                  "has" : {
+                    "reduced" : {
+                      "from" : {
+                        "7.97" : {
+                          "to" : "7.81",
+                          "after using" : "our proposed weighting fine - tuning"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "E. Weighting Fine - Tuning for State - of - the - Art Frameworks
+It can be seen that the mean error of re -DAN is reduced from 7.97 to 7.81 after using our proposed weighting fine - tuning ."
+
+            }
+          }        
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "has" : {
+    "Results" : {
+      "For" : {
+        "three corpora" : {
+          "has" : {
+            "our system" : {
+              "performs" : {
+                "better" : {
+                  "than" : ["STJU system", {"MFH system" : {"on" : "English corpora"}}]
+                }
+              },
+              "from sentence" : "Results and Analysis
+For the three corpora , our system performs better than STJU system , and it performs better than the MFH system on the English corpora ."
+
+            }
+          }
+        }
+      },
+      "shows" : {
+        "our system" : {
+          "performs" : {
+            "well" : {
+              "in" : {
+                "discovering" : {
+                  "has" : {
+                    "new hypernyms" : {
+                      "has" : {
+                        "not defined" : {
+                          "in" : "gold hypernyms"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "In addition , the result shows that our system performs well in discovering new hypernyms not defined in the gold hypernyms where it yields good False Positive values in the three corpora and we achieve the best False Positive value in Medical corpus The evaluation results of our system and other supervised systems ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "has" : {
+        "candidate hypernym extraction ( CHE ) coverage" : {
+          "for" : "English testing terms",
+          "is" : "950 ( 63 % )",
+          "from sentence" : "As shown in the table 2 , the candidate hypernym extraction ( CHE ) coverage for English testing terms is 950 ( 63 % ) , that means our system is unable to extract any candidate hypernym for 550 ( 37 % ) terms ( 398 entities and 152 concepts ) ."
+        }
+      }
+    }
+  }
+}

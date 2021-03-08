@@ -1,0 +1,67 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "backbone network" : {
+          "in" : "proposed AInnoFace detector",
+          "initialized by" : {
+            "pretrained model" : {
+              "on" : "ImageNet dataset"
+            }
+          },
+          "from sentence" : "The backbone network in the proposed AInnoFace detector is initialized by the pretrained model on the ImageNet dataset ."
+        },
+        "stochastic gradient descent ( SGD ) algorithm" : {
+          "fine - tune" : {
+            "model" : {
+              "with" : ["0.9 momentum", "0.0001 weight decay", "batch size 32"]
+            }
+          },
+          "from sentence" : "The stochastic gradient descent ( SGD ) algorithm is used to fine - tune the model with 0.9 momentum , 0.0001 weight decay and batch size 32 ."
+        },
+        "warmup strategy" : {
+          "applied to" : {
+            "gradually ramp up" : {
+              "has" : {
+                "learning rate" : {
+                  "from" : {
+                    "0.0003125" : {
+                      "to" : "0.01",
+                      "at" : "first 5 epochs"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "The warmup strategy is applied to gradually ramp up the learning rate from 0.0003125 to 0.01 at the first 5 epochs ."
+          }
+        },
+        "full training and testing codes" : {
+          "built on" : "PyTorch library",
+          "from sentence" : "The full training and testing codes are built on the PyTorch library ."
+        }
+      },
+      "use" : {
+        "\" xavier \" method" : {
+          "randomly initialize" : {
+            "parameters" : {
+              "in" : "newly added convolutional layers"
+            }
+          },
+          "from sentence" : "We use the \" xavier \" method to randomly initialize the parameters in the newly added convolutional layers ."
+        }
+      },
+      "switches to" : {
+        "regular learning rate schedule" : {
+          "dividing by" : {
+            "10" : {
+              "at" : "100 and 120 epochs"
+            }
+          },
+          "ending at" : "130 epochs"
+        },
+        "from sentence" : "After that , it switches to the regular learning rate schedule , i.e. , dividing by 10 at 100 and 120 epochs and ending at 130 epochs ."
+      }
+    }
+  }
+}

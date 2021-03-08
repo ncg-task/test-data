@@ -1,0 +1,30 @@
+{
+  "has" : {
+    "Approach" : {
+      "use" : {
+        "data" : {
+          "in" : {
+            "Reuters Corpus Volume 2" : {
+              "to define" : {
+                "new cross - lingual document classification tasks" : {
+                  "for" : {
+                    "eight very different languages" : {
+                      "namely" : ["English", "French", "Spanish", "Italian", "German", "Russian", "Chinese", "Japanese"],
+                      "from sentence" : "We extend previous works and use the data in the Reuters Corpus Volume 2 to define new cross - lingual document classification tasks for eight very different languages , namely English , French , Spanish , Italian , German , Russian , Chinese and Japanese ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "For" : {
+        "each language" : {
+          "define" : "train , development and test corpus",
+          "from sentence" : "For each language , we define a train , development and test corpus ."
+        }
+      }
+    }
+  }  
+}

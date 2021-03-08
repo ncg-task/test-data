@@ -1,0 +1,113 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "Glo Ve word embeddings" : {
+          "pre-trained on" : "Gigaword and Wikipedia",
+          "has" : "not fine - tune",
+          "from sentence" : "Glo Ve word embeddings pre-trained on the Gigaword and Wikipedia , and did not fine - tune them ."
+        },
+        "Vocabulary" : {
+          "built from" : {
+            "words" : {
+              "in" : "training data",
+              "with" : {
+                "frequency" : {
+                  "in" : "{ 3 , U ( 1 , 10 ) }"
+                }
+              }
+            },
+            "OOV words" : {
+              "replaced with" : "UNK token"
+            },
+            "from sentence" : "Vocabulary was built from the words in the training data with frequency in { 3 , U ( 1 , 10 ) } , and OOV words were replaced with an UNK token ."
+          }
+        },
+        "size" : {
+          "of" : {
+            "LSTMs hidden states" : {
+              "set to" : "{ 100 , qlog - U ( 30 , 150 ) }",
+              "from sentence" : "The size of the LSTMs hidden states was set to { 100 , qlog - U ( 30 , 150 ) } ."
+            }
+          }
+        },
+        "first feed - forward layer size" : {
+          "set to" : {
+            "value" : {
+              "in" : "Optimization"
+            },
+            "from sentence" : "The first feed - forward layer size is set to a value in Optimization ."
+          }
+        },
+        "train" : {
+          "for" : "10 epochs",
+          "from sentence" : "We train for 10 epochs and choose the model that performs best on the devset ."
+        }        
+      },
+      "initialized" : {
+        "weight matrices" : {
+          "of" : "LSTMs",
+          "with" : "random orthogonal matrices",
+          "from sentence" : "We initialized the weight matrices of the LSTMs with random orthogonal matrices , all other weight matrices with the initialization proposed in ."
+        }
+      },
+      "trained" : {
+        "model" : {
+          "in" : "minibatches",
+          "using" : {
+            "Adam" : {
+              "with" : {
+                "learning rate" : {
+                  "of" : "10 ? 4"
+                },
+                "maximal batch size" : {
+                  "has" : "64"
+                }
+              }
+            }
+          },
+          "from sentence" : "We trained our model in minibatches using Adam ( Kingma and Ba , 2015 ) with the learning rate of 10 ? 4 and maximal batch size 64 ."
+        }
+      },
+      "clip" : {
+        "gradients" : {
+          "by" : "global norm",
+          "with" : {
+            "clipping value" : {
+              "in" : "{ 1.0 , U ( 1 , 100 ) }"
+            }
+          },
+          "from sentence" : "We clip gradients by global norm , with a clipping value in { 1.0 , U ( 1 , 100 ) } ."
+        }
+      },
+      "used" : {
+        "l 2 - regularization" : {
+          "with" : "{ 10 ?5 , log - U (10 ?7 , 10 ?2 ) }",
+          "from sentence" : "We used the l 2 - regularization with ? ? { 10 ?5 , log - U (10 ?7 , 10 ?2 ) }."
+        },
+        "Dropout" : {
+          "with" : {
+            "keep probability k p" : {
+              "has" : "{ 0.8 , U( 0.5 , 1.0 ) }",
+              "applied to" : {
+                "outputs" : {
+                  "of" : {
+                    "LSTMs" : {
+                      "has" : "feed - forward layers"
+                    }
+                  }
+                }
+              },
+              "optionally to" : {
+                "input" : {
+                  "with" : "k p ? U (0.8 , 1.0 )",
+                  "from sentence" : "Dropout with a keep probability k p ? { 0.8 , U( 0.5 , 1.0 ) } was applied to the outputs of the LSTMs , both feed - forward layers and optionally to the input with k p ? U (0.8 , 1.0 ) ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

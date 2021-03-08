@@ -1,0 +1,44 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our method" : {
+          "achieved" : {
+            "enhanced performance" : {
+              "on" : "CoNLL and the TAC 2010 datasets"
+            },
+            "from sentence" : "Our method successfully achieved enhanced performance on both the CoNLL and the TAC 2010 datasets ."            
+          },
+          "has" : {
+            "outperformed" : {
+              "has" : {
+                "all the state - of - the - art methods" : {
+                  "on" : "both datasets"
+                }
+              },
+              "from sentence" : "Our method outperformed all the state - of - the - art methods on both datasets ."
+            }
+          }
+        }
+      },
+      "found that" : {
+        "choice" : {
+          "of" : {
+            "candidate generation method" : {
+              "has" : {
+                "considerably affected" : {
+                  "has" : {
+                    "performance" : {
+                      "on" : "CoNLL dataset"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Moreover , we found that the choice of candidate generation method considerably affected performance on the CoNLL dataset ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

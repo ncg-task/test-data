@@ -1,0 +1,39 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "used" : {
+        "model" : {
+          "with" : ["3 LSTM layers", {"256 units" : {"in" : "each layer"}}],
+          "call" : "LSTM + A",
+          "from sentence" : "In our experiments we used a model with 3 LSTM layers and 256 units in each layer , which we call LSTM + A ."
+        }
+      },
+      "Training on" : {
+        "small dataset" : {
+          "additionally used" : {
+            "2 dropout layers" : {
+              "between" : ["LSTM 1 and LSTM 2", "LSTM 2 and LSTM 3"]
+            }
+          },
+          "from sentence" : "Training on a small dataset we additionally used 2 dropout layers , one between LSTM 1 and LSTM 2 , and one between LSTM 2 and LSTM 3 ."
+        }
+      },
+      "has" : {
+        "embedding layer" : {
+          "for" : "our 90K vocabulary",
+          "initialized" : "randomly",
+          "using" : "pre-trained word - vector embeddings",
+          "from sentence" : "The embedding layer for our 90K vocabulary can be initialized randomly or using pre-trained word - vector embeddings ."
+        }
+      },
+      "pre-trained" : {
+        "skip - gram embeddings" : {
+          "of" : "size 512",
+          "using" : "word2vec",
+          "on" : "10B - word corpus",
+          "from sentence" : "We pre-trained skip - gram embeddings of size 512 using word2vec [ 6 ] on a 10B - word corpus ."
+        }
+      }
+    }
+  }
+}

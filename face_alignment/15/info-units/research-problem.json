@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Face Alignment Across Large Poses", {"from sentence" : "Face Alignment Across Large Poses : A 3D Solution"}],
+    ["Face alignment", {"from sentence" : "Face alignment , which fits a face model to an image and extracts the semantic meanings of facial pixels , has been an important topic in CV community ."}]
+  ]
+}

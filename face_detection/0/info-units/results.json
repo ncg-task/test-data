@@ -1,0 +1,42 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "our face detector" : {
+          "sets" : {
+            "new state - of - the - art results" : {
+              "based on" : "AP score",
+              "across" : {
+                "three subsets" : {
+                  "on both" : "validation and testing subsets"
+                }
+              },
+              "for" : {
+                "validation subset" : {
+                  "has" : ["97.0 % ( Easy )", "96.1 % ( Medium )", "91.8 % ( Hard )"]
+                },
+                "testing subset" : {
+                  "has" : ["96.5 % ( Easy )", "95.7 % ( Medium )", "91.2 % ( Hard )"]
+                }
+              },
+              "from sentence" : "As shown in , our face detector sets some new state - of - the - art results based on the AP score across the three subsets on both validation and testing subsets , i.e. , 97.0 % ( Easy ) , 96.1 % ( Medium ) and 91.8 % ( Hard ) for validation subset , and 96.5 % ( Easy ) , 95.7 % ( Medium ) and 91.2 % ( Hard ) for testing subset ."
+            }
+          }
+        },
+        "results" : {
+          "has" : {
+            "outperform" : {
+              "has" : "all the compared state - of - the - art methods"
+            }
+          },
+          "demonstrate" : {
+            "superiority" : {
+              "of" : "our AInnoFace detector"
+            }
+          },
+          "from sentence" : "These results outperform all the compared state - of - the - art methods and demonstrate the superiority of our AInnoFace detector ."
+        }
+      }
+    }
+  }
+}

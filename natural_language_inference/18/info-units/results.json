@@ -1,0 +1,179 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Language Results" : {
+          "has" : {
+            "Language modeling" : {
+              "has" : {
+                "challenging problem" : {
+                  "due to" : {
+                    "complex and long - range interactions" : {
+                      "between" : "distant words"
+                    }
+                  },
+                  "from sentence" : "Language Results
+Language modeling is a challenging problem due to the complex and long - range interactions between distant words ."
+
+                }
+              }
+            },
+            "CBS schedules" : {
+              "do not yield" : {
+                "large performance improvements" : {
+                  "on" : {
+                    "models" : {
+                      "like" : "E1"
+                    }
+                  },
+                  "exhibit" : {
+                    "smaller disparities" : {
+                      "between" : "training and testing performance"
+                    }
+                  }
+                }
+              },
+              "help us avoid" : "overfitting",
+              "from sentence" : "In our experiments , CBS schedules do not yield large performance improvements on models like E1 which exhibit smaller disparities between training and testing performance ."
+            },
+            "snapshot ensembling" : {
+              "enables" : "even greater performance",
+              "from sentence" : "CBS schedules effectively help us avoid overfitting , and in addition snapshot ensembling enables even greater performance ."
+            },
+            "best performing CBS schedules" : {
+              "result in" : {
+                "significant improvements" : {
+                  "in" : "perplexity ( up to 7.91 )",
+                  "over" : "baseline schedules"
+                }
+              },
+              "offer" : {
+                "reductions" : {
+                  "in" : {
+                    "number" : {
+                      "of" : "SGD training iterations ( up to 33 % )"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "As we can see , the best performing CBS schedules result in significant improvements in perplexity ( up to 7.91 ) over the baseline schedules and also offer reductions in the number of SGD training iterations ( up to 33 % ) ."
+            },
+            "all CBS schedules" : {
+              "has" : {
+                "outperform" : {
+                  "has" : "baseline schedule"
+                }
+              },
+              "from sentence" : "Notice that almost all CBS schedules outperform the baseline schedule ."
+            }
+          }
+        },
+        "Image Classification Results" : {
+          "has" : {
+            "training curves" : {
+              "of" : "CBS schedules",
+              "exhibit" : {
+                "aforementioned cyclical spikes" : {
+                  "in" : ["training loss", "testing accuracy"]
+                }
+              },
+              "from sentence" : "Image Classification Results
+As seen in , the training curves of CBS schedules also exhibit the aforementioned cyclical spikes both in training loss and testing accuracy ."
+
+            }
+          },
+          "observe" : {
+            "CBS" : {
+              "achieves" : {
+                "similar performance" : {
+                  "to" : "baseline"
+                }
+              },
+              "from sentence" : "We observe that CBS achieves similar performance to the baseline ."
+            }
+          },
+          "With" : {
+            "CBS - 15" : {
+              "see" : {
+                "90.71 %" : {
+                  "has" : "training accuracy"
+                },
+                "56. 44 %" : {
+                  "has" : "testing accuracy"
+                },
+                "larger improvement" : {
+                  "than" : {
+                    "offered" : {
+                      "by" : "CBS",
+                      "on" : {
+                        "convolutional models" : {
+                          "on" : "Cifar - 10"
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "With CBS - 15 , we see 90.71 % training accuracy and 56. 44 % testing accuracy , which is a larger improvement than that offered by CBS on convolutional models on Cifar - 10 ."
+              }
+            }
+          },
+          "Combining" : {
+            "CBS - 15" : {
+              "on" : "C2",
+              "improves" : {
+                "accuracy" : {
+                  "to" : "94.82 %"
+                }
+              }
+            },
+            "from sentence" : "Combining CBS - 15 on C2 with this strategy improves accuracy to 94.82 % ."
+          },
+          "Applying" : {
+            "snapshot ensembling" : {
+              "on" : {
+                "C3" : {
+                  "trained with" : "CBS - 15 - 2"
+                }
+              },
+              "leads to" : {
+                "improved accuracy" : {
+                  "of" : "93. 56 %",
+                  "compared to" : "92.58 %"
+                }
+              },
+              "from sentence" : "Applying snapshot ensembling on C3 trained with CBS - 15 - 2 leads to improved accuracy of 93. 56 % as compared to 92.58 % ."
+            }
+          },
+          "After" : {
+            "ensembling" : {
+              "has" : {
+                "ResNet50" : {
+                  "on" : "Imagenet",
+                  "with" : {
+                    "snapshots" : {
+                      "from" : "last two cycles"
+                    }
+                  },
+                  "has" : {
+                    "performance" : {
+                      "has" : {
+                        "increases" : {
+                          "to" : {
+                            "76.401 %" : {
+                              "from" : "75.336 %"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "After ensembling ResNet50 on Imagenet with snapshots from the last two cycles , the performance increases to 76.401 % from 75.336 % ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

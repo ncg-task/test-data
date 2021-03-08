@@ -1,0 +1,75 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "our parsers" : {
+          "has" : "very competitive",
+          "from sentence" : "It is clear that our parsers are very competitive , despite using very simple parsing architectures and minimal feature extractors ."
+        },
+        "greedy transition based parser" : {
+          "with" : "4 features",
+          "has" : {
+            "matches or outperforms" : {
+              "has" : {
+                "most other parsers" : {
+                  "including" : {
+                    "beam - based transition parser" : {
+                      "with" : "heavily engineered features"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The greedy transition based parser with 4 features also matches or outperforms most other parsers , including the beam - based transition parser with heavily engineered features of and the Stack - LSTM parser of , as well as the same parser when trained using a dynamic oracle ."
+            }
+          }
+        }
+      },
+      "When" : {
+        "not using external embeddings" : {
+          "has" : {
+            "first - order graph - based parser" : {
+              "with" : "2 features",
+              "has" : {
+                "outperforms" : {
+                  "has" : {
+                    "all other systems" : {
+                      "has" : "not using external resources",
+                      "including" : "third - order TurboParser"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "When not using external embeddings , the first - order graph - based parser with 2 features outperforms all other systems thatare not using external resources , including the third - order TurboParser ."
+            }
+          }
+        }
+      },
+      "Moving from" : {
+        "simple ( 4 features )" : {
+          "to" : {
+            "extended ( 11 features ) feature set" : {
+              "leads to" : {
+                "some gains" : {
+                  "in" : "accuracy",
+                  "for" : ["English", "Chinese"]
+                }
+              },
+              "from sentence" : "Moving from the simple ( 4 features ) to the extended ( 11 features ) feature set leads to some gains in accuracy for both English and Chinese ."
+            }
+          }
+        }
+      },
+      "when adding" : {
+        "external word embeddings" : {
+          "has" : {
+            "accuracy" : {
+              "of" : "graph - based parser",
+              "has" : "degrades"
+            }
+          },
+          "from sentence" : "Interestingly , when adding external word embeddings the accuracy of the graph - based parser degrades ."
+        }
+      }
+    }
+  }
+}

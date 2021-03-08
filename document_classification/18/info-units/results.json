@@ -1,0 +1,63 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "character - level ConvNets" : {
+          "work for" : "text classification",
+          "without" : {
+            "need" : {
+              "for" : "words"
+            }
+          },
+          "from sentence" : "The most important conclusion from our experiments is that character - level ConvNets could work for text classification without the need for words ."
+        },
+        "Traditional methods" : {
+          "like" : "n-grams TFIDF",
+          "remain" : {
+            "strong candidates" : {
+              "for" : {
+                "dataset" : {
+                  "of" : {
+                    "size" : {
+                      "up to" : "several hundreds of thousands"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "dataset" : {
+          "goes to" : {
+            "scale" : {
+              "of" : "several millions",
+              "observe" : {
+                "character - level ConvNets" : {
+                  "do" : "better"
+                }
+              }
+            }
+          },
+          "from sentence" : "Traditional methods like n-grams TFIDF remain strong candidates for dataset of size up to several hundreds of thousands , and only until the dataset goes to the scale of several millions do we observe that character - level ConvNets start to do better ."
+        },
+        "Conv Nets" : {
+          "may work" : {
+            "well" : {
+              "for" : "user - generated data"
+            }
+          },
+          "from sentence" : "Conv Nets may work well for user - generated data ."
+        },
+        "Choice of alphabet" : {
+          "makes" : "difference",
+          "from sentence" : "Choice of alphabet makes a difference ."
+        },
+        "Semantics" : {
+          "of" : "tasks",
+          "may not" : "matter",
+          "from sentence" : "Semantics of tasks may not matter ."
+        }
+      }
+    }
+  }
+}

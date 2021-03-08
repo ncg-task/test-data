@@ -1,0 +1,16 @@
+{
+  "has" : {
+    "Model" : {
+      "treating" : {
+        "text" : {
+          "as a kind of" : {
+            "raw signal" : {
+              "at" : "character level"
+            }
+          }
+        }
+      },
+      "applying" : ["temporal ( one-dimensional ) ConvNets", {"from sentence" : "In this article we explore treating text as a kind of raw signal at character level , and applying temporal ( one-dimensional ) ConvNets to it ."}]
+    }
+  }
+}

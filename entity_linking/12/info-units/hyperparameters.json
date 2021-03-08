@@ -1,0 +1,99 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "use" : {
+        "pre-trained word embeddings" : {
+          "with" : "300 dimensions",
+          "keep" : {
+            "fixed" : {
+              "during" : "training process"
+            }
+          },
+          "from sentence" : "We use pre-trained word embeddings with 300 dimensions 9 , and keep them fixed during the training process ."
+        },
+        "Adam optimizer" : {
+          "in" : "training process",
+          "with" : "0.001 initial learning rate",
+          "from sentence" : "We use Adam optimizer in the training process with 0.001 initial learning rate ."
+        }
+      },
+      "employ" : {
+        "256 hidden units" : {
+          "in" : ["gloss module", "context module"],
+          "means" : "n = 256",
+          "from sentence" : "We employ 256 hidden units in both the gloss module and the context module , which means n = 256 ."
+        }
+      },
+      "used for" : {
+        "weights" : {
+          "in" : "LSTM",
+          "has" : "Orthogonal initialization"
+        },
+        "others" : {
+          "has" : {
+            "random uniform initialization" : {
+              "with" : "range [ - 0.1 , 0.1 ]"
+            }
+          }
+        },
+        "from sentence" : "Orthogonal initialization is used for weights in LSTM and random uniform initialization with range [ - 0.1 , 0.1 ] is used for others ."        
+      },
+      "assign" : {
+        "gloss expansion depth K" : {
+          "has" : {
+            "value" : {
+              "of" : "4"
+            }
+          },
+          "from sentence" : "We assign gloss expansion depth K the value of 4 ."
+        }
+      },
+      "experiment with" : {
+        "number of passes | T M |" : {
+          "from" : {
+            "1" : {
+              "to" : "5"
+            }
+          },
+          "in" : "our framework",
+          "finding" : {
+            "| T M | = 3" : {
+              "has" : "performs best"
+            }
+          }
+        },
+        "from sentence" : "We also experiment with the number of passes | T M | from 1 to 5 in our framework , finding | T M | = 3 performs best ."
+      },
+      "to avoid" : {
+        "overfitting" : {
+          "use" : "dropout regularization",
+          "set" : {
+            "drop rate" : {
+              "to" : "0.5"
+            }
+          }
+        },
+        "from sentence" : "In order to avoid overfitting , we use dropout regularization and set drop rate to 0.5 ."
+      },
+      "has" : {
+        "Training" : {
+          "for up to" : {
+            "100 epochs" : {
+              "with" : "early stopping",
+              "if" : {
+                "validation loss" : {
+                  "has" : {
+                    "does n't improve" : {
+                      "within" : "last 10 epochs"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "Training runs for up to 100 epochs with early stopping if the validation loss does n't improve within the last 10 epochs ."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "Neural Tree Indexers ( NTI )" : {
+          "has" : {
+            "class of tree structured models" : {
+              "for" : "NLP tasks"
+            }
+          },
+          "from sentence" : "In this study , we introduce Neural Tree Indexers ( NTI ) , a class of tree structured models for NLP tasks ."
+        }
+      },
+      "has" : {
+        "NTI" : {
+          "takes" : {
+            "sequence" : {
+              "of" : "tokens"
+            }
+          },
+          "produces" : {
+            "representation" : {
+              "by constructing" : {
+                "full n-ary tree" : {
+                  "in" : "bottom - up fashion"
+                }
+              }
+            }
+          },
+          "from sentence" : "NTI takes a sequence of tokens and produces its representation by constructing a full n-ary tree in a bottom - up fashion ."
+        },
+        "Each node in NTI" : {
+          "associated with" : {
+            "one of the node transformation functions" : {
+              "has" : ["leaf node mapping", "non-leaf node composition functions"]
+            }
+          },
+          "from sentence" : "Each node in NTI is associated with one of the node transformation functions : leaf node mapping and non-leaf node composition functions ."
+        },
+        "sequential leaf node transformer" : {
+          "such as" : {
+            "LSTM" : {
+              "has" : "chosen"
+            }
+          },
+          "has" : {
+            "NTI network" : {
+              "forms" : {
+                "sequence - tree hybrid model" : {
+                  "taking advantage of" : {
+                    "conditional and compositional powers" : {
+                      "of" : "sequential and recursive models"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "When a sequential leaf node transformer such as LSTM is chosen , the NTI network forms a sequence - tree hybrid model taking advantage of both conditional and compositional powers of sequential and recursive models . :"
+        }
+      },
+      "propose" : {
+        "different variants" : {
+          "of" : {
+            "node composition function and attention" : {
+              "over" : "tree",
+              "for" : "our NTI models"
+            }
+          },
+          "from sentence" : "Furthermore , we propose different variants of node composition function and attention over tree for our NTI models ."
+        }
+      }
+    }
+  }
+}

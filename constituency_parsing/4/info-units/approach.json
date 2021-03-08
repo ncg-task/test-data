@@ -1,0 +1,44 @@
+{
+  "has" : {
+    "Approach" : {
+      "present" : {
+        "experiments" : {
+          "to isolate" : {
+            "degree" : {
+              "has" : {
+                "gain" : {
+                  "for" : {
+                    "each of two state - of - the - art generative neural parsing models" : {
+                      "has" : ["the Recurrent Neural Network Grammar generative parser ( RG )", "LSTM language modeling generative parser ( LM )"]
+                    }
+                  }
+                } 
+              },
+              "from sentence" : "In this paper , we present experiments to isolate the degree to which each gain occurs for each of two state - of - the - art generative neural parsing models : the Recurrent Neural Network Grammar generative parser ( RG ) of , and the LSTM language modeling generative parser ( LM ) of ."
+            }
+          }
+        },
+        "beam - based search procedure" : {
+          "with" : "augmented state space",
+          "search" : "generative models",
+          "from sentence" : "In particular , we present and use a beam - based search procedure with an augmented state space that can search directly in the generative models , allowing us to explore A ?"
+        }
+      },
+      "taking" : {
+        "weighted average" : {
+          "of" : {
+            "scores" : {
+              "of" : "both models"
+            }
+          },
+          "when selecting" : {
+            "parse" : {
+              "from" : "base parser 's candidate list"
+            }
+          },
+          "from sentence" : "We find that this is indeed the case : simply taking a weighted average of the scores of both models when selecting a parse from the base parser 's candidate list improves over using only the score of the generative model , in many cases substantially ( Section 3.2 ) ."
+        }
+      }
+    }
+  }
+}

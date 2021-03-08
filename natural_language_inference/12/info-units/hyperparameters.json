@@ -1,0 +1,98 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "bAbI story - based QA dataset" : {
+          "has" : {
+            "Embedding component" : {
+              "has" : {
+                "32 unit" : {
+                  "has" : ["word - lookup embeddings", {"LSTM" : {"for" : "story and question"}}]
+                }
+              },
+              "from sentence" : "bAbI story - based QA dataset
+Embedding component is similar to , where story and question are embedded through different LSTMs ; 32 unit word - lookup embeddings ; 32 unit LSTM for story and question ."
+
+            },
+            "softmax output" : {
+              "optimized with" : {
+                "cross - entropy loss function" : {
+                  "using" : {
+                    "Adam optimizer" : {
+                      "with" : {
+                        "learning rate" : {
+                          "of" : "2 e ?4"
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "The softmax output was optimized with a cross - entropy loss function using the Adam optimizer with a learning rate of 2 e ?4 ."
+              }
+            }
+          },
+          "For" : {
+            "attention component" : {
+              "use" : "2 hop RMN",
+              "from sentence" : "For attention component , as we use 2 hop RMN , there are g 1 ?"
+            },
+            "regularization" : {
+              "use" : {
+                "batch normalization" : {
+                  "for" : "all MLPs"
+                }
+              },
+              "from sentence" : "For regularization , we use batch normalization for all MLPs ."
+            }
+          }
+        },
+        "bAbI dialog dataset" : {
+          "trained on" : {
+            "full dialog scripts" : {
+              "with" : {
+                "every model response" : {
+                  "as" : "answer"
+                },
+                "all previous dialog history" : {
+                  "as" : {
+                    "sentences" : {
+                      "to be" : "memorized"
+                    }
+                  }
+                },
+                "last user utterance" : {
+                  "as" : "question"
+                }
+              },
+              "from sentence" : "bAbI dialog dataset
+We trained on full dialog scripts with every model response as answer , all previous dialog history as sentences to be memorized , and the last user utterance as question ."
+
+            }
+          },
+          "has" : {
+            "Model" : {
+              "selects" : {
+                "most probable response" : {
+                  "from" : {
+                    "4,212 candidates" : {
+                      "ranked from" : {
+                        "set" : {
+                          "of" : {
+                            "all bot utterances" : {
+                              "in" : "training , validation and test sets"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Model selects the most probable response from 4,212 candidates which are ranked from a set of all bot utterances appearing in training , validation and test sets ( plain and OOV ) for all tasks combined ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

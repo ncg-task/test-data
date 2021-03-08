@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Fast Object Detection", {"from sentence" : "A Unified Multi-scale Deep Convolutional Neural Network for Fast Object Detection"}],
+    ["fast multi-scale object detection", {"from sentence" : "A unified deep neural network , denoted the multi -scale CNN ( MS - CNN ) , is proposed for fast multi-scale object detection ."}],
+    ["object detection", {"from sentence" : "State - of - the - art object detection performance , at up to 15 fps , is reported on datasets , such as KITTI and Caltech , containing a substantial number of small objects ."}]
+  ]
+}

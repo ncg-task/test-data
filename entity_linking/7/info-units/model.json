@@ -1,0 +1,45 @@
+{
+  "has" : {
+    "Model" : {
+      "describe" : {
+        "two novel WSD algorithms" : {
+          "has" : {
+            "first" : {
+              "based on" : {
+                "Long Short Term Memory ( LSTM )" : {
+                  "take into account" : {
+                    "word order" : {
+                      "when" : "classifying"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "In this paper , we describe two novel WSD algorithms .
+The first is based on a Long Short Term Memory ( LSTM ) ) .
+Since this model is able to take into account word order when classifying , it performs significantly better than an algorithm based on a continuous bag of words model ( Word2 vec ) , especially on verbs ."
+
+          },
+          "present" : {
+            "semi-supervised algorithm" : {
+              "uses" : {
+                "label propagation" : {
+                  "to label" : {
+                    "unlabeled sentences" : {
+                      "based on" : {
+                        "similarity" : {
+                          "to" : "labeled ones"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "We then present a semi-supervised algorithm which uses label propagation to label unlabeled sentences based on their similarity to labeled ones ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

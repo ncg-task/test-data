@@ -1,0 +1,38 @@
+{
+  "has" : {
+    "Model" : {
+      "employ" : {
+        "connected graph" : {
+          "to depict" : {
+            "paraphrase relation" : {
+              "between" : {
+                "sentences" : {
+                  "for" : "PI task"
+                }
+              }
+            }
+          }
+        }
+      },
+      "propose" : {
+        "multi-task sentence - encoding model" : {
+          "solves" : {
+            "simultaneously" : {
+              "has" : ["paraphrase identification task", "sentence intent classification task"]
+            }
+          },
+          "from sentence" : "We employ a connected graph to depict the paraphrase relation between sentences for the PI task , and propose a multi-task sentence - encoding model , which solves the paraphrase identification task and the sentence intent classification task simultaneously ."          
+        },
+        "semantic retrieval framework" : {
+          "integrates" : {
+            "encoding - based sentence matching model" : {
+              "with" : "approximate nearest neighbor search technology",
+              "find" : ["most similar question", {"very quickly" : {"from" : "all available questions"}}]
+            }
+          },
+          "from sentence" : "We propose a semantic retrieval framework that integrates the encoding - based sentence matching model with the approximate nearest neighbor search technology , which allows us to find the most similar question very quickly from all available questions , instead of within only a few candidates , in the QA knowledge base ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "has" : {
+    "Model" : {
+      "has" : {
+        "Natural language sentences" : {
+          "have" : {
+            "complicated structures" : {
+              "has" : ["sequential", "hierarchical"],
+              "from sentence" : "Natural language sentences have complicated structures , both sequential and hierarchical , that are essential for understanding them ."
+            }
+          }
+        },
+        "successful sentence - matching algorithm" : {
+          "to capture" : {
+            "internal structures" : {
+              "of" : "sentences"
+            },
+            "rich patterns" : {
+              "in" : "interactions"
+            }
+          },
+          "from sentence" : "A successful sentence - matching algorithm therefore needs to capture not only the internal structures of sentences but also the rich patterns in their interactions ."
+        },
+        "generic" : {
+          "requiring" : {
+            "no prior knowledge" : {
+              "of" : "natural language"
+            }
+          },
+          "putting" : {
+            "no constraints" : {
+              "on" : "matching tasks"
+            }
+          },
+          "from sentence" : "Our model is generic , requiring no prior knowledge of natural language ( e.g. , parse tree ) and putting essentially no constraints on the matching tasks ."
+        }
+      },
+      "propose" : {
+        "deep neural network models" : {
+          "adapt" : {
+            "convolutional strategy" : {
+              "to" : "natural language"
+            }
+          },
+          "from sentence" : "Towards this end , we propose deep neural network models , which adapt the convolutional strategy ( proven successful on image and speech ) to natural language ."
+        }
+      },
+      "naturally host" : {
+        "hierarchical composition" : {
+          "for" : ["sentences", {"simple - to - comprehensive fusion" : {"of" : {"matching patterns" : {"with" : "same convolutional architecture"}}}}]
+        },
+        "from sentence" : "To further explore the relation between representing sentences and matching them , we devise a novel model that can naturally host both the hierarchical composition for sentences and the simple - to - comprehensive fusion of matching patterns with the same convolutional architecture ."
+      }
+    }
+  }
+}

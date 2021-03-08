@@ -1,0 +1,83 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "on" : ["WIDER FACE dataset", {"from sentence" : "In this subsection , we conduct extensive experiments and ablation studies on the WIDER FACE dataset to evaluate the effectiveness of several contributions of our proposed framework , including feature enhance module , progressive anchor loss , and improved anchor matching ."}],
+      "has" : {
+        "Feature Enhance Module First" : {
+          "shows" : {
+            "our feature enhance module" : {
+              "has" : {
+                "improve" : {
+                  "has" : {
+                    "VGG16 - based FSSD" : {
+                      "from" : {
+                        "92.6 % , 90.2 % , 79.1 %" : {
+                          "to" : "93.0 % , 91.4 % , 84.6 %"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Feature Enhance Module First ,
+shows that our feature enhance module can improve VGG16 - based FSSD from 92.6 % , 90.2 % , 79.1 % to 93.0 % , 91.4 % , 84.6 % ."
+
+            }
+          }
+        },
+        "Progressive Anchor Loss Second" : {
+          "shows" : {
+            "our progressive anchor loss" : {
+              "has" : {
+                "improve" : {
+                  "has" : {
+                    "Res50 - based FSSD" : {
+                      "using" : {
+                        "FEM" : {
+                          "from" : {
+                            "95.0 % , 94.1 % , 88.0 %" : {
+                              "to" : "95.3 % , 94.4 % , 88.6 %"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Progressive Anchor Loss Second , we use Res50 - based FSSD as the baseline to add progressive anchor loss for comparison .
+shows our progressive anchor loss can improve Res50 - based FSSD using FEM from 95.0 % , 94.1 % , 88.0 % to 95.3 % , 94.4 % , 88.6 % ."
+
+            }
+          }
+        },
+        "Improved Anchor Matching" : {
+          "shows" : {
+            "our improved anchor matching" : {
+              "has" : {
+                "improve" : {
+                  "has" : {
+                    "Res101 based FSSD" : {
+                      "using" : {
+                        "FEM" : {
+                          "from" : {
+                            "95.8 % , 95.1 % , 89.7 %" : {
+                              "to" : "96.1 % , 95.2 % , 90.0 %"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Improved Anchor Matching
+shows that our improved anchor matching can improve Res101 based FSSD using FEM from 95.8 % , 95.1 % , 89.7 % to 96.1 % , 95.2 % , 90.0 % ."
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

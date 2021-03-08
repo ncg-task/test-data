@@ -1,0 +1,87 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "3D Face Alignment" : {
+          "has" : {
+            "our result" : {
+              "has" : {
+                "slightly outperforms" : {
+                  "has" : "state - of - the - art method 3D - FAN",
+                  "when" : {
+                    "calculating" : {
+                      "per" : {
+                        "distance" : {
+                          "with" : "2D coordinates"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "3D Face Alignment
+As shown in figure 5 , our result slightly outperforms the state - of - the - art method 3D - FAN when calculating per distance with 2D coordinates ."
+              
+            },
+            "our method" : {
+              "has" : {
+                "robust" : {
+                  "to" : {
+                    "change" : {
+                      "of" : "pose and datasets"
+                    }
+                  },
+                  "from sentence" : "The result shows that our method is robust to the change of pose and datasets ."                  
+                },
+                "outperforms" : {
+                  "has" : {
+                    "best methods" : {
+                      "with" : {
+                        "large margin" : {
+                          "of" : {
+                            "more than 27 %" : {
+                              "on" : "both 2 D and 3D coordinates"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "As shown in figure 7 , our method outperforms the best methods with a large margin of more than 27 % on both 2 D and 3D coordinates . : CED curves on AFLW2000 - 3D ."
+                    }
+                  }
+                }
+              }
+            },
+            "Examples" : {
+              "from" : "AFLW2000 - 3 D dataset",
+              "show" : {
+                "our predictions" : {
+                  "has" : {
+                    "more accurate" : {
+                      "than" : "ground truth"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Examples from AFLW2000 - 3 D dataset show that our predictions are more accurate than ground truth in some cases ."
+            }
+          },
+          "When considering" : {
+            "depth value" : {
+              "has" : {
+                "performance discrepancy" : {
+                  "between" : {
+                    "our method" : {
+                      "and" : "3D - FAN"
+                    }
+                  },
+                  "has" : "increases"
+                }
+              }
+            },
+            "from sentence" : "When considering the depth value , the performance discrepancy between our method and 3D - FAN increases ."
+          }
+        }
+      }
+    }
+  }
+}

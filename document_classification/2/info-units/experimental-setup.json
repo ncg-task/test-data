@@ -1,0 +1,42 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "conduct" : {
+        "large - scale reproducibility study" : {
+          "involving" : "HAN , XML - CNN , KimCNN , and SGM",
+          "from sentence" : "We conduct a large - scale reproducibility study involving HAN , XML - CNN , KimCNN , and SGM ."
+
+        }
+      },
+      "compare" : {
+        "neural approaches" : {
+          "to" : ["logistic regression ( LR )", "support vector machines ( SVMs )"],
+          "from sentence" : "In addition , we compare the neural approaches to logistic regression ( LR ) and support vector machines ( SVMs ) ."
+        }
+      },
+      "has" : {
+        "LR model" : {
+          "trained using" : "one - vs - rest multi-label objective"
+        },
+        "SVM" : {
+          "trained with" : "linear kernel",
+          "from sentence" : "The LR model is trained using a one - vs - rest multi-label objective , while the SVM is trained with a linear kernel ."
+        }
+      },
+      "performed on" : "Nvidia GTX 1080 and RTX 2080 Ti GPUs",
+      "with" : {
+        "PyTorch 0.4.1" : {
+          "as" : "backend framework"
+        },
+        "from sentence" : "All of our experiments are performed on Nvidia GTX 1080 and RTX 2080 Ti GPUs , with PyTorch 0.4.1 as the backend framework ."
+      },
+      "use" : {
+        "Scikitlearn 0.19.2" : {
+          "for computing" : "tf - idf vectors",
+          "implementing" : "LR and SVMs",
+          "from sentence" : "We use Scikitlearn 0.19.2 for computing the tf - idf vectors and implementing LR and SVMs ."
+        }
+      }
+    }
+  }
+}

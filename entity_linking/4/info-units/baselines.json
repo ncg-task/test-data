@@ -1,0 +1,48 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "BOW" : {
+          "using" : {
+            "logistic regression ( LR ) classifier" : {
+              "trained with" : "binary BOW features",
+              "from sentence" : "BOW is a conventional approach using a logistic regression ( LR ) classifier trained with binary BOW features to predict the correct answer ."
+            }
+          }
+        },
+        "BOW - DT" : {
+          "based on" : {
+            "BOW baseline" : {
+              "augmented with" : {
+                "feature set" : {
+                  "with" : "dependency relation indicators"
+                }
+              }
+            },
+            "from sentence" : "BOW - DT is based on the BOW baseline augmented with the feature set with dependency relation indicators ."
+          }
+        },
+        "QANTA" : {
+          "based on" : {
+            "recursive neural network" : {
+              "to derive" : {
+                "distributed representations" : {
+                  "of" : "questions"
+                }
+              }
+            },
+            "from sentence" : "QANTA is an approach based on a recursive neural network to derive the distributed representations of questions ."
+          }
+        },
+        "FTS - BRNN" : {
+          "based on" : {
+            "bidirectional recurrent neural network ( RNN )" : {
+              "with" : "gated recurrent units ( GRU )",
+              "from sentence" : "FTS - BRNN is based on the bidirectional recurrent neural network ( RNN ) with gated recurrent units ( GRU ) ."
+            }
+          }
+        }        
+      }      
+    }
+  }
+}

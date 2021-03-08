@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["Large - Scale Reading Comprehension", {"from sentence" : "MemoReader : Large - Scale Reading Comprehension through Neural Memory Controller"}],
+    ["Machine reading comprehension", {"from sentence" : "Machine reading comprehension helps machines learn to utilize most of the human knowledge written in the form of text ."}],
+    ["Reading comprehension ( RC )", {"from sentence" : "Reading comprehension ( RC ) to understand this knowledge is a major challenge that can vastly increase the range of knowledge available to the machines ."}],
+    ["RC", {"from sentence" : "In this paper , we propose a novel deep neural network architecture to handle a long - range dependency in RC tasks ."}]
+  ]
+}

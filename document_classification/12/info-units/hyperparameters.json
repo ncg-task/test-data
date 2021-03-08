@@ -1,0 +1,34 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "For" : {
+        "Text GCN" : {
+          "set" : {
+            "embedding size" : {
+              "of" : "first convolution layer",
+              "as" : "200"
+            },
+            "window size" : {
+              "as" : "20"
+            }
+          },
+          "from sentence" : "For Text GCN , we set the embedding size of the first convolution layer as 200 and set the window size as 20 ."
+        },
+        "baseline models" : {
+          "using" : {
+            "pre-trained word embeddings" : {
+              "used" : "300 dimensional Glo Ve word embeddings",
+              "from sentence" : "For baseline models using pre-trained word embeddings , we used 300 dimensional Glo Ve word embeddings ( Pennington , Socher , and Manning 2014 )"
+            }
+          }
+        }
+      },
+      "set" : {
+        "learning rate" : {
+          "as" : "0.02"
+        },
+        "from sentence" : "We tuned other parameters and set the learning rate as 0.02 , dropout For baseline models , we used default parameter settings as in their original papers or implementations ."
+      }
+    }
+  }
+}

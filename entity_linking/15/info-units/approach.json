@@ -1,0 +1,111 @@
+{
+  "has" : {
+    "Approach" : {
+      "perform" : {
+        "entity mention detection and entity disambiguation" : {
+          "has" : {
+            "jointly" : {
+              "in" : "single neural model"
+            }
+          },
+          "makes" : {
+            "whole process" : {
+              "has" : "end - to - end differentiable"
+            }
+          },
+          "from sentence" : "In this paper , we present an approach that tackles the challenges listed above : we perform entity mention detection and entity disambiguation jointly in a single neural model that makes the whole process end - to - end differentiable ."
+        }
+      },
+      "To overcome" : {
+        "noise" : {
+          "in" : "data",
+          "has" : {
+            "automatically learn" : {
+              "has" : {
+                "features" : {
+                  "over" : {
+                    "set" : {
+                      "of" : {
+                        "contexts" : {
+                          "of" : "different granularity levels"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "To overcome the noise in the data , we automatically learn features over a set of contexts of different granularity levels ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "Each level of granularity" : {
+          "handled by" : {
+            "separate component" : {
+              "of" : "model"
+            }
+          },
+          "from sentence" : "Each level of granularity is handled by a separate component of the model ."
+        },
+        "token - level component" : {
+          "extracts" : {
+            "higher - level features" : {
+              "from" : "whole question context"
+            }
+          }
+        },
+        "character - level component" : {
+          "builds" : {
+            "lower - level features" : {
+              "for" : "candidate n-gram"
+            }
+          },
+          "from sentence" : "A token - level component extracts higher - level features from the whole question context , whereas a character - level component builds lower - level features for the candidate n-gram ."
+        }
+      },
+      "extract" : {
+        "features" : {
+          "from" : {
+            "knowledge base context" : {
+              "of" : "candidate entity",
+              "has" : {
+                "character - level features" : {
+                  "extracted for" : "entity label"
+                },
+                "higher - level features" : {
+                  "based on" : {
+                    "entities" : {
+                      "surrounding" : {
+                        "candidate entity" : {
+                          "in" : "knowledge graph"
+                        }
+                      }
+                    }
+                  }
+                },
+                "from sentence" : "Simultaneously , we extract features from the knowledge base context of the candidate entity : character - level features are extracted for the entity label and higher - level features are produced based on the entities surrounding the candidate entity in the knowledge graph ."
+              }
+            }
+          },
+          "has" : "aggregated",
+          "used" : {
+            "to predict" : {
+              "has" : {
+                "n-gram" : {
+                  "is" : "entity mention",
+                  "has" : {
+                    "to what entity" : {
+                      "should be" : "linked"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "This information is aggregated and used to predict whether the n-gram is an entity mention and to what entity it should be linked ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

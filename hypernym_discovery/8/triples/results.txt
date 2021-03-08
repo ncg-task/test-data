@@ -1,0 +1,7 @@
+(Contribution||has||Results)
+(Results||has||lower scores)
+(lower scores||obtained for||multiword expressions)
+(Results||has||outperform)
+(outperform||has||random strategy)
+(Results||has||relations)
+(relations||has||not been very fruitful)

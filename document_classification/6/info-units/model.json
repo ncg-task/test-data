@@ -1,0 +1,62 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "interaction mechanism ( Wang and Jiang 2016 b )" : {
+          "capable of incorporating" : {
+            "word - level matching signals" : {
+              "for" : "text classification"
+            }
+          },
+          "from sentence" : "To address the aforementioned problems , we introduce the interaction mechanism ( Wang and Jiang 2016 b ) , which is capable of incorporating the word - level matching signals for text classification ." 
+        }
+      },
+      "Based upon" : {
+        "interaction mechanism" : {
+          "devise" : {
+            "EXplicit interAction Model" : {
+              "dubbed as" : "EXAM"
+            }
+          },
+          "from sentence" : "Based upon the interaction mechanism , we devise an EXplicit interAction Model ( dubbed as EXAM ) ."
+        }
+      },
+      "consists of" : {
+        "three main components" : {
+          "has" : ["word - level encoder", "interaction layer", "aggregation layer"],
+          "from sentence" : "Specifically , the proposed framework consists of three main components : word - level encoder , interaction layer , and aggregation layer ."
+        }
+      },
+      "has" : {
+        "word - level encoder" : {
+          "projects" : {
+            "textual contents" : {
+              "into" : "word - level representations"
+            }
+          },
+          "from sentence" : "The word - level encoder projects the textual contents into the word - level representations ."
+        },
+        "interaction layer" : {
+          "calculates" : {
+            "matching scores" : {
+              "between" : "words and classes",
+              "from sentence" : "Hereafter , the interaction layer calculates the matching scores between the words and classes ( i.e. , constructs the interaction matrix ) ."
+            }
+          }
+        },
+        "last layer" : {
+          "aggregates" : {
+            "matching scores" : {
+              "into" : {
+                "predictions" : {
+                  "over" : "each class"
+                }
+              }
+            },
+            "from sentence" : "Then , the last layer aggregates those matching scores into predictions over each class , respectively ."
+          }
+        }
+      }
+    }
+  }
+}

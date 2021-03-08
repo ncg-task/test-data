@@ -1,0 +1,66 @@
+{
+  "has" : {
+    "Model" : {
+      "demonstrate" : {
+        "simple feed - forward networks" : {
+          "without" : "any recurrence",
+          "achieve" : {
+            "comparable or better accuracies" : {
+              "than" : "LSTMs"
+            }
+          },
+          "has" : "globally normalized",
+          "from sentence" : "In this work we demonstrate that simple feed - forward networks without any recurrence can achieve comparable or better accuracies than LSTMs , as long as they are globally normalized ."
+        }
+      },
+      "uses" : ["transition system and feature embeddings", {"from sentence" : "Our model , described in detail in Section 2 , uses a transition system and feature embeddings as introduced by * On leave from Columbia University .."}],
+      "compute" : {
+        "gradients" : {
+          "based on" : "approximate global normalization"
+        }
+      },
+      "perform" : {
+        "full backpropagation training" : {
+          "of" : {
+            "all neural network parameters" : {
+              "based on" : "CRF loss"
+            }
+          },
+          "from sentence" : "We compute gradients based on this approximate global normalization and perform full backpropagation training of all neural network parameters based on the CRF loss ."
+        },        
+        "beam search" : {
+          "for maintaining" : "multiple hypotheses"
+        }
+      },
+      "introduce" : {
+        "global normalization" : {
+          "with" : "conditional random field ( CRF ) objective",
+          "to overcome" : "label bias problem"
+        },
+        "from sentence" : "We do not use any recurrence , but perform beam search for maintaining multiple hypotheses and introduce global normalization with a conditional random field ( CRF ) objective to overcome the label bias problem that locally normalized models suffer from ."
+      },
+      "use" : {
+        "beam inference" : {
+          "has" : {
+            "approximate" : {
+              "has" : {
+                "partition function" : {
+                  "by" : {
+                    "summing over" : {
+                      "has" : {
+                        "elements" : {
+                          "in" : "beam"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "use" : ["early updates", {"from sentence" : "Since we use beam inference , we approximate the partition function by summing over the elements in the beam , and use early updates ."}]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Dense face alignment" : {
+          "has" : {
+            "our 2 DASL" : {
+              "achieves" : {
+                "lowest NME" : {
+                  "on the evaluation of" : "2 D and 3D coordinates",
+                  "among" : "all the methods"                  
+                }
+              },
+              "from sentence" : "Dense face alignment
+The results are shown in , where we can see our 2 DASL achieves the lowest NME ( % ) on the evaluation of both 2 D and 3D coordinates among all the methods ."
+
+            },
+            "our method" : {
+              "achieves" : {
+                "lowest mean NME" : {
+                  "on" : "both of the two datasets"
+                },
+                "lowest NME" : {
+                  "across" : {
+                    "all poses" : {
+                      "on" : "AFLW2000 - 3D"
+                    }
+                  }
+                },
+                "from sentence" : "As can be observed , our method achieves the lowest mean NME on both of the two datasets , and the lowest NME across all poses on AFLW2000 - 3D ."
+              }
+            },
+            "Our 2DASL" : {
+              "performs" : {
+                "better" : {
+                  "than" : "PRNet"
+                }
+              },
+              "reducing" : {
+                "NME" : {
+                  "by" : "0.09 and 0.08",
+                  "on" : "AFLW2000 - 3D and AFLW - LFPA"
+                }
+              },
+              "from sentence" : "Our 2DASL even performs better than PRNet , reducing NME by 0.09 and 0.08 on AFLW2000 - 3D and AFLW - LFPA , respectively ."
+            }
+          },
+          "For" : {
+            "3 DMM - based methods" : {
+              "has" : ["3 DDFA and DeFA", 
+              {"our method" : {
+                "has" : {
+                  "outperforms" : {
+                    "by" : {
+                      "large margin" : {
+                        "on" : ["68 spare landmarks", "dense coordinates"]
+                      }
+                    }
+                  }
+                }
+              }}
+              ],
+              "from sentence" : "For 3 DMM - based methods : 3 DDFA and DeFA , our method outperforms them by a large margin on both the 68 spare landmarks and the dense coordinates ."
+            }
+          },
+          "on" : {
+            "large poses ( from 60 to 90 )" : {
+              "has" : {
+                "2 DASL" : {
+                  "achieves" : {
+                    "0.2 lower NME" : {
+                      "than" : "PRNet"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Es - pecially on large poses ( from 60 to 90 ) , 2 DASL achieves 0.2 lower NME than PRNet ."
+            }
+          }
+        },
+        "3 D face reconstruction" : {
+          "has" : {
+            "3D reconstruction results" : {
+              "of" : {
+                "2 DASL" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "3 DDFA",
+                      "by" : ["0.39", {"2.29" : {"for" : "DeFA"}}]
+                    }
+                  },
+                  "from sentence" : "3 D face reconstruction
+As can be seen , the 3D reconstruction results of 2 DASL outperforms 3 DDFA by 0.39 , and 2.29 for DeFA , which are significant improvements ."
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

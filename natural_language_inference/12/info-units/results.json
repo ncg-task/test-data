@@ -1,0 +1,86 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "BABI DIALOG" : {
+          "Without" : {
+            "any match type" : {
+              "has" : {
+                "RN and RMN" : {
+                  "has" : {
+                    "outperform" : {
+                      "has" : "previous memory - augmented models",
+                      "on" : "normal and OOV tasks"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "BABI DIALOG
+Without any match type , RN and RMN outperform previous memory - augmented models on both normal and OOV tasks ."
+
+            }
+          },
+          "converted" : {
+            "RMN 's attention component" : {
+              "to" : {
+                "inner product based attention" : {
+                  "has" : {
+                    "results" : {
+                      "revealed" : {
+                        "error rate" : {
+                          "increased to" : "11.3 %"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "We converted RMN 's attention component to inner product based attention , and the results revealed the error rate increased to 11.3 % ."
+                }
+              }
+            }
+          },
+          "has" : {
+            "number of unnecessary object pairs" : {
+              "created by" : "RN",
+              "increases" : "processing time",
+              "decreases" : "accuracy",
+              "from sentence" : "The number of unnecessary object pairs created by the RN not only increases the processing time but also decreases the accuracy ."
+            },
+            "RMN" : {
+              "yields" : {
+                "same error rate" : {
+                  "has" : "25.1 %",
+                  "with" : {
+                    "MemN2N and GMe m N2N" : {
+                      "on" : "task 3"
+                    }
+                  },
+                  "from sentence" : "Different from other tasks , RMN yields the same error rate 25.1 % with MemN2N and GMe m N2N on the task 3 ."
+                }
+              }
+            }
+          },
+          "With" : {
+            "match type feature" : {
+              "has" : {
+                "all models" : {
+                  "other than" : "RMN",
+                  "have" : {
+                    "significantly improved" : {
+                      "has" : "performance",
+                      "except for" : {
+                        "task 3" : {
+                          "compared to" : "plain condition"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "With the match type feature , all models other than RMN have significantly improved their performance except for task 3 compared to the plain condition ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

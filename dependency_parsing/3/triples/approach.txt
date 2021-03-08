@@ -1,0 +1,7 @@
+(Contribution||has||Approach)
+(Approach||study||impact)
+(impact||of||parser choice)
+(parser choice||on||biomedical event extraction)
+(Approach||investigate||current stateof - the - art ( SOTA ) approaches)
+(current stateof - the - art ( SOTA ) approaches||to||dependency parsing)
+(dependency parsing||applied to||biomedical texts)

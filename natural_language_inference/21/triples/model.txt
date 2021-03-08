@@ -1,0 +1,8 @@
+(Contribution||has||Model)
+(Model||place||another attention mechanism)
+(another attention mechanism||over||existing document - level attention)
+(Model||has||our model)
+(our model||automatically generate||attended attention)
+(attended attention||over||various document - level attentions)
+(Model||present||novel neural network architecture)
+(novel neural network architecture||called||attention - over - attention model)

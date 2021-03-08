@@ -1,0 +1,74 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "when" : {
+        "node U" : {
+          "is" : {
+            "shared" : {
+              "called" : "universal"
+            }
+          },
+          "learns" : {
+            "information interaction" : {
+              "between" : "question and passage"
+            }
+          },
+          "has" : {
+            "not shared" : {
+              "has" : {
+                "performance" : {
+                  "has" : "slightly degraded"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our results showed that when node U is shared , as it is called ' universal ' , it learns information interaction between the question and passage , and when it is not shared , the performance slightly degraded ."
+        }
+      },
+      "sharing" : {
+        "BiLSTM" : {
+          "has" : {
+            "effective method" : {
+              "improve" : {
+                "quality" : {
+                  "of" : "encoder"
+                }
+              }
+            }
+          },
+          "from sentence" : "Results show that the performance dropped slightly , suggesting sharing BiLSTM is an effective method to improve the quality of the encoder ."
+        }
+      },
+      "After removing" : {
+        "plausible answer pointer" : {
+          "has" : {
+            "performance" : {
+              "has" : "dropped"
+            }
+          },
+          "from sentence" : "After removing the plausible answer pointer , the performance also dropped , indicating the plausible answers are useful to improve the model even though they are incorrect ."
+        },
+        "answer verifier" : {
+          "has" : {
+            "performance" : {
+              "dropped" : "greatly",
+              "from sentence" : "After removing the answer verifier , the performance dropped greatly , indicating it is vital for our model ."
+            }
+          }
+        }
+      },
+      "In" : {
+        "second block ( multi - level attention )" : {
+          "of" : "U - Net",
+          "split" : {
+            "output" : {
+              "of" : "encoded presentation",
+              "pass through" : "self - attention layer"
+            }
+          },
+          "from sentence" : "In the second block ( multi - level attention ) of the U - Net , we do not split the output of the encoded presentation and let it pass through a self - attention layer ."
+        }
+      }
+    }
+  }
+}

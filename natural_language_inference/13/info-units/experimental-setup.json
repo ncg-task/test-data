@@ -1,0 +1,52 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "train" : {
+        "our model" : {
+          "used" : {
+            "stochastic gradient descent" : {
+              "with" : ["ADAM optimizer ( Kingma and Ba , 2014 )", {"initial learning rate" : {"of" : "0.001"}}],
+              "from sentence" : "To train our model we used stochastic gradient descent with the ADAM optimizer ( Kingma and Ba , 2014 ) , with an initial learning rate of 0.001 ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "word embeddings" : {
+          "initialized" : "randomly",
+          "drawing from" : "uniform distribution",
+          "from sentence" : "The word embeddings were initialized randomly , drawing from the uniform distribution over ."
+        },
+        "model" : {
+          "implement in" : {
+            "Theano" : {
+              "using" : "Keras framework"
+            },
+            "from sentence" : "Our model was implement in Theano using the Keras framework ."
+          }
+        },
+        "All our models" : {
+          "used" : {
+            "regularization" : {
+              "at" : "0.001 , ? = 50 , and ? = 0.04",
+              "from sentence" : "All our models used 2 - regularization at 0.001 , ? = 50 , and ? = 0.04 ."
+            }
+          }
+        }
+      },
+      "used" : {
+        "batches" : {
+          "of" : "32 examples"
+        },
+        "early stopping" : {
+          "with" : {
+            "patience" : {
+              "of" : "2 epochs"
+            }
+          }
+        },
+        "from sentence" : "We used batches of 32 examples , and early stopping with a patience of 2 epochs ."
+      }
+    }
+  }
+}

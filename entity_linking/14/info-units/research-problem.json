@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["Knowledge - based Word Sense Disambiguation", {"from sentence" : "Knowledge - based Word Sense Disambiguation using Topic Models"}],
+    ["Disambiguation", {"from sentence" : "Disambiguation is an open problem in Natural Language Processing which is particularly challenging and useful in the unsupervised setting where all the words in any given text need to be disambiguated without using any labeled data ."}],
+    ["WSD", {"from sentence" : "Typically WSD systems use the sentence or a small window of words around the target word as the context for disambiguation because their computational complexity scales exponentially with the size of the context ."}],
+    ["Word Sense Disambiguation ( WSD )", {"from sentence" : "Word Sense Disambiguation ( WSD ) is the task of mapping an ambiguous word in a given context to its correct meaning ."}]
+  ]
+}

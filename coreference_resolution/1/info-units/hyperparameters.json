@@ -1,0 +1,32 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "pretrain" : {
+          "has" : "our model",
+          "for" : "around 200 K steps"
+        }
+      },
+      "use" : {
+        "learned parameters" : {
+          "for" : "initialization"
+        },
+        "from sentence" : "Experiments
+First , we pretrain our model using Eq. ( 4 ) for around 200 K steps and use the learned parameters for initialization ."
+
+      },
+      "set" : {
+        "number" : {
+          "of" : "sampled trajectories"
+        }
+      },
+      "tune" : {
+        "regularization parameter" : {
+          "in" : "{ 10 ?5 , 10 ?4 , 0.001 , 0.01 , 0.1 , 1 }",
+          "set" : "10 ? 4"
+        },
+        "from sentence" : "Besides , we set the number of sampled trajectories N s = 100 , tune the regularization parameter ? expr in { 10 ?5 , 10 ?4 , 0.001 , 0.01 , 0.1 , 1 } and set it to 10 ? 4 based on the development set ."
+      }
+    }
+  }
+}

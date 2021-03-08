@@ -1,0 +1,50 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "perform" : {
+        "experiments" : {
+          "based on" : {
+            "machine" : {
+              "with" : [{"Core i7 - 5930 k CPU" : {"has" : "32 GB memory"}}, {"GTX 1080 GPU" : {"with" : "8G video memory"}}]
+            }
+          },
+          "from sentence" : "We perform the experiments based on a machine with Core i7 - 5930 k CPU , 32 GB memory and GTX 1080 GPU with 8G video memory ."
+        }
+      },
+      "has" : {
+        "detected faces" : {
+          "resized into" : "256 256"
+        },
+        "location patch size" : {
+          "is" : "57 57",
+          "from sentence" : "The detected faces are resized into 256 256 and the location patch size is 57 57 ."
+        }
+      },
+      "For" : {
+        "CNN structure" : {
+          "has" : {
+            "Rectified Linear Unit ( ReLU )" : {
+              "adopted as" : "activation function"
+            },
+            "optimizer" : {
+              "is" : "Adadelta ( Zeiler 2012 ) approach"
+            },
+            "learning rate" : {
+              "set to" : "0.1"
+            },
+            "weight decay" : {
+              "set to" : "1 e ?"
+            }
+          },
+          "from sentence" : "For CNN structure , the Rectified Linear Unit ( ReLU ) is adopted as the activation function , and the optimizer is the Adadelta ( Zeiler 2012 ) approach , learning rate is set to 0.1 and weight decay is set to 1 e ?"
+        }
+      },
+      "Training" : {
+        "CNN" : {
+          "requires" : "around 2 days",
+          "from sentence" : "4 . Training the CNN requires around 2 days ."
+        }
+      }
+    }
+  }
+}

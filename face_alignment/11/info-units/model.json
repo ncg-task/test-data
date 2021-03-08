@@ -1,0 +1,121 @@
+{
+  "has" : {
+    "Model" : {
+      "presents" : {
+        "method" : {
+          "for" : {
+            "training" : {
+              "has" : {
+                "regression network" : {
+                  "to reproduce" : "image pixels",
+                  "removes" : [{"need" : {"for" : "supervised training data"}}, {"reliance" : {"on" : "inverse rendering"}}],
+                  "from sentence" : "This paper presents a method for training a regression network that removes both the need for supervised training data and the reliance on inverse rendering to reproduce image pixels ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "has" : {
+        "network" : {
+          "learns to" : {
+            "minimize" : {
+              "has" : {
+                "loss" : {
+                  "based on" : {
+                    "facial identity features" : {
+                      "produced by" : {
+                        "face recognition network" : {
+                          "such as" : ["VGG - Face", "Google 's FaceNet"]
+                        }
+                      },
+                      "from sentence" : "Instead , the network learns to minimize a loss based on the facial identity features produced by a face recognition network such as VGG - Face or Google 's FaceNet ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "exploit" : {
+        "invariance" : {
+          "to apply" : {
+            "loss" : {
+              "matches" : {
+                "identity features" : {
+                  "between" : ["input photograph", {"synthetic rendering" : {"of" : "predicted face"}}]
+                }
+              },
+              "from sentence" : "We exploit this invariance to apply a loss that matches the identity features between the input photograph and a synthetic rendering of the predicted face ."
+            }
+          }
+        }
+      },
+      "alleviate" : {
+        "fooling problem" : {
+          "by applying" : {
+            "three novel losses" : {
+              "has" : {
+                "batch distribution loss" : {
+                  "to match" : {
+                    "statistics" : {
+                      "of" : {
+                        "each training batch" : {
+                          "to" : "morphable model"
+                        }
+                      }
+                    }
+                  }
+                },
+                "loopback loss" : {
+                  "to ensure" : {
+                    "regression network" : {
+                      "has" : {
+                        "correctly reinterpret" : {
+                          "has" : "own output"
+                        }
+                      }
+                    }
+                  }
+                },
+                "multi-view identity loss" : {
+                  "combines" : {
+                    "features" : {
+                      "from" : {
+                        "multiple , independent views" : {
+                          "of" : "predicted shape"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "We alleviate the fooling problem by applying three novel losses : a batch distribution loss to match the statistics of each training batch to the statistics of the morphable model , a loopback loss to ensure the regression network can correctly reinterpret its own output , and a multi-view identity loss that combines features from multiple , independent views of the predicted shape ."
+          }
+        }
+      },
+      "train" : {
+        "3D shape and texture regression network" : {
+          "using only" : ["face recognition network", "morphable face model", {"dataset" : {"of" : "unlabeled face images"}}],
+          "from sentence" : "Using this scheme , we train a 3D shape and texture regression network using only a face recognition network , a morphable face model , and a dataset of unlabeled face images ."
+        }
+      },
+      "show" : { 
+        "3D face results" : {
+          "has" : {
+            "improve" : {
+              "on" : {
+                "accuracy" : {
+                  "of" : "previous work"
+                }
+              }
+            }
+          },
+          "from sentence" : "We show that despite learning from unlabeled photographs , the 3D face results improve on the accuracy of previous work and are often recognizable as the original subjects ."
+        }
+      }
+    }
+  }
+}

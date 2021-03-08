@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Face detection and alignment in unconstrained environment", {"from sentence" : "Abstract - Face detection and alignment in unconstrained environment are challenging due to various poses , illuminations and occlusions ."}],
+    ["face detection and face alignment", {"from sentence" : "However , most of the available face detection and face alignment methods ignore the inherent correlation between these two tasks ."}]
+  ]
+}

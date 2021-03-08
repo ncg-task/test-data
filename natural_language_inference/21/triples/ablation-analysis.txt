@@ -1,0 +1,8 @@
+(Contribution||has||Ablation analysis)
+(Ablation analysis||found that||NE and CN category)
+(NE and CN category||has||benefit a lot)
+(benefit a lot||from||re-ranking features)
+(Ablation analysis||has||NE category)
+(NE category||has||performance)
+(performance||has||mainly boosted)
+(mainly boosted||by||LM local feature)

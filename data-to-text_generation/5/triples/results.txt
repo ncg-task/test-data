@@ -1,0 +1,5 @@
+(Contribution||has||Results)
+(Results||has||StrongNeural and BestPlan systems)
+(StrongNeural and BestPlan systems||has||outperform)
+(outperform||has||all the WebNLG participating systems)
+(outperform||on||all automatic metrics)

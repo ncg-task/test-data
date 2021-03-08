@@ -1,0 +1,121 @@
+{
+  "has" : {
+    "Results" : {
+      "find that" : {
+        "multi-task training" : {
+          "yields" : {
+            "better overall scores" : {
+              "over" : {
+                "single - task training" : {
+                  "amongst" : {
+                    "models" : {
+                      "using" : "attention or ELMo"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "We find that multi-task training yields better overall scores over single - task training amongst models using attention or ELMo ."
+            }
+          }
+        },
+        "sentence representation models" : {
+          "has" : {
+            "substantially underperform" : {
+              "on" : "CoLA",
+              "compared to" : {
+                "models" : {
+                  "trained on" : "task"
+                }
+              },
+              "from sentence" : "Looking at results per task , we find that the sentence representation models substantially underperform on CoLA compared to the models directly trained on the task ."
+            }
+          }
+        }
+      },
+      "see" : {
+        "consistent improvement" : {
+          "in using" : {
+            "ELMo embeddings" : {
+              "in place of" : "GloVe or CoVe embeddings"
+            }
+          },
+          "particularly for" : "single - sentence tasks",
+          "from sentence" : "We see a consistent improvement in using ELMo embeddings in place of GloVe or CoVe embeddings , particularly for single - sentence tasks ."
+        }
+      },
+      "Among" : {
+        "pre-trained sentence representation models" : {
+          "observe" : {
+            "fairly consistent gains" : {
+              "moving from" : "CBoW to Skip - Thought to Infersent and GenSen"
+            }
+          },
+          "from sentence" : "Among the pre-trained sentence representation models , we observe fairly consistent gains moving from CBoW to Skip - Thought to Infersent and GenSen ."
+        }
+      },
+      "Relative to" : {
+        "models" : {
+          "trained directly on" : "GLUE tasks",
+          "has" : {
+            "InferSent" : {
+              "has" : "competitive"
+            },
+            "GenSen" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : "all but the two best"
+                }
+              }
+            }
+          },
+          "from sentence" : "Relative to the models trained directly on the GLUE tasks , InferSent is competitive and GenSen outperforms all but the two best ."
+        }
+      },
+      "for" : {
+        "STS - B" : {
+          "has" : {
+            "models" : {
+              "trained directly on" : "task",
+              "has" : {
+                "lag" : {
+                  "has" : {
+                    "significantly behind" : {
+                      "has" : {
+                        "performance" : {
+                          "of" : "best sentence representation model"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "On the other hand , for STS - B , models trained directly on the task lag significantly behind the performance of the best sentence representation model ."
+            }
+          }
+        }
+      },
+      "On" : {
+        "WNLI" : {
+          "has" : {
+            "no model" : {
+              "has" : {
+                "exceeds" : {
+                  "has" : "most - frequent - class guessing ( 65.1 % )"
+                }
+              }
+            }
+          },
+          "from sentence" : "On WNLI , no model exceeds most - frequent - class guessing ( 65.1 % ) and we substitute the model predictions for the most -frequent baseline ."
+        },
+        "RTE and in aggregate" : {
+          "has" : {
+            "our best baselines" : {
+              "has" : "room for improvement"
+            }
+          },
+          "from sentence" : "On RTE and in aggregate , even our best baselines leave room for improvement ."
+        }
+      }
+    }
+  }  
+}

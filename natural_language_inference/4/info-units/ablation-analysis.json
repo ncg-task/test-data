@@ -1,0 +1,36 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "assume" : {
+        "concatenation" : {
+          "of" : {
+            "layer outputs" : {
+              "in" : "DEBS",
+              "helps" : {
+                "memory controller" : {
+                  "store" : "contextual representations"
+                }
+              }
+            }
+          },
+          "from sentence" : "We assume that the concatenation of the layer outputs in DEBS helps the memory controller store contextual representations clearly ."
+        }
+      },
+      "using" : {
+        "DEBS" : {
+          "in" : "all the places",
+          "has" : {
+            "improves" : {
+              "has" : ["performance", "most"]
+            }
+          }
+        },
+        "memory controller" : {
+          "with" : "DEBS",
+          "gives" : "largest performance margin"
+        },
+        "from sentence" : "As can be seen in , using DEBS in all the places improves the performance most , and furthermore , the memory controller with DEBS gives the largest performance margin ."
+      }
+    }
+  }
+}

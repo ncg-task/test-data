@@ -1,0 +1,122 @@
+{
+  "has" : {
+    "Approach" : {
+      "utilize" : {
+        "two network decoders" : {
+          "instead of" : "two PCA spaces",
+          "as" : "shape and texture model components",
+          "from sentence" : "Hence , we utilize two network decoders , instead of two PCA spaces , as the shape and texture model components , respectively ."
+        }
+      },
+      "design" : {
+        "different networks" : {
+          "for" : {
+            "shape and texture" : {
+              "has" : {
+                "multi - layer perceptron ( MLP )" : {
+                  "for" : "shape"
+                },
+                "convolutional neural network ( CNN )" : {
+                  "for" : "texture"
+                }
+              },
+              "from sentence" : "With careful consideration of each component , we design different networks for shape and texture : the multi - layer perceptron ( MLP ) for shape and convolutional neural network ( CNN ) for texture ."
+            }
+          }
+        },
+        "differentiable rendering layer" : {
+          "to generate" : {
+            "reconstructed face" : {
+              "by fusing" : ["3D face", "texture", {"camera projection parameters" : {"estimated by" : "encoder"}}],
+              "from sentence" : "Therefore , we design a differentiable rendering layer to generate a reconstructed face by fusing the 3D face , texture , and the camera projection parameters estimated by the encoder ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "Each decoder" : {
+          "take" : {
+            "shape or texture representation" : {
+              "as" : "input"
+            }
+          },
+          "output" : "dense 3 D face or a face texture",
+          "from sentence" : "Each decoder will take a shape or texture representation as input and output the dense 3 D face or a face texture ."
+        },
+        "encoder" : {
+          "takes" : {
+            "2 D face image" : {
+              "as" : "input"
+            }
+          },
+          "generates" : {
+            "shape and texture parameters" : {
+              "from which" : {
+                "two decoders" : {
+                  "estimate" : "3D face and texture"
+                }
+              }
+            }
+          },
+          "from sentence" : "The encoder takes a 2 D face image as input and generates the shape and texture parameters , from which two decoders estimate the 3D face and texture ."
+        },
+        "3 D face and texture" : {
+          "has" : {
+            "perfectly reconstruct" : {
+              "has" : "input face",
+              "if" : {
+                "fitting algorithm and 3 DMM" : {
+                  "has" : "well learnt"
+                }
+              }
+            }
+          },
+          "from sentence" : "The 3 D face and texture would perfectly reconstruct the input face , if the fitting algorithm and 3 DMM are well learnt ."
+        },
+        "endto - end learning scheme" : {
+          "has" : {
+            "encoder and two decoders" : {
+              "learnt" : "jointly",
+              "to minimize" : {
+                "difference" : {
+                  "between" : ["reconstructed face", "input face"]
+                }
+              }
+            }
+          },
+          "from sentence" : "Finally , the endto - end learning scheme is constructed where the encoder and two decoders are learnt jointly to minimize the difference between the reconstructed face and the input face ."
+        },
+        "Jointly learning" : {
+          "has" : "3 DMM and the model fitting encoder",
+          "leverage": { 
+            "large collection" : {
+              "of" : {
+                "unconstrained 2D images" : {
+                  "without relying on" : "3D scans"
+                }
+              }
+            }
+          },
+          "from sentence" : "Jointly learning the 3 DMM and the model fitting encoder allows us to leverage the large collection of unconstrained 2D images without relying on 3D scans ."
+        }
+      },
+      "learn" : {
+        "fitting algorithm" : {
+          "to" : "our nonlinear 3 DMM",
+          "formulated as" : "CNN encoder",
+          "from sentence" : "Further , we learn the fitting algorithm to our nonlinear 3 DMM , which is formulated as a CNN encoder ."
+        }
+      },
+      "show" : {
+        "significantly improved" : {
+          "has" : {
+            "shape and texture representation power" : {
+              "over" : "linear 3 DMM",
+              "from sentence" : "We show significantly improved shape and texture representation power over the linear 3 DMM ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+(Contribution||has||Baselines)
+(Baselines||report||TAGbaseline ( TAG BL ))
+(TAGbaseline ( TAG BL )||randomly chooses||candidate)
+(candidate||with||constituent tag label)
+(constituent tag label||in||{S , VP , ROOT , SBAR })
+(Baselines||report||preceding sentence baseline ( PS BL ))
+(preceding sentence baseline ( PS BL )||chooses||previous sentence)
+(previous sentence||for||antecedent)

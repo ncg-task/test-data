@@ -1,0 +1,105 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Zero - shot cross - lingual document classification" : {
+              "has" : {
+                "classifiers" : {
+                  "based on" : "MultiCCA embeddings",
+                  "perform" : {
+                    "very well" : {
+                      "on" : "development corpus",
+                      "has" : {
+                        "accuracies" : {
+                          "has" : "close or exceeding 90 %"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Zero - shot cross - lingual document classification
+The classifiers based on the MultiCCA embeddings perform very well on the development corpus ( accuracies close or exceeding 90 % ) ."
+
+                },
+                "system" : {
+                  "trained on" : "English",
+                  "transfered to" : "different languages",
+                  "scores" : {
+                    "best" : {
+                      "for" : {
+                        "three" : {
+                          "out of" : "seven languages",
+                          "has" : ["DE", "IT", "ZH"]
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "The system trained on English also achieves excellent results when transfered to a different languages , it scores best for three out of seven languages ( DE , IT and ZH ) ."
+                },
+                "transfer accuracies" : {
+                  "has" : {
+                    "quite low" : {
+                      "when training" : {
+                        "classifiers" : {
+                          "on" : {
+                            "other languages" : {
+                              "than" : "English",
+                              "in particular for" : ["Russian", "Chinese", "Japanese"]
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "However , the transfer accuracies are quite low when training the classifiers on other languages than English , in particular for Russian , Chinese and Japanese ."
+                    }
+                  }
+                },
+                "systems" : {
+                  "using" : "multilingual sentence embeddings",
+                  "seem to be" : ["more robust", "less language specific"],
+                  "from sentence" : "The systems using multilingual sentence embeddings seem to be over all more robust and less language specific ."
+                },
+                "Training" : {
+                  "on" : {
+                    "German or French" : {
+                      "leads to" : {
+                        "better transfer performance" : {
+                          "than" : {
+                            "training" : {
+                              "on" : "English"
+                            }
+                          }
+                        }
+                      },
+                      "from sentence" : "Training on German or French actually leads to better transfer performance than training on English ."
+                    }
+                  }
+                },
+                "Crosslingual transfer" : {
+                  "between" : {
+                    "very different languages" : {
+                      "like" : "Chinese and Russian",
+                      "achieves" : "remarkable results"
+                    }
+                  },
+                  "from sentence" : "Crosslingual transfer between very different languages like Chinese and Russian also achieves remarkable results ."
+                }
+              }
+            },
+            "Joint multilingual document classification" : {
+              "leads to" : {
+                "important improvement" : {
+                  "for" : "all languages",
+                  "in comparison to" : "zero - shot or targeted transfer learning"
+                },
+                "from sentence" : "Joint multilingual document classification
+This leads to important improvement for all languages , in comparison to zero - shot or targeted transfer learning ."
+
+              }
+            }
+          }
+        }
+      }
+    }
+  }  
+}

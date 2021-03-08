@@ -1,0 +1,105 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "138 times lighter" : {
+          "in" : "model size"
+        },
+        "28.3 , 19.2 , and 11 times lighter" : {
+          "in" : "Madds",
+          "from sentence" : "The results in 138 times lighter in model size and are 28.3 , 19.2 , and 11 times lighter in Madds ."
+        },
+        "margin" : {
+          "between" : {
+            "PyramidBox and the proposed model" : {
+              "on" : "WIDER FACE hard case"
+            }
+          },
+          "was" : "3.4 %",
+          "from sentence" : "The margin between PyramidBox and the proposed model on WIDER FACE hard case was 3.4 % ."
+        },
+        "m AP gap to DSFD" : {
+          "has" : {
+            "tremendously heavier" : {
+              "about" : "5.0 %"
+            }
+          },
+          "from sentence" : "The m AP gap to DSFD , which is tremendously heavier , is about 5.0 % , but it would be safe to suggest that the proposed method offers more decent trade - off in that DSFD uses about 2860 times more parameters than the proposed method ."
+        },
+        "our SSD - based variations" : {
+          "got" : {
+            "lower mAP results" : {
+              "than" : "FPN - based variants"
+            }
+          },
+          "from sentence" : "When it comes to our SSD - based variations , they got lower mAP results than FPN - based variants ."
+        }
+      },
+      "compared to" : {
+        "SOTA face detectors" : {
+          "such as" : "Pyra - midBox and DSFD",
+          "has" : {
+            "our best model EXTD - FPN - 64 - PReLU" : {
+              "achieved" : "lower results"
+            }
+          }
+        },
+        "from sentence" : "When compared to SOTA face detectors such as Pyra - midBox and DSFD , our best model EXTD - FPN - 64 - PReLU achieved lower results ."
+      },
+      "compared with" : {
+        "S3FD version" : {
+          "trained with" : "Mo - bile FaceNet backbone network",
+          "has" : {
+            "proposed SSD variants" : {
+              "achieved" : "comparable or better detection performance"
+            }
+          },
+          "from sentence" : "However , when compared with the S3FD version trained with Mo - bile FaceNet backbone network , the proposed SSD variants achieved comparable or better detection performance ."
+        }
+      },
+      "see that" : {
+        "our method" : {
+          "achieved" : {
+            "higher performance" : {
+              "in" : "WIDER FACE hard dataset"
+            }
+          },
+          "from sentence" : "From the table , we can see that our method achieved higher performance in WIDER FACE hard dataset than other cases ."
+        }
+      },
+      "for" : {
+        "different channel width" : {
+          "has" : {
+            "FPN based architecture" : {
+              "achieved" : {
+                "better detection performance" : {
+                  "compared to" : "SSD based architecture"
+                }
+              }
+            }
+          },
+          "from sentence" : "First , for all the different channel width , FPN based architecture achieved better detection performance compared to SSD based architecture , especially for detecting small faces ."
+        }
+      },
+      "When tested with" : {
+        "SSD based architecture" : {
+          "has" : {
+            "PReLU" : {
+              "has" : {
+                "outperformed" : {
+                  "has" : "Leaky - ReLU",
+                  "with" : {
+                    "larger margin" : {
+                      "than those using" : "FPN structure"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "When tested with SSD based architecture , PReLU outperformed Leaky - ReLU with larger margin than those using FPN structure ."
+        }
+      }
+    }
+  }
+}

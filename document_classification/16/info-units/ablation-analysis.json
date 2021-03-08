@@ -1,0 +1,47 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "found" : {
+        "single convolutional layer" : {
+          "with" : "filter length 3",
+          "has" : {
+            "always outperforms" : {
+              "has" : "other cases"
+            }
+          },
+          "from sentence" : "However , we found in our experiments that single convolutional layer with filter length 3 always outperforms the other cases ."
+        }
+      },
+      "shown" : {
+        "single convolutional layer" : {
+          "with" : "filter length 3",
+          "performs" : {
+            "best" : {
+              "among" : "all filter configurations"
+            }
+          },
+          "from sentence" : "It it shown that single convolutional layer with filter length 3 performs best among all filter configurations ."
+        }
+      },
+      "For" : {
+        "multiple convolutional layers" : {
+          "in" : "parallel",
+          "shown that" : {
+            "filter configurations" : {
+              "with" : {
+                "filter length 3" : {
+                  "has" : {
+                    "performs better" : {
+                      "that" : "without tri-gram filters"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "For the case of multiple convolutional layers in parallel , it is shown that filter configurations with filter length 3 performs better that those without tri-gram filters , which further confirms that tri-gram features do play a significant role in capturing local features in our tasks ."
+        }
+      }
+    }
+  }
+}

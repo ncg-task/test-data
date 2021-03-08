@@ -1,0 +1,28 @@
+{
+  "has" : {
+    "Model" : {
+      "show that" : {
+        "CWEs" : {
+          "utilized" : {
+            "directly" : {
+              "to approach" : "WSD task",
+              "from sentence" : "We show that CWEs can be utilized directly to approach the WSD task due to their nature of providing distinct vector representations for the same token depending on its context ."
+            }
+          }
+        }
+      },
+      "To learn" : {
+        "semantic capabilities" : {
+          "of" : "CWEs",
+          "employ" : {
+            "simple , yet interpretable approach" : {
+              "to" : "WSD",
+              "using" : "k -nearest neighbor classification ( kNN ) approach"
+            },
+            "from sentence" : "To learn the semantic capabilities of CWEs , we employ a simple , yet interpretable approach to WSD using a k -nearest neighbor classification ( kNN ) approach ."
+          }
+        }
+      }
+    }    
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["robust face alignment", {"from sentence" : "Deep Alignment Network : A convolutional neural network for robust face alignment"}],
+    ["face alignment", {"from sentence" : "The goal of face alignment is to localize a set of predefined facial landmarks ( eye corners , mouth corners etc. ) in an image of a face ."}]
+  ]
+}

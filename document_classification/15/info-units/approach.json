@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Approach" : {
+      "has" : {
+        "adversarial and virtual adversarial training" : {
+          "to" : ["text classification tasks", "sequence models"],
+          "from sentence" : "Previous work has primarily applied adversarial and virtual adversarial training to image classification tasks .
+In this work , we extend these techniques to text classification tasks and sequence models ."
+
+        },
+        "Adversarial perturbations" : {
+          "consist of" : {
+            "small modifications" : {
+              "to" : "very many real - valued inputs"
+            }
+          },
+          "from sentence" : "Adversarial perturbations typically consist of making small modifications to very many real - valued inputs ."
+        }
+      },
+      "For" : {
+        "text classification" : {
+          "has" : {
+            "input" : {
+              "is" : "discrete",
+              "represented as" : {
+                "series" : {
+                  "of" : "highdimensional one - hot vectors"
+                }
+              }
+            }
+          },
+          "from sentence" : "For text classification , the input is discrete , and usually represented as a series of highdimensional one - hot vectors ."
+        }
+      },
+      "define" : {
+        "perturbation" : {
+          "on" : {
+            "continuous word embeddings" : {
+              "instead of" : "discrete word inputs"
+            }
+          },
+          "from sentence" : "Because the set of high - dimensional one - hot vectors does not admit infinitesimal perturbation , we define the perturbation on continuous word embeddings instead of discrete word inputs ."
+        }
+      },
+      "as a means of" : {
+        "regularizing" : {
+          "has" : "text classifier",
+          "by" : {
+            "stabilizing" : {
+              "has" : "classification function"
+            }
+          },
+          "from sentence" : "We thus propose this approach exclusively as a means of regularizing a text classifier by stabilizing the classification function ."
+        }
+      }
+    }
+  }
+}

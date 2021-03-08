@@ -1,0 +1,94 @@
+{
+  "has" : {
+    "Model" : {
+      "has" : {
+        "three sub - tasks" : {
+          "has" : ["answer pointer", "no - answer pointer", "answer verifier"],
+          "from sentence" : "In this paper , we decompose the problem of MRC with unanswerable questions into three sub - tasks : answer pointer , no - answer pointer , and answer verifier ."
+        },
+        "universal node" : {
+          "acts on" : {
+            "both question and passage" : {
+              "to learn" : {
+                "question" : {
+                  "is" : "answerable"
+                }
+              },
+              "from sentence" : "The universal node acts on both question and passage to learn whether the question is answerable ."
+            }
+          }
+        }
+      },
+      "propose" : {
+        "U - Net" : {
+          "to incorporate" : {
+            "three sub - tasks" : {
+              "into" : {
+                "unified model" : {
+                  "has" : {
+                    "answer pointer" : {
+                      "to predict" : {
+                        "can - didate answer span" : {
+                          "for" : "question"
+                        }
+                      }
+                    },
+                    "no -answer pointer" : {
+                      "to avoid" : {
+                        "selecting" : {
+                          "has" : "any text span",
+                          "when" : {
+                            "question" : {
+                              "has" : "no answer"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "answer verifier" : {
+                      "to determine" : {
+                        "probability" : {
+                          "of" : {
+                            "unanswerability" : {
+                              "of" : {
+                                "question" : {
+                                  "with" : "candidate answer information"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "from sentence" : "We propose the U - Net to incorporate these three sub - tasks into a unified model :
+1 ) an answer pointer to predict a can - didate answer span for a question ; 2 ) a no -answer pointer to avoid selecting any text span when a question has no answer ; and 3 ) an answer verifier to determine the probability of the \" unanswerability \" of a question with candidate answer information ."
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "introduce" : "universal node",
+      "process" : {
+        "question and its context passage" : {
+          "as" : {
+            "single contiguous sequence of tokens" : {
+              "has" : {
+                "greatly improves" : {
+                  "has" : {
+                    "conciseness" : {
+                      "of" : "U - Net"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Additionally , we also introduce a universal node and process the question and its context passage as a single contiguous sequence of tokens , which greatly improves the conciseness of U - Net ."
+        }
+      }
+    }
+  }
+}

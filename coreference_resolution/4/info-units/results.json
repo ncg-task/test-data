@@ -1,0 +1,128 @@
+{
+  "has" : {
+    "Results" : {
+      "In terms of" : {
+        "s@1 score" : {
+          "has" : {
+            "MR - LSTM" : {
+              "has" : {
+                "outperforms" : {
+                  "both" : ["KZH13 's results", "TAG BL"],
+                  "without even necessitating" : "HP tuning"
+                }
+              },
+              "from sentence" : "In terms of s@1 score , MR - LSTM outperforms both KZH13 's results and TAG BL without even necessitating HP tuning ."
+            }
+          }
+        }
+      },
+      "observe" : {
+        "with HPs" : {
+          "tuned on" : "ARRAU - AA",
+          "obtain" : {
+            "results" : {
+              "has" : {
+                "well beyond" : {
+                  "has" : "KZH13"
+                }
+              }
+            }
+          },
+          "has" : {
+            "all ablated model variants" : {
+              "perform" : {
+                "worse" : {
+                  "than" : "full model"
+                }
+              }
+            },
+            "large performance drop" : {
+              "when" : {
+                "omitting" : {
+                  "has" : "syntactic information"
+                }
+              },
+              "from sentence" : "From we observe : ( 1 ) with HPs tuned on ARRAU - AA , we obtain results well beyond KZH13 , ( 2 ) all ablated model variants perform worse than the full model , ( 3 ) a large performance drop when omitting syntactic information ( tag , cut ) suggests that the model makes good use of it ."
+            }
+          }
+        }
+      },
+      "Performance of" : {
+        "68.10 s@1 score" : {
+          "indicates" : {
+            "model" : {
+              "learn" : "without syntactic guidance"
+            }
+          },
+          "from sentence" : "Performance of 68.10 s@1 score indicates that the model is able to learn without syntactic guidance , contrary to the 19.68 s@1 score before tuning ."
+        }
+      },
+      "on" : {
+        "ARRAU corpus" : {
+          "has" : {
+            "MR - LSTM" : {
+              "has" : {
+                "more successful" : {
+                  "has" : {
+                    "resolving" : {
+                      "has" : {
+                        "nominal" : {
+                          "than" : "pronominal anaphors"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Results on the ARRAU corpus
+The MR - LSTM is more successful in resolving nominal than pronominal anaphors , although the training data provides only pronominal ones ."
+
+                }
+              }
+            }
+          }
+        }
+      },
+      "for" : {
+        "shell noun resolution" : {
+          "in" : "KZH13 's dataset",
+          "has" : {
+            "MR - LSTM" : {
+              "achieved" : {
+                "s@1 scores" : {
+                  "in the range" : "76.09-93.14"
+                }
+              }
+            },
+            "best variant" : {
+              "of" : {
+                "model" : {
+                  "achieves" : "51.89 s@1 score",
+                  "for" : {
+                    "nominal anaphors" : {
+                      "in" : "ARRAU - AA"
+                    }
+                  } 
+                }
+              }
+            }
+          },
+          "from sentence" : "Moreover , for shell noun resolution in KZH13 's dataset , the MR - LSTM achieved s@1 scores in the range 76.09-93.14 , while the best variant of the model achieves 51.89 s@1 score for nominal anaphors in ARRAU - AA ."
+        }
+      },
+      "has" : {
+        "MR - LSTM without context embedding ( ctx )" : {
+          "achieves" : [{
+            "comparable s@ 2 score" : {
+              "with" : {
+                "variant" : {
+                  "omits" : "syntactic information"
+                }
+              }
+            }
+          },  
+          "better s@3 - 4 scores"],
+          "from sentence" : "This is what we can observe from row 2 vs. row 6 in Table 5 : the MR - LSTM without context embedding ( ctx ) achieves a comparable s@ 2 score with the variant that omits syntactic information , but better s@3 - 4 scores ."          
+        }
+      }
+    }
+  }
+}

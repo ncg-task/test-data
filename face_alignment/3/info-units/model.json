@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "new loss function" : {
+          "name" : "Adaptive Wing loss",
+          "has" : {
+            "significantly improve" : {
+              "has" : {
+                "quality" : {
+                  "of" : "heatmap regression results"
+                }
+              }
+            }
+          },
+          "from sentence" : "We thus propose a new loss function and name it Adaptive Wing loss ( Sec. , that is able to significantly improve the quality of heatmap regression results ."
+        }
+      },
+      "encode" : "full coordinate information",
+      "has" : {
+        "information" : {
+          "on" : "boundaries",
+          "predicted from" : {
+            "previous HG module" : {
+              "into" : "our model"
+            }
+          },
+          "from sentence" : "Inspired by the Coord - Conv layer proposed by Liu et al. , we encode into our model the full coordinate information and the information only on boundaries predicted from the previous HG module into our model ."
+        },
+        "translation invariance" : {
+          "of" : {
+            "convolution operation" : {
+              "in" : {
+                "bottom - up and top - down CNN structures" : {
+                  "such as" : "stacked Hourglass ( HG )"
+                }
+              }
+            }
+          },
+          "to capture" : "coordinate information",
+          "from sentence" : "Due to the translation invariance of the convolution operation in bottom - up and top - down CNN structures such as stacked Hourglass ( HG ) , the network is notable to capture coordinate information , which we believe is useful for facial landmark localization , since the structure of human faces is relatively stable ."
+        }
+      },
+      "To encode" : {
+        "boundary coordinates" : {
+          "add" : {
+            "sub-task of boundary prediction" : {
+              "by concatenating" : {
+                "additional boundary channel" : {
+                  "into" : "ground truth heatmap"
+                }
+              },
+              "has" : {
+                "jointly trained" : {
+                  "with" : "other channels"
+                }
+              }
+            }
+          },
+          "from sentence" : "To encode boundary coordinates , we also add a sub-task of boundary prediction by concatenating an additional boundary channel into the ground truth heatmap which is jointly trained with other channels ."
+        }
+      }
+    }
+  }
+}

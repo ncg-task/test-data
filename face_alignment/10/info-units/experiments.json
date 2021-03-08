@@ -1,0 +1,85 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "AFLW" : {
+              "has" : {
+                "our CNN - 6/7 network" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "all the other approaches"
+                    }
+                  },
+                  "from sentence" : "Comparison with state of the art 7.2.1 AFLW
+As shown in , our CNN - 6/7 network outperforms all the other approaches even when trained with the commonly used L2 loss function ( magenta solid line ) ."
+    
+                }
+              },
+              "by" : {
+                "simply switching" : {
+                  "has" : {
+                    "loss function" : {
+                      "from" : {
+                        "L2" : {
+                          "to" : ["L1", "smooth L1"]
+                        }
+                      }
+                    },
+                    "performance" : {
+                      "of" : "our method",
+                      "has" : "improved significantly"
+                    }
+                  },
+                  "from sentence" : "Second , by simply switching the loss function from L2 to L1 or smooth L1 , the performance of our method has been improved significantly ( red solid and black dashed lines ) ."
+                }
+              },
+              "use of" : {
+                "newly proposed Wing loss function" : {
+                  "has" : {
+                    "further improves" : {
+                      "has" : "accuracy"
+                    }
+                  },
+                  "from sentence" : "Last , the use of our newly proposed Wing loss function further improves the accuracy ( black solid line ) ."
+                }
+              }          
+            },
+            "300 W" : {
+              "has" : {
+                "our two - stage landmark localisation framework" : {
+                  "with" : ["PDB strategy", "newly proposed Wing loss function"],
+                  "has" : {
+                    "outperforms" : {
+                      "has" : {
+                        "other stateof - the - art algorithms" : {
+                          "on" : "300 W dataset"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "300 W
+As shown in , our two - stage landmark localisation framework with the PDB strategy and the newly proposed Wing loss function outperforms all the other stateof - the - art algorithms on the 300 W dataset inaccuracy ."
+
+                },
+                "error" : {
+                  "reduced by" : {
+                    "almost 20 %" : {
+                      "compared to" : {
+                        "current best result" : {
+                          "reported by" : "RAR algorithm"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "The error has been reduced by almost 20 % as compared to the current best result reported by the RAR algorithm ."
+                }
+              }
+            }
+          }          
+        }
+      }
+    }
+  }
+}

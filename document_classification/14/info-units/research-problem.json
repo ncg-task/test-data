@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Supervised and Semi- Supervised Text Categorization", {"from sentence" : "Supervised and Semi- Supervised Text Categorization using LSTM for Region Embeddings"}],
+    ["text categorization", {"from sentence" : "One - hot CNN ( convolutional neural network ) has been shown to be effective for text categorization ( Johnson & Zhang , 2015a ; b ) ."}]
+  ]
+}

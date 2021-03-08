@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["CROSS - LINGUAL DOCUMENT CLASSIFICATION", {"from sentence" : "BRIDGING THE DOMAIN GAP IN CROSS - LINGUAL DOCUMENT CLASSIFICATION"}],
+    ["cross - lingual understanding ( XLU )", {"from sentence" : "Recent developments in cross - lingual understanding ( XLU ) has made progress in this area , trying to bridge the language barrier using language universal representations ."}],
+    ["XLU", {"from sentence" : "We combine state - of - the - art cross - lingual methods with recently proposed methods for weakly supervised learning such as unsupervised pre-training and unsupervised data augmentation to simultaneously close both the language gap and the domain gap in XLU ."}]
+  ]
+}

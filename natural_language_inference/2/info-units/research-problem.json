@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Natural Language Inference", {"from sentence" : "Stochastic Answer Networks for Natural Language Inference"}],
+    ["recognizing textual entailment ( RTE )", {"from sentence" : "The natural language inference task , also known as recognizing textual entailment ( RTE ) , is to infer the relation between a pair of sentences ( e.g. , premise and hypothesis ) ."}]
+  ]
+}

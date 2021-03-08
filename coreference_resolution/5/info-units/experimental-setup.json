@@ -1,0 +1,71 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "For" : {
+        "regularization" : {
+          "apply" : {
+            "Dropout" : {
+              "with" : {
+                "rate" : {
+                  "of" : {
+                    "0.4" : {
+                      "before applying" : "linear weights u"
+                    },
+                    "0.3" : {
+                      "to" : "LSTM states",
+                      "before forming" : "dot -product scores"
+                    }
+                  }
+                }
+              }
+            },
+            "from sentence" : "For regularization , we apply Dropout with a rate of 0.4 before applying the linear weights u , and we also apply Dropout with a rate of 0.3 to the LSTM states before forming the dot -product scores ."
+          }
+        },
+        "training" : {
+          "use" : "document - size minibatches"
+        }
+      },
+      "minimize" : {
+        "loss" : {
+          "with" : "AdaGrad"
+        },
+        "from sentence" : "For training , we use document - size minibatches , which allows for efficient pre-computation of RNN states , and we minimize the loss described in Section 5 with AdaGrad ( after clipping LSTM gradients to lie ( elementwise ) in ( ?10 , 10 ) ) ."
+      },
+      "choose" : {
+        "learning rates" : {
+          "for" : "each layer",
+          "out of" : "{ 0.1 , 0.02 , 0.01 , 0.002 , 0.001 }",
+          "from sentence" : "We find that the initial learning rate chosen for AdaGrad has a significant impact on results , and we choose learning rates for each layer out of { 0.1 , 0.02 , 0.01 , 0.002 , 0.001 } ."
+        }
+      },
+      "set" : {
+        "ha ( x n ) , h c ( x n ) , and h ( m )" : {
+          "to be" : "R 200"
+        },
+        "hp ( x n , y)" : {
+          "has" : "R 700",
+          "from sentence" : "In experiments , we set ha ( x n ) , h c ( x n ) , and h ( m ) to be ? R 200 , and hp ( x n , y) ? R 700 ."
+        }
+      },
+      "use" : {
+        "single - layer LSTM" : {
+          "without" : "\" peep - hole \" connections",
+          "implemented in" : "element - rnn library",
+          "from sentence" : "We use a single - layer LSTM ( without \" peep - hole \" connections ) , as implemented in the element - rnn library ."
+        }
+      },
+      "has" : {
+        "system" : {
+          "makes use of" : {
+            "GPU" : {
+              "for" : "training",
+              "trains" : "about two hours",
+              "from sentence" : "The system makes use of a GPU for training , and trains in about two hours ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

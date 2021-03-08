@@ -1,0 +1,6 @@
+(Contribution||has||Model)
+(Model||developed by||CRIM team)
+(Model||exploits||combination)
+(combination||of||two approaches)
+(two approaches||has||unsupervised , pattern - based approach)
+(two approaches||has||supervised , projection learning approach)

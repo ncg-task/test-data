@@ -1,0 +1,74 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "shared LSTM" : {
+          "plays" : {
+            "important role" : {
+              "in" : {
+                "answer extraction" : {
+                  "among" : "multiple documents"
+                }
+              }
+            }
+          },
+          "helps" : {
+            "normalize" : {
+              "has" : {
+                "content probability score" : {
+                  "from" : "multiple documents",
+                  "so that" : {
+                    "answers" : {
+                      "extracted from" : {
+                        "different documents" : {
+                          "has" : "directly compared"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "keep" : {
+            "ranking order" : {
+              "from" : "document ranking component",
+              "from sentence" : "From the results , we can see that : 1 ) the shared LSTM plays an important role in answer extraction among multiple documents , the benefit lies in two parts : a ) it helps to normalize the content probability score from multiple documents so that the answers extracted from different documents can be directly compared ; b ) it can keep the ranking order from document ranking component in mind , which may serve as an additional signal when predicting the best answer ."
+            }
+          }
+        },
+        "preliminary cascade ranking and multi-task answer extraction strategy" : {
+          "has" : {
+            "vital" : {
+              "for" : "final performance"
+            }
+          },
+          "serve" : {
+            "good trade - off" : {
+              "between" : ["pure pipeline method", "fully joint learning method"]
+            }
+          },
+          "from sentence" : "2 ) Both the preliminary cascade ranking and multi-task answer extraction strategy are vital for the final performance , which serve as a good trade - off between the pure pipeline method and fully joint learning method ."
+        },
+        "Jointly training" : {
+          "has" : {
+            "three extraction tasks" : {
+              "provide" : "great benefits"
+            }
+          },
+          "from sentence" : "Jointly training the three extraction tasks can provide great benefits , which shows that the three tasks are actually closely related and can boost each other with shared representations at bottom layers ."
+        }
+      },
+      "incorporating" : {
+        "manual features" : {
+          "has" : {
+            "performance" : {
+              "has" : "further improved slightly",
+              "from sentence" : "By incorporating the manual features , the performance can be further improved slightly ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

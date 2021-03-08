@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "two novel strategies" : {
+          "has" : {
+            "improve" : {
+              "has" : "memory - handling capability",
+              "mitigating" : "information distortion"
+            }
+          },
+          "from sentence" : "To overcome this issue , we propose two novel strategies that improve the memory - handling capability while mitigating the information distortion ."
+        }
+      },
+      "extend" : {
+        "memory controller" : {
+          "with" : "residual connection",
+          "to alleviate" : "information distortion",
+          "from sentence" : "We extend the memory controller with a residual connection to alleviate the information distortion occurring in it ."
+        }
+      },
+      "expand" : {
+        "gated recurrent unit ( GRU )" : {
+          "with" : "dense connection",
+          "conveys" : {
+            "enriched features" : {
+              "to" : {
+                "next layer" : {
+                  "containing" : {
+                    "original" : {
+                      "as well as" : "transformed information"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "We also expand the gated recurrent unit ( GRU ) with a dense connection that conveys enriched features to the next layer containing the original as well as the transformed information ."
+        }
+      }
+    }
+  }
+}

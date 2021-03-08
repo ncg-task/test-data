@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["End - to - End Co -reference Resolution", {"from sentence" : "Learning Word Representations with Cross - Sentence Dependency for End - to - End Co -reference Resolution"}],
+    ["end - to - end co-reference resolution ( E2E - CR )", {"from sentence" : "In this work , we present a word embedding model that learns cross - sentence dependency for improving end - to - end co-reference resolution ( E2E - CR ) ."}],
+    ["E2E - CR", {"from sentence" : "While the traditional E2E - CR model generates word representations by running long short - term memory ( LSTM ) recurrent neural networks on each sentence of an input article or conversation separately , we propose linear sentence linking and attentional sentence linking models to learn crosssentence dependency ."}],
+    ["Co-reference resolution", {"from sentence" : "Co-reference resolution requires models to cluster mentions that refer to the same physical entities ."}]
+  ]
+}

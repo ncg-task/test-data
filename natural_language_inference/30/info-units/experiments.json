@@ -1,0 +1,49 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Experiment I : Sentence Completion" : {
+              "has" : {
+                "ARC - II" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "ARC - I"
+                    }
+                  },
+                  "from sentence" : "Experiment I : Sentence Completion
+ARC - II outperforms ARC - I significantly , showing the power of joint modeling of matching and sentence meaning ."
+
+                },
+                "SENNA + MLP" : {
+                  "performs" : "fairly well",
+                  "from sentence" : "As another convolutional model , SENNA + MLP performs fairly well on this task , although still running behind the proposed convolutional architectures since it is too shallow to adequately model the sentence ."
+                }
+              }
+            },
+            "Experiment III : Paraphrase Identification" : {
+              "has" : {
+                "generic matching models" : {
+                  "perform" : "reasonably well",
+                  "achieving" : {
+                    "accuracy and F1 score" : {
+                      "close to" : {
+                        "best performer" : {
+                          "in" : "2008"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Experiment III : Paraphrase Identification
+Nevertheless , our generic matching models still manage to perform reasonably well , achieving an accuracy and F1 score close to the best performer in 2008 based on hand - crafted features , but still significantly lower than the state - of - the - art ( 76.8%/83.6 % ) , achieved with unfolding - RAE and other features designed for this task ."
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "POS tagging results" : {
+          "has" : {
+            "BiLSTM - CRF and Mar - MoT" : {
+              "obtain" : {
+                "lowest scores" : {
+                  "on" : ["GENIA", "CRAFT"]
+                }
+              },
+              "from sentence" : "POS tagging results
+BiLSTM - CRF and Mar - MoT obtain the lowest scores on GENIA and CRAFT , respectively ."
+
+            },
+            "jPTDP" : {
+              "obtains" : {
+                "similar score" : {
+                  "to" : {
+                    "Mar - MoT" : {
+                      "on" : "GENIA"
+                    },
+                    "BiLSTM - CRF" : {
+                      "on" : "CRAFT"
+                    }
+                  },
+                  "from sentence" : "jPTDP obtains a similar score to Mar - MoT on GENIA and similar score to BiLSTM - CRF on CRAFT ."
+                }
+              }
+            },
+            "MarMoT" : {
+              "obtains" : {
+                "accuracy results" : {
+                  "at" : {
+                    "98.61 % and 97.07 %" : {
+                      "on" : "GENIA and CRAFT"
+                    }
+                  },
+                  "from sentence" : "In particular , MarMoT obtains accuracy results at 98.61 % and 97.07 % on GENIA and CRAFT , which are about 0.2 % and 0.4 % absolute lower than NLP4J - POS , respectively ."
+                }
+              }
+            },
+            "BiLSTM - CRF" : {
+              "obtains" : {
+                "accuracies" : {
+                  "of" : {
+                    "98.44 %" : {
+                      "on" : "GE - NIA"
+                    },
+                    "97.25 %" : {
+                      "on" : "CRAFT"
+                    }
+                  },
+                  "from sentence" : "BiLSTM - CRF obtains accuracies of 98.44 % on GE - NIA and 97.25 % on CRAFT ."
+                }
+              }
+            }
+          },
+          "for" : {
+            "PTB" : {
+              "has" : {
+                "CNN - based character - level word embeddings" : {
+                  "provided" : {
+                    "0.1 % improvement" : {
+                      "to" : "BiLSTM - CRF"
+                    }
+                  },
+                  "from sentence" : "Note that for PTB , CNN - based character - level word embeddings only provided a 0.1 % improvement to BiLSTM - CRF ."
+                }
+              }
+            }
+          },
+          "On both" : {
+            "GENIA and CRAFT" : {
+              "has" : {
+                "BiLSTM - CRF" : {
+                  "with" : "character - level word embeddings",
+                  "obtains" : "highest accuracy scores"
+                }
+              },
+              "from sentence" : "On both GENIA and CRAFT , BiLSTM - CRF with character - level word embeddings obtains the highest accuracy scores ."
+            }
+          }
+        },
+        "Overall dependency parsing results" : {
+          "On" : {
+            "GENIA" : {
+              "among" : {
+                "pre-trained models" : {
+                  "has" : {
+                    "BLLIP" : {
+                      "obtains" : "highest results"
+                    }
+                  },
+                  "from sentence" : "Overall dependency parsing results
+On GENIA , among pre-trained models , BLLIP obtains highest results ."
+
+                }
+              }
+            }
+          },
+          "has" : {
+            "pre-trained Stanford - Biaffine ( v1 ) model" : {
+              "produces" : {
+                "lower scores" : {
+                  "than" : "pre-trained Stanford - NNdep model",
+                  "on" : "GENIA"
+                }
+              },
+              "from sentence" : "The pre-trained Stanford - Biaffine ( v1 ) model produces lower scores than the pre-trained Stanford - NNdep model on GENIA ."
+            },
+            "pre-trained NNdep and Biaffine models" : {
+              "result in" : "no significant performance differences",
+              "has" : {
+                "pre-trained Stanford tagger" : {
+                  "at" : "98.37 %",
+                  "vs." : {
+                    "retrained NLP4J - POS model" : {
+                      "at" : "98.80 %"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Note that the pre-trained NNdep and Biaffine models result in no significant performance differences irrespective of the source of POS tags ( i.e. the pre-trained Stanford tagger at 98.37 % vs. the retrained NLP4J - POS model at 98.80 % ) ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

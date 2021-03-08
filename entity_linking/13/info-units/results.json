@@ -1,0 +1,52 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Our proposed model" : {
+          "achieves" : {
+            "top score" : {
+              "on" : "SE2"
+            }
+          },
+          "tied with" : {
+            "IMS + adapted CW" : {
+              "on" : "SE3"
+            }
+          },
+          "from sentence" : "Our proposed model achieves the top score on SE2 and are tied with IMS + adapted CW on SE3 ."
+        },
+        "Randomizing" : {
+          "has" : {
+            "order" : {
+              "of" : "input words",
+              "yields" : "substantially worse result",
+              "from sentence" : "Randomizing the order of the input words yields a substantially worse result , which provides evidence for our hypothesis that the order of the words are significant ."
+            }
+          }
+        }
+      },
+      "see that" : {
+        "dropword" : {
+          "has" : {
+            "consistently improves" : {
+              "has" : {
+                "results" : {
+                  "on" : "both SE2 and SE3"
+                }
+              },
+              "from sentence" : "Moreover , we see that dropword consistently improves the results on both SE2 and SE3 ."
+            }
+          }
+        },
+        "system" : {
+          "makes use of" : {
+            "information" : {
+              "in" : "pre-trained word embeddings"
+            },
+            "from sentence" : "We also see that the system effectively makes use of the information in the pre-trained word embeddings and that they are essential to the performance of our system on these datasets ."
+          }
+        }
+      }
+    }
+  }
+}

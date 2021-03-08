@@ -1,0 +1,132 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "Question answering" : {
+              "adding" : {
+                "ELMo" : {
+                  "to" : "baseline model",
+                  "has" : {
+                    "test set F 1" : {
+                      "improved by" : "4.7 %",
+                      "from" : {
+                        "81.1 %" : {
+                          "to" : "85.8 %"
+                        }
+                      },
+                      "has" : {
+                        "24.9 % relative error reduction" : {
+                          "over" : "baseline",
+                          "improving" : {
+                            "overall single model state - of - the - art" : {
+                              "by" : "1.4 %"
+                            }
+                          }                          
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Question answering
+After adding ELMo to the baseline model , test set F 1 improved by 4.7 % from 81.1 % to 85.8 % , a 24.9 % relative error reduction over the baseline , and improving the overall single model state - of - the - art by 1.4 % ."
+
+                }
+              },
+              "has" : {
+                "increase" : {
+                  "of" : {
+                    "4.7 %" : {
+                      "with" : "ELMo",
+                      "has" : {
+                        "significantly larger" : {
+                          "then" : {
+                            "1.8 % improvement" : {
+                              "from adding" : {
+                                "CoVe" : {
+                                  "to" : "baseline model"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "from sentence" : "The increase of 4.7 % with ELMo is also significantly larger then the 1.8 % improvement from adding CoVe to a baseline model ."
+                  }
+                }
+              }
+            },
+            "Textual entailment" : {
+              "adding" : {
+                "ELMo" : {
+                  "to" : "ESIM model",
+                  "improves" : {
+                    "accuracy" : {
+                      "by" : {
+                        "an average" : {
+                          "of" : {
+                            "0.7 %" : {
+                              "across" : "five random seeds"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Textual entailment
+Overall , adding ELMo to the ESIM model improves accuracy by an average of 0.7 % across five random seeds ."
+
+                }
+              }
+            },
+            "Semantic role labeling" : {
+              "adding" : {
+                "ELMo" : {
+                  "has" : {
+                    "improved" : {
+                      "has" : {
+                        "average F 1" : {
+                          "by" : "3.2 %",
+                          "from" : {
+                            "67.2" : {
+                              "to" : "70.4"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "improving" : {
+                      "over" : {
+                        "previous best ensemble result" : {
+                          "by" : "1.6 % F 1"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Semantic role labeling
+In our experiments with the OntoNotes coreference annotations from the CoNLL 2012 shared task , adding ELMo improved the average F 1 by 3.2 % from 67.2 to 70.4 , establishing a new state of the art , again improving over the previous best ensemble result by 1.6 % F 1 ."
+
+                }
+              }
+            },
+            "Named entity extraction" : {
+              "has" : {
+                "our ELMo enhanced biLSTM - CRF" : {
+                  "achieves" : {
+                    "92. 22 % F 1" : {
+                      "averaged over" : "five runs"
+                    }
+                  },
+                  "from sentence" : "Named entity extraction
+As shown in , our ELMo enhanced biLSTM - CRF achieves 92. 22 % F 1 averaged over five runs ."
+
+                }
+              }
+            }
+          }          
+        }
+      }
+    }
+  }
+}

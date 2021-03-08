@@ -1,0 +1,30 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "notice" : {
+        "importance" : {
+          "of" : {
+            "skip connections" : {
+              "between" : "GCN layers",
+              "from sentence" : "The first thing we notice is the importance of skip connections between GCN layers ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "Residual and dense connections" : {
+          "lead to" : "similar results",
+          "from sentence" : "Residual and dense connections lead to similar results ."
+        },
+        "Dense connections" : {
+          "produce" : {
+            "models" : {
+              "has" : ["bigger", {"slightly less accurate" : {"than" : "residual connections"}}],
+              "from sentence" : "Dense connections ( Table 4 ( SIZE ) ) produce models bigger , but slightly less accurate , than residual connections ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

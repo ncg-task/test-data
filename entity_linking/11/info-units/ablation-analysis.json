@@ -1,0 +1,68 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "major impact" : {
+          "on" : "our results",
+          "has" : "additional training corpus ( WNGC )",
+          "use" : {
+            "BERT" : {
+              "as" : "input embeddings"
+            }
+          },
+          "lead to" : {
+            "scores" : {
+              "above" : "state of the art"
+            }
+          },
+          "from sentence" : "As we can see in , the additional training corpus ( WNGC ) and even more the use of BERT as input embeddings both have a major impact on our results and lead to scores above the state of the art ."
+        },
+        "compression method" : {
+          "through" : "all relations",
+          "seems to" : {
+            "negatively impact" : {
+              "results in" : "some cases"
+            }
+          },
+          "from sentence" : "However , the compression method through all relations seems to negatively impact the results in some cases ( when using ELMo or GloVe especially ) ."
+        }
+      },
+      "Using" : {
+        "BERT" : {
+          "instead of" : "ELMo or Glo Ve",
+          "has" : {
+            "improves" : {
+              "has" : "score",
+              "by approximately" : {
+                "3 and 5 points" : {
+                  "in" : "every experiment"
+                }
+              }              
+            }
+          }
+        }
+      },
+      "adding" : {
+        "WNGC" : {
+          "to" : "training data",
+          "has" : {
+            "improves" : {
+              "has" : "approximately 2 points"
+            }
+          }
+        },
+        "from sentence" : "Using BERT instead of ELMo or Glo Ve improves respectively the score by approximately 3 and 5 points in every experiment , and adding the WNGC to the training data improves it by approximately 2 points ."
+      },
+      "using" : {
+        "ensembles" : {
+          "adds" : {
+            "roughly another 1 point" : {
+              "to" : "final F1 score"
+            }
+          },
+          "from sentence" : "Finally , using ensembles adds roughly another 1 point to the final F1 score ."
+        }
+      }
+    }
+  }
+}

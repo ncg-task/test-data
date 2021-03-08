@@ -1,0 +1,73 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "approximation" : {
+          "of" : "higher - order inference",
+          "uses" : {
+            "span - ranking architecture" : {
+              "in" : "an iterative manner"
+            }
+          },
+          "from sentence" : "We introduce an approximation of higher - order inference that uses the span - ranking architecture from in an iterative manner ."
+        },
+        "less accurate" : {
+          "has" : {
+            "more efficient coarse factor" : {
+              "in" : "pairwise scoring function",
+              "from sentence" : "We introduce a less accurate but more efficient coarse factor in the pairwise scoring function ."
+            }
+          }
+        }
+      },
+      "At" : {
+        "each iteration" : {
+          "has" : {
+            "antecedent distribution" : {
+              "used as" : {
+                "attention mechanism" : {
+                  "to optionally update" : "existing span representations",
+                  "enabling" : "later corefer"
+                }
+              },
+              "from sentence" : "At each iteration , the antecedent distribution is used as an attention mechanism to optionally update existing span representations , enabling later corefer - Speaker 1 : U m and think that is what 's - Go ahead Linda ."
+            }
+          }
+        }
+      },
+      "To alleviate" : {
+        "computational challenges" : {
+          "from" : "higher - order inference",
+          "propose" : {
+            "coarseto - fine approach" : {
+              "learned with" : "single endto - end objective"
+            }
+          },
+          "from sentence" : "To alleviate computational challenges from this higher - order inference , we also propose a coarseto - fine approach that is learned with a single endto - end objective ."
+        }
+      },
+      "has" : {
+        "additional factor" : {
+          "enables" : {
+            "extra pruning step" : {
+              "during" : "inference",
+              "has" : {
+                "reduces" : {
+                  "has" : "number of antecedents"
+                }
+              },
+              "from sentence" : "This additional factor enables an extra pruning step during inference that reduces the number of antecedents considered by the more accurate but inefficient fine factor ."
+            }
+          }
+        }
+      },
+      "cheaply computes" : {
+        "rough sketch" : {
+          "of" : "likely antecedents",
+          "before applying" : "more expensive scoring function",
+          "from sentence" : "Intuitively , the model cheaply computes a rough sketch of likely antecedents before applying a more expensive scoring function ."
+        }
+      }
+    }
+  }
+}

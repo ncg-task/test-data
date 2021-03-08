@@ -1,0 +1,64 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Smaller" : {
+          "has" : {
+            "mini-batch size M and gradient clipping G" : {
+              "provided" : "better performance",
+              "from sentence" : "( 1 ) Smaller mini-batch size M and gradient clipping G provided the better performance ."
+            }
+          }
+        },
+        "Larger layer size , hidden state dimension , and beam size" : {
+          "have" : {
+            "little impact" : {
+              "on" : "performance",
+              "from sentence" : "( 2 ) Larger layer size , hidden state dimension , and beam size have little impact on the performance ; our setting , L = 2 , H = 200 , and B = 5 looks adequate in terms of speed / performance trade - off ."
+            }
+          }
+        },
+        "Our Seq2seq approach" : {
+          "achieved" : {
+            "competitive level" : {
+              "as" : {
+                "current top - notch methods" : {
+                  "has" : "RNNG and its variants"
+                }
+              },
+              "from sentence" : "Our Seq2seq approach successfully achieved the competitive level as the current top - notch methods : RNNG and its variants ."
+            }
+          }
+        }
+      },
+      "using" : {
+        "subword split" : {
+          "as" : {
+            "input token unit" : {
+              "instead of" : "standard tokenized word unit",
+              "has" : {
+                "potential" : {
+                  "to improve" : "performance"
+                }
+              },
+              "from sentence" : "As often demonstrated in the NMT literature , using subword split as input token unit instead of standard tokenized word unit has potential to improve the performance ."
+            }
+          }
+        },
+        "subword information" : {
+          "as" : "features",
+          "has" : {
+            "promising approach" : {
+              "for leveraging" : {
+                "subword information" : {
+                  "into" : "constituency parsing"
+                }
+              },
+              "from sentence" : "Thus , using subword information as features is one promising approach for leveraging subword information into constituency parsing ."
+            }
+          }
+        }
+      }
+    }
+  } 
+}

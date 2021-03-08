@@ -1,0 +1,93 @@
+{
+  "has" : {
+    "Results" : {
+      "saw that" : {
+        "cosine distance" : {
+          "on" : {
+            "adversarial and virtual adversarial training" : {
+              "has" : {
+                "much smaller" : {
+                  "than ones on" : "baseline and random perturbation method"
+                }
+              }
+            }
+          },
+          "from sentence" : "We saw that cosine distance on adversarial and virtual adversarial training ( 0.159-0.331 ) were much smaller than ones on the baseline and random perturbation method ( 0.244-0.399 ) ."
+        }
+      },
+      "shows" : {
+        "test performance" : {
+          "on" : {
+            "Elec and RCV1 datasets" : {
+              "see" : {
+                "our proposed method" : {
+                  "has" : {
+                    "improved" : {
+                      "has" : {
+                        "test performance" : {
+                          "on" : "baseline method"
+                        }
+                      }
+                    }
+                  },
+                  "achieved" : "state of the art performance",
+                  "from sentence" : "shows the test performance on the Elec and RCV1 datasets .
+We can see our proposed method improved test performance on the baseline method and achieved state of the art performance on both datasets , even though the state of the art method uses a combination of CNN and bidirectional LSTM models ."
+
+                }
+              },
+              "has" : {
+                "Our unidirectional LSTM model" : {
+                  "has" : {
+                    "improves" : {
+                      "has" : "state of the art method"
+                    }
+                  }
+                },
+                "our method with a bidirectional LSTM" : {
+                  "has" : {
+                    "further improves" : {
+                      "has" : {
+                        "results" : {
+                          "on" : "RCV1"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Our unidirectional LSTM model improves on the state of the art method and our method with a bidirectional LSTM further improves results on RCV1 ."
+            },
+            "Rotten Tomatoes dataset" : {
+              "has" : {
+                "Adversarial training" : {
+                  "able to" : {
+                    "improve" : {
+                      "over" : "baseline method",
+                      "with" : "adversarial and virtual adversarial cost"
+                    }
+                  },
+                  "from sentence" : "shows test performance on the Rotten Tomatoes dataset .
+Adversarial training was able to improve over the baseline method , and with both adversarial and virtual adversarial cost , achieved almost the same performance as the current state of the art method ."
+
+                },
+                "test performance" : {
+                  "of" : {
+                    "only virtual adversarial training" : {
+                      "has" : {
+                        "worse" : {
+                          "than" : "baseline"
+                        }
+                      },
+                      "from sentence" : "However the test performance of only virtual adversarial training was worse than the baseline ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

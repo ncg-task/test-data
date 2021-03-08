@@ -1,0 +1,8 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : ["DSFD ( Resnet152 backbone )", "Pyramid Box ( VGG16 backbone )", "S3 FD ( VGG16 backbone )", "SSH ( VGG16 backbone )", "FaceBoxes"],
+      "from sentence" : "Finally , the following methods are taken for comparison : DSFD ( Resnet152 backbone ) , Pyramid Box ( VGG16 backbone ) , S3 FD ( VGG16 backbone ) , SSH ( VGG16 backbone ) and FaceBoxes ."
+    }
+  }
+}

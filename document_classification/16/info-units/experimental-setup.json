@@ -1,0 +1,65 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "implement" : {
+        "our model" : {
+          "based on" : "Theano",
+          "from sentence" : "We implement our model based on Theano ) - a python library , which supports efficient symbolic differentiation and transparent use of a GPU ."
+        }
+      },
+      "train" : {
+        "model" : {
+          "on" : "GPU",
+          "from sentence" : "To benefit from the efficiency of parallel computation of the tensors , we train the model on a GPU ."
+        }
+      },
+      "use" : ["one convolutional layer", "one LSTM layer", {"from sentence" : "In our final settings , we only use one convolutional layer and one LSTM layer for both tasks ."}],
+      "For" : {
+        "TREC" : {
+          "has" : {
+            "number of filters" : {
+              "set to be" : "300"
+            },
+            "memory dimension" : {
+              "set to be" : "300"
+            },
+            "from sentence" : "For TREC , the number of filters is set to be 300 and the memory dimension is set to be 300 ."
+          }
+        }
+      },
+      "has" : {
+        "word vector layer and the LSTM layer" : {
+          "has" : {
+            "dropped" : {
+              "outwith" : {
+                "probability" : {
+                  "of" : "0.5"
+                }
+              }
+            }
+          },
+          "from sentence" : "The word vector layer and the LSTM layer are dropped outwith a probability of 0.5 ."
+        }
+      },
+      "add" : {
+        "L2 regularization" : {
+          "with" : {
+            "factor" : {
+              "of" : "0.001"
+            }
+          },
+          "to" : {
+            "weights" : {
+              "in" : {
+                "softmax layer" : {
+                  "for" : "both tasks"
+                }
+              }
+            }
+          },
+          "from sentence" : "We also add L2 regularization with a factor of 0.001 to the weights in the softmax layer for both tasks ."
+        }
+      }
+    }
+  }
+}

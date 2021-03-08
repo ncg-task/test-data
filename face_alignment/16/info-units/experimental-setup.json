@@ -1,0 +1,91 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "Uniform scaling and translation" : {
+          "with" : {
+            "different extents" : {
+              "on" : "face bounding boxes"
+            }
+          },
+          "has" : "conducted",
+          "from sentence" : "Uniform scaling and translation with different extents on face bounding boxes are further conducted , in which each newly generated face bounding box is used to crop the face ."
+        },
+        "training samples" : {
+          "augmented through" : ["horizontal flip", "JPEG compression"],
+          "from sentence" : "Finally training samples are augmented through horizontal flip and JPEG compression ."
+        },
+        "input face patch" : {
+          "has" : "50 50 grayscale image"
+        },
+        "each pixel value" : {
+          "normalized to" : {
+            "[ ?1 , 1 )" : {
+              "by subtracting" : "128",
+              "multiplying" : "0.0078125"
+            }
+          },
+          "from sentence" : "The input face patch is a 50 50 grayscale image , and each pixel value is normalized to [ ?1 , 1 ) by subtracting 128 and multiplying 0.0078125 ."
+        },
+        "more complex model" : {
+          "for" : {
+            "labeling pattern" : {
+              "with" : "more facial landmarks"
+            }
+          },
+          "from sentence" : "A more complex model is needed for a labeling pattern with more facial landmarks , so Dis set to be 512/512/1 , 024 for 5/29/68 facial landmarks ."
+        },
+        "type of solver" : {
+          "is" : {
+            "SGD" : {
+              "with" : {
+                "mini-batch size" : {
+                  "of" : "64"
+                },
+                "momentum" : {
+                  "of" : "0.9"
+                },
+                "weight decay" : {
+                  "of" : "0.0005"
+                }
+              }
+            },
+            "from sentence" : "The type of solver is SGD with a mini-batch size of 64 , a momentum of 0.9 , and a weight decay of 0.0005 ."
+          }
+        },
+        "maximum learning iterations" : {
+          "of" : "pre-training",
+          "has" : {
+            "each finetuning step" : {
+              "has" : "1810 4 and 610 4"
+            }
+          }
+        },
+        "0.02 and 0.001" : {
+          "has" : [
+            {"initial learning rates" : {
+              "of" : "pre-training"
+            }},
+            "each fine - tuning step",
+            {"from sentence" : "The maximum learning iterations of pre-training and each finetuning step are 1810 4 and 610 4 respectively , and the initial learning rates of pre-training and each fine - tuning step are 0.02 and 0.001 respectively ."}
+          ]
+        },
+        "learning rate" : {
+          "multiplied by" : {
+            "factor" : {
+              "of" : "0.3",
+              "at" : "every 3 10 4 iterations",
+              "from sentence" : "The learning rate is multiplied by a factor of 0.3 at every 3 10 4 iterations , and the remaining parameter ?"
+            }
+          }
+        }
+      },
+      "train" : {
+        "our MCL" : {
+          "using" : "open source deep learning framework Caffe",
+          "from sentence" : "We train our MCL using an open source deep learning framework Caffe ."
+        }
+      }
+    }
+  }
+}

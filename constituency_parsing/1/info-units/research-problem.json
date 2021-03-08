@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Pretraining of Self - attention Networks", {"from sentence" : "Cloze - driven Pretraining of Self - attention Networks"}],
+    ["pretraining a bi-directional transformer model", {"from sentence" : "We present a new approach for pretraining a bi-directional transformer model that provides significant performance gains across a variety of language understanding problems ."}],
+    ["Language model pretraining", {"from sentence" : "Language model pretraining has recently been shown to provide significant performance gains for a range of challenging language understanding problems ."}]
+  ]
+}

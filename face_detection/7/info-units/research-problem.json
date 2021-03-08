@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Object Detection", {"from sentence" : "Recurrent Scale Approximation for Object Detection in CNN"}],
+    ["multiscale object detection", {"from sentence" : "Since convolutional neural network ( CNN ) lacks an inherent mechanism to handle large scale variations , we always need to compute feature maps multiple times for multiscale object detection , which has the bottleneck of computational cost in practice ."}]
+  ]
+}

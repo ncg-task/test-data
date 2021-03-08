@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Multi-view Face Detection", {"from sentence" : "Aggregate Channel Features for Multi-view Face Detection"}],
+    ["Face detection", {"from sentence" : "Face detection has drawn much attention in recent decades since the seminal work by Viola and Jones ."}],
+    ["Human face detection", {"from sentence" : "Human face detection have long been one of the most fundamental problems in computer vision and humancomputer interaction ."}]
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Coreference Resolution", {"from sentence" : "Learning Global Features for Coreference Resolution"}],
+    ["coreference prediction", {"from sentence" : "There is compelling evidence that coreference prediction would benefit from modeling global information about entity - clusters ."}]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Word Sense Disambiguation", {"from sentence" : "One Single Deep Bidirectional LSTM Network for Word Sense Disambiguation of Text Data"}],
+    ["Word Sense Disambiguation ( WSD )", {"from sentence" : "To mine these data properly , attributable to their innate ambiguity , a Word Sense Disambiguation ( WSD ) algorithm can avoid numbers of difficulties in Natural Language Processing ( NLP ) pipeline ."}],
+    ["WSD", {"from sentence" : "However , considering a large number of ambiguous words in one language or technical domain , we may encounter limiting constraints for proper deployment of existing WSD models ."}]
+  ]
+}

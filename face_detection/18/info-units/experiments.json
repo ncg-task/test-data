@@ -1,0 +1,82 @@
+{
+  "has" : {
+    "Experiments" : {
+      "on" : {
+        "WIDER FACE Dataset" : {
+          "achieves" : {
+            "best average precision" : {
+              "in" : {
+                "all level faces" : {
+                  "i.e." : {
+                    "AP" : {
+                      "has" : {
+                        "0.902" : {
+                          "has" : "Easy"
+                        },
+                        "0.874" : {
+                          "has" : "Medium"
+                        },
+                        "0.643" : {
+                          "has" : "Hard"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "has" : {
+            "outperforms" : {
+              "has" : {
+                "second best baseline" : {
+                  "by" : {
+                    "26.0 %" : {
+                      "has" : "Easy"
+                    },
+                    "37.4 %" : {
+                      "has" : "Medium"
+                    },
+                    "60.8 %" : {
+                      "has" : "Hard"
+                    }
+                  },
+                  "from sentence" : "Experiments on WIDER FACE Dataset
+It achieves the best average precision in all level faces , i.e. AP = 0.902 ( Easy ) , 0.874 ( Medium ) and 0.643 ( Hard ) , and outperforms the second best baseline by 26.0 % ( Easy ) , 37.4 % ( Medium ) and 60.8 % ( Hard ) ."
+
+                }
+              }
+            }
+          }
+        },
+        "FDDB Face Database" : {
+          "has" : {
+            "Our method" : {
+              "achieves" : {
+                "best recall rate" : {
+                  "on" : "this database"
+                },
+                "from sentence" : "Experiments on FDDB Face Database
+Our method achieves the best recall rate on this database ."
+
+              }
+            },
+            "proposed CMS - RCNN approach" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : "most of the published face detection methods"
+                }
+              },
+              "achieves" : {
+                "very high recall rate" : {
+                  "comparing against" : "all other methods"
+                }
+              },
+              "from sentence" : "The proposed CMS - RCNN approach outperforms most of the published face detection methods and achieves a very high recall rate comparing against all other methods ( as shown ) ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

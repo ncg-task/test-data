@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Dense Face Alignment", {"from sentence" : "Dense Face Alignment"}],
+    ["Face alignment", {"from sentence" : "Face alignment is a classic problem in the computer vision field ."}]
+  ]
+}

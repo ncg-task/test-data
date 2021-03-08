@@ -1,0 +1,36 @@
+{
+  "has" : {
+    "Approach" : {
+      "focusing on" : {
+        "document classification" : {
+          "question" : "overly complex neural architectures",
+          "from sentence" : "Like the papers cited above , we question the need for overly complex neural architectures , focusing on the problem of document classification ."
+        }
+      },
+      "Starting with" : {
+        "large - scale reproducibility study" : {
+          "of" : "several recent neural models",
+          "find that" : {
+            "simple bi-directional LSTM ( BiLSTM ) architecture" : {
+              "with" : "appropriate regularization",
+              "yields" : {
+                "accuracy and F 1" : {
+                  "has" : {
+                    "competitive or exceed" : {
+                      "has" : {
+                        "state of the art" : {
+                          "on" : "four standard benchmark datasets"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Starting with a large - scale reproducibility study of several recent neural models , we find that a simple bi-directional LSTM ( BiLSTM ) architecture with appropriate regularization yields accuracy and F 1 that are either competitive or exceed the state of the art on four standard benchmark datasets ."
+        }
+      }
+    }
+  }
+}

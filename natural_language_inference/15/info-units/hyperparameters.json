@@ -1,0 +1,42 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "has" : {
+        "dimension" : {
+          "of" : {
+            "hidden states" : {
+              "of" : {
+                "LSTMs and word embeddings" : {
+                  "are" : "300"
+                }
+              },
+              "from sentence" : "The main training details are as follows : the dimension of the hidden states of LSTMs and word embeddings are 300 ."
+            }
+          }
+        },
+        "word embeddings" : {
+          "initialized by" : "300D GloVe 840B",
+          "has" : {
+            "out - of - vocabulary words" : {
+              "initialized" : "randomly"
+            }
+          },
+          "from sentence" : "The word embeddings are initialized by 300D GloVe 840B , and out - of - vocabulary words among them are initialized randomly ."
+        },
+        "Adam ( Kingma and Ba , 2014 )" : {
+          "used for" : "optimization",
+          "with" : {
+            "initial learning rate" : {
+              "of" : "0.0004"
+            }
+          },
+          "from sentence" : "Adam ( Kingma and Ba , 2014 ) is used for optimization with an initial learning rate of 0.0004 ."
+        },
+        "mini - batch size" : {
+          "set to" : "32",
+          "from sentence" : "The mini - batch size is set to 32 ."
+        }
+      }    
+    }
+  }
+}

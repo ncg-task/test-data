@@ -1,0 +1,99 @@
+{
+  "has" : {
+    "Model" : {
+      "train" : {
+        "deep neural network" : {
+          "to build" : {
+            "distributed representations" : {
+              "of" : {
+                "pairs" : {
+                  "of" : "coreference clusters"
+                }
+              },
+              "from sentence" : "In this work , we instead train a deep neural network to build distributed representations of pairs of coreference clusters ."
+            }
+          }
+        }
+      },
+      "captures" : {
+        "entity - level information" : {
+          "with" : {
+            "large number" : {
+              "of" : {
+                "learned , continuous features" : {
+                  "instead of" : {
+                    "small number" : {
+                      "of" : "hand - crafted categorical ones"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "This captures entity - level information with a large number of learned , continuous features instead of a small number of hand - crafted categorical ones ."
+            }
+          }
+        }
+      },
+      "Using" : {
+        "cluster - pair representations" : {
+          "has" : {
+            "our network" : {
+              "learns" : {
+                "when combining two coreference clusters" : {
+                  "has" : "desirable"
+                }
+              }
+            },
+            "from sentence" : "Using the cluster - pair representations , our network learns when combining two coreference clusters is desirable ."
+          }
+        }
+      },
+      "At" : {
+        "test time" : {
+          "builds up" : {
+            "coreference clusters" : {
+              "has" : ["incrementally", {"merging" : {"pair of" : {"clusters" : {"has" : "each step"}}}}],
+              "starting with" : {
+                "each mention" : {
+                  "in" : "its own cluster"
+                }
+              },
+              "from sentence" : "At test time it builds up coreference clusters incrementally , starting with each mention in its own cluster and then merging a pair of clusters each step ."
+            }
+          } 
+        }
+      },
+      "makes" : {
+        "these decisions" : {
+          "with" : {
+            "novel easy - first cluster - ranking procedure" : {
+              "combines" : {
+                "strengths" : {
+                  "of" : "cluster - ranking ( Rahman and and easy - first coreference algorithms"
+                }
+              },
+              "from sentence" : "It makes these decisions with a novel easy - first cluster - ranking procedure that combines the strengths of cluster - ranking ( Rahman and and easy - first coreference algorithms ."
+            }
+          }
+        }
+      },
+      "using" : {
+        "learning - to - search algorithm" : {
+          "inspired by" : "SEARN",
+          "to train" : "our neural network",
+          "from sentence" : "We address this by using a learning - to - search algorithm inspired by SEARN to train our neural network ."
+        }
+      },
+      "learn" : {
+        "which action" : {
+          "available from" : {
+            "current state" : {
+              "has" : "partially completed coreference clustering"
+            }
+          },
+          "lead to" : "high - scoring coreference partition",
+          "from sentence" : "This approach allows the model to learn which action ( a cluster merge ) available from the current state ( a partially completed coreference clustering ) will eventually lead to a high - scoring coreference partition ."
+        }
+      }
+    }
+  }
+}

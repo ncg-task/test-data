@@ -1,0 +1,23 @@
+{
+  "has" : {
+    "Results" : {
+      "observed" : {
+        "more attention" : {
+          "given to" : "Nones , Verbs and Adjectives",
+          "from sentence" : "We observed that more attention was given to Nones , Verbs and Adjectives ."
+        }
+      },
+      "has" : {
+        "attention mechanism" : {
+          "helps" : {
+            "re-weight" : {
+              "has" : "words",
+              "according to" : "importance"
+            }
+          },
+          "from sentence" : "While mean pooling regarded each word of equal importance , the attention mechanism helps re-weight words according to their importance ."
+        }
+      }
+    }
+  }
+}

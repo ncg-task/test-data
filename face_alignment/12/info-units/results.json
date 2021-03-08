@@ -1,0 +1,95 @@
+{
+  "has" : {
+    "Results" : {
+      "For" : {
+        "AFLW - LFPA" : {
+          "has" : {
+            "our method" : {
+              "has" : {
+                "outperforms" : {
+                  "has" : "best methods",
+                  "with" : {
+                    "large margin" : {
+                      "of" : "17.8 % improvement"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "For AFLW - LFPA , our method outperforms the best methods with a large margin of 17.8 % improvement ."
+            }
+          }
+        },
+        "AFLW2000 - 3D" : {
+          "has" : {
+            "our method" : {
+              "shows" : "large improvement"
+            }
+          },
+          "from sentence" : "For AFLW2000 - 3D , our method also shows a large improvement ."
+        },
+        "IJB - A dataset" : {
+          "has" : {
+            "our method" : {
+              "reaches" : "higher accuracy"
+            }
+          },
+          "from sentence" : "For the IJB - A dataset , even though we are able to only compare the accuracy for the three labeled landmarks , our method still reaches a higher accuracy ."
+        }
+      },
+      "for" : {
+        "images" : {
+          "with" : {
+            "yaw angle" : {
+              "in" : "[ 60 , 90 ]"
+            }
+          },
+          "has" : {
+            "our method" : {
+              "improves" : {
+                "performance" : {
+                  "by" : "28 %",
+                  "from" : {
+                    "7.93" : {
+                      "to" : "5.68"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Specifically , for images with yaw angle in [ 60 , 90 ] , our method improves the performance by 28 % ( from 7.93 to 5.68 ) ."
+        }
+      },
+      "on" : {
+        "300W dataset" : {
+          "has" : {
+            "Our method" : {
+              "has" : {
+                "second best method" : {
+                  "on" : "challenging set"
+                }
+              }
+            }
+          },
+          "from sentence" : "Even though the proposed method can handle largepose alignment , to show its performance on the near- frontal datasets , we evaluate our method on the 300W dataset .
+Our method is the second best method on the challenging set ."
+
+        }
+      },
+      "has" : {
+        "performance" : {
+          "of" : {
+            "our method" : {
+              "comparable to" : {
+                "other methods" : {
+                  "designed for" : "near - frontal datasets"
+                }
+              }
+            },
+            "from sentence" : "In general , the performance of our method is comparable to other methods that are designed for near - frontal datasets , especially under the following consideration ."
+          }
+        }
+      }
+    }
+  }
+}

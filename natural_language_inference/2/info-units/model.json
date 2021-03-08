@@ -1,0 +1,14 @@
+{
+  "has" : {
+    "Model" : {
+      "explore" : {
+        "multi-step inference strategies" : {
+          "on" : "NLI",
+          "from sentence" : "Inspired by the recent success of multi-step inference on Machine Reading Comprehension ( MRC ) , we explore the multi-step inference strategies on NLI ."
+        }
+      },
+      "maintains" : "state",
+      "iteratively refines" : ["predictions", {"from sentence" : "Rather than directly predicting the results given the inputs , the model maintains a state and iteratively refines its predictions ."}]
+    }
+  }
+}

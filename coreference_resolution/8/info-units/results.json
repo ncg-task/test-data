@@ -1,0 +1,47 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "Coreference Results" : {
+          "has" : {
+            "outperform" : {
+              "has" : "previous systems",
+              "in" : "all metrics",
+              "from sentence" : "Results
+Coreference Results
+We outperform previous systems in all metrics ."
+
+            },
+            "our single model" : {
+              "has" : {
+                "improves" : {
+                  "has" : {
+                    "state - of - the - art average F1" : {
+                      "by" : "1.5"
+                    }
+                  }
+                }
+              }
+            },
+            "our 5 - model ensemble" : {
+              "has" : {
+                "improves" : {
+                  "by" : "3.1"
+                }
+              },
+              "from sentence" : "In particular , our single model improves the state - of - the - art average F1 by 1.5 , and our 5 - model ensemble improves it by 3.1 ."
+            },
+            "most significant gains" : {
+              "from" : {
+                "improvements" : {
+                  "in" : "recall"
+                }
+              },
+              "from sentence" : "The most significant gains come from improvements in recall , which is likely due to our end - toend setup ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

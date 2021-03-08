@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "initialized" : {
+        "our model" : {
+          "from" : "BERT model",
+          "has" : {
+            "finetuned" : {
+              "on" : "SQ u AD 1.1"
+            }
+          }
+        },
+        "from sentence" : "We initialized our model from a BERT model already finetuned on SQ u AD 1.1 ."
+      },
+      "trained" : {
+        "model" : {
+          "by minimizing" : {
+            "loss L" : {
+              "with" : ["Adam optimizer", {"batch size" : {"of" : "8"}}]
+            }
+          },
+          "from sentence" : "We trained the model by minimizing loss L from Section 3 with the Adam optimizer ( Kingma and Ba , 2014 ) with a batch size of 8 ."
+        }
+      },
+      "tuned" : [
+        "number of epochs",
+        {"initial learning rate" : {"for" : "finetuning"}}
+      ],
+      "found" : {
+        "training" : {
+          "for" : "1 epoch",
+          "with" : {
+            "an initial learning rate" : {
+              "of" : "3 10 ? 5"
+            }
+          }
+        },
+        "from sentence" : "As is common practice for BERT models , we only tuned the number of epochs and the initial learning rate for finetuning and found that training for 1 epoch with an initial learning rate of 3 10 ? 5 was the best setting ."
+      },
+      "with" : ["single Tesla P100 GPU", {"from sentence" : "Evaluation completed in about 5 hours on the NQ dev and test set with a single Tesla P100 GPU ."}]
+    }
+  }  
+}

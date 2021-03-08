@@ -1,0 +1,54 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "new self - attention mechanism" : {
+          "for" : "sentence embedding",
+          "namely" : "Dynamic Self - Attention ( DSA )",
+          "from sentence" : "Motivated by dynamic routing ) , we propose a new self - attention mechanism for sentence embedding , namely Dynamic Self - Attention ( DSA ) ."
+        }
+      },
+      "modify" : {
+        "dynamic routing" : {
+          "functions as" : {
+            "self - attention" : {
+              "with" : "dynamic weight vector"
+            }
+          },
+          "from sentence" : "To this end , we modify dynamic routing such that it functions as self - attention with the dynamic weight vector ."
+        }
+      },
+      "has" : {
+        "DSA" : {
+          "stacked on" : {
+            "CNN" : {
+              "with" : "Dense Connection"
+            }
+          },
+          "achieves" : {
+            "new state - of - the - art results" : {
+              "among" : {
+                "sentence encoding methods" : {
+                  "in" : "Stanford Natural Language Inference ( SNLI ) dataset",
+                  "with" : "least number of parameters"
+                }
+              },
+              "obtaining" : {
+                "comparative results" : {
+                  "in" : "Stanford Sentiment Treebank ( SST ) dataset"
+                }
+              }
+            }
+          },
+          "from sentence" : "DSA , which is stacked on CNN with Dense Connection , achieves new state - of - the - art results among the sentence encoding methods in Stanford Natural Language Inference ( SNLI ) dataset with the least number of parameters , while obtaining comparative results in Stanford Sentiment Treebank ( SST ) dataset ."
+        },
+        "outperforms" : {
+          "has" : "recent models",
+          "in terms of" : "time efficiency",
+          "due to" : "simplicity and highly parallelized computations",
+          "from sentence" : "It also outperforms recent models in terms of time efficiency due to its simplicity and highly parallelized computations ."
+        }
+      }
+    }
+  }
+}

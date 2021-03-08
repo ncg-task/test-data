@@ -1,0 +1,6 @@
+(Contribution||has||Results)
+(Results||achieved by||dynamic oracle)
+(dynamic oracle||for||English)
+(dynamic oracle||has||93.56 UAS)
+(Results||has||Chinese score)
+(Chinese score||establishes||state - of - the - art)

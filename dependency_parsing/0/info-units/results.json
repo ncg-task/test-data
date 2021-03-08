@@ -1,0 +1,33 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "our model" : {
+          "produces" : ["very competitive parsing results", {"from sentence" : "Clearly , our model produces very competitive parsing results ."}],
+          "obtains" : {
+            "UAS score" : {
+              "at" : "94.51 %"
+            },
+            "LAS score" : {
+              "at" : "92.87 %"
+            },
+            "from sentence" : "In particular , our model obtains a UAS score at 94.51 % and a LAS score at 92.87 % which are about 1.4 % and 1.9 % absolute higher than UAS and LAS scores of the BIST graph - based model , respectively ."
+          },
+          "achieve" : {
+            "0.9 % lower parsing scores" : {
+              "than" : "state - of - the - art dependency parser",
+              "from sentence" : "We achieve 0.9 % lower parsing scores than the state - of - the - art dependency parser of ."
+            }
+          },
+          "obtain" : {
+            "state - of - the - art POS tagging accuracy" : {
+              "at" : "97.97 %",
+              "on" : "test",
+              "from sentence" : "We also obtain a state - of - the - art POS tagging accuracy at 97.97 % on the test Section 23 , which is about 0.4 + % higher than those by , and ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

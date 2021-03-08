@@ -1,0 +1,12 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "neural - net parse reranker" : {
+          "with" : "simple architecture",
+          "from sentence" : "In this paper we borrow from the approaches of both of these works and present a neural - net parse reranker that achieves very good results , 93.8 F 1 , with a comparatively simple architecture ."
+        }
+      }
+    }
+  }
+}

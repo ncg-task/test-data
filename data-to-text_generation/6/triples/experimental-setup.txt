@@ -1,0 +1,6 @@
+(Contribution||has||Experimental setup)
+(Experimental setup||minimize||negative log - likelihood loss)
+(negative log - likelihood loss||using||teacher forcing)
+(negative log - likelihood loss||using||Adam)
+(Experimental setup||developed||system)
+(system||using||PyTorch framework 2 , release 0.4.1)

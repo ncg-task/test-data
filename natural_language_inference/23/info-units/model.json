@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Model" : {
+      "adopt" : {
+        "deep fusion strategy" : {
+          "to model" : {
+            "strong interactions" : {
+              "of" : "two sentences"
+            }
+          },
+          "from sentence" : "In this paper , we adopt a deep fusion strategy to model the strong interactions of two sentences ."
+        }
+      },
+      "has" : {
+        "text matching" : {
+          "regarded as" : {
+            "modelling" : {
+              "has" : {
+                "interaction" : {
+                  "of" : "two texts",
+                  "in" : "recursive matching way"
+                }
+              }
+            }
+          },
+          "from sentence" : "Thus , text matching can be regarded as modelling the interaction of two texts in a recursive matching way ."
+        },
+        "DF - LSTMs" : {
+          "consist of" : {
+            "two interconnected conditional LSTMs" : {
+              "models" : {
+                "apiece of text" : {
+                  "under" : "influence of another"
+                }
+              },
+              "from sentence" : "More concretely , DF - LSTMs consist of two interconnected conditional LSTMs , each of which models apiece of text under the influence of another ."
+            }
+          }
+        },
+        "output vector" : {
+          "of" : "DF - LSTMs",
+          "fed into" : "task - specific output layer",
+          "to compute" : "match - ing score",
+          "from sentence" : "The output vector of DF - LSTMs is fed into a task - specific output layer to compute the match - ing score ."
+        }
+      },
+      "propose" : {
+        "deep fusion long short - term memory neural networks ( DF - LSTMs )" : {
+          "to model" : {
+            "interactions" : {
+              "has" : "recursively"
+            }
+          },
+          "from sentence" : "Following this idea , we propose deep fusion long short - term memory neural networks ( DF - LSTMs ) to model the interactions recursively ."
+        }
+      }
+    }
+  }
+}

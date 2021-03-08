@@ -1,0 +1,37 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "method" : {
+          "for reducing" : {
+            "vocabulary" : {
+              "of" : {
+                "senses" : {
+                  "of" : "Word Net"
+                }
+              },
+              "by selecting" : {
+                "minimal set" : {
+                  "of" : {
+                    "senses" : {
+                      "required for" : {
+                        "differentiating" : {
+                          "has" : {
+                            "meaning" : {
+                              "of" : "every word"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "We propose a method for reducing the vocabulary of senses of Word Net by selecting the minimal set of senses required for differentiating the meaning of every word ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Data - to - Text Generation", {"from sentence" : "A Hierarchical Model for Data - to - Text Generation"}],
+    ["Transcribing structured data into natural language descriptions", "data - to - text", {"from sentence" : "Transcribing structured data into natural language descriptions has emerged as a challenging task , referred to as \" data - to - text \" ."}]
+  ]
+}

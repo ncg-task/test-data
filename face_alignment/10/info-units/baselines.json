@@ -1,0 +1,12 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "set of state - of - the - art approaches" : {
+          "including" : ["SDM", "ERT", "RCPR", "CFSS", "LBF", "GRF", "CCL", "DAC - CSR", "TR - DRN"],
+          "from sentence" : "We compare our method with a set of state - of - the - art approaches , including SDM , ERT , RCPR , CFSS , LBF , GRF , CCL , DAC - CSR and TR - DRN. box size ."
+        }
+      }
+    }
+  }
+}

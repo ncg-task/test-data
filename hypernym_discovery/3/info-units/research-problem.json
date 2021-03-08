@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Hypernym Discovery", "Domain Adaptation", {"from sentence" : "Supervised Distributional Hypernym Discovery via Domain Adaptation"}],
+    ["taxonomy learning", {"from sentence" : "In addition , while not being taxonomy learning systems per se , semi-supervised systems for Information Extraction such as NELL rely crucially on taxonomized concepts and their relations within their learning process ."}]
+  ]
+}

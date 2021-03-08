@@ -1,0 +1,91 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "goal - directed endto - end deep reinforcement learning framework" : {
+          "to resolve" : "coreference",
+          "from sentence" : "In this paper , we propose a goal - directed endto - end deep reinforcement learning framework to resolve coreference as shown in ."
+        }
+      },
+      "leverage" : {
+        "neural architecture" : {
+          "as" : "our policy network",
+          "includes" : {
+            "learning" : {
+              "has" : "span representation"
+            },
+            "scoring" : {
+              "has" : "potential entity mentions"
+            },
+            "generating" : {
+              "has" : {
+                "probability distribution" : {
+                  "has" : {
+                    "over all possible coreference linking actions" : {
+                      "from" : {
+                        "current mention" : {
+                          "to" : "antecedents"
+                        }
+                      },
+                      "from sentence" : "Specifically , we leverage the neural architecture in as our policy network , which includes learning span representation , scoring potential entity mentions , and generating a probability distribution over all possible coreference linking actions from the current mention to its antecedents ."
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "has" : {
+        "sequence" : {
+          "of" : "linking actions",
+          "has" : {
+            "our reward function" : {
+              "used to" : {
+                "measure" : {
+                  "has" : {
+                    "how good" : {
+                      "has" : "generated coreference clusters"
+                    }
+                  }
+                }
+              },
+              "directly related to" : "coreference evaluation metrics"
+            }
+          },
+          "from sentence" : "Once a sequence of linking actions are made , our reward function is used to measure how good the generated coreference clusters are , which is directly related to coreference evaluation metrics ."
+        }
+      },
+      "introduce" : {
+        "entropy regularization term" : {
+          "to encourage" : "exploration",
+          "prevent" : {
+            "policy" : {
+              "from" : {
+                "prematurely converging" : {
+                  "to" : "bad local optimum"
+                }
+              }
+            }
+          },
+          "from sentence" : "Besides , we introduce an entropy regularization term to encourage exploration and prevent the policy from prematurely converging to a bad local optimum ."
+        }
+      },
+      "update" : {
+        "regularized policy network parameters" : {
+          "based on" : {
+            "rewards" : {
+              "associated with" : {
+                "sequences" : {
+                  "of" : "sampled actions"
+                }
+              }
+            }
+          },
+          "computed on" : "whole input document",
+          "from sentence" : "Finally , we update the regularized policy network parameters based on the rewards associated with sequences of sampled actions , which are computed on the whole input document ."
+        }
+      }
+    }
+  }
+}

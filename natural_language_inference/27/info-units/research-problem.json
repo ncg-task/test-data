@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["CONVERSATIONAL QUESTION AN - SWERING", {"from sentence" : "SDNET : CONTEXTUALIZED ATTENTION - BASED DEEP NETWORK FOR CONVERSATIONAL QUESTION AN - SWERING"}],
+    ["Conversational question answering ( CQA )", {"from sentence" : "Conversational question answering ( CQA ) is a novel QA task that requires understanding of dialogue context ."}],
+    ["machine reading comprehension ( MRC )", "CQA", {"from sentence" : "Different from traditional single - turn machine reading comprehension ( MRC ) tasks , CQA includes passage comprehension , coreference resolution , and contextual understanding ."}]
+  ]
+}

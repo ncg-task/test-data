@@ -1,0 +1,50 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "our models" : {
+          "has" : {
+            "outperformed" : {
+              "has" : "all previously proposed models",
+              "from sentence" : "As shown , our models outperformed all previously proposed models ."
+            }
+          }
+        },
+        "Our models" : {
+          "achieved" : {
+            "new state - of - the - art results" : {
+              "on" : {
+                "four" : {
+                  "of" : "five datasets",
+                  "namely" : ["MSNBC", "AQUAINT", "ACE2004", "WNED - WIKI"]
+                }
+              }
+            }
+          },
+          "performed" : {
+            "competitive" : {
+              "on" : "WNED - CLUEWEB dataset"
+            }
+          },
+          "from sentence" : "Our models achieved new state - of - the - art results on four of the five datasets , namely MSNBC , AQUAINT , ACE2004 , and WNED - WIKI , and performed competitive on the WNED - CLUEWEB dataset ."
+        }
+      },
+      "using" : {
+        "pseudo entity annotations" : {
+          "boosted" : {
+            "accuracy" : {
+              "by" : "0.3 %"
+            },
+            "from sentence" : "Furthermore , using pseudo entity annotations boosted the accuracy by 0.3 % ."
+          },
+          "improved" : {
+            "performance" : {
+              "on" : "AQUAINT and ACE2004 datasets"
+            },
+            "from sentence" : "Furthermore , using pseudo entity annotations improved the performance on the AQUAINT and ACE2004 datasets ."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Learning Distributed Representations of Texts and Entities from Knowledge Base", {"from sentence" : "Learning Distributed Representations of Texts and Entities from Knowledge Base"}],
+    ["jointly learn distributed representations of texts ( i.e. , sentences and paragraphs ) and KB entities", {"from sentence" : "In particular , we propose Neural Text - Entity Encoder ( NTEE ) , a neural network model to jointly learn distributed representations of texts ( i.e. , sentences and paragraphs ) and KB entities ."}]
+  ]
+}

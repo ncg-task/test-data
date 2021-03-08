@@ -1,0 +1,21 @@
+{
+  "has" : {
+    "Model" : {
+      "modeling" : {
+        "sequence of words" : {
+          "surrounding" : "target word"
+        }
+      },
+      "represent" : {
+        "words" : {
+          "using" : {
+            "real valued vector representation" : {
+              "i.e." : "word embeddings"
+            }
+          }
+        },
+        "from sentence" : "We aim to mitigate these problems by ( 1 ) modeling the sequence of words surrounding the target word , and ( 2 ) refrain from using any hand crafted features or external resources and instead represent the words using real valued vector representation , i.e. word embeddings ."
+      }
+    }
+  }
+}

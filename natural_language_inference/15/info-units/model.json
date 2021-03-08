@@ -1,0 +1,49 @@
+{
+  "has" : {
+    "Model" : {
+      "enrich" : {
+        "neural - network - based NLI models" : {
+          "with" : {
+            "external knowledge" : {
+              "in" : ["coattention", "local inference collection", "inference composition components"],
+              "from sentence" : "In this paper we enrich neural - network - based NLI models with external knowledge in coattention , local inference collection , and inference composition components ."
+            }
+          }
+        }
+      },
+      "show" : {
+        "proposed model" : {
+          "improves" : {
+            "state - of - the - art NLI models" : {
+              "to achieve" : {
+                "better performances" : {
+                  "on" : "SNLI and MultiNLI datasets"
+                }
+              },
+              "from sentence" : "We show the proposed model improves the state - of - the - art NLI models to achieve better performances on the SNLI and MultiNLI datasets ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "advantage" : {
+          "using" : {
+            "external knowledge" : {
+              "has" : {
+                "more significant" : {
+                  "when" : {
+                    "size" : {
+                      "of" : "training data",
+                      "is" : "restricted"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The advantage of using external knowledge is more significant when the size of training data is restricted , suggesting that if more knowledge can be obtained , it may bring more benefit ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

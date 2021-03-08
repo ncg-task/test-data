@@ -1,0 +1,116 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "spaCy tool" : {
+          "used to" : {
+            "tokenize" : {
+              "has" : "all the dataset"
+            }
+          }
+        },
+        "PyTorch" : {
+          "used to" : {
+            "implement" : {
+              "has" : "our models"
+            }
+          },
+          "from sentence" : "The spaCy tool 2 is used to tokenize all the dataset and PyTorch is used to implement our models ."
+        },
+        "lexicon embeddings" : {
+          "are" : "d =600 - dimensions",
+          "from sentence" : "So lexicon embeddings are d =600 - dimensions ."
+        },
+        "embedding" : {
+          "for" : {
+            "out - of - vocabulary" : {
+              "has" : "zeroed"
+            }
+          },
+          "from sentence" : "The embedding for the out - of - vocabulary is zeroed ."
+        },
+        "hidden size" : {
+          "of" : "LSTM",
+          "in" : {
+            "contextual encoding layer , memory generation layer" : {
+              "set to" : "128"
+            }
+          }
+        },
+        "input size" : {
+          "of" : {
+            "output layer" : {
+              "has" : "1024 ( 128 * 2 * 4 )"
+            }
+          },
+          "from sentence" : "The hidden size of LSTM in the contextual encoding layer , memory generation layer is set to 128 , thus the input size of output layer is 1024 ( 128 * 2 * 4 ) as Eq 2 ."
+        },
+        "projection size" : {
+          "in" : "attention layer",
+          "set to" : "256",
+          "from sentence" : "The projection size in the attention layer is set to 256 ."
+        },
+        "dropout rate" : {
+          "has" : "0.2"
+        },
+        "dropout mask" : {
+          "fixed through" : {
+            "time steps" : {
+              "in" : "LSTM"
+            }
+          },
+          "from sentence" : "The dropout rate is 0.2 , and the dropout mask is fixed through time steps in LSTM ."
+        },
+        "mini - batch size" : {
+          "set to" : "32",
+          "from sentence" : "The mini - batch size is set to 32 ."
+        },
+        "Our optimizer" : {
+          "is" : "Adamax"
+        },
+        "learning rate" : {
+          "initialized as" : "0.002",
+          "decreased by" : {
+            "0.5" : {
+              "after" : "each 10 epochs"
+            }
+          },
+          "from sentence" : "Our optimizer is Adamax and its learning rate is initialized as 0.002 and decreased by 0.5 after each 10 epochs ."
+        }
+      },
+      "fix" : {
+        "word embedding" : {
+          "with" : "300 - dimensional GloVe word vectors",
+          "from sentence" : "We fix word embedding with 300 - dimensional GloVe word vectors ."
+        }
+      },
+      "For" : {
+        "character encoding" : {
+          "use" : {
+            "concatenation" : {
+              "of" : {
+                "multi-filter Convolutional Neural Nets" : {
+                  "with" : {
+                    "windows" : {
+                      "has" : "1 , 3 , 5"
+                    },
+                    "hidden size" : {
+                      "has" : "50 , 100 , 150"
+                    }
+                  },
+                  "from sentence" : "For the character encoding , we use a concatenation of the multi-filter Convolutional Neural Nets with windows 1 , 3 , 5 and the hidden size 50 , 100 , 150 ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "speedup" : {
+        "training" : {
+          "use" : "weight normalization",
+          "from sentence" : "To speedup training , we use weight normalization ."
+        }
+      }
+    }
+  }  
+}

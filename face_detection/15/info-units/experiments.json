@@ -1,0 +1,59 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "AFW dataset" : {
+              "has" : {
+                "our FaceBoxes" : {
+                  "has" : {
+                    "outperforms" : {
+                      "by" : "large margin"
+                    }
+                  },
+                  "from sentence" : "AFW dataset .
+As illustrated in , our FaceBoxes outperforms all others by a large margin ."
+
+                }
+              }  
+            },
+            "PASCAL face dataset" : {
+              "has" : {
+                "Our method" : {
+                  "has" : {
+                    "significantly outperforms" : {
+                      "has" : ["all other methods", "commercial face detectors"],
+                      "from sentence" : "PASCAL face dataset .
+Our method significantly outperforms all other methods and commercial face detectors ( e.g. , SkyBiometry , Face + + and Picasa ) ."
+
+                    }         
+                  }
+                }
+              }
+            },
+            "FDDB dataset" : {
+              "has" : {
+                "Our FaceBoxes" : {
+                  "achieves" : "state - of - the - art performance",
+                  "has" : {
+                    "outperforms" : {
+                      "by" : {
+                        "large margin" : {
+                          "on" : "discontinuous and continuous ROC curves"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "FDDB dataset .
+Our FaceBoxes achieves the state - of - the - art performance and outperforms all others by a large margin on discontinuous and continuous ROC curves ."
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }  
+}

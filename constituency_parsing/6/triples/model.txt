@@ -1,0 +1,3 @@
+(Contribution||has||Model)
+(Model||present||neural - net parse reranker)
+(neural - net parse reranker||with||simple architecture)

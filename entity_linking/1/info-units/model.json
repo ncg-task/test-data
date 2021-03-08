@@ -1,0 +1,61 @@
+{
+  "has" : {
+    "Model" : {
+      "describe" : {
+        "new contextualized embedding model" : {
+          "for" : {
+            "words and entities" : {
+              "for" : "NED"
+            }
+          },
+          "from sentence" : "In this paper , we describe a new contextualized embedding model for words and entities for NED ."
+        }
+      },
+      "has" : {
+        "proposed model" : {
+          "based on" : "bidirectional transformer encoder",
+          "from sentence" : "Following , the proposed model is based on the bidirectional transformer encoder ."
+        }
+      },
+      "takes" : {
+        "sequence of words and entities" : {
+          "in" : "input text",
+          "produces" : {
+            "contextualized embedding" : {
+              "for" : "each word and entity"
+            }
+          },
+          "from sentence" : "It takes a sequence of words and entities in the input text , and produces a contextualized embedding for each word and entity ."
+        }
+      },
+      "propose" : {
+        "masked entity prediction" : {
+          "has" : {
+            "new task" : {
+              "aims to train" : {
+                "embedding model" : {
+                  "by predicting" : {
+                    "randomly masked entities" : {
+                      "based on" : {
+                        "words and non-masked entities" : {
+                          "in" : "input text"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Inspired by MLM , we propose masked entity prediction , a new task that aims to train the embedding model by predicting randomly masked entities based on words and non-masked entities in the input text ."
+        }
+      },
+      "trained" : {
+        "model" : {
+          "using" : ["texts", {"entity annotations" : {"retrieved from" : "Wikipedia"}}],
+          "from sentence" : "We trained the model using texts and their entity annotations retrieved from Wikipedia ."
+        }
+      }
+    }
+  }
+}

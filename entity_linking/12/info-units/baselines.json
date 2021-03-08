@@ -1,0 +1,100 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "Knowledge - based Systems" : {
+          "has" : {
+            "Babelfy" : {
+              "exploits" : {
+                "semantic network structure" : {
+                  "from" : "BabelNet"
+                }
+              },
+              "builds" : {
+                "unified graph - based architecture" : {
+                  "for" : "WSD and Entity Linking"
+                }
+              }
+            }
+          },
+          "from sentence" : "Knowledge - based Systems
+Babelfy : exploits the semantic network structure from BabelNet and builds a unified graph - based architecture for WSD and Entity Linking ."
+
+        },
+        "Supervised Systems" : {
+          "has" : {
+            "IMS" : {
+              "selects" : {
+                "linear Support Vector Machine ( SVM )" : {
+                  "as" : "classifier"
+                }
+              },
+              "use" : {
+                "set of features" : {
+                  "surrounding" : {
+                    "target word" : {
+                      "within" : "limited window"
+                    }
+                  },
+                  "such as" : ["POS tags", "local words", "local collocations"]
+                }
+              },
+              "from sentence" : "Supervised Systems
+IMS : Zhi and Ng ( 2010 ) selects a linear Support Vector Machine ( SVM ) as its classifier and makes use of a set of features surrounding the target word within a limited window , such as POS tags , local words and local collocations ."
+
+            },
+            "IMS +emb" : {
+              "selects" : {
+                "IMS" : {
+                  "as" : "underlying framework"
+                }
+              },
+              "makes use of" : {
+                "word embeddings" : {
+                  "as" : "features",
+                  "makes" : {
+                    "hard to beat" : {
+                      "inmost of" : "WSD datasets"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "IMS +emb : selects IMS as the underlying framework and makes use of word embeddings as features which makes it hard to beat inmost of WSD datasets ."
+            }
+          }
+        },
+        "Neural - based Systems" : {
+          "has" : {
+            "Bi- LSTM" : {
+              "leverages" : {
+                "bidirectional LSTM network" : {
+                  "shares" : {
+                    "model parameters" : {
+                      "among" : "all words"
+                    }
+                  },
+                  "from sentence" : "Neural - based Systems
+Bi- LSTM : leverages a bidirectional LSTM network which shares model parameters among all words ."
+
+                }
+              }
+            },
+            "Bi-LSTM +att.+ LEX and it s variant Bi- LSTM +att.+ LEX+P OS" : {
+              "transfers" : {
+                "WSD" : {
+                  "into" : "sequence learning task"
+                }
+              },
+              "propose" : {
+                "multi - task learning framework" : {
+                  "for" : ["WSD", "POS tagging", "coarse - grained semantic labels ( LEX )"]
+                }
+              },
+              "from sentence" : "Bi-LSTM +att.+ LEX and it s variant Bi- LSTM +att.+ LEX+P OS : transfers WSD into a sequence learning task and propose a multi - task learning framework for WSD , POS tagging and coarse - grained semantic labels ( LEX ) ."
+            }
+          }
+        }
+      }      
+    }
+  }
+}

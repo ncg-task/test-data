@@ -1,0 +1,8 @@
+{
+  "has research problem" : [
+    ["Natural Language Inference", {"from sentence" : "Learning Natural Language Inference using Bidirectional LSTM model and Inner- Attention"}],
+    ["recognizing text entailment", {"from sentence" : "In this paper , we proposed a sentence encoding - based model for recognizing text entailment ."}],
+    ["recognizing text entailment ( RTE )", {"from sentence" : "Given a pair of sentences , the goal of recognizing text entailment ( RTE ) is to determine whether the hypothesis can reasonably be inferred from the premises ."}],
+    ["RTE", {"from sentence" : "There were three types of relation in RTE , Entailment ( inferred to be true ) , Contradiction ( inferred to be false ) and Neutral ( truth unknown ) ."}]
+  ]
+}

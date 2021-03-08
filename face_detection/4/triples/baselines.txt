@@ -1,0 +1,6 @@
+(Contribution||has||Baselines)
+(Baselines||has||DSFD ( Resnet152 backbone ))
+(Baselines||has||Pyramid Box ( VGG16 backbone ))
+(Baselines||has||S3 FD ( VGG16 backbone ))
+(Baselines||has||SSH ( VGG16 backbone ))
+(Baselines||has||FaceBoxes)

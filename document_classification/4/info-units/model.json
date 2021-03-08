@@ -1,0 +1,44 @@
+{
+  "has" : {
+    "Model" : {
+      "making use of" : "label embedding framework",
+      "propose" : {
+        "Label - Embedding Attentive Model ( LEAM )" : {
+          "to improve" : "text classification"
+        },
+        "from sentence" : "Our primary contribution is therefore to propose such a solution by making use of the label embedding framework , and propose the Label - Embedding Attentive Model ( LEAM ) to improve text classification ."
+      },
+      "has" : {
+        "proposed LEAM" : {
+          "implemented by" : {
+            "jointly embedding" : {
+              "has" : {
+                "word and label" : {
+                  "in" : "same latent space"
+                }
+              }
+            }
+          },
+          "has" : {
+            "text representations" : {
+              "constructed directly using" : "text - label compatibility"
+            }
+          },
+          "from sentence" : "The proposed LEAM is implemented by jointly embedding the word and label in the same latent space , and the text representations are constructed directly using the text - label compatibility ."
+        },
+        "label embedding framework" : {
+          "has" : {
+            "Label - attentive text representation" : {
+              "informative for" : "downstream classification task",
+              "from sentence" : "Our label embedding framework has the following salutary properties : ( i ) Label - attentive text representation is informative for the downstream classification task , as it directly learns from a shared joint space , whereas traditional methods proceed in multiple steps by solving intermediate problems ."
+            },
+            "LEAM learning procedure" : {
+              "involves" : "series of basic algebraic operations",
+              "from sentence" : "( ii ) The LEAM learning procedure only involves a series of basic algebraic operations , and hence it retains the interpretability of simple models , especially when the label description is available ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

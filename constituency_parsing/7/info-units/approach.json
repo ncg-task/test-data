@@ -1,0 +1,43 @@
+{
+  "has" : {
+    "Approach" : {
+      "manipulates" : {
+        "inductive bias" : {
+          "of" : "RNNGs",
+          "to test" : "linguistic hypotheses",
+          "from sentence" : "This paper manipulates the inductive bias of RNNGs to test linguistic hypotheses ."
+        }
+      },
+      "begin with" : {
+        "ablation study" : {
+          "to discover" : {
+            "importance" : {
+              "of" : "composition function"
+            }
+          },
+          "from sentence" : "We begin with an ablation study to discover the importance of the composition function in 3 ."
+        }
+      },
+      "augment" : {
+        "RNNG composition function" : {
+          "with" : "novel gated attention mechanism",
+          "to incorporate" : "more interpretability",
+          "from sentence" : "Based on the findings , we augment the RNNG composition function with a novel gated attention mechanism ( leading to the GA - RNNG ) to incorporate more interpretability into the model in 4 ."
+        }
+      },
+      "Using" : {
+        "GA - RNNG" : {
+          "investigating" : {
+            "individual heads" : {
+              "play in" : "phrasal representation"
+            },
+            "role" : {
+              "play" : "nonterminal category labels"
+            },
+            "from sentence" : "Using the GA - RNNG , we proceed by investigating the role that individual heads play in phrasal representation ( 5 ) and the role that nonterminal category labels play ( 6 ) ."
+          }
+        }
+      }
+    }
+  }
+}

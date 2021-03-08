@@ -1,0 +1,71 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "used" : {
+        "one - layer pointer networks" : {
+          "during" : "content planning"
+        },
+        "two - layer LSTMs" : {
+          "during" : "text generation",
+          "from sentence" : "We used one - layer pointer networks during content planning , and two - layer LSTMs during text generation ."
+        }
+      },
+      "has" : {
+        "Input feeding" : {
+          "employed for" : "text decoder",
+          "from sentence" : "Input feeding was employed for the text decoder ."
+        },
+        "Models" : {
+          "trained for" : {
+            "25 epochs" : {
+              "with" : "Adagrad optimizer"
+            }
+          },
+          "has" : {
+            "initial learning rate" : {
+              "has" : "0.15"
+            },
+            "learning rate decay" : {
+              "selected from" : "{ 0.5 , 0.97 }"
+            },
+            "batch size" : {
+              "has" : "5"
+            }
+          },
+          "from sentence" : "Models were trained for 25 epochs with the Adagrad optimizer ; the initial learning rate was 0.15 , learning rate decay was selected from { 0.5 , 0.97 } , and batch size was 5 ."
+        },
+        "All models" : {
+          "implemented in" : "Open NMT - py",
+          "from sentence" : "All models are implemented in Open NMT - py ."
+        }
+      },
+      "applied" : {
+        "dropout" : {
+          "at" : {
+            "rate" : {
+              "of" : "0.3"
+            }
+          },
+          "from sentence" : "We applied dropout ) at a rate of 0.3 ."
+        }
+      },
+      "For" : {
+        "text decoding" : {
+          "made use of" : "BPTT",
+          "set" : {
+            "truncation size" : {
+              "to" : "100"
+            }
+          },
+          "from sentence" : "For text decoding , we made use of BPTT ) and set the truncation size to 100 ."
+        }
+      },
+      "set" : {
+        "beam size" : {
+          "to" : "5",
+          "from sentence" : "We set the beam size to 5 during inference ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "network reduction" : {
+          "obtained by" : {
+            "GAP" : {
+              "Considering" : {
+                "dataset" : {
+                  "with" : "four target classes"
+                }
+              },
+              "comparing" : {
+                "SVDCNN with VDCNN" : {
+                  "has" : {
+                    "number of parameters" : {
+                      "of" : {
+                        "FC layers" : {
+                          "passed from" : {
+                            "12.59" : {
+                              "to" : "0.02 million parameters"
+                            }
+                          },
+                          "representing" : {
+                            "reduction" : {
+                              "of" : "99.84 %"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The network reduction obtained by the GAP is even more representative since both compared models use three FC layers for their classification tasks .
+Considering a dataset with four target classes , and comparing SVDCNN with VDCNN , the number of parameters of the FC layers has passed from 12.59 to 0.02 million parameters , representing a reduction of 99.84 % ."
+
+            }
+          },
+          "has" : {
+            "Char - CNN" : {
+              "has" : {
+                "proposed model" : {
+                  "is" : "99.82 % smaller"
+                }
+              },
+              "from sentence" : "Following with the same comparison , but to Char - CNN , the proposed model is 99.82 % smaller , 0.02 against 11.36 million of FC parameters ."
+            }
+          }
+        },
+        "most in - depth model" : {
+          "occupies only" : "6 MB",
+          "from sentence" : "While our most in - depth model ( 29 ) occupies only 6 MB , VDCNN with the same depth occupies 64. 16 MB of storage ."
+        }
+      },
+      "Regarding" : {
+        "accuracy results" : {
+          "has" : {
+            "performance difference" : {
+              "between" : "VDCNN and SVDCNN models",
+              "varies between" : "0.4 and 1.3 %",
+              "from sentence" : "Regarding accuracy results , usually , a model with such parameter reduction should present some loss of accuracy in comparison to the original model .
+Nevertheless , the performance difference between VDCNN and SVDCNN models varies between 0.4 and 1.3 % , which is pretty modest considering the parameters and storage size reduction aforementioned ."
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

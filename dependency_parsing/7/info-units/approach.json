@@ -1,0 +1,45 @@
+{
+  "has" : {
+    "Approach" : {
+      "adapt" : {
+        "training criterion" : {
+          "to explore" : {
+            "parser states" : {
+              "from" : ["training data", {"model" : {"as" : "being learned"}}],
+              "from sentence" : "In this work , we adapt the training criterion so as to explore parser states drawn not only from the training data , but also from the model as it is being learned ."
+            }
+          }
+        }
+      },
+      "use" : {
+        "method" : {
+          "to" : {
+            "dynamically chose" : {
+              "has" : {
+                "optimal ( relative to the final attachment accuracy ) action" : {
+                  "given" : "imperfect history"
+                }
+              },
+              "from sentence" : "To do so , we use the method of to dynamically chose an optimal ( relative to the final attachment accuracy ) action given an imperfect history ."
+            }
+          }
+        }
+      },
+      "By" : {
+        "interpolating" : {
+          "between" : {
+            "algorithm states" : {
+              "sampled from" : ["model", "training data"],
+              "has" : {
+                "more robust predictions" : {
+                  "at" : "test time"
+                }
+              }
+            }
+          },
+          "from sentence" : "By interpolating between algorithm states sampled from the model and those sampled from the training data , more robust predictions at test time can be made ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "has" : {
+    "Results" : {
+      "see that" : {
+        "proposed model" : {
+          "shows" : {
+            "superiority" : {
+              "on" : "task"
+            }
+          },
+          "has" : {
+            "outperforms" : {
+              "has" : {
+                "stateof - the - arts methods" : {
+                  "on" : {
+                    "both metrics ( P@1 ( 5 ) and P@1 ( 10 ) )" : {
+                      "with" : "large margin"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "we can see that the proposed model also shows its superiority on this task , which outperforms the stateof - the - arts methods on both metrics ( P@1 ( 5 ) and P@1 ( 10 ) ) with a large margin ."
+        }
+      },
+      "has" : {
+        "strong interaction models" : {
+          "name" : ["attention LSTMs", "our DF - LSTMs"],
+          "has" : {
+            "consistently outperform" : {
+              "has" : {
+                "weak interaction models" :{
+                  "name" : ["NBOW", "parallel LSTMs"],
+                  "with" : "large margin"
+                }
+              }
+            }
+          },
+          "from sentence" : "By analyzing the evaluation results of questionanswer matching in , we can see strong interaction models ( attention LSTMs , our DF - LSTMs ) consistently outperform the weak interaction models ( NBOW , parallel LSTMs ) with a large margin , which suggests the importance of modelling strong interaction of two sentences ."
+        }
+      }
+    }
+  }
+}

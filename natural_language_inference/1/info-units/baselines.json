@@ -1,0 +1,23 @@
+{
+  "has" : {
+    "Baselines" : {
+      "compare" : {
+        "our model" : {
+          "against" : [
+            {"reported models" : {
+              "in" : ["Seq2Seq", "ASR", "BiDAF"]
+            }},
+            "Multi-range Reasoning Unit ( MRU )"
+          ],
+          "from sentence" : "We compare our model against reported models in ( Seq2Seq , ASR , BiDAF ) and the Multi-range Reasoning Unit ( MRU ) in ."
+        }
+      },
+      "implemented" : {
+        "two baseline models" : {
+          "with" : "Context Zoom layer",
+          "from sentence" : "We implemented two baseline models ( Baseline 1 , Baseline 2 ) with Context Zoom layer similar to ."
+        }
+      }
+    }
+  }
+}

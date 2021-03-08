@@ -1,0 +1,122 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "300 W" : {
+          "see that" : {
+            "HGs" : {
+              "with" : "our Semantic Alignment ( HGs + SA )",
+              "has" : {
+                "greatly outperform" : {
+                  "has" : ["hourglass ( HGs ) only", {"4.37 % vs 5.04 %" : {"in terms of" : {"NME" : {"on" : "Full set"}}}}],
+                  "showing" : {
+                    "great effectiveness" : {
+                      "of" : "our Semantic Alignment ( SA )"
+                    }
+                  },
+                  "from sentence" : "300 W .
+2 , we can see that HGs with our Semantic Alignment ( HGs + SA ) greatly outperform hourglass ( HGs ) only , 4.37 % vs 5.04 % in terms of NME on Full set , showing the great effectiveness of our Semantic Alignment ( SA ) ."
+
+                }
+              }
+            }
+          },
+          "adding" : {
+            "GHCU" : {
+              "see" : {
+                "HGs + SA + GHCU" : {
+                  "has" : {
+                    "slightly outperforms" : {
+                      "has" : "HGs + SA"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "By adding GHCU , we can see that HGs + SA + GHCU slightly outperforms the HGs + SA ."
+            }
+          },
+          "normalize" : {
+            "in - plane - rotation" : {
+              "by training" : "preprocessing network",
+              "achieve" : {
+                "state of the art performance" : {
+                  "on" : {
+                    "Challenge set and Full set" : {
+                      "has" : "6.38 % and 4.02 %"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Following and which normalize the in - plane - rotation by training a preprocessing network , we conduct this normalization ( HGs + SA + GHCU + Norm ) and achieve state of the art performance on Challenge set and Full set : 6.38 % and 4.02 % ."
+            }
+          },
+          "on" : {
+            "Challenge set" : {
+              "has" : {
+                "significantly outperform" : {
+                  "has" : ["state of the art method", {"6.38 %" : {"has" : "HGs + SA +GHCU + Norm", "vs" : {"6.98 %" : {"has" : "LAB"}}}}]
+                }
+              },
+              "from sentence" : "In particular , on Challenge set , we significantly outperform the state of the art method : 6.38 % ( HGs + SA +GHCU + Norm ) vs 6.98 % ( LAB ) , meaning that our method is particularly effective on challenging scenarios ."
+            }
+          }
+        },
+        "AFLW" : {
+          "has" : {
+            "HGs + SA" : {
+              "has" : {
+                "outperforms" : {"has" : ["HGs", "1.62 % vs 1.95 %"]}
+              },
+              "from sentence" : "AFLW . 300W has 68 facial points which contain many weak semantic landmarks ( e.g. those on face contours ) .
+As shown in Tab. 3 , HGs + SA outperforms
+HGs , 1.62 % vs 1.95 % ."
+
+            }
+          },
+          "observed that" : {
+            "HGs + SA + GHCU" : {
+              "works" : {
+                "better" : {
+                  "than" : "HGs + SA"
+                }
+              },
+              "from sentence" : "It is also observed that HGs + SA + GHCU works better than HGs + SA ."
+            }
+          }
+        },
+        "300 - VW" : {
+          "see" : {
+            "HGs + SA" : {
+              "has" : {
+                "greatly outperforms" : {
+                  "has" : "HGs"
+                }
+              },
+              "from sentence" : "300 - VW .
+4 , we can see that HGs + SA greatly outperforms HGs in each of these three test sets ."
+
+            }
+          },
+          "compared with" : {
+            "HGs + SA" : {
+              "has" : {
+                "HGs + SA + GHCU" : {
+                  "reduce" : {
+                    "error rate ( RMSE )" : {
+                      "by" : {
+                        "18 %" : {
+                          "on" : "Category 3 test set"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Furthermore , compared with HGs + SA , HGs + SA + GHCU reduce the error rate ( RMSE ) by 18 % on Category 3 test set , meaning that GHCU is very effective for video - based challenges such as low resolution and occlusions because ."
+                }
+              }
+            }
+          }
+        }
+      }      
+    }
+  }
+}

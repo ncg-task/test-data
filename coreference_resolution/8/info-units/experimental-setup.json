@@ -1,0 +1,124 @@
+{
+  "has" : {
+    "Experimental setup" : {
+      "has" : {
+        "word embeddings" : {
+          "has" : {
+            "fixed concatenation" : {
+              "of" : {
+                "300 - dimensional GloVe embeddings and 50 - dimensional embeddings" : {
+                  "has" : {
+                    "normalized" :{
+                      "to be" : "unit vectors"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Hyperparameters
+The word embeddings area fixed concatenation of 300 - dimensional GloVe embeddings and 50 - dimensional embeddings from , both normalized to be unit vectors ."
+
+            }
+          }
+        },
+        "Outof - vocabulary words" : {
+          "represented by" : {
+            "vector" : {
+              "of" : "zeros"
+            }
+          },
+          "from sentence" : "Outof - vocabulary words are represented by a vector of zeros ."
+        },
+        "convolutions" : {
+          "have" : {
+            "window sizes" : {
+              "of" : {
+                "3 , 4 , and 5 characters" : {
+                  "consisting of" : "50 filters"
+                }
+              },
+              "from sentence" : "The convolutions have window sizes of 3 , 4 , and 5 characters , each consisting of 50 filters ."
+            }
+          }
+        },
+        "hidden states" : {
+          "in" : "LSTMs",
+          "has" : "200 dimensions",
+          "from sentence" : "The hidden states in the LSTMs have 200 dimensions ."
+        },
+        "Each feedforward neural network" : {
+          "consists of" : {
+            "two hidden layers" : {
+              "with" : ["150 dimensions", "rectified linear units"]
+            }
+          },
+          "from sentence" : "Each feedforward neural network consists of two hidden layers with 150 dimensions and rectified linear units ."
+        },
+        "LSTM weights" : {
+          "initialized with" : "random orthonormal matrices",
+          "from sentence" : "The LSTM weights are initialized with random orthonormal matrices as described in ."
+        },
+        "Dropout masks" : {
+          "shared across" : {
+            "timesteps" : {
+              "to preserve" : "long - distance information"
+            }
+          },
+          "from sentence" : "Dropout masks are shared across timesteps to preserve long - distance information as described in ."
+        },
+        "learning rate" : {
+          "has" : {
+            "decayed" : {
+              "by" : {
+                "0.1 %" : {
+                  "has" : "every 100 steps"
+                }
+              },
+              "from sentence" : "The learning rate is decayed by 0.1 % every 100 steps ."
+            }
+          }
+        },
+        "All code" : {
+          "implemented in" : "Tensor - Flow",
+          "from sentence" : "All code is implemented in Tensor - Flow and is publicly available ."
+        }        
+      },
+      "In" : {
+        "character CNN" : {
+          "has" : {
+            "characters" : {
+              "represented as" : "learned 8 - dimensional embeddings"
+            }
+          },
+          "from sentence" : "In the character CNN , characters are represented as learned 8 - dimensional embeddings ."
+        }
+      },
+      "use" : {
+        "ADAM" : {
+          "for" : "learning",
+          "with" : {
+            "minibatch size" : {
+              "of" : "1"
+            },
+            "from sentence" : "We use ADAM for learning with a minibatch size of 1 ."
+          }
+        }
+      },
+      "apply" : {
+        "0.5 dropout" : {
+          "to" : ["word embeddings", "character CNN outputs"],
+          "from sentence" : "We apply 0.5 dropout to the word embeddings and character CNN outputs ."
+        },
+        "0.2 dropout" : {
+          "to" : ["all hidden layers", "feature embeddings"],
+          "from sentence" : "We apply 0.2 dropout to all hidden layers and feature embeddings ."
+        }
+      },
+      "trained for" : {
+        "up to 150 epochs" : {
+          "with" : "early stopping",
+          "from sentence" : "The model is trained for up to 150 epochs , with early stopping based on the development set ."
+        }
+      }
+    }
+  }
+}

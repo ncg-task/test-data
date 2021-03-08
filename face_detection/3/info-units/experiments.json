@@ -1,0 +1,100 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "FDDB Database" : {
+              "has" : {
+                "Results" : {
+                  "observed that" : {
+                    "proposed method" : {
+                      "has" : {
+                        "outperforms" : {
+                          "has" : "most of the baseline methods"
+                        }
+                      },
+                      "from sentence" : "Evaluation on FDDB Database
+    It can be observed that the proposed method outperforms most of the baseline methods except four methods , , , published recently ."
+    
+                    },
+                    "proposed NPD detector" : {
+                      "is among" : {
+                        "top performers" : {
+                          "for" : "discrete metric"
+                        }
+                      },
+                      "from sentence" : "It can be observed that the proposed NPD detector is among the top performers for the discrete metric , though it is not as good as the four recent methods for the continuous metric ."
+                    }
+                  },
+                  "has" : {
+                    "proposed NPD face detector" : {
+                      "is" : {
+                        "second best one" : {
+                          "at" : "FP = 0",
+                          "for" : "discrete metric"
+                        },
+                        "third best one" : {
+                          "for" : "continuous metric"
+                        }
+                      },
+                      "from sentence" : "The proposed NPD face detector is the second best one at FP = 0 for the discrete metric and the third best one for the continuous metric ."
+                    },
+                    "Joint Cascade algorithm" : {
+                      "is" : {
+                        "most competitive" : {
+                          "in terms of" : "accuracy and speed"
+                        }
+                      },
+                      "from sentence" : "Compared to recent methods , the Joint Cascade algorithm is the most competitive one to us in terms of accuracy and speed ( see Sec. 5.6 ) ."
+                    }
+                  }
+                }
+              }        
+            },
+            "GENKI Database" : {
+              "has" : {
+                "proposed NPD face detector" : {
+                  "has" : {
+                    "significantly outperforms" : {
+                      "both" : "Viola - Jones and PittPatt face detectors"
+                    }
+                  },
+                  "from sentence" : "Evaluation on GENKI Database
+    The results show that the proposed NPD face detector significantly outperforms both the Viola - Jones and PittPatt face detectors ."
+    
+                }
+              }
+            },
+            "CMU - MIT Database" : {
+              "compared to" : "Viola - Jones frontal face detector",
+              "has" : {
+                "NPD detector" : {
+                  "performs" : {
+                    "better" : {
+                      "when" : {
+                        "number of false positives" : {
+                          "has" : "FP < 50"
+                        }
+                      }
+                    },
+                    "slightly worse" : {
+                      "than" : {
+                        "Viola - Jones" : {
+                          "at" : "higher FPs"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Evaluation on CMU - MIT Database
+    The results show that , compared to the Viola - Jones frontal face detector , the NPD detector performs better when the number of false positives , FP < 50 , while it is slightly worse than Viola - Jones at higher FPs ."
+    
+            }
+          }
+        }
+      }
+    }
+  }
+}

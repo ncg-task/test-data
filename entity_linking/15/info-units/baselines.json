@@ -1,0 +1,62 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "Existing systems" : {
+          "compare" : [
+            {"DBPedia Spotlight" : {
+              "used in" : "several QA systems",
+              "represents" : {
+                "strong baseline" : {
+                  "for" : "entity linking"
+                }
+              },
+              "from sentence" : "Existing systems
+In our experiments , we compare to DBPedia Spotlight that was used in several QA systems and represents a strong baseline for entity linking 4 ."
+
+            }},
+            ["S - MART system",
+            {"from sentence" : "In addition , we are able to compare to the state - of - the - art S - MART system , since their output on the WebQSP datasets was publicly released 5 ."}]
+          ],
+          "include" : {
+            "heuristics baseline" : {
+              "ranks" : "candidate entities",
+              "from sentence" : "We also include a heuristics baseline that ranks candidate entities according to their frequency in Wikipedia ."
+            }
+          }
+        },
+        "Simplified VCG" : {
+          "employ" : {
+            "features" : {
+              "that cover" : [
+                {"frequency" : {"of" : {"entity" : {"in" : "Wikipedia"}}}}, 
+                {"edit distance" : {
+                  "between" : [{
+                    "label" : {
+                      "of" : "entity"
+                    }
+                  }, 
+                  "token n-gram"
+                ]}},
+                {"number of entities and relations" : {
+                  "connected to" : {
+                    "entity" : {
+                      "in" : "KB"}}}}, 
+                {"word overlap" : {
+                  "between" : ["input question", {"labels" : {"of" : "connected entities and relations"}}]
+                }}, 
+                {"length" : {
+                    "of" : "n-gram"
+                  }
+                }
+              ]
+            },
+            "from sentence" : "Simplified VCG
+In particular , we employ features that cover ( 1 ) frequency of the entity in Wikipedia , ( 2 ) edit distance between the label of the entity and the token n-gram , ( 3 ) number of entities and relations immediately connected to the entity in the KB , ( 4 ) word overlap between the input question and the labels of the connected entities and relations , ( 5 ) length of the n-gram ."
+
+          }
+        }
+      }
+    }
+  }
+}

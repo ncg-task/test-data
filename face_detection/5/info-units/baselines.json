@@ -1,0 +1,16 @@
+{
+  "has" : {
+    "Baselines" : {
+      "compare" : {
+        "face detector and alignment" : {
+          "against" : {
+            "state - of - the - art methods" : {
+              "in" : ["Face Detection Data Set and Benchmark ( FDDB )", "WIDER FACE", "Annotated Facial Landmarks in the Wild ( AFLW ) benchmark"]
+            }
+          },
+          "from sentence" : "Then we compare our face detector and alignment against the state - of - the - art methods in Face Detection Data Set and Benchmark ( FDDB ) , WIDER FACE , and Annotated Facial Landmarks in the Wild ( AFLW ) benchmark ."
+        }
+      }      
+    }
+  }
+}

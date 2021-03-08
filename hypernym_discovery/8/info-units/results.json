@@ -1,0 +1,22 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "relations" : {
+          "has" : "not been very fruitful",
+          "from sentence" : "Results
+While some relations have not been very fruitful ( such as X \" obj \" Y , for insance ) , others , instead , have been very productive , generating tens of thousands relations ."
+
+        },
+        "outperform" : {
+          "has" : "random strategy",
+          "from sentence" : "The project 's results show that we have managed to accomplish the main objective of this project , to outperform the random strategy ."
+        },
+        "lower scores" : {
+          "obtained for" : "multiword expressions",
+          "from sentence" : "The lower scores have been obtained for multiword expressions , for which we plan to add dedicated modules ."
+        }
+      }
+    }
+  }
+}

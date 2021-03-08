@@ -1,0 +1,72 @@
+{
+  "has" : {
+    "Model" : { 
+      "introduce" : {
+        "recurrent neural network grammars" : {
+          "has" : {
+            "new generative probabilistic model" : {
+              "of" : "sentences",
+              "explicitly models" : {
+                "nested , hierarchical relationships" : {
+                  "among" : "words and phrases"
+                }
+              },
+              "from sentence" : "In this paper , we introduce recurrent neural network grammars ( RNNGs ; 2 ) , a new generative probabilistic model of sentences that explicitly models nested , hierarchical relationships among words and phrases ."
+            }
+          }
+        }
+      },
+      "has" : {
+        "RNNGs" : {
+          "operate via" : { 
+            "recursive syntactic process" : {
+              "reminiscent of" : "probabilistic context - free grammar generation",
+              "from sentence" : "RNNGs operate via a recursive syntactic process reminiscent of probabilistic context - free grammar generation , but decisions are parameterized using RNNs that condition on the entire syntactic derivation history , greatly relaxing context - free independence assumptions ."
+            }
+          }
+        },
+        "discriminative model" : {
+          "use" : {
+            "ancestor sampling" : {
+              "to obtain" : {
+                "samples" : {
+                  "of" : {
+                    "parse trees" : {
+                      "for" : "sentences"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "The discriminative model also lets us use ancestor sampling to obtain samples of parse trees for sentences , and this is used to solve a second practical challenge with RNNGs : approximating the marginal likelihood and MAP tree of a sentence under the generative model ."
+            }
+          }
+        }
+      },
+      "give" : {
+        "two variants" : {
+          "of" : {
+            "algorithm" : {
+              "for" : ["parsing", "generation"]
+            }
+          },
+          "from sentence" : "We give two variants of the algorithm , one for parsing ( given an observed sentence , transform it into a tree ) , and one for generation ."
+        }
+      },
+      "present" : {
+        "simple importance sampling algorithm" : {
+          "uses" : {
+            "samples" : {
+              "from" : "discriminative parser",
+              "to solve" : {
+                "inference problems" : {
+                  "in" : "generative model"
+                }
+              }
+            }
+          },
+          "from sentence" : "We present a simple importance sampling algorithm which uses samples from the discriminative parser to solve inference problems in the generative model ( 5 ) ."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Face Alignment", {"from sentence" : "Look at Boundary : A Boundary - Aware Face Alignment Algorithm"}],
+    ["facial landmark detection", {"from sentence" : "Face alignment , which refers to facial landmark detection in this work , serves as a key step for many face applications , e.g. , face recognition , face verification and face frontalisation ."}]
+  ]
+}

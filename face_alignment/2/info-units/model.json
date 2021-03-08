@@ -1,0 +1,25 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : ["Deep convolutional Cascade for Face Alignment ( DeCaFA )", {"from sentence" : "In this paper , we introduce a Deep convolutional Cascade for Face Alignment ( DeCaFA ) ."}],
+      "has" : {
+        "DeCaFA" : {
+          "composed of" : {
+            "several stages" : {
+              "produce" : {
+                "landmark - wise attention maps" : {
+                  "relatively to" : "heterogeneous annotation markups"
+                }
+              },
+              "from sentence" : "DeCaFA is composed of several stages that each produce landmark - wise attention maps , relatively to heterogeneous annotation markups ."
+            }
+          }
+        },
+        "attention maps" : {
+          "refined through" : "successive stages",
+          "from sentence" : "It illustrates how these attention maps are refined through the successive stages , and how the different prediction tasks can benefit from each other ."
+        }
+      }
+    }
+  }
+}

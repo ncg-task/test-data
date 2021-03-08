@@ -1,0 +1,62 @@
+{
+  "has" : {
+    "Ablation analysis" : {
+      "has" : {
+        "Our model" : {
+          "with" : "single detection feature map",
+          "performs" : {
+            "better" : {
+              "than" : "one with three detection feature maps",
+              "despite" : ["shallower structure", "fewer parameters and anchors"]
+            },
+            "from sentence" : "Our model with single detection feature map performs better than the one with three detection feature maps , despite its shallower structure , fewer parameters and anchors ."
+
+          }
+        },
+        "HIM" : {
+          "has" : {
+            "improve" : {
+              "has" : [{
+                "performance" : {
+                  "on" : "hard subset"
+                }},
+				        "significantly"
+              ],
+              "without involving" : "more complex network architecture"              
+            },
+            "from sentence" : "HIM can improve the performance on hard subset significantly without involving more complex network architecture nor computation overhead ."
+          }
+        },
+        "DH" : {
+          "boost" : "performance",
+          "shows" : {
+            "effectiveness" : {
+              "of designing" : {
+                "larger convolution" : {
+                  "for" : "larger anchors"
+                }
+              }
+            }
+          },
+          "from sentence" : "DH itself can also boost the performance , which shows the effectiveness of designing larger convolution for larger anchors ."          
+        },
+        "Combining HIM and DH together" : {
+          "has" : {
+            "improve further" : {
+              "towards" : "state - of - the - art performance"
+            }
+          },
+          "from sentence" : "Combining HIM and DH together can improve further towards the state - of - the - art performance ."
+        },
+        "Both photometric distortion and cropping" : {
+          "contribute to" : "more robust face detector",
+          "from sentence" : "Both photometric distortion and cropping can contribute to a more robust face detector ."
+        },
+        "extra small scales" : {
+          "to detect" : "easy faces",
+          "from sentence" : "Diagnosis of multi-scale testing. , the extra small scales are crucial to detect easy faces ."
+        }
+      }
+    }
+  }
+}

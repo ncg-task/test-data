@@ -1,0 +1,12 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "used" : {
+        "publicly available word2vec 2 tool" : {
+          "to learn" : "CBOW embeddings",
+          "from sentence" : "We used the publicly available word2vec 2 tool to learn CBOW embeddings following the sample configuration provided with the tool ."
+        }
+      }
+    }
+  }
+}

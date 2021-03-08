@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["End - to - end Neural Coreference Resolution", {"from sentence" : "End - to - end Neural Coreference Resolution"}],
+    ["end - to - end coreference resolution", {"from sentence" : "We introduce the first end - to - end coreference resolution model and show that it significantly outperforms all previous work without using a syntactic parser or handengineered mention detector ."}]
+  ]
+}

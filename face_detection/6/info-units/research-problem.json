@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Robust Face Detection", {"from sentence" : "Robust Face Detection via Learning Small Faces on Hard Images"}],
+    ["Face detection", {"from sentence" : "Face detection is a fundamental and important computer vision problem , which is critical for many face - related tasks , such as face alignment , tracking and recognition ."}]
+  ]
+}

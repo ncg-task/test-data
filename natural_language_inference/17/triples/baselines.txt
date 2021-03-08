@@ -1,0 +1,3 @@
+(Contribution||has||Baselines)
+(Baselines||has||Our simplest baseline architecture)
+(Our simplest baseline architecture||based on||sentence - to - vector encoders)

@@ -1,0 +1,84 @@
+{
+  "has" : {
+    "Model" : {
+      "learn" : {
+        "CNN" : {
+          "to fit" : {
+            "3 D face model" : {
+              "to" : "face image"
+            }
+          },
+          "from sentence" : "With the objective of addressing both challenges , we learn a CNN to fit a 3 D face model to the face image ."
+        }
+      },
+      "To tackle" : {
+        "first challenge" : {
+          "of" : "limited landmark labeling",
+          "employ" : "additional constraints",
+          "from sentence" : "To tackle first challenge of limited landmark labeling , we propose to employ additional constraints ."
+        }
+      },
+      "include" : {
+        "contour constraint" : {
+          "has" : {
+            "contour" : {
+              "of" : "predicted shape",
+              "match" : "detected 2 D face boundary"
+            }
+          }
+        },
+        "SIFT constraint" : {
+          "where" : {
+            "SIFT key points" : {
+              "detected on" : {
+                "two face images" : {
+                  "of" : "same individual"
+                }
+              },
+              "map to" : {
+                "same vertexes" : {
+                  "on" : "3D face model"
+                }
+              }
+            }
+          },
+          "from sentence" : "We include contour constraint where the contour of the predicted shape should match the detected 2 D face boundary , and SIFT constraint where the SIFT key points detected on two face images of the same individual should map to the same vertexes on the 3D face model ."
+        }
+      },
+      "has" : {
+        "Both constraints" : {
+          "integrated into" : "CNN training",
+          "as" : {
+            "additional loss function terms" : {
+              "where" : {
+                "end - to - end training" : {
+                  "results in" : {
+                    "enhanced CNN" : {
+                      "for" : "3 D face model fitting"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "Both constraints are integrated into the CNN training as additional loss function terms , where the end - to - end training results in an enhanced CNN for 3 D face model fitting ."
+        }
+      },
+      "For" : {
+        "second challenge" : {
+          "leveraging" : "multiple datasets",
+          "has" : {
+            "3D face model fitting approach" : {
+              "has" : {
+                "inherent advantage" : {
+                  "handling" : "multiple training databases"
+                }
+              }
+            }
+          },
+          "from sentence" : "For the second challenge of leveraging multiple datasets , the 3D face model fitting approach has the inherent advantage in handling multiple training databases ."
+        }
+      }
+    }
+  }
+}

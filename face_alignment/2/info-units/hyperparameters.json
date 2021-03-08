@@ -1,0 +1,72 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "use" : {
+        "1 to 4 stages" : {
+          "contains" : {
+            "12 3 3 convolutional layers" : {
+              "with" : "64 ? 64 ? 128 ? 128 ? 256 ? 256 channels",
+              "for" : "downsampling portion"
+            }
+          },
+          "from sentence" : "The DeCaFA models that will be investigated below use 1 to 4 stages that each contains 12 3 3 convolutional layers with 64 ? 64 ? 128 ? 128 ? 256 ? 256 channels for the downsampling portion , and vice - versa for the upsampling portion ."
+        }
+      },
+      "has" : {
+        "input images" : {
+          "resized to" : {
+            "128 128 grayscale images" : {
+              "prior to" : {
+                "being processed" : {
+                  "by" : "network"
+                }
+              }
+            }
+          },
+          "from sentence" : "The input images are resized to 128 128 grayscale images prior to being processed by the network ."
+        },
+        "Each convolution" : {
+          "followed by" : {
+            "batch normalization layer" : {
+              "with" : "ReLU activation",
+              "from sentence" : "Each convolution is followed by a batch normalization layer with ReLU activation ."
+            }
+          }
+        },
+        "bilinear image upsampling" : {
+          "followed with" : "3 3 convolutional layers",
+          "from sentence" : "In order to generate smooth feature maps we do not use transposed convolution but bilinear image upsampling followed with 3 3 convolutional layers ."
+        },
+        "whole architecture" : {
+          "trained using" : {
+            "ADAM optimizer" : {
+              "with" : {
+                "5e ? 4" : {
+                  "has" : "learning rate"
+                },
+                "momentum" : {
+                  "has" : "0.9"
+                },
+                "learning rate annealing" : {
+                  "with" : "power 0.9"
+                }
+              }
+            }
+          },
+          "from sentence" : "The whole architecture is trained using ADAM optimizer with a 5e ? 4 learning rate with momentum 0.9 and learning rate annealing with power 0.9 ."
+        }
+      },
+      "apply" : {
+        "400000 updates" : {
+          "with" : {
+            "batch size" : {
+              "has" : "8",
+              "for" : "each database"
+            }
+          },
+          "from sentence" : "We apply 400000 updates with batch size 8 for each database , with alternating updates between the databases ."
+        }
+      }
+    }
+  }  
+}

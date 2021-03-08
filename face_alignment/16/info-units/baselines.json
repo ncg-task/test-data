@@ -1,0 +1,12 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "state - of - the - art methods" : {
+          "including" : ["ESR", "SDM", "Cascaded CNN", "RCPR", "CFAN", "LBF", "c GPRT", "CFSS", "TCDCN", "ALR", "CFT", "RFLD", "RecNet", "RAR", "FLD + PDE"],
+          "from sentence" : "We compare our work MCL against state - of - the - art methods including ESR , SDM , Cascaded CNN , RCPR , CFAN , LBF , c GPRT , CFSS , TCDCN , , ALR , CFT , RFLD , RecNet , RAR , and FLD + PDE ."
+        }
+      }
+    }
+  }
+}

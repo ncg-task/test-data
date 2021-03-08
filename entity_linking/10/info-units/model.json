@@ -1,0 +1,90 @@
+{
+  "has" : {
+    "Model" : {
+      "introduce" : {
+        "new type" : {
+          "of" : "deep contextualized word representation",
+          "from sentence" : "In this paper , we introduce a new type of deep contextualized word representation that directly addresses both challenges , can be easily integrated into existing models , and significantly improves the state of the art in every considered case across a range of challenging language understanding problems ."
+        }
+      },
+      "has" : {
+        "Our representations" : {
+          "differ from" : {
+            "traditional word type embeddings" : {
+              "has" : {
+                "each token" : {
+                  "assigned" : {
+                    "representation" : {
+                      "function of" : "entire input sentence"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "Our representations differ from traditional word type embeddings in that each token is assigned a representation that is a function of the entire input sentence ."
+            }
+          }
+        },
+        "ELMo representations" : {
+          "are" : ["deep", {"function" : {"of" : {"internal layers" : {"of" : "biLM"}}}}],
+          "from sentence" : "Unlike previous approaches for learning contextualized word vectors , ELMo representations are deep , in the sense that they are a function of all of the internal layers of the biLM ."
+        }
+      },
+      "use" : {
+        "vectors" : {
+          "derived from" : "bidirectional LSTM",
+          "trained with" : {
+            "coupled lan - guage model ( LM ) objective" : {
+              "on" : "large text corpus"
+            }
+          },
+          "from sentence" : "We use vectors derived from a bidirectional LSTM that is trained with a coupled lan - guage model ( LM ) objective on a large text corpus ."
+        }
+      },
+      "call them" : ["ELMo ( Embeddings from Language Models ) representations", {"from sentence" : "For this reason , we call them ELMo ( Embeddings from Language Models ) representations ."}],
+      "learn" : {
+        "linear combination" : {
+          "of" : {
+            "vectors" : {
+              "stacked above" : {
+                "each input word" : {
+                  "for" : "each end task"
+                }
+              }
+            }
+          },
+          "has" : {
+            "markedly improves" : {
+              "has" : {
+                "performance" : {
+                  "using" : "top LSTM layer"
+                }
+              }
+            }
+          },
+          "from sentence" : "More specifically , we learn a linear combination of the vectors stacked above each input word for each end task , which markedly improves performance over just using the top LSTM layer ."
+        }
+      },
+      "Using" : {
+        "intrinsic evaluations" : {
+          "show" : {
+            "higher - level LSTM states" : {
+              "capture" : {
+                "context - dependent aspects" : {
+                  "of" : "word meaning"
+                }
+              }
+            },
+            "lowerlevel states" : {
+              "model" : {
+                "aspects" : {
+                  "of" : "syntax"
+                }
+              }
+            }
+          },
+          "from sentence" : "Using intrinsic evaluations , we show that the higher - level LSTM states capture context - dependent aspects of word meaning ( e.g. , they can be used without modification to perform well on supervised word sense disambiguation tasks ) while lowerlevel states model aspects of syntax ( e.g. , they can be used to do part - of - speech tagging ) ."
+        }
+      }
+    }
+  }
+}

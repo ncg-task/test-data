@@ -1,0 +1,29 @@
+{
+  "has" : {
+    "Model" : {
+      "propose" : {
+        "novel transition system" : {
+          "for" : "constituent parsing",
+          "has" : {
+            "mitigating" : {
+              "has" : {
+                "issues" : {
+                  "of both" : {
+                    "bottom - up and top - down systems" : {
+                      "by finding" : {
+                        "compromise" : {
+                          "between" : ["bottom - up constituent information", "top - down lookahead information"]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "from sentence" : "In this paper , we propose a novel transition system for constituent parsing , mitigating issues of both bottom - up and top - down systems by finding a compromise between bottom - up constituent information and top - down lookahead information ."
+        }
+      }
+    }
+  }
+}

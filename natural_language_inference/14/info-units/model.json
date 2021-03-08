@@ -1,0 +1,47 @@
+{
+  "has" : {
+    "Model" : {
+      "present" : {
+        "novel recurrent neural network ( RNN ) architecture" : {
+          "has" : {
+            "recurrence" : {
+              "reads from" : {
+                "possibly large external memory" : {
+                  "has" : "multiple times",
+                  "before outputting" : "symbol"
+                }
+              }
+            }
+          },
+          "from sentence" : "In this work , we present a novel recurrent neural network ( RNN ) architecture where the recurrence reads from a possibly large external memory multiple times before outputting a symbol ."
+        }
+      },
+      "considered" : {
+        "continuous form" : {
+          "of" : "Memory Network",
+          "from sentence" : "Our model can be considered a continuous form of the Memory Network implemented in [ 23 ] ."
+        }
+      },
+      "has" : {
+        "continuity of the model" : {
+          "trained" : {
+            "end - to - end" : {
+              "from" : "input - output pairs"
+            }
+          },
+          "from sentence" : "The continuity of the model we present here means that it can be trained end - to - end from input - output pairs , and so is applicable to more tasks , i.e. tasks where such supervision is not available , such as in language modeling or realistically supervised question answering tasks ."
+        }
+      },
+      "seen as" : {
+        "version of RNNsearch" : {
+          "with" : {
+            "multiple computational steps" : {
+              "per" : "output symbol"
+            }
+          },
+          "from sentence" : "Our model can also be seen as a version of RNNsearch [ 2 ] with multiple computational steps ( which we term \" hops \" ) per output symbol ."
+        }
+      }
+    }
+  }
+}

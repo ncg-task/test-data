@@ -1,0 +1,5 @@
+{
+  "has research problem" : [
+    ["face detection", {"from sentence" : "In this paper , we propose a novel face detection network with three novel contributions that address three key aspects of face detection , including better feature learning , progressive loss design and anchor assign based data augmentation , respectively ."}]
+  ]
+}

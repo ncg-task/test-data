@@ -1,0 +1,198 @@
+{
+  "has" : {
+    "Experiments" : {
+      "has" : {
+        "Tasks" : {
+          "has" : {
+            "ENTITY LINKING" : {
+              "adopt" : {
+                "standard CoNLL - Aida training set and alias table" : {
+                  "has" : {
+                    "RELIC" : {
+                      "matches" : {
+                        "state of the art" : {
+                          "on" : "benchmark"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "ENTITY LINKING
+    However , when we do adopt the standard CoNLL - Aida training set and alias table , RELIC matches the state of the art on this benchmark , despite using far fewer hand engineered resources use the large Wikidata knowledge base to create entity representations ) ."
+    
+                }
+              },
+              "has" : {
+                "RELIC 's entity linking performance" : {
+                  "has" : {
+                    "boosted" : {
+                      "has" : "even higher",
+                      "through" : {
+                        "adoption" : {
+                          "of" : "commonly used entity linking features"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "Finally , we believe that RELIC 's entity linking performance could be boosted even higher through the adoption of commonly used entity linking features ."
+                },
+                "RELIC" : {
+                  "has" : {
+                    "outperforms" : {
+                      "has" : "prior work",
+                      "with" : {
+                        "only 5 %" : {
+                          "of" : "training data"
+                        }
+                      },
+                      "from sentence" : "RELIC outperforms prior work , even with only 5 % of the training data ."
+                    }
+                  }
+                }
+              }
+            },
+            "ENTITY - LEVEL FINE TYPING" : {
+              "show" : {
+                "RELIC" : {
+                  "has" : {
+                    "significantly outperforms" : {
+                      "has" : {
+                        "prior results" : {
+                          "on" : "both datasets"
+                        }
+                      },
+                      "from sentence" : "ENTITY - LEVEL FINE TYPING
+    show that RELIC significantly outperforms prior results on both datasets ."
+    
+                    }
+                  }
+                }
+              },
+              "For" : {
+                "TypeNet" : {
+                  "aggregate" : "mention - level types",
+                  "train with" : {
+                    "structured loss" : {
+                      "based on" : "TypeNet hierarchy"
+                    }
+                  },
+                  "has" : {
+                    "still outperformed" : {
+                      "by" : {
+                        "our flat classifier" : {
+                          "of" : "binary labels"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "For TypeNet , aggregate mention - level types and train with a structured loss based on the TypeNet hierarchy , but is still outperformed by our flat classifier of binary labels ."
+                }
+              }
+            },
+            "EFFECT OF MASKING" : {
+              "clear that" : {
+                "masking mentions" : {
+                  "during" : "training",
+                  "has" : {
+                    "beneficial" : {
+                      "for" : "entity typing tasks"
+                    },
+                    "detrimental" : {
+                      "for" : "entity linking"
+                    }
+                  },
+                  "from sentence" : "EFFECT OF MASKING
+    It is clear that masking mentions during training is beneficial for entity typing tasks , but detrimental for entity linking ."
+    
+                }
+              },
+              "has" : {
+                "A higher mask rate" : {
+                  "leads to" : {
+                    "better performance" : {
+                      "has" : "low and high - data situations"
+                    }
+                  },
+                  "from sentence" : "A higher mask rate leads to better performance , both in low and high - data situations ."
+                },
+                "mask rate of 10 %" : {
+                  "has" : {
+                    "RELIC" : {
+                      "nears" : {
+                        "optimum performance" : {
+                          "on" : "most tasks"
+                        }
+                      },
+                      "from sentence" : "However , we would like to point out that that a mask rate of 10 % , RELIC nears optimum performance on most tasks ."
+                    }
+                  }
+                }
+              }          
+            },
+            "FEW - SHOT CATEGORY COMPLETION" : {
+              "due to" : {
+                "incompleteness" : {
+                  "of" : "FIGMENT and TypeNet type systems",
+                  "has" : {
+                    "RELIC 's performance" : {
+                      "approaching" : {
+                        "upper bound" : {
+                          "on" : "both of these supervised tasks"
+                        }
+                      },
+                      "from sentence" : "FEW - SHOT CATEGORY COMPLETION
+    Furthermore , due to the incompleteness of the the FIGMENT and TypeNet type systems , we also believe that RELIC 's performance is approaching the upper bound on both of these supervised tasks ."
+    
+                    }
+                  }
+                }
+              }        
+            },
+            "TRIVIA QUESTION ANSWERING" : {
+              "observe" : {
+                "retrieve - then - read approach" : {
+                  "taken by" : "ORQA",
+                  "has" : {
+                    "outperforms" : {
+                      "has" : {
+                        "direct answer retrieval approach" : {
+                          "taken by" : "RELIC"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "TRIVIA QUESTION ANSWERING
+We observe that the retrieve - then - read approach taken by ORQA outperforms the direct answer retrieval approach taken by RELIC ."
+
+                }
+              },
+              "see" : {
+                "RELIC 's much faster nearest neighbor lookup" : {
+                  "captures" : {
+                    "80 %" : {
+                      "of" : "ORQA 's performance"
+                    }
+                  },
+                  "from sentence" : "However , ORQA runs a BERT based reading comprehension model over multiple evidence passages at inference time and we are encouraged to see that RELIC 's much faster nearest neighbor lookup captures 80 % of ORQA 's performance ."
+                }
+              },
+              "has" : {
+                "RELIC" : {
+                  "has" : {
+                    "outperforms 's" : {
+                      "has" : {
+                        "reading comprehension baseline" : {
+                          "by" : "20 points"
+                        }
+                      }
+                    }
+                  },
+                  "from sentence" : "It is also significant that RELIC outperforms 's reading comprehension baseline by 20 points , despite the fact that the baseline has access to a single document that is known to and TypeNet , even when only training on a small fraction of the task - specific training data ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

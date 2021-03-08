@@ -1,0 +1,40 @@
+{
+  "has" : {
+    "Model" : {
+      "provides" : {
+        "entity - level representation" : {
+          "has" : "simple and intuitive manner",
+          "facilitates" : "end - to - end optimization",
+          "from sentence" : "Here we propose an approach that provides an entity - level representation in a simple and intuitive manner , and also facilitates end - to - end optimization ."
+        }
+      },
+      "has" : {
+        "Our \" Entity Equalization \" approach" : {
+          "posits" : {
+            "each entity" : {
+              "represented via" : {
+                "sum" : {
+                  "of" : "corresponding mention representations"
+                }
+              }
+            }
+          },
+          "from sentence" : "Our \" Entity Equalization \" approach posits that each entity should be represented via the sum of its corresponding mention representations ."
+        }
+      },
+      "uses" : {
+        "contextual embeddings" : {
+          "as" : "input mention representations",
+          "from sentence" : "Similar to recent coreference models , our approach uses contextual embeddings as input mention representations ."
+        }
+      },
+      "use" : ["BERT embeddings", {"from sentence" : "While previous approaches employed the ELMo model , we propose to use BERT embeddings , motivated by the impressive empirical performance of BERT on other tasks ."}],
+      "using" : {
+        "BERT" : {
+          "in" : "fully convolutional manner",
+          "from sentence" : "We show that this can be done by using BERT in a fully convolutional manner ."
+        }
+      }
+    }
+  }
+}

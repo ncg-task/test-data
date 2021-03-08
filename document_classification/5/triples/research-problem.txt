@@ -1,0 +1,3 @@
+(Contribution||has research problem||Text Classification)
+(Contribution||has research problem||document classification)
+(Contribution||has research problem||hierarchical classification)

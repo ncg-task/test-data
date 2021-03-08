@@ -1,0 +1,60 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "ESIM" : {
+          "has" : {
+            "Enhanced Sequential Inference Model" : {
+              "is" : {
+                "interaction - based model" : {
+                  "for" : "natural language inference"
+                }
+              },
+              "from sentence" : "ESIM : Enhanced Sequential Inference Model is an interaction - based model for natural language inference ."
+            }
+          }
+        },
+        "BiMPM" : {
+          "has" : {
+            "Bilateral Multi- Perspective Matching model" : {
+              "has" : {
+                "interaction - based sentence matching model" : {
+                  "with" : "superior performance"
+                }
+              },
+              "from sentence" : "BiMPM : Bilateral Multi- Perspective Matching model is an interaction - based sentence matching model with superior performance ."
+            }
+          }
+        },
+        "SSE" : {
+          "has" : {
+            "Shortcut - Stacked Sentence Encoder" : {
+              "has" : {
+                "encodingbased sentence - matching model" : {
+                  "enhances" : {
+                    "multi - layer BiLSTM" : {
+                      "with" : "short - cut connections"
+                    }
+                  }
+                }
+              },
+              "from sentence" : "SSE : Shortcut - Stacked Sentence Encoder is an encodingbased sentence - matching model , which enhances multi - layer BiLSTM with short - cut connections ."
+            }
+          }
+        },
+        "DIIN" : {
+          "has" : {
+            "Densely Interactive Inference Network" : {
+              "has" : {
+                "interaction - based model" : {
+                  "for" : "natural language inference ( NLI )",
+                  "from sentence" : "DIIN : Densely Interactive Inference Network is an interaction - based model for natural language inference ( NLI ) ."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

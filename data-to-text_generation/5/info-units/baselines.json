@@ -1,0 +1,40 @@
+{
+  "has" : {
+    "Baselines" : {
+      "has" : {
+        "Melbourne" : {
+          "has" : {
+            "end - to - end system" : {
+              "scored" : {
+                "best" : {
+                  "on" : "all categories",
+                  "in" : "automatic evaluation"
+                }
+              }
+            }
+          }
+        },
+        "UPF - FORGe" : {
+          "has" : {
+            "classic grammar - based NLG system" : {
+              "scored" : {
+                "best" : {
+                  "in" : "human evaluation"
+                }
+              }
+            }
+          },
+          "from sentence" : "We compare to the best submissions in the WebNLG challenge : Melbourne , an end - to - end system that scored best on all categories in the automatic evaluation , and UPF - FORGe , a classic grammar - based NLG system that scored best in the human evaluation ."
+        }
+      },
+      "developed" : {
+        "end - to - end neural baseline" : {
+          "uses" : ["set encoder", {"LSTM decoder" : {"with" : "attention"}}, "copy - attention mechanism", "neural checklist model"],
+          "from sentence" : "Additionally , we developed an end - to - end neural baseline which outperforms the WebNLG neural systems .
+It uses a set encoder , an LSTM decoder with attention , a copy - attention mechanism and a neural checklist model , as well as applying entity dropout ."
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "failure rate reduction" : {
+          "of" : {
+            "60 %" : {
+              "on" : "300 W private test set"
+            },
+            "72 %" : {
+              "on" : "300W public test set"
+            },
+            "9 % improvement" : {
+              "of" : "mean error",
+              "on" : "challenging subset"
+            }
+          },
+          "from sentence" : "a failure rate reduction of 60 % on the 300 W private test set ,
+a failure rate reduction of 72 % on the 300W public test set ,
+a 9 % improvement of the mean error on the challenging subset ."
+
+        }
+      }
+    }
+  }
+}

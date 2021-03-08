@@ -1,0 +1,8 @@
+(Contribution||has||Results)
+(Results||has||reported accuracy)
+(reported accuracy||of||94.22 % UAS)
+(Results||has||our model)
+(our model||has||competitive)
+(competitive||with||some of the highest reported accuries)
+(competitive||for||dependencies)
+(dependencies||on||WSJ)

@@ -1,0 +1,58 @@
+{
+  "has" : {
+    "Model" : {
+      "develop" : {
+        "face detector" : {
+          "on the top of" : "R - FCN",
+          "with" : {
+            "elaborate design" : {
+              "of" : "details"
+            }
+          },
+          "from sentence" : "In this report , we develop a face detector on the top of R - FCN with elaborate design of the details , which achieves more decent performance than the R - CNN face detectors ."
+        }
+      },
+      "design" : {
+        "size" : {
+          "of" : "anchors and RoIs"
+        },
+        "from sentence" : "According to the size of the general face , we carefully design size of anchors and RoIs ."
+      },
+      "introduce" : {
+        "position - sensitive average pooling" : {
+          "to generate" : {
+            "embedding features" : {
+              "for enhancing" : "discrimination"
+            }
+          }
+        }
+      },
+      "eliminate" : {
+        "effect" : {
+          "of" : {
+            "non-uniformed contribution" : {
+              "in" : "each facial part"
+            }
+          }
+        },
+        "from sentence" : "Since the contribution of facial parts maybe different for detection , we introduce a position - sensitive average pooling to generate embedding features for enhancing discrimination , and eliminate the effect of non-uniformed contribution in each facial part ."
+      },
+      "apply" : ["multi-scale training and testing strategy", {"from sentence" : "Furthermore , we also apply the multi-scale training and testing strategy in this work ."}],
+      "has" : {
+        "on - line hard example mining ( OHEM ) technique" : {
+          "integrated into" : "our network",
+          "for" : {
+            "boosting" : {
+              "has" : {
+                "learning" : {
+                  "on" : "hard examples"
+                }
+              }
+            }
+          },
+          "from sentence" : "The on - line hard example mining ( OHEM ) technique is integrated into our network as well for boosting the learning on hard examples ."
+        }
+      }
+    }
+  }
+}

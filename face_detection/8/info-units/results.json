@@ -1,0 +1,110 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "our proposed approach" : {
+          "consistently wins" : {
+            "1st place" : {
+              "across" : {
+                "three subsets" : {
+                  "on both" : {
+                    "validation set and test set" : {
+                      "of" : "WIDER FACE"
+                    }
+                  }
+                }
+              },
+              "has" : {
+                "significantly outperforms" : {
+                  "has" : "existing results"
+                }
+              }
+            },
+            "from sentence" : "As illustrated in , our proposed approach consistently wins the 1st place across the three subsets on both the validation set and test set of WIDER FACE and significantly outperforms the existing results ."
+          }
+        },
+        "FDDB" : {
+          "has" : {
+            "Face R - FCN" : {
+              "consistently achieves" : {
+                "impressive performance" : {
+                  "in terms of both" : "discrete ROC curve and continuous ROC curve"
+                },
+                "from sentence" : "FDDB
+From , it is clearly that Face R - FCN consistently achieves the impressive performance in terms of both the discrete ROC curve and continuous ROC curve ."
+
+              },
+              "shows" : {
+                "superior performance" : {
+                  "over" : {
+                    "prior methods" : {
+                      "across" : {
+                        "three subsets" : {
+                          "has" : "easy , medium and hard"
+                        }
+                      }
+                    }
+                  },
+                  "in" : "both validation and test sets",
+                  "from sentence" : "Face R - FCN shows the superior performance over the prior methods across the three subsets ( easy , medium and hard ) in both validation and test sets ."
+                }
+              }
+            },
+            "Our discrete ROC curve" : {
+              "has" : {
+                "superior" : {
+                  "to" : "prior best - performing method"
+                }
+              },
+              "from sentence" : "Our discrete ROC curve is superior to the prior best - performing method ."
+            }
+          },
+          "obtain" : {
+            "best true positive rate" : {
+              "of" : {
+                "discrete ROC curve" : {
+                  "at" : "1000/2000 false positives",
+                  "has" : "98.49%/99.07 %"
+                }
+              },
+              "from sentence" : "We also obtain the best true positive rate of the discrete ROC curve at 1000/2000 false positives ( 98.49%/99.07 % ) ."
+            },
+            "true positive rate" : {
+              "has" : {
+                "98. 99 %" : {
+                  "of" : {
+                    "discrete ROC curve" : {
+                      "at" : "1000 false positives"
+                    }
+                  }                  
+                },
+                "99. 42 %" : {
+                  "at" : "2000 false positives"
+                },
+                "new state - of - the - art" : {
+                  "among" : "all the published methods",
+                  "from sentence" : "Finally , we obtain the true positive rate 98. 99 % of the discrete ROC curve at 1000 false positives and 99. 42 % at 2000 false positives , which are new state - of - the - art among all the published methods on FDDB ."
+                }
+              }
+            }
+          }
+        }
+      },
+      "on" : {
+        "WIDER FACE hard subset" : {
+          "has" : {
+            "our approach" : {
+              "has" : {
+                "superior" : {
+                  "to" : "prior best - performing one",
+                  "by" : "clear margin"
+                }
+              }
+            }
+          },
+          "from sentence" : "In particular , on WIDER FACE hard subset , our approach is superior to the prior best - performing one by a clear margin , which demonstrates the robustness of our algorithm ."
+        }
+      }
+    }
+  }
+}

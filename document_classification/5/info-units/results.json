@@ -1,0 +1,91 @@
+{
+  "has" : {
+    "Results" : {
+      "has" : {
+        "RNN" : {
+          "has" : {
+            "outperforms" : {
+              "has" : "others",
+              "for" : "all three W OS data sets"
+            }
+          },
+          "from sentence" : "In this set of tests the RNN outperforms the others for all three W OS data sets ."
+        },
+        "CNN" : {
+          "performs" : {
+            "secondbest" : {
+              "for" : "three data sets"
+            },
+            "from sentence" : "CNN performs secondbest for three data sets ."
+          }
+        },
+        "SVM with term weighting" : {
+          "is" : {
+            "third" : {
+              "for" : "first two sets"
+            }
+          },
+          "from sentence" : "SVM with term weighting is third for the first two sets while the multi-word approach of is in third place for the third data set ."
+        },
+        "nave Bayes" : {
+          "does" : {
+            "much worse" : {
+              "than" : "other methods"
+            }
+          },
+          "from sentence" : "Overall , nave Bayes does much worse than the other methods throughout these tests ."
+        },
+        "HDLTex approaches" : {
+          "with" : "stacked , deep learning architectures",
+          "provide" : "superior performance",
+          "from sentence" : "As for the tests of classifying these documents within a hierarchy , the HDLTex approaches with stacked , deep learning architectures clearly provide superior performance ."
+        }
+      },
+      "For" : {
+        "data set W OS ? 11967" : {
+          "has" : {
+            "best accuracy" : {
+              "obtained by" : {
+                "RNN" : {
+                  "for" : "first level of classification"
+                },
+                "DNN" : {
+                  "for" : "second level"
+                }
+              },
+              "from sentence" : "For data set W OS ? 11967 , the best accuracy is obtained by the combination RNN for the first level of classification and DNN for the second level ."              
+            }
+          },
+          "gives" : {
+            "accuracies" : {
+              "of" : {
+                "94 %" : {
+                  "for" : "first level"
+                },
+                "92 %" : {
+                  "for" : "second level"
+                },
+                "86 %" : {
+                  "has" : "over all"
+                }
+              },
+              "from sentence" : "This gives accuracies of 94 % for the first level , 92 % for the second level and 86 % over all ."
+            }
+          }
+        },
+        "data set W OS ? 46985" : {
+          "has" : {
+            "best scores" : {
+              "achieved by" : {
+                "RNN" : {
+                  "for" : ["level one", "level 2"]
+                }
+              },
+              "from sentence" : "For data set W OS ? 46985 the best scores are again achieved by RNN for level one but this time with RNN for level 2 ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

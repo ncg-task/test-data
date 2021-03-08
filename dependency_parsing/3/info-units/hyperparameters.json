@@ -1,0 +1,72 @@
+{
+  "has" : {
+    "Hyperparameters" : {
+      "For" : {
+        "three BiLSTM - CRF - based models" : {
+          "has" : ["Stanford - NNdep", "jPTDP", "Stanford - Biaffine"],
+          "employ" : "200 dimensional pre-trained word vectors",
+          "from sentence" : "For the three BiLSTM - CRF - based models , Stanford - NNdep , jPTDP and Stanford - Biaffine which utilizes pre-trained word embeddings , we employ 200 dimensional pre-trained word vectors from ."
+        },
+        "traditional feature - based models" : {
+          "has" : ["MarMoT", "NLP4J - POS", "NLP4J - dep"],
+          "use" : {
+            "original pure Java implementations" : {
+              "with" : "default hyperparameter settings"
+            }
+          },
+          "from sentence" : "For the traditional feature - based models MarMoT , NLP4J - POS and NLP4J - dep , we use their original pure Java implementations with default hyperparameter settings ."
+        },
+        "BiLSTM - CRF - based models" : {
+          "use" : {
+            "Nadam" : {
+              "run for" : "50 epochs"
+            }
+          },
+          "from sentence" : "For the BiLSTM - CRF - based models , we use default hyper - parameters provided in with the following exceptions : for training , we use Nadam and run for 50 epochs ."
+        },
+        "Stanford - NNdep" : {
+          "select" : {
+            "word CutOff" : {
+              "from" : "{ 1 , 2 }"
+            },
+            "size" : {
+              "of" : {
+                "hidden layer" : {
+                  "from" : "{ 100 , 150 , 200 , 250 , 300 , 350 , 400 }"
+                }
+              }
+            }
+          },
+          "from sentence" : "For Stanford - NNdep , we select the word CutOff from { 1 , 2 } and the size of the hidden layer from { 100 , 150 , 200 , 250 , 300 , 350 , 400 } and fix other hyperparameters with their default values ."
+        },
+        "jPTDP" : {
+          "use" : "50 - dimensional character embeddings",
+          "fix" : {
+            "initial learning rate" : {
+              "at" : "0.0005",
+              "from sentence" : "For jPTDP , we use 50 - dimensional character embeddings and fix the initial learning rate at 0.0005 ."              
+            },
+            "number" : {
+              "of" : {
+                "BiLSTM layers" : {
+                  "at" : "2"
+                }
+              }
+            }
+          },
+          "select" : {
+            "number" : {
+              "of" : {
+                "LSTM units" : {
+                  "in" : "each layer",
+                  "from" : "{ 100 , 150 , 200 , 250 , 300 }"
+                }
+              },
+              "from sentence" : "We also fix the number of BiLSTM layers at 2 and select the number of LSTM units in each layer from { 100 , 150 , 200 , 250 , 300 } ."
+            }
+          }
+        }
+      }
+    }
+  }
+}

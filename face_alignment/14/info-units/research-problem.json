@@ -1,0 +1,6 @@
+{
+  "has research problem" : [
+    ["Facial Alignment", {"from sentence" : "Faster Than Real - time Facial Alignment : A 3D Spatial Transformer Network Approach in Unconstrained Poses"}],
+    ["Robust face recognition and analysis", "localization of facial features", {"from sentence" : "Robust face recognition and analysis are contingent upon accurate localization of facial features ."}]
+  ]
+}

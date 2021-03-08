@@ -1,0 +1,7 @@
+(Contribution||has||Baselines)
+(Baselines||compare against||number of taxonomy learning and Information Extraction systems)
+(number of taxonomy learning and Information Extraction systems||namely||WiBi and DefIE)
+(Baselines||has||DefIE)
+(DefIE||is||automaic OIE system)
+(automaic OIE system||relying on||syntactic structure)
+(syntactic structure||of||pre-dis ambiguated definitions)

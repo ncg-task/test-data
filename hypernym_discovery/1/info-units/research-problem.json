@@ -1,0 +1,7 @@
+{
+  "has research problem" : [
+    ["Neural Hypernym Discovery", {"from sentence" : "SJTU- NLP at SemEval-2018 Task 9 : Neural Hypernym Discovery with Term Embeddings"}],
+    ["hypernym discovery", {"from sentence" : "This paper describes a hypernym discovery system for our participation in the SemEval - 2018 Task 9 , which aims to discover the best ( set of ) candidate hypernyms for input concepts or entities , given the search space of a pre-defined vocabulary ."}],
+    ["hypernym detection", {"from sentence" : "A relevant well - known scenario is hypernym detection , which is a binary task to decide whether a hypernymic relationship holds between a pair of words or not ."}]
+  ]
+}
